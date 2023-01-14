@@ -1,1 +1,1 @@
-# social-media-app
+# SOCIAL_MEDIA_APP
