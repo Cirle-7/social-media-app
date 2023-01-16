@@ -1,6 +1,9 @@
 const app = require("./app");
 const dotenv = require("dotenv");
 
+//import db
+const db = require('./models') 
+
 dotenv.config({ path: "./env" });
 
 //CONFIGURE UNCAUGHT EXCEPTIONS
