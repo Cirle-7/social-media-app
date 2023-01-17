@@ -1,0 +1,158 @@
+2023-01-17 12:49:48:4948 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at validateString (node:internal/validators:163:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1054:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:6:26)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-17 12:49:55:4955 [31merror[39m: [31muncaughtException: Cannot find module './utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:6:26)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-17 12:51:06:516 [31merror[39m: [31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\express\lib\application.js:217:11)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-17 12:53:01:531 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:12[39m
+[31mconst sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {[39m
+[31m^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-17 12:53:07:537 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at validateString (node:internal/validators:163:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1054:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:10:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-17 12:53:15:5315 [31merror[39m: [31muncaughtException: Cannot find module './../utils'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './../utils'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:10:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-17 12:53:16:5316 [31merror[39m: [31muncaughtException: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:10:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-17 12:53:18:5318 [31merror[39m: [31muncaughtException: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:10:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-17 12:53:20:5320 [31merror[39m: [31muncaughtException: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:10:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-17 12:53:24:5324 [31merror[39m: [31muncaughtException: Unexpected string[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:10[39m
+[31mconst logger = require('./../utils/logger')';'[39m
+[31m                                           ^^^[39m
+
+[31mSyntaxError: Unexpected string[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
