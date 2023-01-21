@@ -2,18 +2,14 @@ const Joi = require('joi')
 
 
 const profileValidator = Joi.object({
-    description: Joi.object({
-        bio: Joi.string()
-            .alphanum(),
-        website: Joi.string()
-    }), 
-    avatarURL: Joi.string(),
+    Bio: Joi.string().required(),
+    website: Joi.string(),
+    location: Joi.string(),
+    github_link: Joi.string(),
+    twitter_link:Joi.string(),
     headerURL: Joi.string(),
-    displayName: Joi.string()
-        .alphanum()
-        .min(1)
-        .max(30)
-        .required()
+    avatarURL: Joi.string(),
+    followers: Joi.string()
 })
 
 
