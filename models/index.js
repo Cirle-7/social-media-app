@@ -72,6 +72,10 @@ Posts.hasMany(comments)
 comments.hasMany(commentsComments)
 commentsComments.belongsTo(comments)
 
+ // create a userId in the commentComments table
+User.hasMany(commentsComments);     // link commentsComments to their user
+commentsComments.belongsTo(User)
+
 })();
 
 
