@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // ROUTES
-app.use('/', userRoute)
+app.use('/api/v1/users', userRoute)
 
 //CHNAGE REQUEST TIME FORMAT
 app.use((req, res, next) => {
