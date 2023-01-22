@@ -89,7 +89,7 @@ sequelize
 
 // sync the table
 db.sequelize
-  .sync({force: true })
+  .sync({force: false })
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 

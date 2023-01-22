@@ -1,12 +1,24 @@
 const express = require("express");
 const app = express();
+const cookieParser = require('cookie-parser');
 const appError = require("./utils/appError");
 const globalErrorHandler = require("./controllers/errorController");
 const logger = require("./utils/logger");
 const morganMiddleware = require("./utils/morgan");
+const userRoute = require('./routes/userRoute')
 
 //REGISTER MORGAN MIDDLEWARE
 app.use(morganMiddleware);
+
+// PARSE REQUEST BODY
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// COOKIE PARSER
+app.use(cookieParser());
+
+// ROUTES
+app.use('/', userRoute)
 
 //CHNAGE REQUEST TIME FORMAT
 app.use((req, res, next) => {
