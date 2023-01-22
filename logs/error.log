@@ -2968,3 +2968,563 @@
 [31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
 [31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
 [31m    at Object.<anonymous> (C:\Users\josiah\Desktop\social-media-app\server.js:5:12)[39m
+2023-01-21 21:38:50:3850 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)[39m
+[31m    at node:internal/main/run_main_module:17:47[39m
+2023-01-21 21:40:48:4048 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)[39m
+[31m    at node:internal/main/run_main_module:17:47[39m
+2023-01-21 22:01:59:159 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:03:35:335 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:17:11:1711 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:20:17:2017 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:20:43:2043 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:20:59:2059 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:21:55:2155 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:22:59:2259 [31merror[39m: [31muncaughtException: authConfig is not defined[39m
+[31mReferenceError: authConfig is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:18:9)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:23:04:234 [31merror[39m: [31muncaughtException: requiresAuth is not defined[39m
+[31mReferenceError: requiresAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:24:18:2418 [31merror[39m: [31muncaughtException: requireAuth is not a function[39m
+[31mTypeError: requireAuth is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-21 22:24:57:2457 [31merror[39m: [31muncaughtException: Dialect needs to be explicitly supplied as of v4.0.0[39m
+[31mError: Dialect needs to be explicitly supplied as of v4.0.0[39m
+[31m    at new Sequelize (C:\Users\user\Documents\Projects\social-media-app\node_modules\sequelize\lib\sequelize.js:135:13)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:24:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-21 22:32:12:3212 [31merror[39m: [31munable to connect Access denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 22:32:12:3212 [31merror[39m: [31mAccess denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 22:34:40:3440 [31merror[39m: [31munable to connect Access denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 22:34:40:3440 [31merror[39m: [31mAccess denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 22:41:46:4146 [31merror[39m: [31munable to connect Access denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 22:41:46:4146 [31merror[39m: [31mAccess denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 23:27:09:279 [31merror[39m: [31munable to connect Access denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 23:27:09:279 [31merror[39m: [31mAccess denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 23:31:53:3153 [31merror[39m: [31munable to connect Access denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 23:31:53:3153 [31merror[39m: [31mAccess denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 23:32:47:3247 [31merror[39m: [31muncaughtException: Dialect needs to be explicitly supplied as of v4.0.0[39m
+[31mError: Dialect needs to be explicitly supplied as of v4.0.0[39m
+[31m    at new Sequelize (C:\Users\user\Documents\Projects\social-media-app\node_modules\sequelize\lib\sequelize.js:135:13)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:24:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-21 23:33:29:3329 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\models\index.js:24[39m
+[31mconst sequelize = new Sequelize(DB_NAME, DB_USER {[39m
+[31m                                         ^^^^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-21 23:33:35:3335 [31merror[39m: [31muncaughtException: Dialect needs to be explicitly supplied as of v4.0.0[39m
+[31mError: Dialect needs to be explicitly supplied as of v4.0.0[39m
+[31m    at new Sequelize (C:\Users\user\Documents\Projects\social-media-app\node_modules\sequelize\lib\sequelize.js:135:13)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:24:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-21 23:35:24:3524 [31merror[39m: [31munable to connect Access denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-21 23:35:24:3524 [31merror[39m: [31mAccess denied for user 'root'@'localhost' (using password: NO)[39m
+2023-01-22 00:41:14:4114 [31merror[39m: [31munable to connect Unknown database 'social'[39m
+2023-01-22 00:41:14:4114 [31merror[39m: [31mUnknown database 'social'[39m
+2023-01-22 00:43:39:4339 [31merror[39m: [31munable to connect Unknown database 'social_app'[39m
+2023-01-22 00:43:39:4339 [31merror[39m: [31mUnknown database 'social_app'[39m
+2023-01-22 01:03:57:357 [31merror[39m: [31muncaughtException: requireAuth is not a function[39m
+[31mTypeError: requireAuth is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-22 01:52:41:5241 [31merror[39m: [31muncaughtException: requireAuth is not a function[39m
+[31mTypeError: requireAuth is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-22 01:54:02:542 [31merror[39m: [31muncaughtException: requireAuth is not defined[39m
+[31mReferenceError: requireAuth is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:33:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-22 12:18:41:1841 [31merror[39m: [31muncaughtException: Cannot read properties of undefined (reading 'length')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'length')[39m
+[31m    at pathtoRegexp (C:\Users\user\Documents\Projects\social-media-app\node_modules\path-to-regexp\index.js:63:49)[39m
+[31m    at new Layer (C:\Users\user\Documents\Projects\social-media-app\node_modules\express\lib\router\layer.js:45:17)[39m
+[31m    at Function.route (C:\Users\user\Documents\Projects\social-media-app\node_modules\express\lib\router\index.js:505:15)[39m
+[31m    at Function.app.<computed> [as post] (C:\Users\user\Documents\Projects\social-media-app\node_modules\express\lib\application.js:498:30)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:35:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-01-22 12:18:51:1851 [31merror[39m: [31muncaughtException: re is not defined[39m
+[31mReferenceError: re is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:35:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-22 12:58:54:5854 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:7[39m
+[31m    secret: process.,[39m
+[31m                    ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 12:58:58:5858 [31merror[39m: [31muncaughtException: "secret" is required[39m
+[31mTypeError: "secret" is required[39m
+[31m    at module.exports.get (C:\Users\user\Documents\Projects\social-media-app\node_modules\express-openid-connect\lib\config.js:271:11)[39m
+[31m    at auth (C:\Users\user\Documents\Projects\social-media-app\node_modules\express-openid-connect\middleware\auth.js:28:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:13:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+2023-01-22 12:59:01:591 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:7[39m
+[31m    secret: process.env.,[39m
+[31m                        ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 12:59:06:596 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:7[39m
+[31m    secret: process.env.,[39m
+[31m                        ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 12:59:08:598 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:7[39m
+[31m    secret: process.env.,[39m
+[31m                        ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 12:59:34:5934 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:8[39m
+[31m    baseURL: ,[39m
+[31m             ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 12:59:52:5952 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:8[39m
+[31m    baseURL: process.env.,[39m
+[31m                         ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 13:00:04:04 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:9[39m
+[31m    clientID: process.,[39m
+[31m                      ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 13:00:05:05 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:9[39m
+[31m    clientID: process.env.,[39m
+[31m                          ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 13:00:26:026 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:11[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 13:01:37:137 [31merror[39m: [31muncaughtException: Identifier 'config' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:13[39m
+[31mconst config = {[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'config' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 13:03:59:359 [31merror[39m: [31muncaughtException: config is not defined[39m
+[31mReferenceError: config is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:22:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-22 13:05:30:530 [31merror[39m: [31muncaughtException: aut is not defined[39m
+[31mReferenceError: aut is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\auth0.js:13:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-22 13:40:11:4011 [31merror[39m: [31muncaughtException: cosnt is not defined[39m
+[31mReferenceError: cosnt is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:10:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-01-22 13:40:28:4028 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:371:5)[39m
+[31m    at validateString (node:internal/validators:120:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:998:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-01-22 13:40:42:4042 [31merror[39m: [31muncaughtException: Cannot find module './controllers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module './controllers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-01-22 13:49:22:4922 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:7[39m
+[31m    .then((user) => { res.json((user)})[39m
+[31m                                    ^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 13:49:29:4929 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:7[39m
+[31m    .then((user) => { res.json(user})[39m
+[31m                               ^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-01-22 21:07:55:755 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (C:\Users\user\Documents\Projects\social-media-app\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.app.<computed> [as post] (C:\Users\user\Documents\Projects\social-media-app\node_modules\express\lib\application.js:499:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:36:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+2023-01-22 21:08:17:817 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (C:\Users\user\Documents\Projects\social-media-app\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.app.<computed> [as post] (C:\Users\user\Documents\Projects\social-media-app\node_modules\express\lib\application.js:499:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:36:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
