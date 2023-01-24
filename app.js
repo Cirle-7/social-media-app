@@ -20,6 +20,11 @@ app.use(cookieParser());
 // ROUTES
 app.use('/api/v1/users', userRoute)
 
+
+//HOME ROUTE
+app.get('/',(req,res)=>{
+  res.send("wellcome to the social media app ")
+})
 //CHNAGE REQUEST TIME FORMAT
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
