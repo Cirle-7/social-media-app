@@ -1,21 +1,30 @@
 const express = require("express");
 const app = express();
+const cookieParser = require('cookie-parser');
 const appError = require("./utils/appError");
 const globalErrorHandler = require("./controllers/errorController");
 const logger = require("./utils/logger");
 const morganMiddleware = require("./utils/morgan");
-const { requiresAuth } = require('express-openid-connect')
-const authConfig  = require('./utils/auth0')
-const bodyparser = require('body-parser')
-
-app.use(bodyparser.urlencoded({ extended: false }))
-
-// auth configuration
-app.use(authConfig);
+const userRoute = require('./routes/userRoute')
 
 //REGISTER MORGAN MIDDLEWARE
 app.use(morganMiddleware);
 
+// PARSE REQUEST BODY
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// COOKIE PARSER
+app.use(cookieParser());
+
+// ROUTES
+app.use('/api/v1/users', userRoute)
+
+
+//HOME ROUTE
+app.get('/',(req,res)=>{
+  res.send("wellcome to the social media app ")
+})
 //CHNAGE REQUEST TIME FORMAT
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
