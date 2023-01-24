@@ -156,6 +156,36 @@
 [31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
 [31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:5:12)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+<<<<<<< HEAD
+2023-01-19 10:20:19:2019 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:20:19:2019 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:30:55:3055 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:30:55:3055 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:31:10:3110 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:31:10:3110 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:36:27:3627 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:36:27:3627 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:49:01:491 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:49:01:491 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:19:019 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:19:019 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:30:030 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:30:030 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:52:052 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:52:052 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:55:055 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:55:055 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:57:057 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:57:057 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:04:14 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:04:14 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:09:19 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:09:19 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:14:114 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:14:114 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:17:117 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:17:117 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+=======
 2023-01-21 09:24:20:2420 [31merror[39m: [31muncaughtException: c is not defined[39m
 [31mReferenceError: c is not defined[39m
 [31m    at Object.<anonymous> (C:\Users\josiah\Desktop\social-media-app\models\index.js:10:1)[39m
@@ -6347,3 +6377,203 @@
 2023-01-24 04:14:21:1421 [31merror[39m: [31mpassword is incorrect try again [39m
 2023-01-24 04:15:43:1543 [31merror[39m: [31mpassword is incorrect try again [39m
 2023-01-24 04:16:33:1633 [31merror[39m: [31mpassword is incorrect try again [39m
+>>>>>>> f7d04036a2a5683fc8c1f79465e623f8ec6c4f5f
+2023-01-24 13:23:27:2327 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-24 13:23:27:2327 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-24 13:57:14:5714 [31merror[39m: [31m"password" with value "Kelechi123#" fails to match the required pattern: /^[a-zA-Z0-9]{3,30}$/[39m
+2023-01-24 13:57:39:5739 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 13:59:51:5951 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:01:11:111 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:03:13:313 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:13:48:1348 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:52[39m
+[31m  const user = await User.create({req);[39m
+[31m                                     ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:14:30:1430 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:52[39m
+[31m  const user = await User.create();[39m
+[31m  ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:15:08:158 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:53[39m
+[31m  });[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:15:11:1511 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:53[39m
+[31m  });[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:15:28:1528 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:54[39m
+[31m  });[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:16:14:1614 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:54[39m
+[31m  });[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:16:21:1621 [31merror[39m: [31muncaughtException: Unexpected token '.'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:54[39m
+[31m    req.bod[39m
+[31m       ^[39m
+
+[31mSyntaxError: Unexpected token '.'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:16:39:1639 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:56[39m
+[31m  });[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:16:56:1656 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:21:59:2159 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:52[39m
+[31m  });[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:22:21:2221 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:23:44:2344 [31merror[39m: [31m"username" is required[39m
+2023-01-24 14:24:03:243 [31merror[39m: [31m"username" is required[39m
+2023-01-24 14:24:28:2428 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:27:49:2749 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:28:27:2827 [31merror[39m: [31mUnknown column 'email' in 'field list'[39m
+2023-01-24 14:28:59:2859 [31merror[39m: [31mUnknown column 'displayName' in 'field list'[39m
+2023-01-24 14:43:03:433 [31merror[39m: [31m/api/v1/users/login not found on this server[39m
+2023-01-24 14:44:23:4423 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-01-24 14:45:40:4540 [31merror[39m: [31muncaughtException: Unexpected token 'if'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:43[39m
+[31m  check if user already exist[39m
+[31m        ^^[39m
+
+[31mSyntaxError: Unexpected token 'if'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:46:05:465 [31merror[39m: [31mUser already exists. Please login[39m
+2023-01-24 14:46:27:4627 [31merror[39m: [31mUser already exists. Please login[39m
+2023-01-24 14:47:15:4715 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-01-24 14:48:20:4820 [31merror[39m: [31mpassword is incorrect try again [39m
+2023-01-24 14:48:34:4834 [31merror[39m: [31mpassword is incorrect try again [39m
+2023-01-24 14:48:51:4851 [31merror[39m: [31muncaughtException: Unexpected token 'if'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:43[39m
+[31m  check if user already exist[39m
+[31m        ^^[39m
+
+[31mSyntaxError: Unexpected token 'if'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-24 14:48:57:4857 [31merror[39m: [31mEmail Or Password Incorrect[39m

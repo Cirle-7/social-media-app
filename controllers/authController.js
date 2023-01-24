@@ -9,6 +9,28 @@ const AppError = require("../utils/appError");
 // User model
 const User = db.users;
 
+//CREATE FUNCTION THAT HANDLES TOKEN RESPONSE & COOKIE RESPONSE
+const createSendToken = async (user, statusCode, res) => {
+  // create jwt token with model instance
+  const token = await user.createJwt();
+  const cookieOptions = {
+    expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
+    httpOnly: true,
+  };
+  if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
+
+  // Send token to client
+  res.cookie("jwt", token, cookieOptions);
+
+  res.status(statusCode).json({
+    status: "Success",
+    data: {
+      user,
+      token,
+    },
+  });
+};
+
 const signup = async (req, res) => {
   // console.log(req.headers)
   // logger.info(req.body)
@@ -18,7 +40,7 @@ const signup = async (req, res) => {
   if (!(username && email && password && displayName))
     throw new AppError("All fields are required", 400);
 
-  // check if user already exist
+  //check if user already exist
   const oldUser = await User.findOne({
     where: { email: email },
   });
@@ -26,30 +48,10 @@ const signup = async (req, res) => {
   if (oldUser) throw new AppError("User already exists. Please login", 409);
 
   // if new user create
-  const { body } = req;
-  const user = await User.create({ ...body });
+  const user = await User.create(req.body);
 
-  // create jwt token with model instance
-  const token = await user.createJwt();
-
-  const cookieOptions = {
-    expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
-    httpOnly: true,
-  };
-
-  if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
-
-  // Send token to client
-  res.cookie("jwt", token, cookieOptions);
-
-  res.status(201).json({
-    status: "success",
-    message: "signup successful",
-    data: {
-      user,
-      token,
-    },
-  });
+  //CREATE TOKEN
+  createSendToken(user, 200, res);
 };
 
 const login = async (req, res) => {
@@ -64,38 +66,19 @@ const login = async (req, res) => {
     where: { email: email },
   });
 
-  // check if user exist
-  if (!user) throw new AppError("Wrong email ", 400);
+  // // check if user exist
+  // if (!user) throw new AppError("Wrong email ", 400);
 
-  //compare hashed password using model instance
-  const isValid = await user.comparePassword(password);
-  if (!isValid) throw new AppError("password is incorrect try again ", 400);
+  // //compare hashed password using model instance
+  // const isValid = await user.comparePassword(password);
+  // if (!isValid) throw new AppError("password is incorrect try again ", 400);
 
-  // Create token
-  const token = await user.createJwt();
+  // Check if user exists and email exist without leaking extra info
+  if (!user || !(await user.comparePassword(password)))
+    throw new AppError("Email Or Password Incorrect", 400);
 
-  const cookieOptions = {
-    expires: new Date(
-      //   Date.now() + process.env.jwt_cookie_expires * 60 * 60 * 1000
-      Date.now() + 1 * 60 * 60 * 1000
-    ),
-    httpOnly: true,
-  };
-  if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
-
-  //Send Token To Client
-  res.cookie("jwt", token, cookieOptions);
-
-  // user
-  res.status(200).json({
-    status: "success",
-    message: "Login successful",
-    data: {
-      userId: user.id,
-      email: user.email,
-      token,
-    },
-  });
+  //CREATE TOKEN
+  createSendToken(user, 200, res);
 };
 
 // TO DO

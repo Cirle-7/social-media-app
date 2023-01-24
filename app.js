@@ -23,13 +23,14 @@ app.use('/api/v1/users', userRoute)
 
 //HOME ROUTE
 app.get('/',(req,res)=>{
-  res.send("wellcome to the social media app ")
+  res.send("Welcome to the social media app")
 })
 //CHNAGE REQUEST TIME FORMAT
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   next();
 });
+
 
 //HANDLE UNKNOWN REQUEST ERRORS
 app.all("*", (req, res, next) => {
