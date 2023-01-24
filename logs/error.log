@@ -156,3 +156,31 @@
 [31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
 [31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:5:12)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-19 10:20:19:2019 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:20:19:2019 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:30:55:3055 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:30:55:3055 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:31:10:3110 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:31:10:3110 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:36:27:3627 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:36:27:3627 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:49:01:491 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 10:49:01:491 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:19:019 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:19:019 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:30:030 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:30:030 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:52:052 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:52:052 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:55:055 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:55:055 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:57:057 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:00:57:057 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:04:14 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:04:14 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:09:19 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:09:19 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:14:114 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:14:114 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:17:117 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
+2023-01-19 11:01:17:117 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
