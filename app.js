@@ -35,7 +35,6 @@ app.use(session({
 // TODO:
 // CHECK IF USER IS LOGGED IN
 const checkAuth = (req, res, next) => {
-  console.log(req.session);
   if(!req.session.passport.user) return res.redirect('/')
   return next()
 }
@@ -46,7 +45,7 @@ app.use('/api/v1/users', userRoute)
 
 //HOME ROUTE
 app.get('/',(req,res)=>{
-  res.send("welcome to the social media app \n <a href='/api/v1/users/auth/google'>Continue with Google</a> <a href='/api/v1/users/auth/google'>Continue with Google</a>")
+  res.send("welcome to the social media app \n <a href='/api/v1/users/auth/google'>Continue with Google</a> <a href='/api/v1/users/auth/github'>Continue with Github</a>")
 })
 
 //CHNAGE REQUEST TIME FORMAT
