@@ -40,9 +40,6 @@ app.use(passport.session())
 app.use('/api/v1/users', userRoute)
 
 
-// TODO: Protected routes
-
-
 //HOME ROUTE
 app.get('/', (req, res) => {
   res.send("welcome to the social media app \n <a href='/api/v1/users/auth/google'>Continue with Google</a> <a href='/api/v1/users/auth/github'>Continue with Github</a>")
@@ -53,19 +50,6 @@ app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   next();
 });
-
-// TODO:
-app.get('/protected', (req, res) => {
-  res.render('profile')
-})
-
-// LOGOUT - DESTROY SESSION
-app.post('/logout', (req, res, next) => {
-  req.session.destroy((err) => {
-    return res.redirect('/')
-  })
-})
-
 
 //HANDLE UNKNOWN REQUEST ERRORS
 app.all("*", (req, res, next) => {
