@@ -15,4 +15,5 @@ router.get('/auth/callback', passport.authenticate('google', {failureRedirect: '
     return res.redirect('/protected')
 })
 
+
 module.exports = router

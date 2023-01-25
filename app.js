@@ -25,12 +25,20 @@ app.use(express.urlencoded({ extended: true }));
 // COOKIE PARSER
 app.use(cookieParser());
 
-// app.use(session({
-//   secret: process.env.SECRET,
-//   resave: false,
-//   saveUninitialized: true
-// })
-// );
+app.use(session({
+  secret: process.env.SECRET,
+  resave: false,
+  saveUninitialized: true
+})
+);
+
+// TODO:
+// CHECK IF USER IS LOGGED IN
+const checkAuth = (req, res, next) => {
+  console.log(req.session);
+  if(!req.session.passport.user) return res.redirect('/')
+  return next()
+}
 
 // ROUTES
 app.use('/api/v1/users', userRoute)
@@ -38,7 +46,7 @@ app.use('/api/v1/users', userRoute)
 
 //HOME ROUTE
 app.get('/',(req,res)=>{
-  res.send("wellcome to the social media app \n <a href='/api/v1/users/auth/google'>Continue with Google</a> <a href='/api/v1/users/auth/google'>Continue with Google</a>")
+  res.send("welcome to the social media app \n <a href='/api/v1/users/auth/google'>Continue with Google</a> <a href='/api/v1/users/auth/google'>Continue with Google</a>")
 })
 
 //CHNAGE REQUEST TIME FORMAT
@@ -47,14 +55,16 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
-  res.send( 'Welcome to our app')
-});
-
-app.get('/protected', (req, res) => {
-  console.log('APPS');
-  console.log(req.session);
+// TODO:
+app.get('/protected', checkAuth, (req, res) => {
   res.send('Hello!')
+})
+
+// LOGOUT - DESTROY SESSION
+app.get('/logout', (req, res, next) => {
+  req.session.destroy((err) => {
+    res.redirect('/')
+  })
 })
 
 //HANDLE UNKNOWN REQUEST ERRORS

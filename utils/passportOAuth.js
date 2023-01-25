@@ -12,6 +12,12 @@ passport.use(new GoogleStrategy({
 }, (req, accessToken, refreshToken, profile, done) => {
 
     console.log(profile)
+    const newUser = {
+        googleId: profile.id,
+        displayName: profile.displayName,
+        email: profile.email,
+        //username
+    }
     done(null, profile)
 }
 ))
