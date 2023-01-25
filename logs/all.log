@@ -36,36 +36,6 @@
 2023-01-17 12:57:23:5723 [32minfo[39m: [32mtable sync successful[39m
 2023-01-17 12:57:29:5729 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-17 12:57:29:5729 [32minfo[39m: [32mtable sync successful[39m
-<<<<<<< HEAD
-2023-01-19 10:20:19:2019 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:20:19:2019 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:30:55:3055 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:30:55:3055 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:31:10:3110 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:31:10:3110 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:36:27:3627 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:36:27:3627 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:49:01:491 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 10:49:01:491 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:19:019 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:19:019 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:30:030 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:30:030 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:52:052 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:52:052 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:55:055 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:55:055 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:57:057 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:00:57:057 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:04:14 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:04:14 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:09:19 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:09:19 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:14:114 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:14:114 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:17:117 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
-2023-01-19 11:01:17:117 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
-=======
 2023-01-21 09:23:36:2336 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-21 09:23:48:2348 [32minfo[39m: [32mtable sync successful[39m
 2023-01-21 09:24:49:2449 [32minfo[39m: [32mdatabase connected successfuly[39m
@@ -3507,7 +3477,6 @@
 2023-01-24 04:20:59:2059 [32minfo[39m: [32mtable sync successful[39m
 2023-01-24 04:21:05:215 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-24 04:21:05:215 [32minfo[39m: [32mtable sync successful[39m
->>>>>>> f7d04036a2a5683fc8c1f79465e623f8ec6c4f5f
 2023-01-24 13:23:27:2327 [31merror[39m: [31munable to connect connect ECONNREFUSED ::1:3306[39m
 2023-01-24 13:23:27:2327 [31merror[39m: [31mconnect ECONNREFUSED ::1:3306[39m
 2023-01-24 13:49:59:4959 [32minfo[39m: [32mdatabase connected successfuly[39m
@@ -3741,3 +3710,5 @@
 2023-01-24 17:09:45:945 [32minfo[39m: [32mtable sync successful[39m
 2023-01-24 17:10:04:104 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-24 17:10:04:104 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 08:12:09:129 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 08:12:09:129 [32minfo[39m: [32mtable sync successful[39m
