@@ -1,9 +1,3 @@
 /node_modules
-<<<<<<< HEAD
-.env
-logs
-=======
-/node_modules
 .env
 /logs
->>>>>>> fca39750805393822e94284e25630a7f78e5afea
