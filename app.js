@@ -6,6 +6,14 @@ const globalErrorHandler = require("./controllers/errorController");
 const logger = require("./utils/logger");
 const morganMiddleware = require("./utils/morgan");
 const userRoute = require('./routes/userRoute')
+const session = require('express-session');
+const passport = require("passport");
+require('./utils/passportOAuth')
+
+//VIEWS
+app.set('views', 'views');
+app.set('view engine', 'ejs');
+app.use(express.static('views'))
 
 //REGISTER MORGAN MIDDLEWARE
 app.use(morganMiddleware);
@@ -17,14 +25,22 @@ app.use(express.urlencoded({ extended: true }));
 // COOKIE PARSER
 app.use(cookieParser());
 
+// app.use(session({
+//   secret: process.env.SECRET,
+//   resave: false,
+//   saveUninitialized: true
+// })
+// );
+
 // ROUTES
 app.use('/api/v1/users', userRoute)
 
 
 //HOME ROUTE
 app.get('/',(req,res)=>{
-  res.send("wellcome to the social media app ")
+  res.send("wellcome to the social media app \n <a href='/api/v1/users/auth/google'>Continue with Google</a> <a href='/api/v1/users/auth/google'>Continue with Google</a>")
 })
+
 //CHNAGE REQUEST TIME FORMAT
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
@@ -35,9 +51,11 @@ app.get('/', (req, res) => {
   res.send( 'Welcome to our app')
 });
 
-app.get('/profile', requiresAuth(), (req, res) => {
-  res.send( req.oidc.user ? 'Welcome': 'Login')
-});
+app.get('/protected', (req, res) => {
+  console.log('APPS');
+  console.log(req.session);
+  res.send('Hello!')
+})
 
 //HANDLE UNKNOWN REQUEST ERRORS
 app.all("*", (req, res, next) => {

@@ -3477,3 +3477,263 @@
 2023-01-24 04:20:59:2059 [32minfo[39m: [32mtable sync successful[39m
 2023-01-24 04:21:05:215 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-24 04:21:05:215 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:18:53:1853 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:18:53:1853 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:19:10:1910 [35mhttp[39m: [35m::1 GET / 200 95 - 8.207 ms[39m
+[35m[39m
+2023-01-25 07:19:16:1916 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.649 ms[39m
+[35m[39m
+2023-01-25 07:19:30:1930 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:20:39:2039 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:20:40:2040 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:20:53:2053 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:20:53:2053 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:21:52:2152 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh7Yj4yYSTFh6HnD0F5fcAcfyIrpZSiv6TV_1o0WkEMuywG099XPrixafedjSR0eOg&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile - - - - ms[39m
+[35m[39m
+2023-01-25 07:21:54:2154 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh4v4dQqdtax8WgpuEWTeMMnHN5qOFVxbUZ2YXehK69jO1-tlFR-M-6ICdFb6XJ86Q&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile - - - - ms[39m
+[35m[39m
+2023-01-25 07:21:56:2156 [35mhttp[39m: [35m::1 GET / 304 - - 7.572 ms[39m
+[35m[39m
+2023-01-25 07:21:56:2156 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:21:59:2159 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 1.717 ms[39m
+[35m[39m
+2023-01-25 07:23:38:2338 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:23:38:2338 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:23:49:2349 [35mhttp[39m: [35m::1 GET / 304 - - 7.478 ms[39m
+[35m[39m
+2023-01-25 07:23:49:2349 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:23:51:2351 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.647 ms[39m
+[35m[39m
+2023-01-25 07:23:53:2353 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh5Kr-vSZf5TAiAKdbn_FVaOLAn1lz-8GLw3i4GZSEEC0U6TfJO37ZoPiaNvGHzqjQ&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 959.683 ms[39m
+[35m[39m
+2023-01-25 07:24:25:2425 [35mhttp[39m: [35m::1 GET / 200 95 - 2.679 ms[39m
+[35m[39m
+2023-01-25 07:24:27:2427 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 2.157 ms[39m
+[35m[39m
+2023-01-25 07:24:29:2429 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:25:40:2540 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:25:40:2540 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:26:28:2628 [35mhttp[39m: [35m::1 GET /protected - - - - ms[39m
+[35m[39m
+2023-01-25 07:26:28:2628 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:26:28:2628 [35mhttp[39m: [35m::1 GET / 200 156 - 4.340 ms[39m
+[35m[39m
+2023-01-25 07:26:30:2630 [35mhttp[39m: [35m::1 GET / 304 - - 2.913 ms[39m
+[35m[39m
+2023-01-25 07:26:30:2630 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:26:44:2644 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.241 ms[39m
+[35m[39m
+2023-01-25 07:26:45:2645 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh7Or387pUmyqVvlkvwH7yz79zKcYGAcofgEyTeh58wlh_V0SH5LSU7DCes8VcXBtw&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 962.050 ms[39m
+[35m[39m
+2023-01-25 07:28:19:2819 [35mhttp[39m: [35m::1 GET /protected - - - - ms[39m
+[35m[39m
+2023-01-25 07:28:19:2819 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:28:28:2828 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh54W_7_Yn6vN7wFgEhIGjjL6HmT1VqTLdbWmXuV591DnuV5HfLM8ulC_o-z7BYqRw&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 1234.951 ms[39m
+[35m[39m
+2023-01-25 07:29:08:298 [35mhttp[39m: [35m::1 GET /protected - - - - ms[39m
+[35m[39m
+2023-01-25 07:29:12:2912 [35mhttp[39m: [35m::1 GET / 200 156 - 1.415 ms[39m
+[35m[39m
+2023-01-25 07:29:12:2912 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:29:15:2915 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.346 ms[39m
+[35m[39m
+2023-01-25 07:29:16:2916 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:29:24:2924 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh6_XIoc7CY9LbGbNmz7si9oEA6zv0YcIbXkIFzhjOSOvwQW5UG3tJmkifCgn9ZhCg&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 1246.545 ms[39m
+[35m[39m
+2023-01-25 07:30:13:3013 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:30:13:3013 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:30:23:3023 [35mhttp[39m: [35m::1 GET /protected - - - - ms[39m
+[35m[39m
+2023-01-25 07:30:28:3028 [35mhttp[39m: [35m::1 GET / 304 - - 7.282 ms[39m
+[35m[39m
+2023-01-25 07:30:28:3028 [35mhttp[39m: [35m::ffff:127.0.0.1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:30:30:3030 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.146 ms[39m
+[35m[39m
+2023-01-25 07:30:32:3032 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:30:36:3036 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh5j_Mt6vrBaGeswiND_UxsoCAwQckHT67VaInShSkR63GWHmv0Venjgsym3D0HO0Q&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 1255.320 ms[39m
+[35m[39m
+2023-01-25 07:31:23:3123 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:31:23:3123 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:31:30:3130 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:31:30:3130 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:31:35:3135 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:31:35:3135 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:31:39:3139 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:31:39:3139 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:32:00:320 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:32:00:320 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:32:08:328 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:32:08:328 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:32:20:3220 [35mhttp[39m: [35m::1 GET / 304 - - 4.261 ms[39m
+[35m[39m
+2023-01-25 07:32:20:3220 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:32:22:3222 [35mhttp[39m: [35m::1 GET / 304 - - 3.162 ms[39m
+[35m[39m
+2023-01-25 07:32:22:3222 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:32:23:3223 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 8.454 ms[39m
+[35m[39m
+2023-01-25 07:32:25:3225 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:32:28:3228 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh7TRYSWjsE0lDlnrq6yxXMYuNiEYFYxw7iVZ33kxGajZ0W8JZALobkoxL3YI3b50Q&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 984.919 ms[39m
+[35m[39m
+2023-01-25 07:35:38:3538 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:35:38:3538 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:35:40:3540 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:35:40:3540 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:35:47:3547 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:35:47:3547 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:36:32:3632 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:36:32:3632 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:36:41:3641 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:36:41:3641 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:36:54:3654 [35mhttp[39m: [35m::1 GET /protected 200 6 - 16.960 ms[39m
+[35m[39m
+2023-01-25 07:36:54:3654 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:36:54:3654 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:37:01:371 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:37:06:376 [35mhttp[39m: [35m::1 GET / 304 - - 3.853 ms[39m
+[35m[39m
+2023-01-25 07:37:06:376 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:37:08:378 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 7.844 ms[39m
+[35m[39m
+2023-01-25 07:37:11:3711 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:37:50:3750 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:37:50:3750 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:37:54:3754 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:37:55:3755 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:37:59:3759 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:37:59:3759 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:38:03:383 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:38:04:384 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:38:08:388 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:38:08:388 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:38:12:3812 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:38:12:3812 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:38:23:3823 [35mhttp[39m: [35m::1 GET / 304 - - 14.040 ms[39m
+[35m[39m
+2023-01-25 07:38:25:3825 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 8.185 ms[39m
+[35m[39m
+2023-01-25 07:38:26:3826 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:38:30:3830 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh7EO98aJAXu4mAjlSxRFuXKrAFRibldsvzzCjYsRMBsHxVbQ0oh9IDo22wr6mjMXg&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 1038.703 ms[39m
+[35m[39m
+2023-01-25 07:38:30:3830 [35mhttp[39m: [35m::1 GET /protected 304 - - 3.062 ms[39m
+[35m[39m
+2023-01-25 07:38:59:3859 [35mhttp[39m: [35m::1 GET / 304 - - 1.540 ms[39m
+[35m[39m
+2023-01-25 07:39:01:391 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 2.447 ms[39m
+[35m[39m
+2023-01-25 07:39:02:392 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh5DbCaptEK-vY_CNwmk98sVNzXVFSGbXYcq9evz__23heRHogp-J6ligFDWN2CH4Q&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 881.574 ms[39m
+[35m[39m
+2023-01-25 07:39:02:392 [35mhttp[39m: [35m::1 GET /protected 200 6 - 2.080 ms[39m
+[35m[39m
+2023-01-25 07:39:02:392 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:39:31:3931 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:39:34:3934 [35mhttp[39m: [35m::1 GET / 304 - - 1.318 ms[39m
+[35m[39m
+2023-01-25 07:39:34:3934 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:39:38:3938 [35mhttp[39m: [35m::1 GET / 304 - - 2.081 ms[39m
+[35m[39m
+2023-01-25 07:39:38:3938 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:39:40:3940 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 3.546 ms[39m
+[35m[39m
+2023-01-25 07:39:41:3941 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:39:45:3945 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh4sqOBzT_-ViC3vIvuFZ-DTiswqK6khGM-NKSANsUCisiIqKgkwnh5HWwVcjQ_jDA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 949.867 ms[39m
+[35m[39m
+2023-01-25 07:39:45:3945 [35mhttp[39m: [35m::1 GET /protected 304 - - 2.370 ms[39m
+[35m[39m
+2023-01-25 07:43:03:433 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:43:03:433 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:43:55:4355 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:43:55:4355 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:44:29:4429 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:44:29:4429 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:44:37:4437 [35mhttp[39m: [35m::1 GET / 304 - - 9.092 ms[39m
+[35m[39m
+2023-01-25 07:44:37:4437 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:44:39:4439 [35mhttp[39m: [35m::1 GET / 304 - - 2.282 ms[39m
+[35m[39m
+2023-01-25 07:44:39:4439 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:44:41:4441 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.858 ms[39m
+[35m[39m
+2023-01-25 07:44:43:4443 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:44:46:4446 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh5E4RIPu_NW3cpNd2gMo1BnTh9kW-5yfj8SzxnBEotn2HKep6BR99pirca3Gr-IJA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 1401.411 ms[39m
+[35m[39m
+2023-01-25 07:44:46:4446 [35mhttp[39m: [35m::1 GET /protected 304 - - 3.502 ms[39m
+[35m[39m
+2023-01-25 07:47:27:4727 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:47:27:4727 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:47:30:4730 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:47:30:4730 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:47:34:4734 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:47:34:4734 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:47:36:4736 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:47:36:4736 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:47:49:4749 [35mhttp[39m: [35m::1 GET / 304 - - 9.231 ms[39m
+[35m[39m
+2023-01-25 07:47:49:4749 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:47:50:4750 [35mhttp[39m: [35m::1 GET / 304 - - 4.683 ms[39m
+[35m[39m
+2023-01-25 07:47:51:4751 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:47:58:4758 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.656 ms[39m
+[35m[39m
+2023-01-25 07:48:00:480 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:48:03:483 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh6BWJKSjq12m6D8uFHfoPKXIBB2E1CcVDbIpER23dWzjR1VVHl6-g3HuUjGTanTYA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 1348.727 ms[39m
+[35m[39m
+2023-01-25 07:48:03:483 [35mhttp[39m: [35m::1 GET /protected 304 - - 12.443 ms[39m
+[35m[39m
+2023-01-25 07:57:53:5753 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:57:53:5753 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:57:59:5759 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:57:59:5759 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:58:09:589 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:58:09:589 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:58:12:5812 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:58:13:5813 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:58:15:5815 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:58:15:5815 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:58:24:5824 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:58:24:5824 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 07:59:24:5924 [35mhttp[39m: [35m::1 GET / 304 - - 4.287 ms[39m
+[35m[39m
+2023-01-25 07:59:24:5924 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:59:27:5927 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.433 ms[39m
+[35m[39m
+2023-01-25 07:59:28:5928 [35mhttp[39m: [35m::1 GET /favicon.ico - - - - ms[39m
+[35m[39m
+2023-01-25 07:59:32:5932 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/callback?code=4%2F0AWtgzh4REjDNU4mXw7j9U8BJMeIzOTJBz6YN3161WvZmRYstOFdSEcJGmA1U_nHDc30qjg&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile 302 64 - 1007.563 ms[39m
+[35m[39m
+2023-01-25 07:59:32:5932 [35mhttp[39m: [35m::1 GET /protected 304 - - 9.393 ms[39m
+[35m[39m
+2023-01-25 07:59:50:5950 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 07:59:50:5950 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 08:08:43:843 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 08:08:43:843 [32minfo[39m: [32mtable sync successful[39m
