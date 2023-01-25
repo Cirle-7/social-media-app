@@ -32,19 +32,19 @@ app.use(session({
 })
 );
 
-// TODO:
-// CHECK IF USER IS LOGGED IN
-const checkAuth = (req, res, next) => {
-  if(!req.session.passport.user) return res.redirect('/')
-  return next()
-}
+app.use(passport.initialize())
+app.use(passport.session())
+
 
 // ROUTES
 app.use('/api/v1/users', userRoute)
 
 
+// TODO: Protected routes
+
+
 //HOME ROUTE
-app.get('/',(req,res)=>{
+app.get('/', (req, res) => {
   res.send("welcome to the social media app \n <a href='/api/v1/users/auth/google'>Continue with Google</a> <a href='/api/v1/users/auth/github'>Continue with Github</a>")
 })
 
@@ -55,16 +55,17 @@ app.use((req, res, next) => {
 });
 
 // TODO:
-app.get('/protected', checkAuth, (req, res) => {
-  res.send('Hello!')
+app.get('/protected', (req, res) => {
+  res.render('profile')
 })
 
 // LOGOUT - DESTROY SESSION
-app.get('/logout', (req, res, next) => {
+app.post('/logout', (req, res, next) => {
   req.session.destroy((err) => {
-    res.redirect('/')
+    return res.redirect('/')
   })
 })
+
 
 //HANDLE UNKNOWN REQUEST ERRORS
 app.all("*", (req, res, next) => {

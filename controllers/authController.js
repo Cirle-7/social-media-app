@@ -23,6 +23,8 @@ const signup = async (req, res) => {
     where: { email: email },
   });
 
+  console.log(oldUser);
+
   if (oldUser) throw new AppError("User already exists. Please login", 409);
 
   // if new user create

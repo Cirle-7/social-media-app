@@ -6,7 +6,7 @@ const GoogleStrategy = require('passport-google-oauth2').Strategy
 const GithubStrategy = require('passport-github2').Strategy
 
 
-
+// GOOGLE STARTEGY
 passport.use(new GoogleStrategy({
     clientID: process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
@@ -25,6 +25,7 @@ passport.use(new GoogleStrategy({
 }
 ))
 
+// GITHUB STARTEGY
 passport.use(new GithubStrategy({
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret: process.env.GITHUB_CLIENT_SECRET,
@@ -34,10 +35,10 @@ passport.use(new GithubStrategy({
 
     console.log(profile)
     const newUser = {
-        googleId: profile.id,
+        githubId: profile.id,
         displayName: profile.displayName,
         email: profile.email,
-        //username
+        username: profile.username
     }
     done(null, profile)
 }
