@@ -3712,3 +3712,16 @@
 2023-01-24 17:10:04:104 [32minfo[39m: [32mtable sync successful[39m
 2023-01-25 08:12:09:129 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-25 08:12:09:129 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 15:08:24:824 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 15:08:24:824 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 15:08:56:856 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 15:08:56:856 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 15:11:34:1134 [35mhttp[39m: [35m::1 POST /api/v1/users/signup - - - - ms[39m
+[35m[39m
+2023-01-25 15:11:43:1143 [35mhttp[39m: [35m::1 POST /api/v1/users/signup - - - - ms[39m
+[35m[39m
+2023-01-25 15:11:56:1156 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-25 15:11:56:1156 [32minfo[39m: [32mtable sync successful[39m
+2023-01-25 15:12:00:120 [31merror[39m: [31mUser already exists. Please login[39m
+2023-01-25 15:12:00:120 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 477 - 53.272 ms[39m
+[35m[39m

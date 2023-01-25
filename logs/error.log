@@ -6577,3 +6577,4 @@
 [31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:2:24)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
 2023-01-24 14:48:57:4857 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-01-25 15:12:00:120 [31merror[39m: [31mUser already exists. Please login[39m
