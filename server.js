@@ -6,6 +6,7 @@ const db = require('./models')
 
 dotenv.config({ path: "./env" });
 
+
 //CONFIGURE UNCAUGHT EXCEPTIONS
 process.on("uncaughtException", (err) => {
   console.log("UNCAUGHT EXCEPTION! 🔥 Shutting Down...");
