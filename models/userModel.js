@@ -7,19 +7,24 @@ module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     "user",
     {
+      socialId: {
+        type: DataTypes.STRING,
+        unique: true,
+        allowNull: true,
+      },
       email: {
         type: DataTypes.STRING,
         unique: true,
-        allowNull: false,
+        allowNull: true,
       },
       password: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       username: {
         type: DataTypes.STRING,
         unique: true,
-        allowNull: false,
+        allowNull: true,
       },
       displayName: {
         type: DataTypes.STRING,
@@ -34,15 +39,20 @@ module.exports = (sequelize, DataTypes) => {
   // hash password hook
   User.beforeCreate(async function (user) {
     let oldEmail = user.email;
-    user.password = await bcrypt.hash(user.password, 12);
-    user.email = oldEmail.toLowerCase();
+    if (this.password) {
+      user.password = await bcrypt.hash(user.password, 12);
+      user.email = oldEmail.toLowerCase();
+    }
   });
 
   // create jwt token instance
   User.prototype.createJwt = async function () {
-    return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
-      expiresIn: process.env.JWT_EXPIRES,
-    });
+    if (this.password) {
+      return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
+        expiresIn: process.env.JWT_EXPIRES,
+      });
+    }
+
   };
 
   // create a compare password instance
