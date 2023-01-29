@@ -3,7 +3,11 @@ const authController = require('../controllers/authController')
 const { userValidationMiddleware } = require('../validation/userValidation')
 require('../utils/passportOAuth')
 const passport = require('passport')
-const payload = {}
+
+
+
+
+
 router.post('/signup', userValidationMiddleware, authController.signup)
 router.post('/login', authController.login)
 
