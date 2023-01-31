@@ -32,10 +32,9 @@ const createSendToken = async (user, statusCode, res) => {
 };
 
 const signup = async (req, res) => {
-    // console.log(req.headers)
-    // logger.info(req.body)
 
-    const payload = {};
+
+
 
     const { username, email, password, displayName } = req.body;
 
@@ -84,25 +83,6 @@ const login = async (req, res) => {
     createSendToken(user, 200, res);
 };
 
-// SOCIAL SIGNUP OR LOGIN
-const checkOrCreateOAuthUser = async (socialUser) => {
-
-    // Validate user input
-    if (!socialUser) throw new AppError("User credentials are required!", 400);
-
-    //check if user already exists
-    const oldUser = await User.findOne({
-        where: { socialId: socialUser.socialId },
-    });
-
-    //Create user if new
-    if (!oldUser) {
-        const user = await User.create({...socialUser});
-        if(!user) throw new AppError('Falied to create social user', 500)
-    }
-
-    return
-};
 
 const profile = (req, res) => {
     res.render('profile')
@@ -117,6 +97,5 @@ module.exports = {
     signup,
     login,
     profile,
-    checkOrCreateOAuthUser,
     createSendToken
 };

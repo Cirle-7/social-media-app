@@ -7,7 +7,12 @@ module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     "user",
     {
-      socialId: {
+      githubId: {
+        type: DataTypes.STRING,
+        unique: true,
+        allowNull: true,
+      },
+      googleId:{
         type: DataTypes.STRING,
         unique: true,
         allowNull: true,
@@ -47,11 +52,9 @@ module.exports = (sequelize, DataTypes) => {
 
   // create jwt token instance
   User.prototype.createJwt = async function () {
-    if (this.password) {
       return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
         expiresIn: process.env.JWT_EXPIRES,
       });
-    }
 
   };
 
