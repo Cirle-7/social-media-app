@@ -88,6 +88,8 @@ const checkOrCreateOAuthUser = async (socialUser) => {
         where: { socialId: socialUser.socialId },
     });
 
+
+    
     //Create user if new
     if (!oldUser) {
         const user = await User.create({...socialUser});
