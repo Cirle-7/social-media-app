@@ -21,9 +21,11 @@ const createPost = async (req,res) =>{
     //     await cloudinary.uploader.upload(file.path,{folder:"media_url"}).secure_url
     // })
 
-    const filePath = req.file.path
-    const cloudinaryPath = await cloudinary.uploader.upload(filePath,{folder:"media_url"})
-    body.media_url = cloudinaryPath.secure_url
+    const filePath = req.file?.path
+
+
+    const cloudinaryPath = filePath ? await cloudinary.uploader.upload(filePath,{folder:"media_url"}): ''
+    body.media_url = cloudinaryPath.secure_url || ''
 
     fs.unlink(filePath,(err)=>{
         if(err)console.log(err);
