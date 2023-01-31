@@ -38,6 +38,7 @@ passport.use(
         where: { googleId: googleDetails.googleId },
       });
 
+    // IF USER EXISTS SEND USER WITH TOKEN
       if (oldUser) {
         const token = await oldUser.createJwt();
         return done(null, { oldUser, token });
