@@ -101,3 +101,4 @@ db.sequelize
   .catch((err) => logger.error(err));
 
 module.exports = db;
+    
