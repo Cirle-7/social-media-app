@@ -47,6 +47,11 @@ const signup = async (req, res) => {
         where: { email: email },
     });
 
+    //NOTIFY USERS WITH SOCIAL AUTH WHEN SIGNING IN
+    if(!(oldUser.password)) throw new AppError("User already exists. Please login using your socials", 401)
+    
+    
+    //IF USER EXISTS
     if (oldUser) throw new AppError("User already exists. Please login", 409);
 
     // if new user create

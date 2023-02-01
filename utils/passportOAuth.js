@@ -41,13 +41,14 @@ passport.use(
           where: { googleId: googleDetails.googleId },
         });
 
-        if (oldUser) {
-          const token = await oldUser.createJwt();
-          return done(null, { oldUser, token });
-        }
-        //Create user if new
-        const user = await User.create({ ...googleDetails });
-        const token = await user.createJwt();
+    // IF USER EXISTS SEND USER WITH TOKEN
+      if (oldUser) {
+        const token = await oldUser.createJwt();
+        return done(null, { oldUser, token });
+      }
+      //Create user if new
+      const user = await User.create({ ...googleDetails });
+      const token = await user.createJwt();
 
         //send the user and token
         return done(null, { user, token });
