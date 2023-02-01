@@ -27,16 +27,6 @@ app.use(express.urlencoded({ extended: true }));
 // COOKIE PARSER
 app.use(cookieParser());
 
-// app.use(session({
-//   secret: process.env.SECRET,
-//   resave: false,
-//   saveUninitialized: true
-// })
-// );
-
-// app.use(passport.initialize())
-// app.use(passport.session())
-
 
 // ROUTES
 app.use('/api/v1/users', userRoute)

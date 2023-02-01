@@ -13,21 +13,20 @@ router.post('/signup', userValidationMiddleware, authController.signup)
 router.post('/login', authController.login)
 
 //GOOGLE OAUTH
-router.get('/auth/google', passport.authenticate('google', { scope: ['profile'] }))
+router.get('/auth/google', passport.authenticate('google', { scope: ['profile','email'] }))
 
 //GITHUB OAUTH
 router.get('/auth/github', passport.authenticate('github', { scope: ['user:email']}))
 
 //OAUTH CALLBACKS
-router.get('/auth/google/callback', passport.authenticate('google',{session:false, failureRedirect: '/'}),socialAuth)
+router.get('/auth/google/callback', passport.authenticate('google',{session:false}),socialAuth)
 
-router.get('/auth/github/callback', passport.authenticate('github',{session:false, failureRedirect: '/'}),socialAuth)
+router.get('/auth/github/callback', passport.authenticate('github',{session:false}),socialAuth)
 
 // LOGOUT - DESTROY SESSION
-router.post('/logout', (req, res, next) => {
-    req.session.destroy((err) => {
-        return res.redirect('/')
-    })
+router.get('/logout', (req, res, next) => {
+     return res.clearCookie('jwt').redirect('/');
+   
 })
 
 module.exports = router
