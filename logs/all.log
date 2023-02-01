@@ -6493,3 +6493,19 @@
 [35m[39m
 2023-01-31 09:52:02:522 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-31 09:52:04:524 [32minfo[39m: [32mtable sync successful[39m
+2023-01-31 20:41:02:412 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:41:02:412 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 20:44:18:4418 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:44:18:4418 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 20:49:49:4949 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:49:49:4949 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:01:17:117 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:01:17:117 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:15:02:152 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:15:02:152 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:28:51:2851 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:28:51:2851 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:36:17:3617 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:36:17:3617 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:40:08:408 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-31 21:40:10:4010 [32minfo[39m: [32mtable sync successful[39m

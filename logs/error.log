@@ -9166,3 +9166,43 @@
 2023-01-31 00:59:47:5947 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-01-31 00:59:48:5948 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-01-31 00:59:55:5955 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-01-31 20:37:28:3728 [31merror[39m: [31muncaughtException: Cannot find module 'bcryptjs'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module 'bcryptjs'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:1:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-31 20:41:02:412 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:41:02:412 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 20:44:18:4418 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:44:18:4418 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 20:49:49:4949 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:49:49:4949 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:01:17:117 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:01:17:117 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:15:02:152 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:15:02:152 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:28:51:2851 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:28:51:2851 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:36:17:3617 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:36:17:3617 [31merror[39m: [31mconnect ETIMEDOUT[39m
