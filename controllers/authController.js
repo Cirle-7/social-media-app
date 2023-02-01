@@ -69,13 +69,6 @@ const login = async (req, res) => {
         where: { email: email },
     });
 
-    // // check if user exist
-    // if (!user) throw new AppError("Wrong email ", 400);
-
-    // //compare hashed password using model instance
-    // const isValid = await user.comparePassword(password);
-    // if (!isValid) throw new AppError("password is incorrect try again ", 400);
-
     // Check if user exists and email exist without leaking extra info
     if (!user || !(await user.comparePassword(password)))
         throw new AppError("Email Or Password Incorrect", 400);
@@ -95,6 +88,8 @@ const checkOrCreateOAuthUser = async (socialUser) => {
         where: { socialId: socialUser.socialId },
     });
 
+
+    
     //Create user if new
     if (!oldUser) {
         const user = await User.create({...socialUser});

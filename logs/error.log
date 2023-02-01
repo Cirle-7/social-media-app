@@ -8387,3 +8387,822 @@
 2023-01-25 20:04:14:414 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-01-25 20:04:16:416 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-01-25 20:04:30:430 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-01-30 23:37:09:379 [31merror[39m: [31muncaughtException: Cannot find module 'passport'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\utils\passportOAuth.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module 'passport'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\utils\passportOAuth.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\utils\passportOAuth.js:1:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-30 23:38:31:3831 [31merror[39m: [31muncaughtException: OAuth2Strategy requires a clientID option[39m
+[31mTypeError: OAuth2Strategy requires a clientID option[39m
+[31m    at Strategy.OAuth2Strategy (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\passport-oauth2\lib\strategy.js:87:34)[39m
+[31m    at new Strategy (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\passport-google-oauth2\lib\oauth2.js:48:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\utils\passportOAuth.js:14:14)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:4:1)[39m
+2023-01-30 23:42:18:4218 [31merror[39m: [31muncaughtException: OAuth2Strategy requires a clientID option[39m
+[31mTypeError: OAuth2Strategy requires a clientID option[39m
+[31m    at Strategy.OAuth2Strategy (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\passport-oauth2\lib\strategy.js:87:34)[39m
+[31m    at new Strategy (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\passport-google-oauth2\lib\oauth2.js:48:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\utils\passportOAuth.js:14:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js:4:1)[39m
+2023-01-30 23:42:42:4242 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-30 23:42:42:4242 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-30 23:54:50:5450 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-30 23:54:50:5450 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:01:40:140 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:12[39m
+[31mconst userModel = require("./userModel");[39m
+[31m^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:01:44:144 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:12[39m
+[31mconst userModel = require("./userModel");[39m
+[31m^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:01:47:147 [31merror[39m: [31muncaughtException: req is not defined[39m
+[31mReferenceError: req is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:9:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+2023-01-31 00:01:49:149 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:01:49:149 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:01:51:151 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at validateString (node:internal/validators:163:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1054:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:9:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-31 00:01:54:154 [31merror[39m: [31muncaughtException: The argument 'id' must be a non-empty string. Received ''[39m
+[31mTypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1056:11)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:9:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+2023-01-31 00:01:57:157 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:01:57:157 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:36:236 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:36:236 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:41:241 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:41:241 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:42:242 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:42:242 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:45:245 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:45:245 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:47:247 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:47:247 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:02:50:250 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:12[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:03:00:30 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:03:00:30 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:03:57:357 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:12[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:04:01:41 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:04:01:41 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:04:02:42 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:04:02:42 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:04:04:44 [31merror[39m: [31muncaughtException: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined[39m
+[31m    at Object.openSync (node:fs:592:10)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:04:07:47 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open[39m
+[31mError: ENOENT: no such file or directory, open[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:04:44:444 [31merror[39m: [31muncaughtException: EISDIR: illegal operation on a directory, read[39m
+[31mError: EISDIR: illegal operation on a directory, read[39m
+[31m    at Object.readSync (node:fs:748:3)[39m
+[31m    at tryReadSync (node:fs:448:20)[39m
+[31m    at Object.readFileSync (node:fs:494:19)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+2023-01-31 00:04:49:449 [31merror[39m: [31muncaughtException: EISDIR: illegal operation on a directory, read[39m
+[31mError: EISDIR: illegal operation on a directory, read[39m
+[31m    at Object.readSync (node:fs:748:3)[39m
+[31m    at tryReadSync (node:fs:448:20)[39m
+[31m    at Object.readFileSync (node:fs:494:19)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+2023-01-31 00:05:27:527 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:05:33:533 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:05:46:546 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+    2023-01-31 00:06:11:611 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open 'DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open 'DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:06:15:615 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open '.DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open '.DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:06:17:617 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open '/DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open '/DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:08:34:834 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open 'DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open 'DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:08:39:839 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open '.DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open '.DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:08:43:843 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:08:46:846 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open './../DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open './../DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:09:19:919 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31mError: ENOENT: no such file or directory, open './DigiCertGlobalRootCA.crt.pem'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:13:28:1328 [31merror[39m: [31muncaughtException: Invalid or unexpected token[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11[39m
+[31m  SSL: fs.readFileSync("),[39m
+[31m                       ^^^[39m
+
+[31mSyntaxError: Invalid or unexpected token[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:13:30:1330 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open[39m
+[31mError: ENOENT: no such file or directory, open[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:13:33:1333 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11[39m
+[31m  SSL: fs.readFileSync(`${}`),[39m
+[31m                          ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:13:41:1341 [31merror[39m: [31muncaughtException: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined[39m
+[31m    at Object.openSync (node:fs:592:10)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:13:43:1343 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open[39m
+[31mError: ENOENT: no such file or directory, open[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:13:48:1348 [31merror[39m: [31muncaughtException: ENOENT: no such file or directory, open '$'[39m
+[31mError: ENOENT: no such file or directory, open '$'[39m
+[31m    at Object.openSync (node:fs:600:3)[39m
+[31m    at Object.readFileSync (node:fs:468:35)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+2023-01-31 00:13:49:1349 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11[39m
+[31m  SSL: fs.readFileSync(`${}`),[39m
+[31m                          ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:13:51:1351 [31merror[39m: [31muncaughtException: hfhf is not defined[39m
+[31mReferenceError: hfhf is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:27)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+2023-01-31 00:13:53:1353 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11[39m
+[31m  SSL: fs.readFileSync(`${}`),[39m
+[31m                          ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:13:56:1356 [31merror[39m: [31muncaughtException: __ is not defined[39m
+[31mReferenceError: __ is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:27)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:7:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+2023-01-31 00:13:58:1358 [31merror[39m: [31muncaughtException: EISDIR: illegal operation on a directory, read[39m
+[31mError: EISDIR: illegal operation on a directory, read[39m
+[31m    at Object.readSync (node:fs:748:3)[39m
+[31m    at tryReadSync (node:fs:448:20)[39m
+[31m    at Object.readFileSync (node:fs:494:19)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+2023-01-31 00:14:00:140 [31merror[39m: [31muncaughtException: EISDIR: illegal operation on a directory, read[39m
+[31mError: EISDIR: illegal operation on a directory, read[39m
+[31m    at Object.readSync (node:fs:748:3)[39m
+[31m    at tryReadSync (node:fs:448:20)[39m
+[31m    at Object.readFileSync (node:fs:494:19)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\config\db.config.js:11:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+2023-01-31 00:14:02:142 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:14:02:142 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:14:06:146 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:14:06:146 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:14:44:1444 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:14:44:1444 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:14:47:1447 [31merror[39m: [31muncaughtException: d is not defined[39m
+[31mReferenceError: d is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:29:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+2023-01-31 00:14:49:1449 [31merror[39m: [31muncaughtException: dia is not defined[39m
+[31mReferenceError: dia is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:29:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+2023-01-31 00:14:50:1450 [31merror[39m: [31muncaughtException: diale is not defined[39m
+[31mReferenceError: diale is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:29:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+2023-01-31 00:14:52:1452 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:29[39m
+[31m  diale[39m
+[31m  ^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:15:01:151 [31merror[39m: [31muncaughtException: diale is not defined[39m
+[31mReferenceError: diale is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:29:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+2023-01-31 00:15:06:156 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:30[39m
+[31m});[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:6:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:15:11:1511 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:15:11:1511 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-01-31 00:16:40:1640 [31merror[39m: [31msecret option required for sessions[39m
+2023-01-31 00:18:51:1851 [31merror[39m: [31msecret option required for sessions[39m
+2023-01-31 00:22:58:2258 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:4[39m
+[31mconst log[39m
+[31m      ^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:13:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:23:05:235 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at validateString (node:internal/validators:163:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1054:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:4:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-31 00:23:06:236 [31merror[39m: [31muncaughtException: The argument 'id' must be a non-empty string. Received ''[39m
+[31mTypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1056:11)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:4:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+2023-01-31 00:23:24:2324 [31merror[39m: [31muncaughtException: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:4:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-31 00:24:11:2411 [31merror[39m: [31mValidation error[39m
+2023-01-31 00:36:35:3635 [31merror[39m: [31muncaughtException: Cannot find module 'bcryptjs'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module 'bcryptjs'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:1:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-31 00:45:12:4512 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:47[39m
+[31m    }[39m
+[31m    ^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:13:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:45:49:4549 [31merror[39m: [31muncaughtException: Unexpected token '=>'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:41[39m
+[31m  User.beforeCreate(async function (user) => {[39m
+[31m                                          ^^[39m
+
+[31mSyntaxError: Unexpected token '=>'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:13:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:47:24:4724 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:43[39m
+[31m    console.log(await bcrypt.hash('' 12));[39m
+[31m                                  ^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:13:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:47:27:4727 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:43[39m
+[31m    console.log(await bcrypt.hash('tetstsstetefetsgfsf' 12));[39m
+[31m                                  ^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:13:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:49:34:4934 [31merror[39m: [31muncaughtException: Unexpected token '=>'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:41[39m
+[31m  User.beforeCreate(async function (user) => {[39m
+[31m                                          ^^[39m
+
+[31mSyntaxError: Unexpected token '=>'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:13:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-01-31 00:55:32:5532 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-01-31 00:55:48:5548 [31merror[39m: [31mLogin sessions require session support. Did you forget to use `express-session` middleware?[39m
+2023-01-31 00:55:48:5548 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-01-31 00:59:47:5947 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-01-31 00:59:48:5948 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-01-31 00:59:55:5955 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-01-31 20:37:28:3728 [31merror[39m: [31muncaughtException: Cannot find module 'bcryptjs'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module 'bcryptjs'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\userModel.js:1:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-01-31 20:41:02:412 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:41:02:412 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 20:44:18:4418 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:44:18:4418 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 20:49:49:4949 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 20:49:49:4949 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:01:17:117 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:01:17:117 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:15:02:152 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:15:02:152 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:28:51:2851 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:28:51:2851 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-01-31 21:36:17:3617 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-01-31 21:36:17:3617 [31merror[39m: [31mconnect ETIMEDOUT[39m
