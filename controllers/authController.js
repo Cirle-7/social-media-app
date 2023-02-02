@@ -73,13 +73,6 @@ const login = async (req, res) => {
         where: { email: email },
     });
 
-    // // check if user exist
-    // if (!user) throw new AppError("Wrong email ", 400);
-
-    // //compare hashed password using model instance
-    // const isValid = await user.comparePassword(password);
-    // if (!isValid) throw new AppError("password is incorrect try again ", 400);
-
     // Check if user exists and email exist without leaking extra info
     if (!user || !(await user.comparePassword(password)))
         throw new AppError("Email Or Password Incorrect", 400);
@@ -87,6 +80,7 @@ const login = async (req, res) => {
     //CREATE TOKEN
     createSendToken(user, 200, res);
 };
+
 
 
 const profile = (req, res) => {

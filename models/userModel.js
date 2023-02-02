@@ -1,6 +1,7 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
+const logger = require("./../utils/logger");
 
 // creating User model
 module.exports = (sequelize, DataTypes) => {
@@ -42,9 +43,9 @@ module.exports = (sequelize, DataTypes) => {
   );
 
   // hash password hook
-  User.beforeCreate(async function (user) {
+  User.beforeCreate(async (user) => {
     let oldEmail = user.email;
-    if (this.password) {
+    if (user.password) {
       user.password = await bcrypt.hash(user.password, 12);
       user.email = oldEmail.toLowerCase();
     }
