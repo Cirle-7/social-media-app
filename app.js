@@ -11,6 +11,8 @@ const passport = require("passport");
 require('./utils/passportOAuth')
 
 //import authentication
+const authentication = require('./middleware/authentication')
+
 
 //VIEWS
 app.set('views', 'views');
@@ -30,7 +32,7 @@ app.use(cookieParser());
 
 // ROUTES
 app.use('/api/v1/users', userRoute)
-app.use('/api/v1/post', postRoute)
+app.use('/api/v1/post', authentication , postRoute)
 
 
 //HOME ROUTE

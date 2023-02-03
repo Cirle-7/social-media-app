@@ -1,11 +1,12 @@
 const express = require('express')
 const Router = express.Router()
-const multer = require('multer'
-)
-//import post logic controllers
+const multer = require('multer')
+
+
+//IMPORT POST LOGIC CONTROLLER
 const { createPost } = require('../controllers/postController')
 
-// set destination for your files
+//SET 
 const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
     if (file.mimetype == "image/png" || file.mimetype == "image/jpg" || file.mimetype == "image/jpeg") {
       cb(null, true);
@@ -15,8 +16,7 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
     }
   }})
 
-
-Router.route('/').post(  upload.single("media_url"), createPost)
+Router.route('/').post(  upload.array("media_url", 4), createPost)
 
 
 module.exports = Router
