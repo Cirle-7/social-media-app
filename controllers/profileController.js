@@ -102,8 +102,36 @@ const updateProfile = catchAsync(async (req,res) => {
 })
 
 
+const getOwnerProfile = catchAsync(async (req,res) => {
+
+})
+
+const getProfile = catchAsync(async (req,res) => {
+    // GET USER ID FROM REQ USER
+    const userId = req.params.userId
+    console.log(userId)
+    const profile = await Profile.findOne({
+        where: {
+          userId: userId
+        }
+    });
+
+    if(!profile){
+        throw new appError('Profile not found', 404)
+    }
+
+    res.status(200).json({
+        message: 'success',
+        data: {
+            profile
+        }
+    })
+})
+
+
 
 module.exports = {
     updateProfile,
-    createProfile
+    createProfile,
+    getProfile
 }
