@@ -30,6 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 
+
 // ROUTES
 app.use('/api/v1/users', userRoute)
 app.use('/api/v1/post', authentication , postRoute)

@@ -4,8 +4,10 @@ const {
   DB_NAME,
   DB_PASSWORD,
   DB_USER,
+  SSL,
 } = require("../config/db.config");
 const { Sequelize } = require("sequelize");
+
 
 // import the models here
 const userModel = require("./userModel");
@@ -24,6 +26,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
+  dialectOptions: {
+    ssl: {
+      SSL
+    }
+  }
 });
 
 
@@ -94,3 +101,4 @@ db.sequelize
   .catch((err) => logger.error(err));
 
 module.exports = db;
+    

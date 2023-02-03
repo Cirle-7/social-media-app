@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+const fs = require("fs");
 
 // export db configiuration
 module.exports = {
@@ -8,4 +8,5 @@ module.exports = {
   DB_PASSWORD: process.env.DB_PASSWORD,
   DB_DIALECT: process.env.DB_DIALECT,
   DB_HOST: process.env.DB_HOST,
+  SSL: fs.readFileSync(`${__dirname}/DigiCertGlobalRootCA.crt.pem`),
 };

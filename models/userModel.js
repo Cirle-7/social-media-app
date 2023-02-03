@@ -1,6 +1,7 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
+const logger = require("./../utils/logger");
 
 // creating User model
 module.exports = (sequelize, DataTypes) => {

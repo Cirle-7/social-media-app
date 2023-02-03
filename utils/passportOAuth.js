@@ -1,11 +1,13 @@
 const passport = require("passport");
 require("dotenv").config();
+
 require("express-async-errors");
 const db = require("../models");
 const User = db.users;
 
 //OAuthController
 const AppError = require("./appError");
+
 
 //STARTEGIES
 const GoogleStrategy = require("passport-google-oauth2").Strategy;
@@ -22,15 +24,17 @@ passport.use(
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
-    
+
       const googleDetails = {
         googleId: profile.id,
+
         displayName: profile.displayName,
         email: profile.email,
         username: profile.displayName,
       };
 
       // Check if user exist or Create user
+
       if (!googleDetails) {
         const error = new AppError("User credentials are required!", 401);
         done(error);
@@ -55,6 +59,7 @@ passport.use(
       } catch (error) {
         done(error);
       }
+
     }
   )
 );
@@ -66,6 +71,7 @@ passport.use(
       clientID: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
       callbackURL: "http://localhost:3310/api/v1/users/auth/github/callback",
+
       scope: ['user:email'],
       passReqToCallback: true,
     },
@@ -75,10 +81,12 @@ passport.use(
         githubId: profile.id,
         displayName: profile.displayName,
         email: profile.emails[0].value,
+
         username: profile.username,
       };
 
       // Check if user exist or Create user
+
       // Check if user exist or Create user
       if (!githubDetails) {
         const error = new AppError("User credentials are required!", 401);
@@ -107,3 +115,4 @@ passport.use(
     }
   )
 );
+
