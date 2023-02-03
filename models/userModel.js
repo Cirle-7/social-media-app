@@ -43,25 +43,26 @@ module.exports = (sequelize, DataTypes) => {
 
   // hash password hook
   User.beforeCreate(async function (user) {
+    password = user.password
     let oldEmail = user.email;
-    if (this.password) {
-      user.password = await bcrypt.hash(user.password, 12);
+    if (user.password) {
+      const salt = await bcrypt.genSalt(10)
+      user.password = await bcrypt.hash(password,salt);
       user.email = oldEmail.toLowerCase();
     }
   });
 
   // create jwt token instance
   User.prototype.createJwt = async function () {
-      return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
+      return await jwt.sign({ user_id: this.id }, process.env.JWT_SECRET, {
         expiresIn: process.env.JWT_EXPIRES,
       });
 
   };
 
-  // create a compare password instance
-
+  //COMPARE PASSWWORD INSTANCE
   User.prototype.comparePassword = async function (password) {
-    return await bcrypt.compare(password, this.password);
+    return   await bcrypt.compare(password, this.password);
   };
 
   return User;
