@@ -7,6 +7,7 @@ const logger = require("./utils/logger");
 const morganMiddleware = require("./utils/morgan");
 const userRoute = require('./routes/userRoute')
 const postRoute = require('./routes/postRoute')
+const profileRoute = require('./routes/profileRoute')
 const session = require('express-session');
 const passport = require("passport");
 require('./utils/passportOAuth')
@@ -40,6 +41,7 @@ app.use(passport.session())
 // ROUTES
 app.use('/api/v1/users', userRoute)
 app.use('/api/v1/post', postRoute)
+app.use('/api/v1/profiles', profileRoute)
 
 
 //HOME ROUTE
