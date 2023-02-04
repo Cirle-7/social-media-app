@@ -1,20 +1,14 @@
+require('express-async-errors')
 const appError = require('../utils/appError')
 const logger = require('../utils/logger')
-const catchAsync = require('../utils/catchAsync')
-const cloudinary = require('cloudinary').v2
+const cloudinary = require('../config/cloudinary')
 const fs = require('fs')
 const db = require('../models')
 const Profile = db.profile
 require('dotenv').config()
 
-cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_SECRET
-})
 
-
-const createProfile = catchAsync(async (req,res) => {
+const createProfile = async (req,res) => {
     // get req body and files
     const { Bio, website, location, github_link, twitter_link } = req.body
     // handle images upload
@@ -50,10 +44,10 @@ const createProfile = catchAsync(async (req,res) => {
             profile
         }
     })
-})
+}
 
 
-const updateProfile = catchAsync(async (req,res) => {
+const updateProfile = async (req,res) => {
         
     // GET BODY 
     const { Bio, website, location, github_link, twitter_link } = req.body
@@ -85,7 +79,7 @@ const updateProfile = catchAsync(async (req,res) => {
         headerURL = header.url
     }
 
-    // // WHEN FOUND, UPDATE THE APPROPRIATE FIELDS
+    // WHEN FOUND, UPDATE THE APPROPRIATE FIELDS
     const update = await profile.update({
         Bio, website,location, github_link, twitter_link, 
         headerURL:  headerURL,
@@ -99,14 +93,10 @@ const updateProfile = catchAsync(async (req,res) => {
             update
         }
     })
-})
+}
 
 
-const getOwnerProfile = catchAsync(async (req,res) => {
-
-})
-
-const getProfile = catchAsync(async (req,res) => {
+const getProfile = async (req,res) => {
     // GET USER ID FROM REQ USER
     const userId = req.params.userId
     console.log(userId)
@@ -126,7 +116,7 @@ const getProfile = catchAsync(async (req,res) => {
             profile
         }
     })
-})
+}
 
 
 
