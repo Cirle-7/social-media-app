@@ -99,7 +99,6 @@ const updateProfile = async (req,res) => {
 const getProfile = async (req,res) => {
     // GET USER ID FROM REQ USER
     const userId = req.params.userId
-    console.log(userId)
     const profile = await Profile.findOne({
         where: {
           userId: userId
