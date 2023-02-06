@@ -7,6 +7,8 @@ const logger = require("./utils/logger");
 const morganMiddleware = require("./utils/morgan");
 const userRoute = require('./routes/userRoute')
 const postRoute = require('./routes/postRoute')
+const profileRoute = require('./routes/profileRoute')
+const followRoute = require('./routes/followRoute')
 const passport = require("passport");
 require('./utils/passportOAuth')
 
@@ -33,6 +35,9 @@ app.use(cookieParser());
 
 // ROUTES
 app.use('/api/v1/users', userRoute)
+app.use('/api/v1/post', postRoute)
+app.use('/api/v1/profiles', profileRoute)
+app.use('/api/v1/', followRoute)
 app.use('/api/v1/post', authentication , postRoute)
 
 
