@@ -4,8 +4,10 @@ const {
   DB_NAME,
   DB_PASSWORD,
   DB_USER,
+  SSL,
 } = require("../config/db.config");
 const { Sequelize } = require("sequelize");
+
 
 // import the models here
 const userModel = require("./userModel");
@@ -13,6 +15,8 @@ const postModel = require("./postModel");
 const profileModel = require("./profileModel");
 const commentModel = require('./commentModel')
 const commentCommentModel = require('./comment-commentModel')
+const followersModel = require('./followersModel')
+const followingsModel = require('./followingsModel')
 const logger = require("./../utils/logger");
 
 
@@ -24,6 +28,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
+  dialectOptions: {
+    ssl: {
+      SSL
+    }
+  }
 });
 
 
@@ -38,6 +47,8 @@ db.profile = profileModel(sequelize, Sequelize.DataTypes);
 db.post = postModel(sequelize, Sequelize.DataTypes);
 db.comments = commentModel(sequelize, Sequelize.DataTypes);
 db.commentsComments = commentCommentModel(sequelize, Sequelize.DataTypes);
+db.followers = followersModel(sequelize, Sequelize.DataTypes);
+db.following = followingsModel(sequelize, Sequelize.DataTypes);
 
 
 
@@ -94,3 +105,4 @@ db.sequelize
   .catch((err) => logger.error(err));
 
 module.exports = db;
+    

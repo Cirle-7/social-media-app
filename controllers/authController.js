@@ -32,10 +32,9 @@ const createSendToken = async (user, statusCode, res) => {
 };
 
 const signup = async (req, res) => {
-    // console.log(req.headers)
-    // logger.info(req.body)
 
-    const payload = {};
+
+
 
     const { username, email, password, displayName } = req.body;
 
@@ -48,9 +47,14 @@ const signup = async (req, res) => {
         where: { email: email },
     });
 
+    //NOTIFY USERS WITH SOCIAL AUTH WHEN SIGNING IN
+    if(oldUser && !(oldUser.password)) throw new AppError("User already exists. Please login using your socials", 401)
+    
+    
+    //IF USER EXISTS
     if (oldUser) throw new AppError("User already exists. Please login", 409);
 
-    // if new user create
+    //IF NEW, CREATE USER
     const user = await User.create(req.body);
 
     //CREATE TOKEN
@@ -60,7 +64,6 @@ const signup = async (req, res) => {
 const login = async (req, res) => {
     // Get user input
     const { email, password } = req.body;
-
     // Validate user input
     if (!(email && password)) throw new AppError("All fields are required", 400);
 
@@ -69,40 +72,21 @@ const login = async (req, res) => {
         where: { email: email },
     });
 
-    // // check if user exist
-    // if (!user) throw new AppError("Wrong email ", 400);
 
-    // //compare hashed password using model instance
-    // const isValid = await user.comparePassword(password);
-    // if (!isValid) throw new AppError("password is incorrect try again ", 400);
+
+
+    //NOTIFY USERS WITH SOCIAL AUTH WHEN LOGGING IN
+    if(!(user.password)) throw new AppError("User already exists. Please login using your socials", 401)
 
     // Check if user exists and email exist without leaking extra info
     if (!user || !(await user.comparePassword(password)))
         throw new AppError("Email Or Password Incorrect", 400);
 
+
     //CREATE TOKEN
     createSendToken(user, 200, res);
 };
 
-// SOCIAL SIGNUP OR LOGIN
-const checkOrCreateOAuthUser = async (socialUser) => {
-
-    // Validate user input
-    if (!socialUser) throw new AppError("User credentials are required!", 400);
-
-    //check if user already exists
-    const oldUser = await User.findOne({
-        where: { socialId: socialUser.socialId },
-    });
-
-    //Create user if new
-    if (!oldUser) {
-        const user = await User.create({...socialUser});
-        if(!user) throw new AppError('Falied to create social user', 500)
-    }
-
-    return
-};
 
 const profile = (req, res) => {
     res.render('profile')
@@ -117,6 +101,5 @@ module.exports = {
     signup,
     login,
     profile,
-    checkOrCreateOAuthUser,
     createSendToken
 };
