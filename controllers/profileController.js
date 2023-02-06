@@ -21,19 +21,19 @@ const createProfile = async (req,res) => {
     if (imagesUpload && imagesUpload.avatar) {
         avatarPath = imagesUpload.avatar[0].path;
         avatar = await cloudinary.uploader.upload(avatarPath)
-        avatarURL = avatar.url || defaultAvatarURL
+        avatarURL = avatar.url
     }
     if (imagesUpload && imagesUpload.header) {
         headerPath = imagesUpload.header[0].path;
         header = await cloudinary.uploader.upload(headerPath)
-        headerURL = header.url || defaultHeaderURL
+        headerURL = header.url
     }
     
     // create profile in db
     const profile = await Profile.create({
         Bio, website, location, github_link, twitter_link,
-        avatarURL: avatarURL,
-        headerURL: headerURL,
+        avatarURL: avatarURL ?? defaultAvatarURL,
+        headerURL: headerURL ?? defaultHeaderURL,
         // userId: req.user.id 
     })
     
@@ -99,7 +99,6 @@ const updateProfile = async (req,res) => {
 const getProfile = async (req,res) => {
     // GET USER ID FROM REQ USER
     const userId = req.params.userId
-    console.log(userId)
     const profile = await Profile.findOne({
         where: {
           userId: userId

@@ -9,7 +9,6 @@ const userRoute = require('./routes/userRoute')
 const postRoute = require('./routes/postRoute')
 const profileRoute = require('./routes/profileRoute')
 const followRoute = require('./routes/followRoute')
-const session = require('express-session');
 const passport = require("passport");
 require('./utils/passportOAuth')
 
