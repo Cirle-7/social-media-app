@@ -1,8 +1,13 @@
 const passport = require("passport");
 require("dotenv").config();
 
+require("express-async-errors");
+const db = require("../models");
+const User = db.users;
+
 //OAuthController
-const { checkOrCreateOAuthUser } = require("../controllers/authController");
+const AppError = require("./appError");
+
 
 //STARTEGIES
 const GoogleStrategy = require("passport-google-oauth2").Strategy;
@@ -19,17 +24,42 @@ passport.use(
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
+
       const googleDetails = {
-        socialId: profile.id,
+        googleId: profile.id,
+
         displayName: profile.displayName,
         email: profile.email,
         username: profile.displayName,
       };
 
       // Check if user exist or Create user
-      await checkOrCreateOAuthUser(googleDetails);
 
-      done(null, profile);
+      if (!googleDetails) {
+        const error = new AppError("User credentials are required!", 401);
+        done(error);
+      }
+      try {
+        //check if user already exists
+        const oldUser = await User.findOne({
+          where: { googleId: googleDetails.googleId },
+        });
+
+    // IF USER EXISTS SEND USER WITH TOKEN
+      if (oldUser) {
+        const token = await oldUser.createJwt();
+        return done(null, { oldUser, token });
+      }
+      //Create user if new
+      const user = await User.create({ ...googleDetails });
+      const token = await user.createJwt();
+
+        //send the user and token
+        return done(null, { user, token });
+      } catch (error) {
+        done(error);
+      }
+
     }
   )
 );
@@ -41,28 +71,48 @@ passport.use(
       clientID: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
       callbackURL: "http://localhost:3310/api/v1/users/auth/github/callback",
+
+      scope: ['user:email'],
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
+      
       const githubDetails = {
-        socialId: profile.id,
+        githubId: profile.id,
         displayName: profile.displayName,
-        email: profile.email,
+        email: profile.emails[0].value,
+
         username: profile.username,
       };
 
       // Check if user exist or Create user
-      await checkOrCreateOAuthUser(githubDetails);
 
-      done(null, profile);
+      // Check if user exist or Create user
+      if (!githubDetails) {
+        const error = new AppError("User credentials are required!", 401);
+        done(error);
+      }
+
+      try {
+        //check if user already exists
+        const oldUser = await User.findOne({
+          where: { githubId: githubDetails.githubId },
+        });
+
+        if (oldUser) {
+          const token = await oldUser.createJwt();
+          return done(null, { oldUser, token });
+        }
+        //Create user if new
+        const user = await User.create({ ...githubDetails });
+        const token = await user.createJwt();
+
+        //send the user and token
+        done(null, { user, token });
+      } catch (error) {
+        done(error);
+      }
     }
   )
 );
 
-passport.serializeUser((user, done) => {
-  done(null, user);
-});
-
-passport.deserializeUser((user, done) => {
-  done(null, user);
-});

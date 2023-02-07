@@ -7,9 +7,14 @@ const logger = require("./utils/logger");
 const morganMiddleware = require("./utils/morgan");
 const userRoute = require('./routes/userRoute')
 const postRoute = require('./routes/postRoute')
-const session = require('express-session');
+const profileRoute = require('./routes/profileRoute')
+const followRoute = require('./routes/followRoute')
 const passport = require("passport");
 require('./utils/passportOAuth')
+
+//import authentication
+const authentication = require('./middleware/authentication')
+
 
 //VIEWS
 app.set('views', 'views');
@@ -26,20 +31,14 @@ app.use(express.urlencoded({ extended: true }));
 // COOKIE PARSER
 app.use(cookieParser());
 
-app.use(session({
-  secret: process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: true
-})
-);
-
-app.use(passport.initialize())
-app.use(passport.session())
 
 
 // ROUTES
 app.use('/api/v1/users', userRoute)
 app.use('/api/v1/post', postRoute)
+app.use('/api/v1/profiles', profileRoute)
+app.use('/api/v1/', followRoute)
+app.use('/api/v1/post', authentication , postRoute)
 
 
 //HOME ROUTE

@@ -8,6 +8,19 @@ module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     "user",
     {
+<<<<<<< HEAD
+=======
+      githubId: {
+        type: DataTypes.STRING,
+        unique: true,
+        allowNull: true,
+      },
+      googleId:{
+        type: DataTypes.STRING,
+        unique: true,
+        allowNull: true,
+      },
+>>>>>>> 4302f00370b62d01608546b994557f4f10b6ac06
       email: {
         type: DataTypes.STRING,
         unique: true,
@@ -41,10 +54,12 @@ module.exports = (sequelize, DataTypes) => {
   );
 
   // hash password hook
-  User.beforeCreate(async (user) => {
+  User.beforeCreate(async function (user) {
+    password = user.password
     let oldEmail = user.email;
     if (user.password) {
-      user.password = await bcrypt.hash(user.password, 12);
+      const salt = await bcrypt.genSalt(10)
+      user.password = await bcrypt.hash(password,salt);
       user.email = oldEmail.toLowerCase();
     }
   });
@@ -60,15 +75,21 @@ module.exports = (sequelize, DataTypes) => {
 
   // create jwt token instance
   User.prototype.createJwt = async function () {
+<<<<<<< HEAD
     return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
       expiresIn: process.env.JWT_EXPIRES,
     });
+=======
+      return await jwt.sign({ user_id: this.id }, process.env.JWT_SECRET, {
+        expiresIn: process.env.JWT_EXPIRES,
+      });
+
+>>>>>>> 4302f00370b62d01608546b994557f4f10b6ac06
   };
 
-  // create a compare password instance
-
+  //COMPARE PASSWWORD INSTANCE
   User.prototype.comparePassword = async function (password) {
-    return await bcrypt.compare(password, this.password);
+    return   await bcrypt.compare(password, this.password);
   };
 
   return User;
