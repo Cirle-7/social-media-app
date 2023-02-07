@@ -8,19 +8,16 @@ module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     "user",
     {
-<<<<<<< HEAD
-=======
       githubId: {
         type: DataTypes.STRING,
         unique: true,
         allowNull: true,
       },
-      googleId:{
+      googleId: {
         type: DataTypes.STRING,
         unique: true,
         allowNull: true,
       },
->>>>>>> 4302f00370b62d01608546b994557f4f10b6ac06
       email: {
         type: DataTypes.STRING,
         unique: true,
@@ -53,43 +50,36 @@ module.exports = (sequelize, DataTypes) => {
     }
   );
 
-  // hash password hook
+  // HASH PASSWORD HOOK
   User.beforeCreate(async function (user) {
-    password = user.password
+    password = user.password;
     let oldEmail = user.email;
     if (user.password) {
-      const salt = await bcrypt.genSalt(10)
-      user.password = await bcrypt.hash(password,salt);
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(password, salt);
       user.email = oldEmail.toLowerCase();
     }
   });
 
-  //HASH PASSWORD ON RESET OR UPDATE OF ACCOUNT INFO
+  // //HASH PASSWORD ON RESET OR UPDATE OF ACCOUNT INFO
   User.beforeSave(async (user) => {
-    let oldEmail = user.email;
-    if (user.password) {
+    if (!user.changed("passwordToken")) {
+      return;
+    } else {
       user.password = await bcrypt.hash(user.password, 12);
-      user.email = oldEmail.toLowerCase();
     }
   });
 
-  // create jwt token instance
+  // CREATE JWT TOKEN INSTANCE
   User.prototype.createJwt = async function () {
-<<<<<<< HEAD
-    return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
+    return await jwt.sign({ user_id: this.id }, process.env.JWT_SECRET, {
       expiresIn: process.env.JWT_EXPIRES,
     });
-=======
-      return await jwt.sign({ user_id: this.id }, process.env.JWT_SECRET, {
-        expiresIn: process.env.JWT_EXPIRES,
-      });
-
->>>>>>> 4302f00370b62d01608546b994557f4f10b6ac06
   };
 
   //COMPARE PASSWWORD INSTANCE
   User.prototype.comparePassword = async function (password) {
-    return   await bcrypt.compare(password, this.password);
+    return await bcrypt.compare(password, this.password);
   };
 
   return User;

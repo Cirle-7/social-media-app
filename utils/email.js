@@ -70,10 +70,15 @@ module.exports = class Email {
   async sendWelcome() {
     await this.send("welcomeMail", "Welcome to the circle!");
   }
+  //EXTEND THE MAIL FUNCTION TO SEND MAIL FOR SENDING PASSWORD RESET.
   async sendPasswordReset() {
     await this.send(
       "resetPassword",
       "Your password reset token(valid for only 10 minutes)"
     );
+  }
+  //EXTEND THE MAIL FUNCTION TO SEND MAIL FOR WELCOMING NEW USERS.
+  async sendVerifiedPR() {
+    await this.send('verifiedPR', 'Your password has successfully changed.')
   }
 };

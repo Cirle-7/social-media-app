@@ -34,10 +34,10 @@ const createSendToken = async (user, statusCode, res) => {
 };
 
 const signup = async (req, res) => {
-    // console.log(req.headers)
-    // logger.info(req.body)
+  // console.log(req.headers)
+  // logger.info(req.body)
 
-    const payload = {};
+  const payload = {};
 
   const { username, email, password, displayName } = req.body;
 
@@ -50,10 +50,15 @@ const signup = async (req, res) => {
     where: { email: email },
   });
 
-    if (oldUser) throw new AppError("User already exists. Please login", 409);
+  if (oldUser) throw new AppError("User already exists. Please login", 409);
 
-    // if new user create
-    const user = await User.create(req.body);
+  // if new user create
+  const user = await User.create(req.body);
+
+  try {
+    //SEND WELCOME MAIL
+    const url = `${req.protocol}://${req.get("host")}/api/v1/profiles`;
+    await new Email(user, url).sendWelcome();
 
     //CREATE TOKEN
     createSendToken(user, 200, res);
@@ -65,47 +70,50 @@ const signup = async (req, res) => {
     });
   }
 };
-
 const login = async (req, res) => {
-    // Get user input
-    const { email, password } = req.body;
+  // Get user input
+  const { email, password } = req.body;
 
-    // Validate user input
-    if (!(email && password)) throw new AppError("All fields are required", 400);
+  // Validate user input
+  if (!(email && password)) throw new AppError("All fields are required", 400);
 
   // Validate if user exist in database
   const user = await User.findOne({
     where: { email: email },
   });
 
-    // Check if user exists and email exist without leaking extra info
-    if (!user || !(await user.comparePassword(password)))
-        throw new AppError("Email Or Password Incorrect", 400);
+  //NOTIFY USERS WITH SOCIAL AUTH WHEN LOGGING IN
+  if (!user.password)
+    throw new AppError(
+      "User already exists. Please login using your socials",
+      401
+    );
 
-    //CREATE TOKEN
-    createSendToken(user, 200, res);
+  // Check if user exists and email exist without leaking extra info
+  if (!user || !(await user.comparePassword(password)))
+    throw new AppError("Email Or Password Incorrect", 400);
+
+  //CREATE TOKEN
+  createSendToken(user, 200, res);
 };
 
 // SOCIAL SIGNUP OR LOGIN
 const checkOrCreateOAuthUser = async (socialUser) => {
+  // Validate user input
+  if (!socialUser) throw new AppError("User credentials are required!", 400);
 
-    // Validate user input
-    if (!socialUser) throw new AppError("User credentials are required!", 400);
+  //check if user already exists
+  const oldUser = await User.findOne({
+    where: { socialId: socialUser.socialId },
+  });
 
-    //check if user already exists
-    const oldUser = await User.findOne({
-        where: { socialId: socialUser.socialId },
-    });
+  //Create user if new
+  if (!oldUser) {
+    const user = await User.create({ ...socialUser });
+    if (!user) throw new AppError("Falied to create social user", 500);
+  }
 
-
-    
-    //Create user if new
-    if (!oldUser) {
-        const user = await User.create({...socialUser});
-        if(!user) throw new AppError('Falied to create social user', 500)
-    }
-
-    return
+  return;
 };
 
 const profile = (req, res) => {
@@ -177,14 +185,26 @@ const resetPassword = async (req, res, next) => {
   user.passwordResetExpires = null;
   await user.save();
 
-  //4. LOG IN USER AND SEND JWT
-  createSendToken(user, 200, res);
+  try {
+    const url = `${req.protocol}://${req.get("host")}/api/v1/users/login`;
+    //4.SEND SUCCESS MAIL TO CLIENT
+    await new Email(user, url).sendVerifiedPR();
+    //5. LOG IN USER AND SEND JWT
+    createSendToken(user, 200, res);
+  } catch (err) {
+    throw new AppError(
+      "Password has been resetted, but we are having a issue sending a mail, Please proceed to login",
+      500
+    );
+  }
 };
 
 module.exports = {
-    signup,
-    login,
-    profile,
-    checkOrCreateOAuthUser,
-    createSendToken
+  signup,
+  login,
+  profile,
+  checkOrCreateOAuthUser,
+  createSendToken,
+  forgotPassword,
+  resetPassword,
 };
