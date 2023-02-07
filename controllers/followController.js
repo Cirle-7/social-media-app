@@ -6,15 +6,15 @@ const followers = db.followers;
 
 const follow = async (req,res) => {
     
-    const userId = req.params.id  //'the person being followed'
-    const followerId = req.user.id   //'the person doing the follow'
+    const followeeId = req.params.id  //'the person being followed'
+    const userId = req.user.id   //'the person doing the follow'
     // const followBack = 'true or false depending on if owner and follower follow each other'
     // logger.info(req.user)
     
     // // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
     const existingFollow = await followers.findOne({
         where: {
-            followerId: followerId,
+            followeeId: followeeId,
             userId: userId,
         }
     })
@@ -27,7 +27,7 @@ const follow = async (req,res) => {
     // IF NOT, CREATE FOLLOW
     if(!existingFollow){
         const follow = await followers.create({
-            followerId: followerId,
+            followeeId: followeeId,
             userId: userId,
         })
 
@@ -41,13 +41,13 @@ const follow = async (req,res) => {
 
 const unfollow = async (req,res) => {
     // logger.info(req.user)
-    const userId = req.params.id  //'the person being followed'
-    const followerId = req.user.id   //'the person doing the follow'
+    const followeeId = req.params.id  //'the person being followed'
+    const userId = req.user.id   //'the person doing the follow'
     
     // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
     const existingFollow = await followers.findOne({
         where: {
-            followerId: followerId,
+            followeeId: followeeId,
             userId: userId,
         }
     })

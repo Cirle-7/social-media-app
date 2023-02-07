@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
       "followers",
       {
         
-        followerId: {
+        followeeId: {
           type: DataTypes.INTEGER,
         }
       },
