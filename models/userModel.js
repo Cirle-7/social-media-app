@@ -8,11 +8,6 @@ module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     "user",
     {
-      socialId: {
-        type: DataTypes.STRING,
-        unique: true,
-        allowNull: true,
-      },
       email: {
         type: DataTypes.STRING,
         unique: true,
@@ -31,6 +26,14 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      passwordToken: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
+      passwordResetExpires: {
+        type: DataTypes.DATE,
+        allowNull: true,
+      },
     },
     {
       tableName: "users",
@@ -46,13 +49,20 @@ module.exports = (sequelize, DataTypes) => {
     }
   });
 
+  //HASH PASSWORD ON RESET OR UPDATE OF ACCOUNT INFO
+  User.beforeSave(async (user) => {
+    let oldEmail = user.email;
+    if (user.password) {
+      user.password = await bcrypt.hash(user.password, 12);
+      user.email = oldEmail.toLowerCase();
+    }
+  });
+
   // create jwt token instance
   User.prototype.createJwt = async function () {
-    if (this.password) {
-      return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
-        expiresIn: process.env.JWT_EXPIRES,
-      });
-    }
+    return await jwt.sign({ user_id: this._id }, process.env.JWT_SECRET, {
+      expiresIn: process.env.JWT_EXPIRES,
+    });
   };
 
   // create a compare password instance
