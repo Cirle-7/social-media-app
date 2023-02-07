@@ -1,20 +1,24 @@
 require('express-async-errors')
 const appError = require('../utils/appError')
 const logger = require('../utils/logger')
-const db = require('../models')
+const db = require('../models');
 const followers = db.followers;
-const followings = db.following;
 
 const follow = async (req,res) => {
-    const followerId = req.body.userId  //will use req.user.id
-    const followeeId = req.params.id
-    // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
+    
+    const userId = req.params.id  //'the person being followed'
+    const followerId = req.user.id   //'the person doing the follow'
+    // const followBack = 'true or false depending on if owner and follower follow each other'
+    // logger.info(req.user)
+    
+    // // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
     const existingFollow = await followers.findOne({
         where: {
-            follower_id: followerId,
-            following_id: followeeId
+            followerId: followerId,
+            userId: userId,
         }
     })
+
     // IF ALREADY FOLLOWS
     if(existingFollow){
         return res.status(400).json({ message: 'You already follow this user'})
@@ -22,27 +26,29 @@ const follow = async (req,res) => {
     
     // IF NOT, CREATE FOLLOW
     if(!existingFollow){
-        const follow = await followings.create({
-            follower_id: followerId,
-            following_id: followeeId
+        const follow = await followers.create({
+            followerId: followerId,
+            userId: userId,
         })
-        // UPDATE CORRESPONDING FOLLOWINGS TABLE
-        // const followee = await followers.create({
-        //     follower_id: followeeId,
-        //     following_id: followerId
-        // })
-        return res.status(200).json({ message: 'Follow successful' })
+
+        return res.status(200).json({ 
+            status: 'success',
+            message: 'User followed'
+        })
     }
+
 }  
 
 const unfollow = async (req,res) => {
-    const followerId = req.body.userId   //req.user.id
-    const followeeId = req.params.id
+    // logger.info(req.user)
+    const userId = req.params.id  //'the person being followed'
+    const followerId = req.user.id   //'the person doing the follow'
+    
     // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
     const existingFollow = await followers.findOne({
         where: {
-            follower_id: followerId,
-            following_id: followeeId
+            followerId: followerId,
+            userId: userId,
         }
     })
     // IF ALREADY FOLLOWS
@@ -50,7 +56,10 @@ const unfollow = async (req,res) => {
         const unfollow = await existingFollow.destroy()
     }
     
-    return res.status(200).json({ message: 'Unfollow successful' })
+    return res.status(200).json({ 
+        status: 'success',
+        message: 'Unfollowed user' 
+    })
     
 }
 

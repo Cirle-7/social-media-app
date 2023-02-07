@@ -16,7 +16,6 @@ const profileModel = require("./profileModel");
 const commentModel = require('./commentModel')
 const commentCommentModel = require('./comment-commentModel')
 const followersModel = require('./followersModel')
-const followingsModel = require('./followingsModel')
 const logger = require("./../utils/logger");
 
 
@@ -28,11 +27,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
-  dialectOptions: {
-    ssl: {
-      SSL
-    }
-  }
+  // dialectOptions: {
+  //   ssl: {
+  //     SSL
+  //   }
+  // }
 });
 
 
@@ -48,7 +47,6 @@ db.post = postModel(sequelize, Sequelize.DataTypes);
 db.comments = commentModel(sequelize, Sequelize.DataTypes);
 db.commentsComments = commentCommentModel(sequelize, Sequelize.DataTypes);
 db.followers = followersModel(sequelize, Sequelize.DataTypes);
-db.following = followingsModel(sequelize, Sequelize.DataTypes);
 
 
 
@@ -59,7 +57,7 @@ let Profile = db.profile
 let Posts = db.post
 let comments = db.comments
 let commentsComments = db.commentsComments
-
+let followers = db.followers
 // create a userid in the post table
 User.hasMany(Posts);     // link posts to their user
 Posts.belongsTo(User);
@@ -87,6 +85,11 @@ commentsComments.belongsTo(comments)
 User.hasMany(commentsComments);     // link commentsComments to their user
 commentsComments.belongsTo(User)
 
+// // create a userId in the followers table
+User.hasMany(followers);
+followers.belongsTo(User)
+
+
 })();
 
 
@@ -100,7 +103,7 @@ sequelize
 
 // sync the table
 db.sequelize
-  .sync({force: false })
+  .sync({force: false })   //change back to false
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 

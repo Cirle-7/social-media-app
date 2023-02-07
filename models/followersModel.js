@@ -2,10 +2,8 @@ module.exports = (sequelize, DataTypes) => {
     const Followers = sequelize.define(
       "followers",
       {
-        follower_id: {
-          type: DataTypes.INTEGER,
-        },
-        following_id: {
+        
+        followerId: {
           type: DataTypes.INTEGER,
         }
       },
