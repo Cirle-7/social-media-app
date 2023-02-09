@@ -7682,3 +7682,99 @@
 2023-02-07 16:10:42:1042 [32minfo[39m: [32mtable sync successful[39m
 2023-02-07 17:07:57:757 [31merror[39m: [31m"password" with value "Kelechi123#" fails to match the required pattern: /^[a-zA-Z0-9]{3,30}$/[39m
 2023-02-07 17:09:35:935 [31merror[39m: [31mUnexpected token } in JSON at position 74[39m
+2023-02-09 17:40:22:4022 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:40:26:4026 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 17:46:10:4610 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:46:13:4613 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 17:46:22:4622 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:46:25:4625 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 17:47:28:4728 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-09 17:47:28:4728 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 500 1366 - 13.583 ms[39m
+[35m[39m
+2023-02-09 17:48:14:4814 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:48:17:4817 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 17:48:52:4852 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:49:04:494 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:49:09:499 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:49:12:4912 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 17:49:16:4916 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 17:49:16:4916 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 403 1361 - 11.466 ms[39m
+[35m[39m
+2023-02-09 17:50:55:5055 [31merror[39m: [31mCannot read properties of null (reading 'password')[39m
+2023-02-09 17:50:55:5055 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 500 501 - 1651.466 ms[39m
+[35m[39m
+2023-02-09 17:53:16:5316 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 17:53:19:5319 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 17:55:10:5510 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/signup 200 434 - 5865.202 ms[39m
+[35m[39m
+2023-02-09 17:55:30:5530 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 17:55:30:5530 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 403 1361 - 10.308 ms[39m
+[35m[39m
+2023-02-09 17:56:37:5637 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 200 515 - 1832.459 ms[39m
+[35m[39m
+2023-02-09 17:56:49:5649 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 17:56:49:5649 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 403 1361 - 6.347 ms[39m
+[35m[39m
+2023-02-09 17:58:35:5835 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 18:00:57:057 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-09 18:03:31:331 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 18:04:47:447 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 18:05:58:558 [31merror[39m: [31mYou are not logged in jjajajajjaee, Please Login Again[39m
+2023-02-09 18:32:01:321 [31merror[39m: [31mYou are not logged in jjajajajjaee, Please Login Again[39m
+2023-02-09 18:32:22:3222 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:33:11:3311 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:33:21:3321 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:33:54:3354 [31merror[39m: [31m/api/v1/login not found on this server[39m
+2023-02-09 18:35:07:357 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:37:40:3740 [31merror[39m: [31m"displayName" is required[39m
+2023-02-09 19:01:42:142 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:03:23:323 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:04:05:45 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:09:48:948 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:11:00:110 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:19:53:1953 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:19:56:1956 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:23:38:2338 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:23:42:2342 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:23:53:2353 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:23:57:2357 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:27:53:2753 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:27:57:2757 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:28:11:2811 [31merror[39m: [31m404[39m
+2023-02-09 19:28:11:2811 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 500 1943 - 1896.339 ms[39m
+[35m[39m
+2023-02-09 19:28:38:2838 [31merror[39m: [31m404[39m
+2023-02-09 19:28:38:2838 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 500 1943 - 1801.054 ms[39m
+[35m[39m
+2023-02-09 19:30:01:301 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:30:03:303 [31merror[39m: [31mCannot drop table 'users' referenced by a foreign key constraint 'blockedaccounts_ibfk_1' on table 'blockedaccounts'.[39m
+2023-02-09 19:30:45:3045 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:30:51:3051 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:31:17:3117 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:31:20:3120 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:31:51:3151 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/signup 200 442 - 8126.319 ms[39m
+[35m[39m
+2023-02-09 19:33:29:3329 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 241 - 3005.540 ms[39m
+[35m[39m
+2023-02-09 19:36:25:3625 [31merror[39m: [31mMust supply api_key[39m
+2023-02-09 19:36:25:3625 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 500 1914 - 2841.693 ms[39m
+[35m[39m
+2023-02-09 19:39:06:396 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:39:09:399 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:39:29:3929 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:39:36:3936 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:39:39:3939 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:39:49:3949 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 350 - 3475.747 ms[39m
+[35m[39m
+2023-02-09 19:45:29:4529 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:45:32:4532 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:49:38:4938 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:49:41:4941 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:49:59:4959 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 355 - 5176.788 ms[39m
+[35m[39m
+2023-02-09 19:50:28:5028 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:50:31:5031 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:51:38:5138 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:51:42:5142 [32minfo[39m: [32mtable sync successful[39m
+2023-02-09 19:52:10:5210 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-09 19:52:14:5214 [32minfo[39m: [32mtable sync successful[39m

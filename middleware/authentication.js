@@ -2,10 +2,10 @@ const jwt = require("jsonwebtoken");
 const AppError = require("../utils/appError");
 const { promisify } = require("util");
 require("express-async-errors");
-const db = require('../models')
+const db = require("../models");
 //IMPORT USER MODEL
-const User = db.users
-require('dotenv').config()
+const User = db.users;
+require("dotenv").config();
 
 const authorize = async (req, res, next) => {
   /** testing authorization**/
@@ -19,6 +19,7 @@ const authorize = async (req, res, next) => {
     token = authHeader.split(" ")[1];
   } else if (process.env.NODE_ENV === "production") {
     const cookieValue = req.cookies.jwt;
+    console.log(req.cookies);
     if (!cookieValue)
       throw new AppError("You are not logged in, Please Login Again", 403);
 
@@ -32,7 +33,6 @@ const authorize = async (req, res, next) => {
     process.env.JWT_SECRET
   );
 
-  
   //Check if user exists, we do this because verification was sucessful
   const currentUser = await User.findOne({
     where: { id: verifyToken.user_id },

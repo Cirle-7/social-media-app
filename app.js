@@ -12,6 +12,9 @@ const followRoute = require('./routes/followRoute')
 const passport = require("passport");
 require('./utils/passportOAuth')
 
+// COOKIE PARSER
+app.use(cookieParser());
+
 //import authentication
 const authentication = require('./middleware/authentication')
 
@@ -28,8 +31,7 @@ app.use(morganMiddleware);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// COOKIE PARSER
-app.use(cookieParser());
+
 
 
 

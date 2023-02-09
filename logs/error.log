@@ -930,3 +930,157 @@
 2023-02-07 15:42:46:4246 [31merror[39m: [31mToken Expired Or Invalid Token, Request for a new token[39m
 2023-02-07 17:07:57:757 [31merror[39m: [31m"password" with value "Kelechi123#" fails to match the required pattern: /^[a-zA-Z0-9]{3,30}$/[39m
 2023-02-07 17:09:35:935 [31merror[39m: [31mUnexpected token } in JSON at position 74[39m
+2023-02-09 17:47:28:4728 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-09 17:48:06:486 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:8[39m
+[31mconst postController = require('../controllers/postController')[39m
+[31m^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:1:13)[39m
+2023-02-09 17:48:07:487 [31merror[39m: [31muncaughtException: re is not defined[39m
+[31mReferenceError: re is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:4:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-02-09 17:48:09:489 [31merror[39m: [31muncaughtException: req is not defined[39m
+[31mReferenceError: req is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:4:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-02-09 17:48:40:4840 [31merror[39m: [31muncaughtException: The argument 'id' must be a non-empty string. Received ''[39m
+[31mTypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1056:11)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:4:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-02-09 17:48:45:4845 [31merror[39m: [31muncaughtException: Cannot find module './../controllers'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './../controllers'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:4:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+2023-02-09 17:48:54:4854 [31merror[39m: [31muncaughtException: Cannot find module './../mi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module './../mi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:4:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+2023-02-09 17:49:16:4916 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 17:50:55:5055 [31merror[39m: [31mCannot read properties of null (reading 'password')[39m
+2023-02-09 17:55:30:5530 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 17:56:49:5649 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 17:58:35:5835 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 18:00:57:057 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-09 18:03:31:331 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 18:04:47:447 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-09 18:05:58:558 [31merror[39m: [31mYou are not logged in jjajajajjaee, Please Login Again[39m
+2023-02-09 18:32:01:321 [31merror[39m: [31mYou are not logged in jjajajajjaee, Please Login Again[39m
+2023-02-09 18:32:22:3222 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:33:11:3311 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:33:21:3321 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:33:54:3354 [31merror[39m: [31m/api/v1/login not found on this server[39m
+2023-02-09 18:35:07:357 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 18:37:40:3740 [31merror[39m: [31m"displayName" is required[39m
+2023-02-09 19:01:42:142 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:03:23:323 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:04:05:45 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:09:48:948 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:11:00:110 [31merror[39m: [31mYou are not logged ine, Please Login Again[39m
+2023-02-09 19:28:11:2811 [31merror[39m: [31m404[39m
+2023-02-09 19:28:38:2838 [31merror[39m: [31m404[39m
+2023-02-09 19:30:03:303 [31merror[39m: [31mCannot drop table 'users' referenced by a foreign key constraint 'blockedaccounts_ibfk_1' on table 'blockedaccounts'.[39m
+2023-02-09 19:36:25:3625 [31merror[39m: [31mMust supply api_key[39m

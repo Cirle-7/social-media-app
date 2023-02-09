@@ -4,10 +4,7 @@ const AppError = require("../utils/appError");
 const Post = db.post;
 
 //IMPORT CLOUDINARY
-const uploadToCloudinary = require('../utils/cloudinaryFunctions')
-
-
-
+const uploadToCloudinary = require("../utils/cloudinaryFunctions");
 
 // CREATE POST CONTROLLER
 const createPost = async (req, res) => {
@@ -29,6 +26,5 @@ const createPost = async (req, res) => {
 
   res.status(200).json({ status: true, post });
 };
-
 
 module.exports = { createPost };

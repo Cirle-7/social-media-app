@@ -8,6 +8,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       media_url: {
         type: DataTypes.STRING,
+        allowNull: true
       },
       likes: {
         type: DataTypes.INTEGER,
@@ -16,11 +17,7 @@ module.exports = (sequelize, DataTypes) => {
       status:{
         type:DataTypes.ENUM,
         values:["Draft", "Published"],
-        defaultValue: "Draft"
-      },
-      commentsNo: {
-        type: DataTypes.INTEGER,
-        defaultValue: 0,
+        defaultValue: "Published"
       },
       shares: {
         type: DataTypes.INTEGER,
@@ -32,6 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       tags: {
         type: DataTypes.STRING,
+        allowNull:true 
       },
     },
     {
