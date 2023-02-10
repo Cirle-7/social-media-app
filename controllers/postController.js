@@ -2,6 +2,7 @@ require("express-async-errors");
 const db = require("../models");
 const AppError = require("../utils/appError");
 const Post = db.post;
+const User = db.users
 const { Op } = require("sequelize");
 
 //IMPORT CLOUDINARY
@@ -18,9 +19,10 @@ const createPost = async (req, res) => {
     const url = await uploadToCloudinary(path);
     urls.push(url);
   }
-
+ 
   body.userId = user.id;
   body.media_url = urls.join("||") ?? "";
+
 
   const post = await Post.create(body);
 
@@ -31,12 +33,15 @@ const createPost = async (req, res) => {
 const getAllPost = async (req, res) => {
   // DESTRUCTURE QUERY REQUEST
   const { limit, userId, tags, search } = req.query;
+
+  //
   const queryObject = {};
   if (limit) {
     queryObject.limit = Number(limit) || 1;
   }
 
   const findObject = {};
+
   findObject.status = "Published"
   if (userId) {
     findObject.userId = userId;
@@ -53,9 +58,19 @@ const getAllPost = async (req, res) => {
     where: { ...findObject },
     ...queryObject,
     order: [["updatedAt", "DESC"]],
+    include:User,
+    include: [ { all: true, attributes: { exclude: ["password"] } }, ],
   });
 
-  res.status(200).json({ status: true, posts, nHit: posts.length });
+
+  const newPosts = posts.map((post)=>{
+    const {user:{username}} = post
+
+    return {post , profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}`}
+
+  })
+
+  res.status(200).json({ status: true, newPosts, nHit: newPosts.length });
 };
 
 // GET POST BY ID
@@ -64,13 +79,17 @@ const getPostById = async (req, res) => {
 
   const post = await Post.findOne({
     where: { id },
-  });
+    include:User,
+    include: [ { all: true, attributes: { exclude: ["password"] } }, ],
+});
   post.views += 1;
   await post.save();
 
   if (!post) throw new AppError("post not found", 404);
 
-  res.status(200).json({ status: true, post });
+  const {user:{username}} = post
+
+  res.status(200).json({ status: true, post,  profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}` });
 };
 
 // EDIT POST CONTROLLER
