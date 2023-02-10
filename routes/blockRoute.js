@@ -4,9 +4,9 @@ const blockController = require('../controllers/blockController')
 
 
 
-router.post('/block/:id', authenticate, blockController.blockUser)
-router.delete('/unblock/:id', authenticate, blockController.unblockUser)
-router.get('/:userId', authenticate, blockController.getUser);
+router.post('/block/:username', authenticate, blockController.blockUser)
+router.delete('/unblock/:username', authenticate, blockController.unblockUser)
+// router.get('/:username', authenticate, blockController.getUser);
 
 
 

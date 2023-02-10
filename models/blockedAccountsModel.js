@@ -3,20 +3,12 @@ module.exports = (sequelize, DataTypes) => {
     const blockAccounts = sequelize.define(
         "blockedAccounts",
         {
-            // blockedBy: {
-            //     type: DataTypes.INTEGER,
-            //     // references: {
-            //     //     model: userModel,
-            //     //     key: 'id'
-            //     // }
-            // },
+            userId: {
+                type: DataTypes.INTEGER,
+            },
 
             blockedUser: {
                 type: DataTypes.INTEGER,
-                // references: {
-                //     model: userModel,
-                //     key: 'id'
-                // }
             },
 
         },

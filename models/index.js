@@ -29,11 +29,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
-  // dialectOptions: {
-  //   ssl: {
-  //     SSL
-  //   }
-  // }
+  dialectOptions: {
+    ssl: {
+      SSL
+    }
+  }
 });
 
 
@@ -95,7 +95,7 @@ followers.belongsTo(User)
 
 // create association between blockedUsers and users
 User.hasMany(blockedAccount) //, { foreignKey: 'blockedBy'})
-blockedAccount.belongsTo(User) //, { as: 'blockedUserId', foreignKey: 'blockedUser'}) //{ as: 'blockedUser', foreignKey: 'blockedUser' }
+blockedAccount.belongsTo(User) //, { as: 'blockedUserId', foreignKey: 'blockedUser'}) 
 
 })();
 
