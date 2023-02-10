@@ -4,7 +4,7 @@ const multer = require('multer')
 
 
 //IMPORT POST LOGIC CONTROLLER
-const { createPost } = require('../controllers/postController')
+const { createPost, editPost, deletePost, getAllPost ,getPostById, draftPost,likePost } = require('../controllers/postController')
 
 //SET 
 const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
@@ -16,7 +16,10 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
     }
   }})
 
-Router.route('/').post(  upload.array("media_url", 4), createPost)
+Router.route('/').post(  upload.array("media_url", 4), createPost).get(getAllPost)
+Router.route('/:id').patch(  upload.array("media_url", 4), editPost).delete(deletePost).get(getPostById)
+Router.route('/draft/:id').put(draftPost)
+
 
 
 module.exports = Router

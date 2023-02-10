@@ -35,7 +35,6 @@ app.use(cookieParser());
 
 // ROUTES
 app.use('/api/v1/users', userRoute)
-app.use('/api/v1/post', postRoute)
 app.use('/api/v1/profiles', profileRoute)
 app.use('/api/v1/', followRoute)
 app.use('/api/v1/post', authentication , postRoute)
