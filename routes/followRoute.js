@@ -1,9 +1,9 @@
 const router = require('express').Router()
 const followController = require('../controllers/followController')
+const authenticate = require('../middleware/authentication')
 
-
-router.post('/follow/:id', followController.follow);
-router.post('/unfollow/:id', followController.unfollow);
+router.post('/follow/:username', authenticate, followController.follow);
+router.delete('/unfollow/:username', authenticate, followController.unfollow);
 
 
 module.exports = router
