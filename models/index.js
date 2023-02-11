@@ -16,6 +16,8 @@ const profileModel = require("./profileModel");
 const commentModel = require('./commentModel')
 const commentCommentModel = require('./comment-commentModel')
 const followersModel = require('./followersModel')
+const blockedAccountsModel = require('./blockedAccountsModel')
+
 const logger = require("./../utils/logger");
 
 
@@ -47,6 +49,7 @@ db.post = postModel(sequelize, Sequelize.DataTypes);
 db.comments = commentModel(sequelize, Sequelize.DataTypes);
 db.commentsComments = commentCommentModel(sequelize, Sequelize.DataTypes);
 db.followers = followersModel(sequelize, Sequelize.DataTypes);
+db.blockedAccounts = blockedAccountsModel(sequelize, Sequelize.DataTypes);
 
 
 
@@ -58,6 +61,7 @@ let Posts = db.post
 let comments = db.comments
 let commentsComments = db.commentsComments
 let followers = db.followers
+let blockedAccount = db.blockedAccounts
 // create a userid in the post table
 User.hasMany(Posts);     // link posts to their user
 Posts.belongsTo(User);
@@ -89,6 +93,9 @@ commentsComments.belongsTo(User)
 User.hasMany(followers);
 followers.belongsTo(User)
 
+// create association between blockedUsers and users
+User.hasMany(blockedAccount) //, { foreignKey: 'blockedBy'})
+blockedAccount.belongsTo(User) //, { as: 'blockedUserId', foreignKey: 'blockedUser'}) 
 
 })();
 
