@@ -6509,3 +6509,1176 @@
 2023-01-31 21:36:17:3617 [31merror[39m: [31mconnect ETIMEDOUT[39m
 2023-01-31 21:40:08:408 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-01-31 21:40:10:4010 [32minfo[39m: [32mtable sync successful[39m
+2023-02-01 17:12:20:1220 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-01 17:12:22:1222 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 01:48:24:4824 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 01:48:26:4826 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 01:49:01:491 [31merror[39m: [31mUnknown column 'passwordToken' in 'field list'[39m
+2023-02-02 01:49:01:491 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 500 2070 - 1589.186 ms[39m
+[35m[39m
+2023-02-02 01:50:05:505 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 01:50:07:507 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 01:50:13:5013 [31merror[39m: [31mUnknown column 'passwordToken' in 'field list'[39m
+2023-02-02 01:50:13:5013 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 500 1988 - 254.328 ms[39m
+[35m[39m
+2023-02-02 01:50:31:5031 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 01:50:32:5032 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:00:54:054 [31merror[39m: [31mUnknown column 'passwordToken' in 'field list'[39m
+2023-02-02 02:00:54:054 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 500 2070 - 1742.496 ms[39m
+[35m[39m
+2023-02-02 02:04:23:423 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:04:30:430 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:05:06:56 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:05:08:58 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:05:15:515 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 420 - 1410.419 ms[39m
+[35m[39m
+2023-02-02 02:07:28:728 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:07:30:730 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:08:16:816 [31merror[39m: [31m/api/v1/users/forgotpassword not found on this server[39m
+2023-02-02 02:08:16:816 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 403 1486 - 27.247 ms[39m
+[35m[39m
+2023-02-02 02:08:38:838 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:08:40:840 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:08:46:846 [31merror[39m: [31mUser.createResetToken is not a function[39m
+2023-02-02 02:08:46:846 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1538 - 32.893 ms[39m
+[35m[39m
+2023-02-02 02:09:27:927 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:09:29:929 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:09:44:944 [31merror[39m: [31mUser.createResetToken is not a function[39m
+2023-02-02 02:09:44:944 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1538 - 43.423 ms[39m
+[35m[39m
+2023-02-02 02:10:34:1034 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:10:36:1036 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:10:40:1040 [31merror[39m: [31muser.createResetToken is not a function[39m
+2023-02-02 02:10:40:1040 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1539 - 40.024 ms[39m
+[35m[39m
+2023-02-02 02:11:51:1151 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:11:53:1153 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:11:57:1157 [31merror[39m: [31muser.createResetToken is not a function[39m
+2023-02-02 02:11:57:1157 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1539 - 35.960 ms[39m
+[35m[39m
+2023-02-02 02:14:46:1446 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:14:52:1452 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:14:54:1454 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:15:05:155 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:15:06:156 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:15:11:1511 [31merror[39m: [31muser.createResetToken is not a function[39m
+2023-02-02 02:15:11:1511 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1539 - 36.242 ms[39m
+[35m[39m
+2023-02-02 02:18:00:180 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:18:02:182 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:18:08:188 [31merror[39m: [31muser.createResetToken is not a function[39m
+2023-02-02 02:18:08:188 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1538 - 73.621 ms[39m
+[35m[39m
+2023-02-02 02:24:43:2443 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:24:45:2445 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:26:38:2638 [31merror[39m: [31muser.createResetToken is not a function[39m
+2023-02-02 02:26:38:2638 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1539 - 70.802 ms[39m
+[35m[39m
+2023-02-02 02:26:58:2658 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:27:00:270 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:27:23:2723 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:27:28:2728 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:27:30:2730 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:27:59:2759 [31merror[39m: [31muser.createResetToken is not a function[39m
+2023-02-02 02:27:59:2759 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1539 - 32.204 ms[39m
+[35m[39m
+2023-02-02 02:28:29:2829 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:28:31:2831 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:29:00:290 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:29:02:292 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:29:15:2915 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:29:17:2917 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:29:38:2938 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:29:43:2943 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:29:53:2953 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:30:08:308 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:30:09:309 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:30:30:3030 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:30:40:3040 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:30:52:3052 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:30:54:3054 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:31:00:310 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:31:02:312 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:31:25:3125 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:31:27:3127 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:32:22:3222 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:32:24:3224 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:32:39:3239 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 02:32:40:3240 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 02:32:46:3246 [31merror[39m: [31muser.save is not a function[39m
+2023-02-02 02:32:46:3246 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1515 - 35.442 ms[39m
+[35m[39m
+2023-02-02 10:28:12:2812 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:28:14:2814 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:28:26:2826 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:28:28:2828 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:28:34:2834 [31merror[39m: [31muser.save is not a function[39m
+2023-02-02 10:28:34:2834 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1515 - 300.671 ms[39m
+[35m[39m
+2023-02-02 10:29:04:294 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:29:06:296 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:29:11:2911 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 117 - 31.295 ms[39m
+[35m[39m
+2023-02-02 10:29:54:2954 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:29:57:2957 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:30:00:300 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 117 - 40.011 ms[39m
+[35m[39m
+2023-02-02 10:30:21:3021 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:30:23:3023 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:30:26:3026 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 27.601 ms[39m
+[35m[39m
+2023-02-02 10:30:57:3057 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:30:59:3059 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:31:04:314 [31merror[39m: [31muser.save is not a function[39m
+2023-02-02 10:31:04:314 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 462 - 27.422 ms[39m
+[35m[39m
+2023-02-02 10:39:02:392 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:39:04:394 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:39:21:3921 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:39:23:3923 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:39:39:3939 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:39:41:3941 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:39:46:3946 [31merror[39m: [31muser.save is not a function[39m
+2023-02-02 10:39:46:3946 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 1514 - 51.126 ms[39m
+[35m[39m
+2023-02-02 10:40:01:401 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:40:04:404 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:45:08:458 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:45:10:4510 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:45:28:4528 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:45:33:4533 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:45:36:4536 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:45:44:4544 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:45:57:4557 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:45:59:4559 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:46:05:465 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 28.389 ms[39m
+[35m[39m
+2023-02-02 10:51:11:5111 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:51:16:5116 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:51:18:5118 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:51:23:5123 [31merror[39m: [31mUser.save is not a function[39m
+2023-02-02 10:51:23:5123 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 463 - 33.137 ms[39m
+[35m[39m
+2023-02-02 10:51:43:5143 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:51:45:5145 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:51:49:5149 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 28.322 ms[39m
+[35m[39m
+2023-02-02 10:52:46:5246 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:52:48:5248 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:58:29:5829 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:58:35:5835 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:58:37:5837 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:58:53:5853 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:58:55:5855 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:59:09:599 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:59:11:5911 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:59:32:5932 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:59:34:5934 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 10:59:44:5944 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 10:59:46:5946 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:00:13:013 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:00:16:016 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:01:10:110 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:01:28:128 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:01:30:130 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:02:07:27 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:02:21:221 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:02:23:223 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:03:38:338 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:03:40:340 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:03:44:344 [31merror[39m: [31muser.save is not a function[39m
+2023-02-02 11:03:44:344 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 462 - 44.452 ms[39m
+[35m[39m
+2023-02-02 11:06:05:65 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:06:07:67 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:06:12:612 [31merror[39m: [31muser.save is not a function[39m
+2023-02-02 11:06:12:612 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 462 - 29.722 ms[39m
+[35m[39m
+2023-02-02 11:12:55:1255 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:12:57:1257 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:13:05:135 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:13:07:137 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:13:35:1335 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:13:37:1337 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:15:03:153 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:15:05:155 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:15:15:1515 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:15:43:1543 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:15:45:1545 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:15:50:1550 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 38.885 ms[39m
+[35m[39m
+2023-02-02 11:16:47:1647 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:16:49:1649 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:16:50:1650 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 37.400 ms[39m
+[35m[39m
+2023-02-02 11:17:22:1722 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:17:24:1724 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:17:28:1728 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 278.375 ms[39m
+[35m[39m
+2023-02-02 11:18:16:1816 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:18:18:1818 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:18:27:1827 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:18:29:1829 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:18:32:1832 [31merror[39m: [31mpasswordResetExpires is not defined[39m
+2023-02-02 11:18:32:1832 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 601 - 251.459 ms[39m
+[35m[39m
+2023-02-02 11:18:59:1859 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:19:01:191 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:19:11:1911 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 381.333 ms[39m
+[35m[39m
+2023-02-02 11:20:15:2015 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:20:17:2017 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:20:24:2024 [31merror[39m: [31mField 'displayName' doesn't have a default value[39m
+2023-02-02 11:20:24:2024 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 2290 - 689.788 ms[39m
+[35m[39m
+2023-02-02 11:21:23:2123 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:21:25:2125 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:21:29:2129 [31merror[39m: [31mField 'displayName' doesn't have a default value[39m
+2023-02-02 11:21:29:2129 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 2290 - 707.111 ms[39m
+[35m[39m
+2023-02-02 11:22:21:2221 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:22:39:2239 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:22:41:2241 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 429.183 ms[39m
+[35m[39m
+2023-02-02 11:22:42:2242 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:24:43:2443 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:24:45:2445 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:24:52:2452 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:24:54:2454 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 11:25:00:250 [31merror[39m: [31mSTR_TO_DATE is not defined[39m
+2023-02-02 11:25:00:250 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 465 - 273.540 ms[39m
+[35m[39m
+2023-02-02 11:56:49:5649 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 11:56:51:5651 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:14:33:1433 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:14:35:1435 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:14:40:1440 [31merror[39m: [31mSTR_TO_DATE is not defined[39m
+2023-02-02 12:14:40:1440 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 466 - 264.055 ms[39m
+[35m[39m
+2023-02-02 12:14:56:1456 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:14:59:1459 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:15:02:152 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 282.126 ms[39m
+[35m[39m
+2023-02-02 12:15:46:1546 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:15:48:1548 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:15:58:1558 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 250.978 ms[39m
+[35m[39m
+2023-02-02 12:16:33:1633 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:16:35:1635 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:17:23:1723 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 1857.918 ms[39m
+[35m[39m
+2023-02-02 12:18:22:1822 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:18:24:1824 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:18:26:1826 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 241.002 ms[39m
+[35m[39m
+2023-02-02 12:19:34:1934 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:19:36:1936 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:21:55:2155 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:21:57:2157 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:30:45:3045 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:30:48:3048 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:31:00:310 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:31:02:312 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:31:51:3151 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:31:53:3153 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:32:51:3251 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:32:57:3257 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:32:59:3259 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:33:18:3318 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 1639.258 ms[39m
+[35m[39m
+2023-02-02 12:34:28:3428 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:34:30:3430 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:34:38:3438 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:34:46:3446 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:34:49:3449 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:35:36:3536 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:35:38:3538 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:36:49:3649 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:36:51:3651 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:44:13:4413 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 405 - 2626.959 ms[39m
+[35m[39m
+2023-02-02 12:51:00:510 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:51:02:512 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 12:51:27:5127 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 12:51:30:5130 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:50:45:5045 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:50:48:5048 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:50:53:5053 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:50:55:5055 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:51:19:5119 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:51:21:5121 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:51:29:5129 [31merror[39m: [31mupdatedUser.logOut is not a function[39m
+2023-02-02 16:51:29:5129 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 481 - 301.401 ms[39m
+[35m[39m
+2023-02-02 16:51:54:5154 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:51:56:5156 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:52:05:525 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:52:07:527 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:52:11:5211 [31merror[39m: [31mupdatedUser.logOut is not a function[39m
+2023-02-02 16:52:11:5211 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 481 - 732.530 ms[39m
+[35m[39m
+2023-02-02 16:52:37:5237 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:52:39:5239 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:52:43:5243 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 697.880 ms[39m
+[35m[39m
+2023-02-02 16:53:41:5341 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:53:43:5343 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:54:19:5419 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:54:21:5421 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:54:25:5425 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 729.787 ms[39m
+[35m[39m
+2023-02-02 16:54:44:5444 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:54:46:5446 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:54:56:5456 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:55:05:555 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:55:07:557 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:55:11:5511 [31merror[39m: [31mupdatedUser.logOut is not a function[39m
+2023-02-02 16:55:11:5511 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 481 - 694.807 ms[39m
+[35m[39m
+2023-02-02 16:55:46:5546 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:55:53:5553 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:55:55:5555 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:56:42:5642 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:56:44:5644 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:56:50:5650 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:57:05:575 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:57:10:5710 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:57:55:5755 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:57:57:5757 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:58:09:589 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:58:11:5811 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:59:01:591 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:59:03:593 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 16:59:12:5912 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 16:59:36:5936 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:00:00:00 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:00:02:02 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:00:22:022 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:00:24:024 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:00:55:055 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:01:08:18 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-02 17:01:08:18 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-02 17:01:24:124 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-02 17:01:24:124 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-02 17:10:48:1048 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:10:50:1050 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:15:40:1540 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:15:42:1542 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:15:47:1547 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:15:49:1549 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:15:55:1555 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:16:52:1652 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:16:54:1654 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:21:15:2115 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:21:17:2117 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:22:54:2254 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:22:56:2256 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:23:41:2341 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:23:43:2343 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:24:36:2436 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:24:38:2438 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:25:19:2519 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:25:21:2521 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:25:44:2544 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:25:46:2546 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:30:11:3011 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:30:34:3034 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:30:36:3036 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:30:43:3043 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:30:45:3045 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:30:55:3055 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:30:57:3057 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:31:18:3118 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:31:27:3127 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:31:28:3128 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:31:41:3141 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:32:04:324 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:32:06:326 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:32:36:3236 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:32:42:3242 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:32:43:3243 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:32:58:3258 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:33:00:330 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:33:06:336 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:33:08:338 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:33:23:3323 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:33:25:3325 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:33:33:3333 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:33:35:3335 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:33:46:3346 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:33:48:3348 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:33:59:3359 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:34:01:341 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:34:11:3411 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:34:13:3413 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:34:22:3422 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:34:24:3424 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:34:40:3440 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:34:42:3442 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:35:21:3521 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:35:23:3523 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:35:36:3536 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:35:39:3539 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:36:29:3629 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 2227.270 ms[39m
+[35m[39m
+2023-02-02 17:40:44:4044 [31merror[39m: [31mcrypto is not defined[39m
+2023-02-02 17:40:44:4044 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/a5ff135ea5e064bd1fc8d2b39ec0e778867d7287a1d5908aa922fb36d29eecdb 500 1490 - 11.331 ms[39m
+[35m[39m
+2023-02-02 17:41:43:4143 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:41:45:4145 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:41:49:4149 [31merror[39m: [31mOp is not defined[39m
+2023-02-02 17:41:49:4149 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/a5ff135ea5e064bd1fc8d2b39ec0e778867d7287a1d5908aa922fb36d29eecdb 500 1482 - 76.472 ms[39m
+[35m[39m
+2023-02-02 17:42:34:4234 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 17:42:36:4236 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 17:42:45:4245 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/a5ff135ea5e064bd1fc8d2b39ec0e778867d7287a1d5908aa922fb36d29eecdb 200 435 - 749.214 ms[39m
+[35m[39m
+2023-02-02 17:43:21:4321 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-02 17:43:21:4321 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 400 385 - 1780.723 ms[39m
+[35m[39m
+2023-02-02 17:43:35:4335 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-02 17:43:35:4335 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 400 385 - 1552.062 ms[39m
+[35m[39m
+2023-02-02 17:44:00:440 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-02 17:44:00:440 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 400 384 - 1721.166 ms[39m
+[35m[39m
+2023-02-02 17:44:52:4452 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 200 470 - 2146.906 ms[39m
+[35m[39m
+2023-02-02 17:45:11:4511 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 1947.233 ms[39m
+[35m[39m
+2023-02-02 17:46:08:468 [31merror[39m: [31mToken Expired, Request for a new token[39m
+2023-02-02 17:46:08:468 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/8d528631ee1c44e36359e42f78c0e370eec2a9f01d640c97ceebffc4ac01f61e%22 403 498 - 1641.256 ms[39m
+[35m[39m
+2023-02-02 17:46:43:4643 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/8d528631ee1c44e36359e42f78c0e370eec2a9f01d640c97ceebffc4ac01f61e 200 419 - 1917.604 ms[39m
+[35m[39m
+2023-02-02 18:00:32:032 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 406 - 3067.426 ms[39m
+[35m[39m
+2023-02-02 18:01:37:137 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:01:39:139 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:01:48:148 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:01:50:150 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:02:01:21 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:02:03:23 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:02:11:211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:02:13:213 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:02:27:227 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:02:29:229 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:02:58:258 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:03:00:30 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:03:04:34 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 764.297 ms[39m
+[35m[39m
+2023-02-02 18:03:26:326 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/9db0ceb9c04765c3e55a4fc2871bd5347a2911ecba15f588d1968be14db7a1fa 200 470 - 2718.647 ms[39m
+[35m[39m
+2023-02-02 18:03:37:337 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-02 18:03:37:337 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 400 384 - 1360.729 ms[39m
+[35m[39m
+2023-02-02 18:03:50:350 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 200 470 - 2697.108 ms[39m
+[35m[39m
+2023-02-02 18:04:08:48 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-02 18:04:08:48 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-02 18:16:19:1619 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:16:21:1621 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:19:43:1943 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:19:44:1944 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:20:12:2012 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:20:14:2014 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:20:20:2020 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:20:22:2022 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:20:41:2041 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:20:43:2043 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:20:51:2051 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:20:53:2053 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:21:08:218 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:21:14:2114 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:21:16:2116 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:21:22:2122 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:21:24:2124 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:21:45:2145 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:22:00:220 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:22:02:222 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:22:17:2217 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:22:23:2223 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:22:25:2225 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:22:46:2246 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:22:48:2248 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:23:07:237 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:23:09:239 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:23:19:2319 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:23:21:2321 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:23:35:2335 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:23:47:2347 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:23:49:2349 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:24:02:242 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:24:04:244 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:24:12:2412 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:24:14:2414 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:24:23:2423 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:24:30:2430 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:24:31:2431 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:26:44:2644 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:26:50:2650 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:26:52:2652 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:26:58:2658 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:27:00:270 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:27:06:276 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:27:16:2716 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:27:18:2718 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:27:54:2754 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:27:56:2756 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:28:12:2812 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:28:14:2814 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 18:32:12:3212 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:32:22:3222 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:32:32:3232 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 18:32:34:3234 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 19:41:33:4133 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 19:41:36:4136 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 19:41:54:4154 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 19:41:57:4157 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 19:42:39:4239 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 19:42:41:4241 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 19:43:02:432 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 19:43:05:435 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 19:57:32:5732 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 19:57:35:5735 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 19:59:49:5949 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:00:07:07 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:00:14:014 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:00:17:017 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:00:27:027 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:00:30:030 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:00:47:047 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:00:50:050 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:02:11:211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:02:13:213 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:02:24:224 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:02:27:227 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:02:49:249 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:02:51:251 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:03:16:316 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:03:18:318 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:03:46:346 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:03:49:349 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:04:21:421 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:04:23:423 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:05:21:521 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:05:24:524 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:05:48:548 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:05:50:550 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:11:10:1110 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:11:21:1121 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:12:01:121 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:12:03:123 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:12:17:1217 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:12:36:1236 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:12:39:1239 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:13:19:1319 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:13:21:1321 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:45:51:4551 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:45:54:4554 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:46:27:4627 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:46:30:4630 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:46:49:4649 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:47:00:470 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:47:03:473 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:47:12:4712 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:47:14:4714 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:53:52:5352 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:53:55:5355 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 20:54:57:5457 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 20:54:59:5459 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:08:51:851 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:08:54:854 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:09:02:92 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:09:06:96 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:09:21:921 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:09:24:924 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:09:54:954 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:09:56:956 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:10:35:1035 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:10:49:1049 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:10:52:1052 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:11:31:1131 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:11:55:1155 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:11:59:1159 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:15:01:151 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:15:04:154 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:15:52:1552 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:16:03:163 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:16:38:1638 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:16:40:1640 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:17:46:1746 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:17:57:1757 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:18:00:180 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:18:16:1816 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:18:19:1819 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:18:43:1843 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:18:50:1850 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:18:53:1853 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:19:10:1910 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:19:13:1913 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:19:26:1926 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:19:29:1929 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:19:53:1953 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:19:56:1956 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:20:17:2017 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:20:20:2020 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:21:54:2154 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:21:57:2157 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:22:11:2211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:22:14:2214 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:22:41:2241 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:22:45:2245 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:23:03:233 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:23:06:236 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:26:49:2649 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:26:52:2652 [32minfo[39m: [32mtable sync successful[39m
+2023-02-02 21:27:07:277 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-02 21:27:11:2711 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 00:54:21:5421 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 00:54:22:5422 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:01:32:132 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:01:34:134 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:03:34:334 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:03:36:336 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:05:44:544 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:05:46:546 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:06:06:66 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:06:34:634 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:06:43:643 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:06:45:645 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:06:55:655 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:07:04:74 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:07:08:78 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:07:35:735 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:07:37:737 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:08:32:832 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:08:34:834 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:08:47:847 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:08:49:849 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:09:08:98 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:09:10:910 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:11:33:1133 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:11:39:1139 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:11:41:1141 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:14:45:1445 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:14:47:1447 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:20:14:2014 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:20:16:2016 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:20:23:2023 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:20:25:2025 [32minfo[39m: [32mtable sync successful[39m
+2023-02-03 01:20:45:2045 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-03 01:20:47:2047 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 13:52:46:5246 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 13:52:48:5248 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 13:54:17:5417 [31merror[39m: [31mhtmlToText.fromString is not a function[39m
+2023-02-06 13:54:17:5417 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 688 - 3010.017 ms[39m
+[35m[39m
+2023-02-06 13:57:44:5744 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 13:57:47:5747 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 13:57:55:5755 [31merror[39m: [31mhtmlToText.fromString is not a function[39m
+2023-02-06 13:57:55:5755 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 688 - 895.670 ms[39m
+[35m[39m
+2023-02-06 13:59:13:5913 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 13:59:15:5915 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 13:59:20:5920 [31merror[39m: [31mtransporter is not defined[39m
+2023-02-06 13:59:20:5920 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 769 - 1040.304 ms[39m
+[35m[39m
+2023-02-06 14:02:37:237 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:02:40:240 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:02:49:249 [31merror[39m: [31mgetaddrinfo ENOTFOUND 'sandbox.smtp.mailtrap.io'[39m
+2023-02-06 14:02:49:249 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 485 - 3420.969 ms[39m
+[35m[39m
+2023-02-06 14:13:07:137 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:13:09:139 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:13:22:1322 [31merror[39m: [31mgetaddrinfo ENOTFOUND 'sandbox.smtp.mailtrap.io'[39m
+2023-02-06 14:13:22:1322 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 486 - 2490.944 ms[39m
+[35m[39m
+2023-02-06 14:15:55:1555 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:15:58:1558 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:17:22:1722 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:17:25:1725 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:18:17:1817 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:18:19:1819 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:23:19:2319 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:23:22:2322 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:23:31:2331 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5247.820 ms[39m
+[35m[39m
+2023-02-06 14:29:38:2938 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:29:41:2941 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:30:49:3049 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:30:51:3051 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:42:34:4234 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:42:36:4236 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:45:06:456 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:45:09:459 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:47:51:4751 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:47:54:4754 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:48:06:486 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:48:09:489 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:48:20:4820 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5805.262 ms[39m
+[35m[39m
+2023-02-06 14:48:55:4855 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:48:57:4857 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:49:04:494 [31merror[39m: [31mhtmlToText.fromString is not a function[39m
+2023-02-06 14:49:04:494 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 687 - 967.386 ms[39m
+[35m[39m
+2023-02-06 14:49:42:4942 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:49:44:4944 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:49:56:4956 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:49:59:4959 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:50:10:5010 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5417.863 ms[39m
+[35m[39m
+2023-02-06 14:50:40:5040 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:50:48:5048 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:50:51:5051 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:51:03:513 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:51:06:516 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:51:15:5115 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 4948.934 ms[39m
+[35m[39m
+2023-02-06 14:51:43:5143 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:51:46:5146 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:51:57:5157 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5264.967 ms[39m
+[35m[39m
+2023-02-06 14:52:40:5240 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:52:43:5243 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:52:51:5251 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5289.596 ms[39m
+[35m[39m
+2023-02-06 14:54:18:5418 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:54:20:5420 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:54:28:5428 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:54:31:5431 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:54:58:5458 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:55:01:551 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:55:11:5511 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5973.755 ms[39m
+[35m[39m
+2023-02-06 14:56:06:566 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:56:23:5623 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:56:31:5631 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:56:33:5633 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:56:44:5644 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5774.609 ms[39m
+[35m[39m
+2023-02-06 14:57:00:570 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:57:03:573 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:58:06:586 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 14:58:08:588 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 14:59:03:593 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 7290.827 ms[39m
+[35m[39m
+2023-02-06 15:00:13:013 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:00:16:016 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:00:34:034 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:00:37:037 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:00:46:046 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:00:49:049 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:00:59:059 [31merror[39m: [31mhtmlToText.fromString is not a function[39m
+2023-02-06 15:00:59:059 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 687 - 942.174 ms[39m
+[35m[39m
+2023-02-06 15:19:43:1943 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:19:45:1945 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:20:16:2016 [31merror[39m: [31mhtmlToText.fromString is not a function[39m
+2023-02-06 15:20:16:2016 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 500 688 - 2110.955 ms[39m
+[35m[39m
+2023-02-06 15:20:28:2028 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:20:30:2030 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:20:56:2056 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 11481.149 ms[39m
+[35m[39m
+2023-02-06 15:21:33:2133 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:21:39:2139 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:21:41:2141 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:21:52:2152 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 4100.552 ms[39m
+[35m[39m
+2023-02-06 15:22:36:2236 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:22:46:2246 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:22:48:2248 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:23:21:2321 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:23:23:2323 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:23:30:2330 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 4227.183 ms[39m
+[35m[39m
+2023-02-06 15:24:09:249 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:24:10:2410 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:24:17:2417 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 4158.490 ms[39m
+[35m[39m
+2023-02-06 15:24:44:2444 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:24:46:2446 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:24:56:2456 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 4766.636 ms[39m
+[35m[39m
+2023-02-06 15:26:24:2624 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:26:26:2626 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:26:40:2640 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5602.145 ms[39m
+[35m[39m
+2023-02-06 15:29:06:296 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 7352.020 ms[39m
+[35m[39m
+2023-02-06 15:29:55:2955 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 15:29:58:2958 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 15:30:16:3016 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5910.926 ms[39m
+[35m[39m
+2023-02-06 15:30:49:3049 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/018889218b5f89addc47d40a68d3533f291044c9d199a53526d5be7b09fbcdf6 200 470 - 4294.998 ms[39m
+[35m[39m
+2023-02-06 16:11:22:1122 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:11:22:1122 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:11:23:1123 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:11:23:1123 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:11:43:1143 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:11:44:1144 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:11:55:1155 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:11:55:1155 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:02:122 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:02:122 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:07:127 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:07:127 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:10:1210 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:10:1210 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:19:1219 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:19:1219 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:36:1236 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:36:1236 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:54:1254 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:54:1254 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:58:1258 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:12:58:1258 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:13:00:130 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:13:00:130 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:13:14:1314 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:13:14:1314 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:13:18:1318 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:13:18:1318 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-06 16:21:55:2155 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 16:21:57:2157 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 16:22:11:2211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-06 16:22:12:2212 [32minfo[39m: [32mtable sync successful[39m
+2023-02-06 16:22:44:2244 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 402 - 6196.609 ms[39m
+[35m[39m
+2023-02-07 00:14:02:142 [31merror[39m: [31mLogin sessions require session support. Did you forget to use `express-session` middleware?[39m
+2023-02-07 00:15:11:1511 [31merror[39m: [31mUnknown column 'socialId' in 'field list'[39m
+2023-02-07 00:20:24:2024 [31merror[39m: [31mUnknown column 'passwordToken' in 'field list'[39m
+2023-02-07 00:25:24:2524 [31merror[39m: [31mInvalid login: 535 Authentication failed[39m
+2023-02-07 00:37:49:3749 [31merror[39m: [31mmg is not defined[39m
+2023-02-07 03:18:21:1821 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 03:18:27:1827 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-07 03:19:53:1953 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 03:20:13:2013 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 03:20:17:2017 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 03:20:35:2035 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 03:20:35:2035 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 3588.081 ms[39m
+[35m[39m
+2023-02-07 03:21:43:2143 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 03:21:45:2145 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 03:21:45:2145 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 1427.513 ms[39m
+[35m[39m
+2023-02-07 03:21:46:2146 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 03:21:56:2156 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 03:22:00:220 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 03:22:24:2224 [31merror[39m: [31mNo User with that email[39m
+2023-02-07 03:22:24:2224 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 404 470 - 2085.567 ms[39m
+[35m[39m
+2023-02-07 03:22:45:2245 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 6527.346 ms[39m
+[35m[39m
+2023-02-07 11:44:37:4437 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 11:44:41:4441 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 11:58:42:5842 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-07 11:58:42:5842 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 481 - 2491.250 ms[39m
+[35m[39m
+2023-02-07 11:58:56:5856 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 11:58:56:5856 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 3165.833 ms[39m
+[35m[39m
+2023-02-07 12:11:04:114 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 416 - 7473.427 ms[39m
+[35m[39m
+2023-02-07 12:11:51:1151 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:11:51:1151 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 2967.364 ms[39m
+[35m[39m
+2023-02-07 12:13:00:130 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:13:03:133 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:13:11:1311 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:13:11:1311 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 1974.212 ms[39m
+[35m[39m
+2023-02-07 12:13:26:1326 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:13:29:1329 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:14:53:1453 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:14:56:1456 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:15:08:158 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:15:11:1511 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:15:19:1519 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:15:19:1519 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 3221.932 ms[39m
+[35m[39m
+2023-02-07 12:16:11:1611 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:16:14:1614 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:16:20:1620 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:16:20:1620 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 327.519 ms[39m
+[35m[39m
+2023-02-07 12:16:25:1625 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:16:25:1625 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 229.310 ms[39m
+[35m[39m
+2023-02-07 12:20:09:209 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:20:12:2012 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:20:19:2019 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:20:19:2019 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 3437.677 ms[39m
+[35m[39m
+2023-02-07 12:21:01:211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:21:04:214 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:21:39:2139 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:21:47:2147 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:21:50:2150 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:22:12:2212 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:22:16:2216 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:22:22:2222 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:22:23:2223 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 1961.636 ms[39m
+[35m[39m
+2023-02-07 12:22:48:2248 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:22:51:2251 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:23:05:235 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:23:08:238 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:24:07:247 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:24:10:2410 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:24:29:2429 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:24:32:2432 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:24:46:2446 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:25:00:250 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:25:03:253 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:25:15:2515 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:25:18:2518 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:25:47:2547 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:25:49:2549 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:25:57:2557 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:25:57:2557 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 509 - 3382.268 ms[39m
+[35m[39m
+2023-02-07 12:27:41:2741 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:27:44:2744 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:28:17:2817 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 416 - 6436.905 ms[39m
+[35m[39m
+2023-02-07 12:28:24:2824 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 497 - 2093.194 ms[39m
+[35m[39m
+2023-02-07 12:29:48:2948 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:29:51:2951 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:32:19:3219 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:32:22:3222 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:44:27:4427 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:44:30:4430 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:54:42:5442 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:54:49:5449 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:54:54:5454 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:54:57:5457 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:55:12:5512 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:55:15:5515 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:55:48:5548 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:55:55:5555 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 12:55:58:5558 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 12:58:10:5810 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-07 12:58:10:5810 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 481 - 1717.016 ms[39m
+[35m[39m
+2023-02-07 12:58:53:5853 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 418 - 5310.816 ms[39m
+[35m[39m
+2023-02-07 12:58:58:5858 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 499 - 291.690 ms[39m
+[35m[39m
+2023-02-07 12:59:03:593 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 499 - 313.116 ms[39m
+[35m[39m
+2023-02-07 12:59:23:5923 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 12:59:23:5923 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 1854.607 ms[39m
+[35m[39m
+2023-02-07 12:59:30:5930 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 499 - 322.840 ms[39m
+[35m[39m
+2023-02-07 12:59:50:5950 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5147.269 ms[39m
+[35m[39m
+2023-02-07 13:00:23:023 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/2009669d867b9e5bb60ba1a1ce576bf3eb2007f7bd5cf3f48a80b9ac858fdfba 200 448 - 2079.199 ms[39m
+[35m[39m
+2023-02-07 13:01:20:120 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 13:01:32:132 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 13:01:35:135 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 13:01:50:150 [31merror[39m: [31mToken Expired Or Invalid Token, Request for a new token[39m
+2023-02-07 13:01:50:150 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/2009669d867b9e5bb60ba1a1ce576bf3eb2007f7bd5cf3f48a80b9ac858fdfba 403 532 - 1556.584 ms[39m
+[35m[39m
+2023-02-07 13:02:00:20 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 4067.708 ms[39m
+[35m[39m
+2023-02-07 13:02:15:215 [31merror[39m: [31mpassword is not defined[39m
+2023-02-07 13:02:15:215 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/b1380b78f18313aebcd3f4b13c430a21aba5820ccd9808458a69975590bc5eeb 500 807 - 1717.727 ms[39m
+[35m[39m
+2023-02-07 13:03:27:327 [31merror[39m: [31mpassword is not defined[39m
+2023-02-07 13:03:27:327 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/b1380b78f18313aebcd3f4b13c430a21aba5820ccd9808458a69975590bc5eeb 500 807 - 1801.974 ms[39m
+[35m[39m
+2023-02-07 13:03:57:357 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 13:03:59:359 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 13:04:03:43 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/b1380b78f18313aebcd3f4b13c430a21aba5820ccd9808458a69975590bc5eeb 200 448 - 683.835 ms[39m
+[35m[39m
+2023-02-07 14:02:21:221 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:02:24:224 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:02:50:250 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5704.453 ms[39m
+[35m[39m
+2023-02-07 14:03:11:311 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/f00e45c9068285810580c1aab4ad2424c40f61509535e057d5680a8287a09c5f 200 448 - 2182.171 ms[39m
+[35m[39m
+2023-02-07 14:36:32:3632 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:36:35:3635 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:36:43:3643 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 4005.718 ms[39m
+[35m[39m
+2023-02-07 14:36:56:3656 [31merror[39m: [31mpassword is not defined[39m
+2023-02-07 14:36:56:3656 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/b6e9837e681aa04e63c13fb78ed7cd94a384a15bf2cd50b44e6a3a54b556473c 500 808 - 1566.563 ms[39m
+[35m[39m
+2023-02-07 14:37:15:3715 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:37:17:3717 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:37:27:3727 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:37:29:3729 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:37:45:3745 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:37:51:3751 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:37:54:3754 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:37:58:3758 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/b6e9837e681aa04e63c13fb78ed7cd94a384a15bf2cd50b44e6a3a54b556473c 200 448 - 733.958 ms[39m
+[35m[39m
+2023-02-07 14:41:15:4115 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:41:18:4118 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:41:26:4126 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:41:29:4129 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:44:16:4416 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 7443.335 ms[39m
+[35m[39m
+2023-02-07 14:44:34:4434 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/f00df9d55df4652a4ee9210bd6227fd9f24cc2a8184dea0d40c1399671356631 200 499 - 3927.521 ms[39m
+[35m[39m
+2023-02-07 14:45:47:4547 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 7096.577 ms[39m
+[35m[39m
+2023-02-07 14:46:13:4613 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/aad2214d96248df2d13a1c8cee57c8232029f41534a7cee58658e119fcfd5609 200 499 - 2895.566 ms[39m
+[35m[39m
+2023-02-07 14:51:08:518 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:51:11:5111 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:51:35:5135 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:53:56:5356 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:53:59:5359 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:56:05:565 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:56:19:5619 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:56:23:5623 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:56:51:5651 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 7168.417 ms[39m
+[35m[39m
+2023-02-07 14:57:17:5717 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:57:21:5721 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:57:22:5722 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 6697.541 ms[39m
+[35m[39m
+2023-02-07 14:57:51:5751 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/25e96d11aef600a70ca9946f1797820bc52a0855b028c758fdf40724b2f8873d 200 583 - 2638.304 ms[39m
+[35m[39m
+2023-02-07 14:59:21:5921 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 14:59:24:5924 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 14:59:30:5930 [31merror[39m: [31mToken Expired Or Invalid Token, Request for a new token[39m
+2023-02-07 14:59:30:5930 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/25e96d11aef600a70ca9946f1797820bc52a0855b028c758fdf40724b2f8873d 403 533 - 418.279 ms[39m
+[35m[39m
+2023-02-07 14:59:57:5957 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 7226.378 ms[39m
+[35m[39m
+2023-02-07 15:00:30:030 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/06b8b8716634846db01960133e25c60fcdf0656475dd2ea45f89c060e8f6ed25 200 532 - 2849.797 ms[39m
+[35m[39m
+2023-02-07 15:01:41:141 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:01:45:145 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:01:51:151 [31merror[39m: [31mToken Expired Or Invalid Token, Request for a new token[39m
+2023-02-07 15:01:51:151 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/06b8b8716634846db01960133e25c60fcdf0656475dd2ea45f89c060e8f6ed25 403 532 - 282.188 ms[39m
+[35m[39m
+2023-02-07 15:02:03:23 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5427.374 ms[39m
+[35m[39m
+2023-02-07 15:02:38:238 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/cf7f9825826336fc5c79b9dc8e01390bc24af18f3ebed23e4818b6f94b015841 200 499 - 4286.356 ms[39m
+[35m[39m
+2023-02-07 15:03:01:31 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 499 - 3247.363 ms[39m
+[35m[39m
+2023-02-07 15:03:37:337 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:03:41:341 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:04:27:427 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:04:32:432 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:06:17:617 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 418 - 9153.148 ms[39m
+[35m[39m
+2023-02-07 15:06:49:649 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 15:06:49:649 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 384 - 3399.172 ms[39m
+[35m[39m
+2023-02-07 15:07:15:715 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 15:07:15:715 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 384 - 3604.242 ms[39m
+[35m[39m
+2023-02-07 15:10:03:103 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:10:06:106 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:10:40:1040 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:10:44:1044 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:11:05:115 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:11:08:118 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:13:14:1314 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 418 - 6486.114 ms[39m
+[35m[39m
+2023-02-07 15:13:25:1325 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 499 - 2216.299 ms[39m
+[35m[39m
+2023-02-07 15:14:07:147 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 6563.210 ms[39m
+[35m[39m
+2023-02-07 15:14:40:1440 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/de4ff94bd3f05701a47ed057ba34aa6b3bfd8b4370adf2d3ec75b25fa7863ef8 200 499 - 3780.797 ms[39m
+[35m[39m
+2023-02-07 15:14:56:1456 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 499 - 3032.040 ms[39m
+[35m[39m
+2023-02-07 15:18:50:1850 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:18:54:1854 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:19:21:1921 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 6718.653 ms[39m
+[35m[39m
+2023-02-07 15:20:22:2022 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/5d72b818c7d3528d4ee6cd4a52d2ceb013c188345a1c6f4d100b9babd2852936 200 499 - 3633.281 ms[39m
+[35m[39m
+2023-02-07 15:20:55:2055 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:20:59:2059 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:21:13:2113 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 5241.904 ms[39m
+[35m[39m
+2023-02-07 15:21:38:2138 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/7b621fa8a0e74d1eeddb297c6e4f5c7cea9ac54d7d5c40861f7feb778480ef38 200 499 - 3890.542 ms[39m
+[35m[39m
+2023-02-07 15:21:55:2155 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 15:21:55:2155 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 2748.123 ms[39m
+[35m[39m
+2023-02-07 15:22:03:223 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 499 - 949.060 ms[39m
+[35m[39m
+2023-02-07 15:24:15:2415 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 421 - 6885.395 ms[39m
+[35m[39m
+2023-02-07 15:24:50:2450 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 15:24:50:2450 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 2871.839 ms[39m
+[35m[39m
+2023-02-07 15:26:36:2636 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:26:39:2639 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:27:08:278 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 421 - 6908.471 ms[39m
+[35m[39m
+2023-02-07 15:27:27:2727 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 502 - 2307.325 ms[39m
+[35m[39m
+2023-02-07 15:28:17:2817 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 6138.027 ms[39m
+[35m[39m
+2023-02-07 15:28:47:2847 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/010943333fa80f5a88a4092e500bb22e1a9fdc5ea43187f58ba94b0fb9285dab 200 502 - 3392.618 ms[39m
+[35m[39m
+2023-02-07 15:28:58:2858 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 15:28:58:2858 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 1232.759 ms[39m
+[35m[39m
+2023-02-07 15:29:05:295 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 502 - 859.587 ms[39m
+[35m[39m
+2023-02-07 15:29:43:2943 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 6378.112 ms[39m
+[35m[39m
+2023-02-07 15:30:09:309 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/25f3f6a6eeb5f0025d06ba949288a4b0732c5d63d3b6e506677b56c520505d3b 200 502 - 3491.085 ms[39m
+[35m[39m
+2023-02-07 15:30:23:3023 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-07 15:30:23:3023 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 385 - 2924.205 ms[39m
+[35m[39m
+2023-02-07 15:30:31:3031 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 502 - 1092.803 ms[39m
+[35m[39m
+2023-02-07 15:34:09:349 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:35:05:355 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:35:09:359 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:35:36:3536 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:35:39:3539 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:35:54:3554 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:36:06:366 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:36:16:3616 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:36:19:3619 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:38:56:3856 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:39:00:390 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:39:12:3912 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:39:15:3915 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:39:27:3927 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:39:31:3931 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:39:54:3954 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:39:58:3958 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:41:14:4114 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 7381.029 ms[39m
+[35m[39m
+2023-02-07 15:42:16:4216 [31merror[39m: [31mPassword has been resetted, but we are having a issue sending a mail, Please proceed to login[39m
+2023-02-07 15:42:16:4216 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/e0a1bf265cd22fd9d37ba8811540db5888134c9d7e25cf8b7a195b9a11f35668 500 611 - 3928.563 ms[39m
+[35m[39m
+2023-02-07 15:42:43:4243 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 15:42:46:4246 [31merror[39m: [31mToken Expired Or Invalid Token, Request for a new token[39m
+2023-02-07 15:42:46:4246 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/e0a1bf265cd22fd9d37ba8811540db5888134c9d7e25cf8b7a195b9a11f35668 403 533 - 356.525 ms[39m
+[35m[39m
+2023-02-07 15:42:46:4246 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 15:50:42:5042 [35mhttp[39m: [35m::1 PATCH /api/v1/users/forgotpassword 200 165 - 6928.309 ms[39m
+[35m[39m
+2023-02-07 15:51:05:515 [35mhttp[39m: [35m::1 PATCH /api/v1/users/resetpassword/54745d2164b4038671d12c9331c00de5a7aa96829c72f65a70b1cecb450f66e4 200 502 - 8251.816 ms[39m
+[35m[39m
+2023-02-07 15:51:25:5125 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 502 - 3503.826 ms[39m
+[35m[39m
+2023-02-07 16:10:20:1020 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 16:10:29:1029 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 16:10:38:1038 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-07 16:10:42:1042 [32minfo[39m: [32mtable sync successful[39m
+2023-02-07 17:07:57:757 [31merror[39m: [31m"password" with value "Kelechi123#" fails to match the required pattern: /^[a-zA-Z0-9]{3,30}$/[39m
+2023-02-07 17:09:35:935 [31merror[39m: [31mUnexpected token } in JSON at position 74[39m

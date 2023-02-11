@@ -5,12 +5,11 @@ require('../utils/passportOAuth')
 const passport = require('passport')
 const {socialAuth}  = require('../controllers/socialAuthController')
 
-
-
-
-
-router.post('/signup', userValidationMiddleware, authController.signup)
-router.post('/login', authController.login)
+//AUTHENTIACTION ROUTES
+router.post("/signup", userValidationMiddleware, authController.signup);
+router.post("/login", authController.login);
+router.patch("/forgotpassword", authController.forgotPassword);
+router.patch("/resetpassword/:token", authController.resetPassword);
 
 //GOOGLE OAUTH
 router.get('/auth/google', passport.authenticate('google', { scope: ['profile','email'] }))
@@ -29,4 +28,4 @@ router.get('/logout', (req, res, next) => {
    
 })
 
-module.exports = router
+module.exports = router;

@@ -3,15 +3,22 @@ const appError = require('../utils/appError')
 const logger = require('../utils/logger')
 const db = require('../models');
 const followers = db.followers;
+const User = db.users
 
 const follow = async (req,res) => {
-    
-    const followeeId = req.params.id  //'the person being followed'
+    // GET USER TO FOLLOW BY USERNAME
+    const { username } = req.params
+    const user = await User.findOne({
+        where: { username: username }
+    })
+    if(!user) throw new appError('No user with that username', 404)
+    // GET USERID FROM THE USER
+    const followeeId = user.id   //'the person being followed
     const userId = req.user.id   //'the person doing the follow'
-    // const followBack = 'true or false depending on if owner and follower follow each other'
-    // logger.info(req.user)
     
-    // // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
+    // PREVENT FOLLOWING OWN SELF
+    if(followeeId == userId) throw new appError('Can"t follow yourself', 400)
+    // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
     const existingFollow = await followers.findOne({
         where: {
             followeeId: followeeId,
@@ -40,11 +47,18 @@ const follow = async (req,res) => {
 }  
 
 const unfollow = async (req,res) => {
-    // logger.info(req.user)
-    const followeeId = req.params.id  //'the person being followed'
+    // GET USER TO FOLLOW BY USERNAME
+    const { username } = req.params
+    const user = await User.findOne({
+        where: { username: username }
+    })
+    if(!user) throw new appError('No user with that username', 404)
+    // GET USERID FROM THE USER
+    const followeeId = user.id   //'the person being followed
     const userId = req.user.id   //'the person doing the follow'
+    console.log(followeeId,userId)
     
-    // CHECK IF USER ALREADY FOLLOWS FOLLOWEE
+    // CHECK IF USER FOLLOWS FOLLOWEE
     const existingFollow = await followers.findOne({
         where: {
             followeeId: followeeId,
