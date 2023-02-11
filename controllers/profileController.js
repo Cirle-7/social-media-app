@@ -12,7 +12,11 @@ require('dotenv').config()
 const createProfile = async (req,res) => {
     
     // get req body and files
-    const { Bio, website, github_link, twitter_link } = req.body
+    const { Bio, website, location, github_link, twitter_link } = req.body
+
+    if(!location){
+        req.body.location = req.location
+    }
     
     // handle images upload
     const imagesUpload = req.files
@@ -36,7 +40,7 @@ const createProfile = async (req,res) => {
     // create profile in db
     const profile = await Profile.create({
         Bio, website, github_link, twitter_link, 
-        location: req.location,
+        location,
         avatarURL: avatarURL ?? defaultAvatarURL,
         headerURL: headerURL ?? defaultHeaderURL,
         userId: req.user.id     // get req.user.id from request
