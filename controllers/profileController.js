@@ -59,7 +59,7 @@ const updateProfile = async (req,res) => {
     const { Bio, website, location, github_link, twitter_link } = req.body
 
     if(!location){
-        location == req.location
+        req.body.location = req.location
     }
 
     const imagesUpload = req.files
