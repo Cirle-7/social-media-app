@@ -83,7 +83,7 @@ const login = async (req, res) => {
   });
 
   //NOTIFY USERS WITH SOCIAL AUTH WHEN LOGGING IN
-  if (!user.password)
+  if (user && !user.password)
     throw new AppError(
       "User already exists. Please login using your socials",
       401
