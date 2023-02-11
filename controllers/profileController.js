@@ -34,7 +34,7 @@ const createProfile = async (req,res) => {
         Bio, website, location, github_link, twitter_link,
         avatarURL: avatarURL ?? defaultAvatarURL,
         headerURL: headerURL ?? defaultHeaderURL,
-        // userId: req.user.id 
+        userId: req.user.id     // get req.user.id from request
     })
     
     return res.status(201).json({
@@ -48,14 +48,16 @@ const createProfile = async (req,res) => {
 
 
 const updateProfile = async (req,res) => {
-        
+    // CHECK IF PROFILE BELONGS TO USER
+    const userId = req.user.id 
     // GET BODY 
     const { Bio, website, location, github_link, twitter_link } = req.body
     const imagesUpload = req.files
 
     const profile = await Profile.findOne({
         where: {
-          id: req.params.id
+          id: req.params.id,
+          userId: userId
         }
     });
     
@@ -97,7 +99,7 @@ const updateProfile = async (req,res) => {
 
 
 const getProfile = async (req,res) => {
-    // GET USER ID FROM REQ USER
+    // GET USER ID FROM REQ PARAMS
     const userId = req.params.userId
     const profile = await Profile.findOne({
         where: {
