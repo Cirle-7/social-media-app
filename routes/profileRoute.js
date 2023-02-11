@@ -10,7 +10,7 @@ router.post('/',
     upload.fields([{name:'avatar', maxCount: 1},{name:'header', maxCount: 1}]), 
     profileController.createProfile
 )
-router.patch('/:id', authentication, upload.fields([{name:'avatar', maxCount: 1},{name:'header', maxCount: 1}]), profileController.updateProfile)
+router.patch('/:id', authentication,getLocation,upload.fields([{name:'avatar', maxCount: 1},{name:'header', maxCount: 1}]), profileController.updateProfile)
 router.get('/:username', profileController.getProfile)
 
 
