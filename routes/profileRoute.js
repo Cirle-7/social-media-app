@@ -2,8 +2,6 @@ const router = require('express').Router()
 const profileController = require('../controllers/profileController')
 const upload = require('../config/upload')
 const authentication = require('../middleware/authentication')
-const { getLocation } = require('../middleware/getLocationMW')
-
 router.post('/', 
     authentication, 
     getLocation, 

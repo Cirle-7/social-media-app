@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: false,
       },
       website: DataTypes.STRING,
-      location: DataTypes.STRING,
+      locaton: DataTypes.STRING,
       github_link: {
         type: DataTypes.STRING,
       },
