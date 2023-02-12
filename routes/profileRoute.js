@@ -15,5 +15,4 @@ router.get('/:username', profileController.getProfile)
 
 
 
-
 module.exports = router

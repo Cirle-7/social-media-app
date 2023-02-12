@@ -111,7 +111,6 @@ const updateProfile = async (req,res) => {
     })
 }
 
-
 const getProfile = async (req,res) => {
     // GET USERNAME FROM PARAMS
     const { username } = req.params

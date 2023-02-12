@@ -8,7 +8,6 @@ const getLocation = async (req,res,next) => {
     // logger.info(`here's the request ip address: ${ipAddress}`)
     // req.ipAddress = ipAddress
     // const ipAddress = IP.address()
-    // get REQ IP ADDRESS
     const IPAddress = IP.address();
     // logger.info(`here's the request IPAddress: ${IPAddress}`)
     // QUERY IPAPI WITH IP FOR LOCATION DETAILS USING AXIOS

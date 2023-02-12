@@ -15,6 +15,7 @@ exports.blockUser =  async (req,res) => {
         }
     })
     
+    
     if(!user) throw new appError('No user with that username', 404)
 
     // GET ID FROM USER 

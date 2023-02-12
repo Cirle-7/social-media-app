@@ -10,6 +10,4 @@ router.delete('/unblock/:username', authenticate, blockController.unblockUser)
 
 
 
-
-
 module.exports = router;
