@@ -84,30 +84,6 @@ exports.unblockUser = async (req,res) => {
     })
 }
 
-// ACCESS CONTROL FOR BLOCKED USERS
-// exports.getUser = async (req,res) => {
-//     // Find the user to be displayed
-//     const user = await User.findOne({ where: { username: req.params.username } });
-//     const userProfile = await Profile.findOne({ where: { userId: user.id }})
-//     // logger.info(user.displayName)
-//     // Check if the user has been blocked
-//     const isBlocked = await blockedAccount.findOne({ 
-//       where: {
-//         blockedUser: req.user.id, //user.id,
-//         userId: user.id //req.user.id
-//       } 
-//     });
-
-//     // If the user has been blocked, return a status code of 401 (Unauthorized)
-//     if (isBlocked) return res.status(401).json({
-//         status: 'failed',
-//         message: 'Unauthorized'
-//     });
-
-//     // Continue with rendering the user's information
-//     res.status(200).json({
-//         data: {
-//             userProfile
-//         }
-//     });
-// }
+exports.getUser =  async (req,res) => {
+    console.log('yeah')
+}
