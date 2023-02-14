@@ -7682,3 +7682,308 @@
 2023-02-07 16:10:42:1042 [32minfo[39m: [32mtable sync successful[39m
 2023-02-07 17:07:57:757 [31merror[39m: [31m"password" with value "Kelechi123#" fails to match the required pattern: /^[a-zA-Z0-9]{3,30}$/[39m
 2023-02-07 17:09:35:935 [31merror[39m: [31mUnexpected token } in JSON at position 74[39m
+2023-02-11 16:07:13:713 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:07:17:717 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:13:45:1345 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-11 16:14:47:1447 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-11 16:14:51:1451 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:14:54:1454 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:16:04:164 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-11 16:16:30:1630 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-11 16:16:32:1632 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:16:38:1638 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:16:46:1646 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-11 16:16:50:1650 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-11 16:17:02:172 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-11 16:18:01:181 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-11 16:20:34:2034 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:20:38:2038 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:21:03:213 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:21:07:217 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:21:12:2112 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-11 16:24:52:2452 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:24:55:2455 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:25:02:252 [31merror[39m: [31muserId is not defined[39m
+2023-02-11 16:25:02:252 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 2332 - 356.789 ms[39m
+[35m[39m
+2023-02-11 16:26:40:2640 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:26:44:2644 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:26:49:2649 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 200 21 - 840.085 ms[39m
+[35m[39m
+2023-02-11 16:33:07:337 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:33:24:3324 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:33:29:3329 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:38:05:385 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:38:10:3810 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:45:29:4529 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-11 16:45:29:4529 [35mhttp[39m: [35m::1 POST /api/v1/post/ 404 490 - 2460.490 ms[39m
+[35m[39m
+2023-02-11 16:45:49:4549 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 435 - 7040.010 ms[39m
+[35m[39m
+2023-02-11 16:46:31:4631 [31merror[39m: [31mUnknown column 'commentsNo' in 'field list'[39m
+2023-02-11 16:46:31:4631 [35mhttp[39m: [35m::1 POST /api/v1/post/ 500 2637 - 5071.841 ms[39m
+[35m[39m
+2023-02-11 16:47:27:4727 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:47:29:4729 [31merror[39m: [31mCannot drop table 'users' referenced by a foreign key constraint 'blockedaccounts_ibfk_1' on table 'blockedaccounts'.[39m
+2023-02-11 16:49:29:4929 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:49:36:4936 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:49:44:4944 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 362 - 3176.768 ms[39m
+[35m[39m
+2023-02-11 16:53:53:5353 [31merror[39m: [31munable to connect Unknown database 'social_app'[39m
+2023-02-11 16:53:53:5353 [31merror[39m: [31mUnknown database 'social_app'[39m
+2023-02-11 16:54:17:5417 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 16:54:30:5430 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 16:56:08:568 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-11 16:56:08:568 [35mhttp[39m: [35m::1 POST /api/v1/post/ 404 489 - 2444.748 ms[39m
+[35m[39m
+2023-02-11 17:01:35:135 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 7288.460 ms[39m
+[35m[39m
+2023-02-11 17:02:09:29 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 361 - 4789.833 ms[39m
+[35m[39m
+2023-02-11 17:11:36:1136 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 17:11:48:1148 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 17:12:01:121 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 17:12:13:1213 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 17:12:35:1235 [31merror[39m: [31m/api/v1/profile/ not found on this server[39m
+2023-02-11 17:12:35:1235 [35mhttp[39m: [35m::1 POST /api/v1/profile/ 403 2245 - 12.601 ms[39m
+[35m[39m
+2023-02-11 17:13:13:1313 [31merror[39m: [31m/api/v1/profile/ not found on this server[39m
+2023-02-11 17:13:13:1313 [35mhttp[39m: [35m::1 POST /api/v1/profile/ 403 2245 - 5.322 ms[39m
+[35m[39m
+2023-02-11 17:13:27:1327 [31merror[39m: [31m/api/v1/profile not found on this server[39m
+2023-02-11 17:13:27:1327 [35mhttp[39m: [35m::1 POST /api/v1/profile 403 2243 - 4.278 ms[39m
+[35m[39m
+2023-02-11 17:13:46:1346 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-11 17:13:46:1346 [35mhttp[39m: [35m::1 POST /api/v1/profiles 404 490 - 2725.440 ms[39m
+[35m[39m
+2023-02-11 17:14:44:1444 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-11 17:14:44:1444 [35mhttp[39m: [35m::1 POST /api/v1/profiles 404 490 - 2734.207 ms[39m
+[35m[39m
+2023-02-11 17:16:04:164 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 17:16:07:167 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 17:17:08:178 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 12505.448 ms[39m
+[35m[39m
+2023-02-11 17:18:33:1833 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 444 - 2989.839 ms[39m
+[35m[39m
+2023-02-11 17:18:55:1855 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 361 - 3934.915 ms[39m
+[35m[39m
+2023-02-11 17:23:22:2322 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON UPDATE CASCADE)[39m
+2023-02-11 17:23:22:2322 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1961 - 2803.052 ms[39m
+[35m[39m
+2023-02-11 19:43:01:431 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 19:43:04:434 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 19:43:15:4315 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 19:43:18:4318 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 19:44:08:448 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON UPDATE CASCADE)[39m
+2023-02-11 19:44:08:448 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1960 - 2449.548 ms[39m
+[35m[39m
+2023-02-11 19:45:12:4512 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 19:45:27:4527 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 19:45:46:4546 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 19:45:50:4550 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 19:46:24:4624 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 6800.985 ms[39m
+[35m[39m
+2023-02-11 19:46:57:4657 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 444 - 2683.450 ms[39m
+[35m[39m
+2023-02-11 19:47:05:475 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 361 - 2254.302 ms[39m
+[35m[39m
+2023-02-11 19:48:28:4828 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))[39m
+2023-02-11 19:48:28:4828 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1907 - 2652.787 ms[39m
+[35m[39m
+2023-02-11 20:23:17:2317 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:23:20:2320 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 20:30:35:3035 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:30:38:3038 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 20:31:15:3115 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))[39m
+2023-02-11 20:31:15:3115 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1907 - 2494.377 ms[39m
+[35m[39m
+2023-02-11 20:31:40:3140 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:31:52:3152 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 20:32:06:326 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:32:10:3210 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 20:32:24:3224 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 4788.135 ms[39m
+[35m[39m
+2023-02-11 20:32:56:3256 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 444 - 2869.555 ms[39m
+[35m[39m
+2023-02-11 20:33:09:339 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 361 - 2205.394 ms[39m
+[35m[39m
+2023-02-11 20:34:50:3450 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 367 - 4442.705 ms[39m
+[35m[39m
+2023-02-11 20:35:16:3516 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))[39m
+2023-02-11 20:35:16:3516 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1907 - 2382.219 ms[39m
+[35m[39m
+2023-02-11 20:45:42:4542 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:45:45:4545 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 20:46:42:4642 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:46:45:4645 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 20:48:25:4825 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:48:40:4840 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 20:48:52:4852 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 20:49:07:497 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 5054.560 ms[39m
+[35m[39m
+2023-02-11 20:49:44:4944 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 444 - 2935.264 ms[39m
+[35m[39m
+2023-02-11 20:49:52:4952 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 367 - 2270.385 ms[39m
+[35m[39m
+2023-02-11 20:50:39:5039 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))[39m
+2023-02-11 20:50:39:5039 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1907 - 2502.914 ms[39m
+[35m[39m
+2023-02-11 21:06:56:656 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 21:07:24:724 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 21:09:08:98 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))[39m
+2023-02-11 21:09:08:98 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1905 - 2774.598 ms[39m
+[35m[39m
+2023-02-11 21:18:56:1856 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 21:19:25:1925 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 21:20:37:2037 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 200 30 - 2738.218 ms[39m
+[35m[39m
+2023-02-11 21:21:55:2155 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 7318.812 ms[39m
+[35m[39m
+2023-02-11 21:22:30:2230 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 444 - 3009.443 ms[39m
+[35m[39m
+2023-02-11 21:22:35:2235 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 367 - 2422.335 ms[39m
+[35m[39m
+2023-02-11 21:23:17:2317 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 379 - 4032.112 ms[39m
+[35m[39m
+2023-02-11 21:28:37:2837 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 21:29:04:294 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 21:30:46:3046 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON UPDATE CASCADE)[39m
+2023-02-11 21:30:46:3046 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1961 - 2640.905 ms[39m
+[35m[39m
+2023-02-11 21:32:08:328 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 21:32:17:3217 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 21:32:23:3223 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON UPDATE CASCADE)[39m
+2023-02-11 21:32:24:3224 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1961 - 670.671 ms[39m
+[35m[39m
+2023-02-11 21:32:45:3245 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 21:32:51:3251 [31merror[39m: [31mCannot delete or update a parent row: a foreign key constraint fails (`social_app`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))[39m
+2023-02-11 21:32:51:3251 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 500 1907 - 633.210 ms[39m
+[35m[39m
+2023-02-11 21:37:47:3747 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-11 21:38:13:3813 [32minfo[39m: [32mtable sync successful[39m
+2023-02-11 21:38:48:3848 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 200 30 - 2640.675 ms[39m
+[35m[39m
+2023-02-12 00:07:38:738 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-12 00:08:13:813 [32minfo[39m: [32mtable sync successful[39m
+2023-02-12 22:55:05:555 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-12 22:55:33:5533 [32minfo[39m: [32mtable sync successful[39m
+2023-02-12 22:55:39:5539 [35mhttp[39m: [35m::1 GET / 304 - - 8.986 ms[39m
+[35m[39m
+2023-02-12 22:55:39:5539 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-12 22:55:39:5539 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.479 ms[39m
+[35m[39m
+2023-02-12 22:55:48:5548 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 3.528 ms[39m
+[35m[39m
+2023-02-12 22:56:18:5618 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh7MsBc6ddBJV_LlIsRackb_PMpvVDmtuTHC31pWpnz_bc9gzGOpRb6zO97MCbXKPg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=2&prompt=consent 201 426 - 9695.913 ms[39m
+[35m[39m
+2023-02-12 22:56:18:5618 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-12 22:56:18:5618 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.190 ms[39m
+[35m[39m
+2023-02-12 22:56:47:5647 [35mhttp[39m: [35m::1 GET / 304 - - 1.596 ms[39m
+[35m[39m
+2023-02-12 22:56:47:5647 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-12 22:56:47:5647 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 6.007 ms[39m
+[35m[39m
+2023-02-12 22:56:51:5651 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/github 302 0 - 0.928 ms[39m
+[35m[39m
+2023-02-12 22:57:52:5752 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/github/callback?code=8977cc792bf31178bca2 201 394 - 18474.745 ms[39m
+[35m[39m
+2023-02-12 22:57:52:5752 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-12 22:57:52:5752 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.095 ms[39m
+[35m[39m
+2023-02-12 23:13:05:135 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh7wj7CyDo3b-Ti18b_GmAkmJBkPFE0PoIZLZ8o_HBOptgx0F5hEgH3-yCarjFfLMg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 416 - 8558.284 ms[39m
+[35m[39m
+2023-02-12 23:13:06:136 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-12 23:13:06:136 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.881 ms[39m
+[35m[39m
+2023-02-14 10:47:38:4738 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 10:48:05:485 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 10:49:18:4918 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 10:49:47:4947 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 10:50:18:5018 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 10:50:37:5037 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 10:50:45:5045 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 10:50:52:5052 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 10:51:00:510 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 10:51:26:5126 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 10:53:27:5327 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 11:48:41:4841 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 11:48:43:4843 [31merror[39m: [31mToo many keys specified; max 64 keys allowed[39m
+2023-02-14 11:49:42:4942 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 11:49:42:4942 [31merror[39m: [31mToo many keys specified; max 64 keys allowed[39m
+2023-02-14 11:50:06:506 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 11:50:07:507 [31merror[39m: [31mToo many keys specified; max 64 keys allowed[39m
+2023-02-14 11:51:49:5149 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 11:51:50:5150 [31merror[39m: [31mToo many keys specified; max 64 keys allowed[39m
+2023-02-14 11:54:53:5453 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 11:54:57:5457 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 11:55:16:5516 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 11:55:16:5516 [31merror[39m: [31mToo many keys specified; max 64 keys allowed[39m
+2023-02-14 11:57:44:5744 [31merror[39m: [31munable to connect Connections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-02-14 11:57:44:5744 [31merror[39m: [31mConnections using insecure transport are prohibited while --require_secure_transport=ON.[39m
+2023-02-14 12:01:23:123 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND root[39m
+2023-02-14 12:01:23:123 [31merror[39m: [31mgetaddrinfo ENOTFOUND root[39m
+2023-02-14 12:04:41:441 [31merror[39m: [31munable to connect Access denied for user 'root'@'localhost' (using password: YES)[39m
+2023-02-14 12:04:41:441 [31merror[39m: [31mAccess denied for user 'root'@'localhost' (using password: YES)[39m
+2023-02-14 12:05:30:530 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:05:30:530 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:07:12:712 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 432 - 4373.444 ms[39m
+[35m[39m
+2023-02-14 12:08:27:827 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:08:29:829 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:08:37:837 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:08:39:839 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:09:48:948 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-14 12:09:48:948 [35mhttp[39m: [35m::1 POST /api/v1/profiles 404 489 - 31.992 ms[39m
+[35m[39m
+2023-02-14 12:10:11:1011 [31merror[39m: [31mUnexpected field[39m
+2023-02-14 12:10:11:1011 [35mhttp[39m: [35m::1 POST /api/v1/profiles 500 1927 - 37.193 ms[39m
+[35m[39m
+2023-02-14 12:11:30:1130 [31merror[39m: [31mUnexpected field[39m
+2023-02-14 12:11:30:1130 [35mhttp[39m: [35m::1 POST /api/v1/profiles 500 1927 - 15.125 ms[39m
+[35m[39m
+2023-02-14 12:11:52:1152 [31merror[39m: [31mUnexpected field[39m
+2023-02-14 12:11:52:1152 [35mhttp[39m: [35m::1 POST /api/v1/profiles 500 1927 - 14.700 ms[39m
+[35m[39m
+2023-02-14 12:15:06:156 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:15:08:158 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:15:13:1513 [31merror[39m: [31mUnexpected field[39m
+2023-02-14 12:24:17:2417 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:24:20:2420 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:24:36:2436 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 503 - 72.754 ms[39m
+[35m[39m
+2023-02-14 12:26:59:2659 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:27:01:271 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:30:35:3035 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:30:37:3037 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:30:42:3042 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 200 122 - 47.757 ms[39m
+[35m[39m
+2023-02-14 12:38:51:3851 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:38:54:3854 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:41:44:4144 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:41:46:4146 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:41:52:4152 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 200 122 - 65.606 ms[39m
+[35m[39m
+2023-02-14 12:42:45:4245 [31merror[39m: [31m/api/v1/profile/?userId=1 not found on this server[39m
+2023-02-14 12:42:45:4245 [35mhttp[39m: [35m::1 GET /api/v1/profile/?userId=1 403 2299 - 6.066 ms[39m
+[35m[39m
+2023-02-14 12:43:21:4321 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-14 12:43:21:4321 [35mhttp[39m: [35m::1 GET /api/v1/profiles/?userId=1 403 2371 - 3.863 ms[39m
+[35m[39m
+2023-02-14 12:43:43:4343 [31merror[39m: [31m/api/v1/profiles/?userId=1 not found on this server[39m
+2023-02-14 12:43:43:4343 [35mhttp[39m: [35m::1 GET /api/v1/profiles/?userId=1 403 2301 - 22.968 ms[39m
+[35m[39m
+2023-02-14 12:44:51:4451 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 423 - 4180.884 ms[39m
+[35m[39m
+2023-02-14 12:46:38:4638 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 499 - 42.125 ms[39m
+[35m[39m
+2023-02-14 12:47:10:4710 [31merror[39m: [31m/api/v1/profiles/?userId=2 not found on this server[39m
+2023-02-14 12:47:10:4710 [35mhttp[39m: [35m::1 GET /api/v1/profiles/?userId=2 403 2301 - 18.296 ms[39m
+[35m[39m
+2023-02-14 12:50:16:5016 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:50:20:5020 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:50:36:5036 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 12:50:38:5038 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 12:51:04:514 [31merror[39m: [31m/api/v1/profiles/?userId=2 not found on this server[39m
+2023-02-14 12:51:04:514 [35mhttp[39m: [35m::1 GET /api/v1/profiles/?userId=2 403 2300 - 50.526 ms[39m
+[35m[39m

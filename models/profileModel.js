@@ -24,8 +24,19 @@ module.exports = (sequelize, DataTypes) => {
       followers: {
         type: DataTypes.STRING,
       },
+      deactivated: {
+        type: DataTypes.BOOLEAN,
+        default: false
+      }
     },
     {
+      hidden: (instance, options) => {
+        if (options.deactivated === true) {
+          return ['website',
+          , 'locaton', 'github_link', 'twitter_link',
+        'headerURL', 'avatarURL']
+        }
+      },
       tableName: "profiles",
     }
   );

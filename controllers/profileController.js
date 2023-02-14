@@ -4,7 +4,9 @@ const logger = require('../utils/logger')
 const cloudinary = require('../config/cloudinary')
 const fs = require('fs')
 const db = require('../models')
+const AppError = require('../utils/appError')
 const Profile = db.profile
+const User = db.users
 require('dotenv').config()
 
 
@@ -101,6 +103,7 @@ const updateProfile = async (req,res) => {
 const getProfile = async (req,res) => {
     // GET USER ID FROM REQ PARAMS
     const userId = req.params.userId
+    console.log('Userid ', userId);
     const profile = await Profile.findOne({
         where: {
           userId: userId
@@ -119,10 +122,8 @@ const getProfile = async (req,res) => {
     })
 }
 
-
-
 module.exports = {
     updateProfile,
     createProfile,
-    getProfile
+    getProfile,
 }

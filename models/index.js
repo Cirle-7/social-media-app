@@ -27,11 +27,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
-  dialectOptions: {
-    ssl: {
-      SSL
-    }
-  }
+  // dialectOptions: {
+  //   ssl: {
+  //     SSL
+  //   }
+  // }
 });
 
 
@@ -59,15 +59,26 @@ let comments = db.comments
 let commentsComments = db.commentsComments
 let followers = db.followers
 // create a userid in the post table
-User.hasMany(Posts);     // link posts to their user
-Posts.belongsTo(User);
+User.hasMany(Posts, {
+  onDelete: 'SET NULL',
+  onUpdate: 'SET NULL'
+});     // link posts to their user
+Posts.belongsTo(User,{
+  onDelete: 'SET NULL',
+  onUpdate: 'SET NULL'
+});
 
 // create a userId in the comment table
-User.hasMany(comments);     // link comments to their user
+User.hasMany(comments, {
+  onDelete: 'NO ACTION',
+  onUpdate: 'NO ACTION'
+});     // link comments to their user
 comments.belongsTo(User)
 
 //create a userid in the  profile table 
-User.hasOne(Profile)      // link a user to a profile
+User.hasOne(Profile, {
+  onDelete: 'CASCADE'
+})      // link a user to a profile
 Profile.belongsTo(User)
 
 
@@ -103,7 +114,7 @@ sequelize
 
 // sync the table
 db.sequelize
-  .sync({force: false })   
+  .sync({ alter: true })   
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 
