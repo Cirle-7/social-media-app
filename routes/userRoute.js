@@ -22,7 +22,7 @@ router.get('/auth/google/callback', passport.authenticate('google',{session:fals
 
 router.get('/auth/github/callback', passport.authenticate('github',{session:false}),socialAuth)
 
-// LOGOUT - DESTROY SESSION
+// LOGOUT - CLEAR COOKIE
 router.get('/logout', (req, res, next) => {
      return res.clearCookie('jwt').redirect('/');
    

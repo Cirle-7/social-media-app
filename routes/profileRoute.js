@@ -7,7 +7,7 @@ router.post('/', upload.fields([{name:'avatar', maxCount: 1},{name:'header', max
 router.patch('/:id', upload.fields([{name:'avatar', maxCount: 1},{name:'header', maxCount: 1}]), profileController.updateProfile)
 router.get('/:userId', profileController.getProfile)
 
-router.delete('/delete', deleteController.deactivateProfile)
+router.delete('/delete', deleteController.deleteProfile)
 
 
 module.exports = router

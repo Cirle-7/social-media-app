@@ -1,48 +1,74 @@
 require('express-async-errors')
-const appError = require('../utils/appError')
-const logger = require('../utils/logger')
+const Tokens = require("../utils/tokens");
 const db = require('../models')
-const AppError = require('../utils/appError')
+const AppError = require('../utils/appError');
+const Email = require('../utils/email');
 const Profile = db.profile
 const User = db.users
 require('dotenv').config()
 
+// DEACTIVATE USER'S PROFILE
+exports.deleteProfile = async (req, res, next) => {
 
-exports.deleteProfile = async(req, res) => {
-    // DELETE USER'S PROFILE
+    const email = req.user.email
+    if (!email) throw new AppError('Please log in to complete this action', 401)
 
-    const { user } = req
-
-    console.log('User ', user);
-
-    if(!user) throw new AppError('Please log in to complete this action', 401)
-
-    const deletedUser = await User.destroy({
-        where: { id: user.id }
+    const user = await User.findOne({
+        where: { email: email }
     })
-    res.status(200).json({
-        message: 'success',
-        data: deletedUser
-    })
+    console.log('User', user);
+    if (!user) throw new AppError('User does not exist!', 401)
+
+    const { token,
+        deactivationToken,
+        deactivationTokenExpires
+    } = await Tokens.createDeactivationToken();
+
+    // const updatedUser = await User.update(
+    //     {
+    //         deactivationToken: deactivationToken,
+    //         deactivationTokenExpires: deactivationTokenExpires,
+    //     },
+    //     { where: { email: email } }
+    // );
+
+    const deactivationUrl = `${req.protocol}://${req.get(
+        "host")}/api/vi/profiles/deactivate/${token}`
+
+    try {
+        await new Email(user, deactivationUrl).sendDeactivation()
+
+        res.status(200).json({
+            status: 'success',
+            message: `A link has been sent to your mail. Please check your mail to continue.`
+
+        })
+    } catch (err) {
+        throw new AppError('Error sending deactivation link. Please try again', 500)
+    }
 }
 
+
+
 // DEACTIVATE A USER'S PROFILE ON PROFILE DELETE REQUEST
-exports.deactivateProfile = async(req, res) => {
-    
+exports.deactivateProfile = async (req, res) => {
+
     const { user } = req
+    const email = user.email
 
     // console.log('User ', user);
     const profile = await Profile.update(
         { deactivated: true },
-        {where: { userId: user.id }
-    })
+        {
+            where: { userId: user.id }
+        })
 
-    if(!profile) throw new AppError('Please log in to complete this action', 401)
+    if (!profile) throw new AppError('Please log in to complete this action', 401)
 
     res.status(200).json({
         status: true,
-        message: "Your account will be deactivated \
-        for 30days after which it will be permanently deleted"
+        message: `Your account will be deactivated 
+        for 30days after which it will be permanently deleted`
     })
 
 }

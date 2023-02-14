@@ -81,4 +81,9 @@ module.exports = class Email {
   async sendVerifiedPR() {
     await this.send('verifiedPR', 'Your password has successfully changed.')
   }
+
+  // SEND PROFILE DEACTIVATION MAIL
+  async sendDeactivation() {
+    await this.send('deactivateProfile', 'Deactivate your account')
+  }
 };
