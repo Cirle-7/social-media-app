@@ -7,16 +7,32 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      website: DataTypes.STRING,
-      locaton: DataTypes.STRING,
+      website: {
+        type: DataTypes.STRING,
+        get() {
+          if (this.deactivated === true) return 'NA'
+        }
+      },
+      locaton: {
+        type: DataTypes.STRING,
+        get() {
+          if (this.deactivated === true) return 'NA'
+        }
+      },
       github_link: {
         type: DataTypes.STRING,
+        get() {
+          if (this.deactivated === true) return 'NA'
+        }
       },
       twitter_link: {
         type: DataTypes.STRING,
       },
       headerURL: {
         type: DataTypes.STRING,
+        get() {
+          if (this.deactivated === true) return 'NA'
+        }
       },
       avatarURL: {
         type: DataTypes.STRING,
@@ -30,13 +46,6 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     {
-      hidden: (instance, options) => {
-        if (options.deactivated === true) {
-          return ['website',
-          , 'locaton', 'github_link', 'twitter_link',
-        'headerURL', 'avatarURL']
-        }
-      },
       tableName: "profiles",
     }
   );
