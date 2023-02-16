@@ -28,12 +28,12 @@ const logger = require("./../utils/logger");
 // connect to Database
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
-  dialect: DB_DIALECT,
-  dialectOptions: {
-    ssl: {
-      SSL
-    }
-  }
+  dialect: DB_DIALECT
+  // dialectOptions: {
+  //   ssl: {
+  //     SSL
+  //   }
+  // }
 });
 
 
