@@ -10,11 +10,14 @@ const postRoute = require('./routes/postRoute')
 const profileRoute = require('./routes/profileRoute')
 const followRoute = require('./routes/followRoute')
 const passport = require("passport");
+const cors = require("cors")
 require('./utils/passportOAuth')
 
 //import authentication
 const authentication = require('./middleware/authentication')
 
+//IMPLEMENT CORS
+app.use(cors())
 
 //VIEWS
 app.set('views', 'views');
