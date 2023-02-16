@@ -19,7 +19,7 @@ const createSendToken = async (user, statusCode, res) => {
     expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
     httpOnly: true,
   };
-  if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
+  if (process.env.NODE_ENV === "production") cookieOptions.secure = false;
 
   // Send token to client
   res.cookie("jwt", token, cookieOptions);
