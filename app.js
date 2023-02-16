@@ -17,7 +17,14 @@ require('./utils/passportOAuth')
 const authentication = require('./middleware/authentication')
 
 //IMPLEMENT CORS
-app.use(cors())
+app.use(cors({
+  credentials:true,
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'localhost'
+  ]
+}))
 
 //VIEWS
 app.set('views', 'views');
