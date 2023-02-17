@@ -41,6 +41,14 @@ A social media application in the likeness of twitter but for developers in mind
 
 ---
 
+### Social authentication
+
+
+- Github Route: /auth/github
+- Google Route: /auth/google
+- Method: GET
+
+---
 ### Signup User
 
 - Route: api/v1/users/signup
