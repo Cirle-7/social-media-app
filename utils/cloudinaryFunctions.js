@@ -31,7 +31,7 @@ cloudinary.config({
   
         // REMOVE FILE FROM LOCAL UPLOADS FOLDER
         await unlink(filePath);
-         throw new AppError(error);
+         throw new AppError("server error from cloudinary");
       });
   }
 
