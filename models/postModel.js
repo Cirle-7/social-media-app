@@ -1,3 +1,6 @@
+const db = require('./index')
+const User = db.users
+
 module.exports = (sequelize, DataTypes) => {
   const Post = sequelize.define(
     "post",
@@ -38,5 +41,8 @@ module.exports = (sequelize, DataTypes) => {
       tableName: "posts",
     }
   );
+
   return Post
 };
+
+

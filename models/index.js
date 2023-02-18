@@ -60,18 +60,18 @@ let commentsComments = db.commentsComments
 let followers = db.followers
 // create a userid in the post table
 User.hasMany(Posts, {
-  onDelete: 'SET NULL',
-  onUpdate: 'SET NULL'
+  onDelete: 'CASCADE',
+  onUpdate: 'CASCADE'
 });     // link posts to their user
 Posts.belongsTo(User,{
-  onDelete: 'SET NULL',
-  onUpdate: 'SET NULL'
+  onDelete: 'CASCADE',
+  onUpdate: 'CASCADE'
 });
 
 // create a userId in the comment table
 User.hasMany(comments, {
-  onDelete: 'NO ACTION',
-  onUpdate: 'NO ACTION'
+  onDelete: 'CASCADE',
+  onUpdate: 'CASCADE'
 });     // link comments to their user
 comments.belongsTo(User)
 

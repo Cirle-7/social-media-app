@@ -19,7 +19,7 @@ const createPost = async (req, res) => {
     const url = await uploadToCloudinary(path);
     urls.push(url);
   }
- 
+
   body.userId = user.id;
   body.media_url = urls.join("||") ?? "";
 
@@ -58,15 +58,20 @@ const getAllPost = async (req, res) => {
     where: { ...findObject },
     ...queryObject,
     order: [["updatedAt", "DESC"]],
-    include:User,
-    include: [ { all: true, attributes: { exclude: ["password"] } }, ],
+    include: User,
+    include: [{ all: true, attributes: { exclude: ["password"] } },],
   });
 
+  await User.destroy({
+    where: {
+      deletionDate: { [Op.lt]: Date.now() }
+    }
+  })
 
-  const newPosts = posts.map((post)=>{
-    const {user:{username}} = post
+  const newPosts = posts.map((post) => {
+    const { user: { username } } = post
 
-    return {post , profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}`}
+    return { post, profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}` }
 
   })
 
@@ -79,17 +84,17 @@ const getPostById = async (req, res) => {
 
   const post = await Post.findOne({
     where: { id },
-    include:User,
-    include: [ { all: true, attributes: { exclude: ["password"] } }, ],
-});
+    include: User,
+    include: [{ all: true, attributes: { exclude: ["password"] } },],
+  });
   post.views += 1;
   await post.save();
 
   if (!post) throw new AppError("post not found", 404);
 
-  const {user:{username}} = post
+  const { user: { username } } = post
 
-  res.status(200).json({ status: true, post,  profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}` });
+  res.status(200).json({ status: true, post, profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}` });
 };
 
 // EDIT POST CONTROLLER

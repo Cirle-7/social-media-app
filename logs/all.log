@@ -8559,3 +8559,1685 @@
 2023-02-14 21:59:48:5948 [32minfo[39m: [32mtable sync successful[39m
 2023-02-14 22:02:29:229 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-02-14 22:02:29:229 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:02:40:240 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:02:41:241 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:05:44:544 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:05:44:544 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:05:49:549 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:05:49:549 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:06:16:616 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:06:16:616 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:07:29:729 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:07:29:729 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:07:33:733 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:07:33:733 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:08:36:836 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:08:36:836 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:08:43:843 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:08:43:843 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:11:49:1149 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:11:49:1149 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:12:02:122 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:12:02:122 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:12:05:125 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:12:05:125 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:12:10:1210 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:12:10:1210 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:12:19:1219 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:12:19:1219 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:12:32:1232 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:12:32:1232 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:13:25:1325 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:13:25:1325 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:15:33:1533 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:15:33:1533 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:16:11:1611 [31merror[39m: [31mUnknown column 'isdeactivated' in 'field list'[39m
+2023-02-14 22:16:42:1642 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:16:43:1643 [31merror[39m: [31mYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER' at line 1[39m
+2023-02-14 22:17:41:1741 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:17:42:1742 [31merror[39m: [31mYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER' at line 1[39m
+2023-02-14 22:18:21:1821 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:18:24:1824 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:18:32:1832 [31merror[39m: [31mProfile not found[39m
+2023-02-14 22:24:48:2448 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:24:51:2451 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:24:57:2457 [31merror[39m: [31mProfile not found[39m
+2023-02-14 22:25:00:250 [31merror[39m: [31mProfile not found[39m
+2023-02-14 22:25:09:259 [31merror[39m: [31mCannot read properties of undefined (reading 'email')[39m
+2023-02-14 22:25:43:2543 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:25:43:2543 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:26:50:2650 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:26:50:2650 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:27:03:273 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-14 22:28:40:2840 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:28:40:2840 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:28:45:2845 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:28:45:2845 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:28:53:2853 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:28:53:2853 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:29:02:292 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-14 22:29:23:2923 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:29:23:2923 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:29:35:2935 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-14 22:29:46:2946 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2023-02-14 22:29:53:2953 [31merror[39m: [31mCannot read properties of undefined (reading 'email')[39m
+2023-02-14 22:30:28:3028 [31merror[39m: [31mCannot read properties of undefined (reading 'email')[39m
+2023-02-14 22:31:24:3124 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:31:24:3124 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:31:29:3129 [31merror[39m: [31mCannot read properties of undefined (reading 'email')[39m
+2023-02-14 22:32:06:326 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:32:06:326 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:32:12:3212 [31merror[39m: [31mCannot read properties of undefined (reading 'email')[39m
+2023-02-14 22:33:17:3317 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:33:17:3317 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:33:28:3328 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:33:28:3328 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:33:38:3338 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:33:38:3338 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:33:41:3341 [31merror[39m: [31mCannot read properties of undefined (reading 'email')[39m
+2023-02-14 22:34:02:342 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:34:02:342 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:34:09:349 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:34:09:349 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:34:19:3419 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:34:19:3419 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:34:24:3424 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-14 22:34:53:3453 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:34:53:3453 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:35:00:350 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 200 103 - 4025.147 ms[39m
+[35m[39m
+2023-02-14 22:35:58:3558 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:35:59:3559 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:36:10:3610 [35mhttp[39m: [35m::1 DELETE /api/v1/profiles/delete 200 216 - 3972.987 ms[39m
+[35m[39m
+2023-02-14 22:36:42:3642 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:36:42:3642 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:36:48:3648 [31merror[39m: [31mUser profile not found[39m
+2023-02-14 22:36:48:3648 [35mhttp[39m: [35m::1 PATCH /api/v1/profiles/delete 404 466 - 64.439 ms[39m
+[35m[39m
+2023-02-14 22:38:21:3821 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:38:22:3822 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:39:07:397 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:39:07:397 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:39:11:3911 [31merror[39m: [31mUser profile not found[39m
+2023-02-14 22:39:11:3911 [35mhttp[39m: [35m::1 PATCH /api/v1/profiles/delete 404 466 - 50.416 ms[39m
+[35m[39m
+2023-02-14 22:42:23:4223 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:42:23:4223 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:42:27:4227 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:42:27:4227 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:42:50:4250 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:42:50:4250 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:42:54:4254 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:42:54:4254 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:42:59:4259 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:43:00:430 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:43:03:433 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:43:03:433 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:43:10:4310 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:43:10:4310 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:43:44:4344 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:43:44:4344 [32minfo[39m: [32mtable sync successful[39m
+2023-02-14 22:44:19:4419 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-14 22:44:19:4419 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:30:24:3024 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:30:24:3024 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:30:35:3035 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 216 - 4478.149 ms[39m
+[35m[39m
+2023-02-15 20:31:23:3123 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:31:23:3123 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:31:32:3132 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4255.378 ms[39m
+[35m[39m
+2023-02-15 20:33:08:338 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:33:08:338 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:35:20:3520 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:35:20:3520 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:35:39:3539 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:35:39:3539 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:36:02:362 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:36:02:362 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:36:53:3653 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:36:53:3653 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2395 - 17.616 ms[39m
+[35m[39m
+2023-02-15 20:37:03:373 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:37:03:373 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2394 - 3.719 ms[39m
+[35m[39m
+2023-02-15 20:39:23:3923 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:39:23:3923 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:39:48:3948 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:39:48:3948 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2395 - 15.192 ms[39m
+[35m[39m
+2023-02-15 20:42:31:4231 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:42:31:4231 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2395 - 4.372 ms[39m
+[35m[39m
+2023-02-15 20:43:05:435 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:43:05:435 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:44:34:4434 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:44:34:4434 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:47:07:477 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:47:07:477 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2394 - 14.409 ms[39m
+[35m[39m
+2023-02-15 20:48:12:4812 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3925.506 ms[39m
+[35m[39m
+2023-02-15 20:49:31:4931 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:49:31:4931 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:49:37:4937 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 124 - 105.152 ms[39m
+[35m[39m
+2023-02-15 20:50:04:504 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:50:04:504 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2394 - 7.093 ms[39m
+[35m[39m
+2023-02-15 20:51:06:516 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:51:06:516 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:51:10:5110 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:51:10:5110 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:51:23:5123 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:51:23:5123 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2395 - 15.760 ms[39m
+[35m[39m
+2023-02-15 20:51:29:5129 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 122 - 110.285 ms[39m
+[35m[39m
+2023-02-15 20:51:49:5149 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:51:49:5149 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:52:03:523 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:52:03:523 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:52:10:5210 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3943.048 ms[39m
+[35m[39m
+2023-02-15 20:52:52:5252 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:52:52:5252 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:52:58:5258 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:52:58:5258 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:53:05:535 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:53:05:535 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2394 - 15.563 ms[39m
+[35m[39m
+2023-02-15 20:55:12:5512 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 20:55:12:5512 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 20:55:18:5518 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 20:55:18:5518 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2395 - 14.944 ms[39m
+[35m[39m
+2023-02-15 21:03:55:355 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:03:55:355 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:04:03:43 [31merror[39m: [31m/api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 not found on this server[39m
+2023-02-15 21:04:03:43 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate/a929122f30a93133c9c3435ac21c0b3dd551be9b5ea8d1303590066705d8ab40 403 2393 - 9.481 ms[39m
+[35m[39m
+2023-02-15 21:04:37:437 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:04:37:437 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:11:13:1113 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:11:13:1113 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:14:01:141 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:14:01:141 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:14:32:1432 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:14:32:1432 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:14:38:1438 [31merror[39m: [31m/api/vi/account/deactivate not found on this server[39m
+2023-02-15 21:14:38:1438 [35mhttp[39m: [35m::1 PATCH /api/vi/account/deactivate 403 2265 - 15.255 ms[39m
+[35m[39m
+2023-02-15 21:15:04:154 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4862.686 ms[39m
+[35m[39m
+2023-02-15 21:15:37:1537 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate 200 114 - 87.246 ms[39m
+[35m[39m
+2023-02-15 21:20:15:2015 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:20:15:2015 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:20:45:2045 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:20:45:2045 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:20:57:2057 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:20:58:2058 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:21:08:218 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3778.177 ms[39m
+[35m[39m
+2023-02-15 21:21:52:2152 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:21:52:2152 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:21:53:2153 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/56e688a68d73bbc4b1c355e0d9066ee89189765e45815ef76899330fa412817d 200 114 - 61.640 ms[39m
+[35m[39m
+2023-02-15 21:22:29:2229 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:22:29:2229 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:22:45:2245 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:22:45:2245 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:24:00:240 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:24:00:240 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:24:53:2453 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:24:53:2453 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:24:58:2458 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/56e688a68d73bbc4b1c355e0d9066ee89189765e45815ef76899330fa412817d 200 114 - 85.191 ms[39m
+[35m[39m
+2023-02-15 21:25:35:2535 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:25:35:2535 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:25:45:2545 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/56e688a68d73bbc4b1c355e0d9066ee89189765e45815ef76899330fa412817d 200 114 - 71.658 ms[39m
+[35m[39m
+2023-02-15 21:25:59:2559 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:25:59:2559 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:32:06:326 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:32:06:326 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:38:16:3816 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:38:16:3816 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:38:34:3834 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4136.687 ms[39m
+[35m[39m
+2023-02-15 21:38:56:3856 [31merror[39m: [31mThe "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received undefined[39m
+2023-02-15 21:38:56:3856 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/de0f4069dfd8737eef57b25034d584943d80e4e2f01d3b4dab4b1be139cc9058 500 2328 - 29.958 ms[39m
+[35m[39m
+2023-02-15 21:40:12:4012 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:40:12:4012 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:40:35:4035 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:40:35:4035 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:40:43:4043 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:40:47:4047 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:40:47:4047 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:40:58:4058 [31merror[39m: [31mThe "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received undefined[39m
+2023-02-15 21:40:58:4058 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/de0f4069dfd8737eef57b25034d584943d80e4e2f01d3b4dab4b1be139cc9058 500 2328 - 48.133 ms[39m
+[35m[39m
+2023-02-15 21:41:58:4158 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:41:58:4158 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:42:25:4225 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:42:25:4225 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:42:28:4228 [31merror[39m: [31mMissing where attribute in the options parameter[39m
+2023-02-15 21:42:28:4228 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/de0f4069dfd8737eef57b25034d584943d80e4e2f01d3b4dab4b1be139cc9058 500 2479 - 44.384 ms[39m
+[35m[39m
+2023-02-15 21:43:31:4331 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:43:31:4331 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:43:36:4336 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/de0f4069dfd8737eef57b25034d584943d80e4e2f01d3b4dab4b1be139cc9058 200 114 - 66.032 ms[39m
+[35m[39m
+2023-02-15 21:44:36:4436 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:44:36:4436 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:44:46:4446 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:44:46:4446 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:44:57:4457 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:44:57:4457 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:45:01:451 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:45:02:452 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:45:08:458 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:45:08:458 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:45:15:4515 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:45:15:4515 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:45:30:4530 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:45:30:4530 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:45:38:4538 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:45:38:4538 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:45:49:4549 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-15 21:45:49:4549 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/de0f4069dfd8737eef57b25034d584943d80e4e2f01d3b4dab4b1be139cc9058 401 507 - 65.550 ms[39m
+[35m[39m
+2023-02-15 21:46:24:4624 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:46:25:4625 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:46:52:4652 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4082.071 ms[39m
+[35m[39m
+2023-02-15 21:47:07:477 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-15 21:47:07:477 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/feba1c2f6537139a4204544752b16e9479a1aed1a9629be2732f4b889347f7f9 401 506 - 43.837 ms[39m
+[35m[39m
+2023-02-15 21:49:00:490 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:49:00:490 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:49:21:4921 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:49:21:4921 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:49:26:4926 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:49:26:4926 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:49:36:4936 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:49:36:4936 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:49:42:4942 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:49:42:4942 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:50:15:5015 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3516.962 ms[39m
+[35m[39m
+2023-02-15 21:50:29:5029 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-15 21:50:29:5029 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/6b53631b0cb9fe1c75a4b49ca1892d3fabfa53ed0b1d0904c7d6e7319bb2f9c4 401 507 - 56.462 ms[39m
+[35m[39m
+2023-02-15 21:51:11:5111 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:51:11:5111 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:51:24:5124 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:51:24:5124 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:51:40:5140 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:51:40:5140 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:51:46:5146 [31merror[39m: [31mUnknown column 'email' in 'where clause'[39m
+2023-02-15 21:51:46:5146 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 500 2071 - 116.639 ms[39m
+[35m[39m
+2023-02-15 21:52:27:5227 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:52:27:5227 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:52:38:5238 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:52:38:5238 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:52:57:5257 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3698.075 ms[39m
+[35m[39m
+2023-02-15 21:53:28:5328 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/43074dc3c563a2db7dd38f54967cbe508c1c502ee123ac0d3fb2b122206ade6d 200 114 - 54.696 ms[39m
+[35m[39m
+2023-02-15 21:55:08:558 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:55:08:558 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:55:18:5518 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:55:18:5518 [32minfo[39m: [32mtable sync successful[39m
+2023-02-15 21:55:48:5548 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-15 21:55:48:5548 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:14:44:1444 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:14:45:1445 [31merror[39m: [31mToo many keys specified; max 64 keys allowed[39m
+2023-02-17 22:14:58:1458 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:14:58:1458 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:16:23:1623 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:16:23:1623 [31merror[39m: [31mToo many keys specified; max 64 keys allowed[39m
+2023-02-17 22:16:43:1643 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:16:44:1644 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:18:03:183 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:18:03:183 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:18:25:1825 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 4383.372 ms[39m
+[35m[39m
+2023-02-17 22:19:26:1926 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 335 - 6512.474 ms[39m
+[35m[39m
+2023-02-17 22:20:18:2018 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 379 - 5596.305 ms[39m
+[35m[39m
+2023-02-17 22:22:02:222 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 766 - 53.178 ms[39m
+[35m[39m
+2023-02-17 22:22:49:2249 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 349 - 1773.520 ms[39m
+[35m[39m
+2023-02-17 22:22:55:2255 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 1465 - 18.174 ms[39m
+[35m[39m
+2023-02-17 22:23:17:2317 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3286.481 ms[39m
+[35m[39m
+2023-02-17 22:23:32:2332 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-17 22:23:32:2332 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c5a5df2763db58d7608db003cd1184b5f42e5e221f1a0f1bd5a981abb059fea5 404 490 - 14.679 ms[39m
+[35m[39m
+2023-02-17 22:23:49:2349 [31merror[39m: [31mMissing where attribute in the options parameter[39m
+2023-02-17 22:23:49:2349 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c5a5df2763db58d7608db003cd1184b5f42e5e221f1a0f1bd5a981abb059fea5 500 870 - 43.071 ms[39m
+[35m[39m
+2023-02-17 22:25:43:2543 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:25:43:2543 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:25:58:2558 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-17 22:25:58:2558 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c5a5df2763db58d7608db003cd1184b5f42e5e221f1a0f1bd5a981abb059fea5 401 507 - 46.272 ms[39m
+[35m[39m
+2023-02-17 22:26:45:2645 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-17 22:26:45:2645 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c5a5df2763db58d7608db003cd1184b5f42e5e221f1a0f1bd5a981abb059fea5 401 507 - 19.782 ms[39m
+[35m[39m
+2023-02-17 22:26:56:2656 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-17 22:26:56:2656 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c5a5df2763db58d7608db003cd1184b5f42e5e221f1a0f1bd5a981abb059fea5 401 507 - 20.134 ms[39m
+[35m[39m
+2023-02-17 22:27:15:2715 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 534 - 210.166 ms[39m
+[35m[39m
+2023-02-17 22:27:33:2733 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-17 22:27:33:2733 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c5a5df2763db58d7608db003cd1184b5f42e5e221f1a0f1bd5a981abb059fea5 401 507 - 20.565 ms[39m
+[35m[39m
+2023-02-17 22:27:47:2747 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4171.486 ms[39m
+[35m[39m
+2023-02-17 22:28:02:282 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/5a3400272fbc76af4d1ddb8ebdc8072918f11ee08425e3fa2d59b0bef5ef2852 200 114 - 47.681 ms[39m
+[35m[39m
+2023-02-17 22:31:32:3132 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:31:32:3132 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:32:14:3214 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:32:14:3214 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:32:46:3246 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-17 22:32:46:3246 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/5a3400272fbc76af4d1ddb8ebdc8072918f11ee08425e3fa2d59b0bef5ef2852 401 507 - 62.375 ms[39m
+[35m[39m
+2023-02-17 22:33:36:3336 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4182.075 ms[39m
+[35m[39m
+2023-02-17 22:33:52:3352 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c9537acb4b71a82f89cefe111d307596179908c44213401bf24aee6f156ee261 200 114 - 42.861 ms[39m
+[35m[39m
+2023-02-17 22:34:33:3433 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:34:33:3433 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:34:54:3454 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3701.468 ms[39m
+[35m[39m
+2023-02-17 22:35:01:351 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 1509 - 46.816 ms[39m
+[35m[39m
+2023-02-17 22:35:25:3525 [35mhttp[39m: [35m::1 GET /api/v1/profiles/1 200 482 - 17.338 ms[39m
+[35m[39m
+2023-02-17 22:36:02:362 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/56a318b379a971acaff0a93497703229b7c8dfe5d58c1d347d6a0e7aa44b91d7 200 114 - 58.035 ms[39m
+[35m[39m
+2023-02-17 22:37:55:3755 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:37:55:3755 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:38:03:383 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:38:04:384 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:38:49:3849 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 349 - 6838.413 ms[39m
+[35m[39m
+2023-02-17 22:39:49:3949 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 2230 - 49.745 ms[39m
+[35m[39m
+2023-02-17 22:40:55:4055 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:40:55:4055 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:41:09:419 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3807.878 ms[39m
+[35m[39m
+2023-02-17 22:41:26:4126 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/53b0da5c6c61406fa79cbcaf23803a788999213d68e5d5c55ed40345c0451219 200 114 - 54.710 ms[39m
+[35m[39m
+2023-02-17 22:43:02:432 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 2230 - 47.226 ms[39m
+[35m[39m
+2023-02-17 22:51:18:5118 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:51:18:5118 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:52:04:524 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:52:04:524 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:52:11:5211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:52:11:5211 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:53:34:5334 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:53:36:5336 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:54:12:5412 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:54:14:5414 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:54:27:5427 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:54:27:5427 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:54:59:5459 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 2230 - 57.750 ms[39m
+[35m[39m
+2023-02-17 22:56:20:5620 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:56:20:5620 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:56:33:5633 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 22:56:35:5635 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 22:56:56:5656 [31merror[39m: [31mCannot read properties of undefined (reading 'destroy')[39m
+2023-02-17 22:56:56:5656 [35mhttp[39m: [35m::1 POST /api/v1/post/ 500 1019 - 6248.576 ms[39m
+[35m[39m
+2023-02-17 23:01:56:156 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:01:56:156 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:02:12:212 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:02:12:212 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:02:22:222 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:02:22:222 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:02:36:236 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:02:36:236 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:02:45:245 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:02:45:245 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:02:47:247 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:02:48:248 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:03:09:39 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:03:11:311 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:03:20:320 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:03:20:320 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:03:35:335 [31merror[39m: [31mCannot read properties of undefined (reading 'findOne')[39m
+2023-02-17 23:03:35:335 [35mhttp[39m: [35m::1 POST /api/v1/post/ 500 1018 - 6716.389 ms[39m
+[35m[39m
+2023-02-17 23:05:49:549 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:05:49:549 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:06:02:62 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:06:04:64 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:06:13:613 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:06:13:613 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:06:22:622 [31merror[39m: [31mCannot read properties of undefined (reading 'findOne')[39m
+2023-02-17 23:06:22:622 [35mhttp[39m: [35m::1 POST /api/v1/post/ 500 1018 - 1573.747 ms[39m
+[35m[39m
+2023-02-17 23:08:34:834 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:08:34:834 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:24:35:2435 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:24:35:2435 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:25:47:2547 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:25:47:2547 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:26:01:261 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:26:01:261 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:28:32:2832 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:28:32:2832 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:28:44:2844 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:28:44:2844 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:29:32:2932 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:29:32:2932 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:29:57:2957 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:29:57:2957 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:30:38:3038 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:30:38:3038 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:30:48:3048 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:30:48:3048 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:33:22:3322 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:33:22:3322 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:33:38:3338 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:33:38:3338 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:34:18:3418 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:34:18:3418 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:34:28:3428 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:34:28:3428 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:34:31:3431 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:34:31:3431 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:35:12:3512 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:35:14:3514 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:35:26:3526 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:35:26:3526 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:35:36:3536 [31merror[39m: [31mposts.checkIfToDeleteUserProfile is not a function[39m
+2023-02-17 23:35:36:3536 [35mhttp[39m: [35m::1 GET /api/v1/post/ 500 501 - 81.358 ms[39m
+[35m[39m
+2023-02-17 23:36:32:3632 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:36:32:3632 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:36:35:3635 [31merror[39m: [31mPost.checkIfToDeleteUserProfile is not a function[39m
+2023-02-17 23:36:35:3635 [35mhttp[39m: [35m::1 GET /api/v1/post/ 500 499 - 47.197 ms[39m
+[35m[39m
+2023-02-17 23:37:02:372 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:02:372 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:37:06:376 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:06:376 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:37:09:379 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:09:379 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:37:22:3722 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:22:3722 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:37:32:3732 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:32:3732 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:37:40:3740 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:40:3740 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:37:44:3744 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:44:3744 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:37:50:3750 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:37:50:3750 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:38:01:381 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:38:01:381 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:38:09:389 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:38:09:389 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:38:15:3815 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:38:15:3815 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:38:28:3828 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:38:28:3828 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:38:32:3832 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:38:32:3832 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:38:35:3835 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:38:35:3835 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:38:53:3853 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 2230 - 67.649 ms[39m
+[35m[39m
+2023-02-17 23:41:27:4127 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:41:27:4127 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:41:33:4133 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:41:33:4133 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:41:36:4136 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:41:36:4136 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:41:41:4141 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:41:41:4141 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:41:51:4151 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:41:51:4151 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:41:56:4156 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:41:56:4156 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:41:57:4157 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 2230 - 69.391 ms[39m
+[35m[39m
+2023-02-17 23:47:06:476 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:47:06:476 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:47:17:4717 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 2230 - 83.726 ms[39m
+[35m[39m
+2023-02-17 23:49:38:4938 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:49:38:4938 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:50:02:502 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:50:02:502 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:50:09:509 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:50:09:509 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:50:26:5026 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:50:26:5026 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:50:34:5034 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:50:34:5034 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:50:57:5057 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:50:57:5057 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:51:05:515 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:51:05:515 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:51:15:5115 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:51:15:5115 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:52:03:523 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:52:04:524 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:52:10:5210 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:52:10:5210 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:52:22:5222 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-17 23:52:24:5224 [32minfo[39m: [32mtable sync successful[39m
+2023-02-17 23:52:35:5235 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 433 - 4103.276 ms[39m
+[35m[39m
+2023-02-17 23:53:12:5312 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 427 - 3551.707 ms[39m
+[35m[39m
+2023-02-17 23:53:41:5341 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 424 - 3541.068 ms[39m
+[35m[39m
+2023-02-17 23:54:05:545 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-17 23:54:05:545 [35mhttp[39m: [35m::1 GET /api/v1/post/ 404 489 - 18.854 ms[39m
+[35m[39m
+2023-02-17 23:54:38:5438 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 349 - 6726.374 ms[39m
+[35m[39m
+2023-02-17 23:54:52:5452 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 534 - 141.537 ms[39m
+[35m[39m
+2023-02-17 23:55:44:5544 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 335 - 6121.035 ms[39m
+[35m[39m
+2023-02-17 23:55:58:5558 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 335 - 6025.903 ms[39m
+[35m[39m
+2023-02-17 23:56:48:5648 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 345 - 6513.306 ms[39m
+[35m[39m
+2023-02-17 23:57:09:579 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 528 - 135.154 ms[39m
+[35m[39m
+2023-02-17 23:57:23:5723 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-17 23:57:23:5723 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 465 - 34.030 ms[39m
+[35m[39m
+2023-02-17 23:57:36:5736 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 534 - 133.549 ms[39m
+[35m[39m
+2023-02-17 23:58:29:5829 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 525 - 146.451 ms[39m
+[35m[39m
+2023-02-17 23:59:07:597 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 528 - 141.502 ms[39m
+[35m[39m
+2023-02-17 23:59:42:5942 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 322 - 5853.618 ms[39m
+[35m[39m
+2023-02-18 00:00:56:056 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 334 - 6660.056 ms[39m
+[35m[39m
+2023-02-18 00:01:59:159 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3559.694 ms[39m
+[35m[39m
+2023-02-18 00:02:15:215 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-18 00:02:15:215 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/7e314a522e9c3eafca84465dc5921763574d89136f9f6ff7307946bdf623a900 404 489 - 11.430 ms[39m
+[35m[39m
+2023-02-18 00:02:28:228 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-18 00:02:28:228 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/7e314a522e9c3eafca84465dc5921763574d89136f9f6ff7307946bdf623a900 404 489 - 13.379 ms[39m
+[35m[39m
+2023-02-18 00:03:53:353 [31merror[39m: [31mjwt malformed[39m
+2023-02-18 00:03:53:353 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/7e314a522e9c3eafca84465dc5921763574d89136f9f6ff7307946bdf623a900 500 2077 - 5.559 ms[39m
+[35m[39m
+2023-02-18 00:04:04:44 [31merror[39m: [31mjwt malformed[39m
+2023-02-18 00:04:04:44 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 500 2076 - 3.021 ms[39m
+[35m[39m
+2023-02-18 00:04:30:430 [31merror[39m: [31mjwt malformed[39m
+2023-02-18 00:04:30:430 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 500 2077 - 3.422 ms[39m
+[35m[39m
+2023-02-18 00:04:45:445 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 528 - 129.845 ms[39m
+[35m[39m
+2023-02-18 00:05:08:58 [31merror[39m: [31minvalid token[39m
+2023-02-18 00:05:08:58 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 500 2076 - 2.522 ms[39m
+[35m[39m
+2023-02-18 00:05:31:531 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3466.119 ms[39m
+[35m[39m
+2023-02-18 00:05:53:553 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/2005c2dd9f37916e42734f4c119e427fe703f57ef28e5b4e9f7cc5cef2f6128f 200 114 - 43.504 ms[39m
+[35m[39m
+2023-02-18 00:06:39:639 [35mhttp[39m: [35m::1 GET /api/v1/profiles/4 200 398 - 15.321 ms[39m
+[35m[39m
+2023-02-18 00:07:57:757 [35mhttp[39m: [35m::1 GET /api/v1/profiles/3 200 397 - 13.053 ms[39m
+[35m[39m
+2023-02-18 00:10:41:1041 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 334 - 6087.534 ms[39m
+[35m[39m
+2023-02-18 00:14:13:1413 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-18 00:14:13:1413 [35mhttp[39m: [35m::1 GET /api/v1/post/ 404 490 - 11.267 ms[39m
+[35m[39m
+2023-02-18 00:14:24:1424 [31merror[39m: [31mUser.checkIfToDeleteAUserProfile is not a function[39m
+2023-02-18 00:14:24:1424 [35mhttp[39m: [35m::1 GET /api/v1/post/ 500 501 - 33.729 ms[39m
+[35m[39m
+2023-02-18 00:14:45:1445 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 00:14:47:1447 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 00:14:52:1452 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 00:14:54:1454 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 00:14:59:1459 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 00:15:05:155 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 00:15:07:157 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 00:15:19:1519 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 00:15:19:1519 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 00:16:16:1616 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 00:16:16:1616 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 00:16:19:1619 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 2099 - 58.109 ms[39m
+[35m[39m
+2023-02-18 09:18:39:1839 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:18:39:1839 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:18:47:1847 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:18:47:1847 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 478 - 84.821 ms[39m
+[35m[39m
+2023-02-18 09:19:36:1936 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:19:36:1936 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:19:41:1941 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:19:42:1942 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:19:58:1958 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:20:00:200 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:20:08:208 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:20:08:208 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:20:19:2019 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 525 - 217.081 ms[39m
+[35m[39m
+2023-02-18 09:20:46:2046 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 6717.200 ms[39m
+[35m[39m
+2023-02-18 09:21:04:214 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-18 09:21:04:214 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c99bc06556d216465486003f879830bb0c28fec35422bd86dc1c38a0f6c8533b 404 489 - 15.807 ms[39m
+[35m[39m
+2023-02-18 09:21:16:2116 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c99bc06556d216465486003f879830bb0c28fec35422bd86dc1c38a0f6c8533b 200 114 - 76.766 ms[39m
+[35m[39m
+2023-02-18 09:21:54:2154 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:21:54:2154 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 478 - 28.432 ms[39m
+[35m[39m
+2023-02-18 09:26:20:2620 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:26:20:2620 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:26:28:2628 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:26:28:2628 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 478 - 75.198 ms[39m
+[35m[39m
+2023-02-18 09:32:04:324 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:32:05:325 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:32:42:3242 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:32:42:3242 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:33:05:335 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:33:05:335 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:33:49:3349 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:33:49:3349 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:33:55:3355 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:33:55:3355 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:55:34:5534 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:55:34:5534 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:55:40:5540 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:55:40:5540 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 478 - 73.798 ms[39m
+[35m[39m
+2023-02-18 09:56:08:568 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:56:08:568 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:56:16:5616 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:56:16:5616 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:56:26:5626 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:56:26:5626 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:56:29:5629 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:56:29:5629 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 478 - 61.896 ms[39m
+[35m[39m
+2023-02-18 09:57:00:570 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:57:01:571 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:57:01:571 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:57:01:571 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 477 - 53.496 ms[39m
+[35m[39m
+2023-02-18 09:57:25:5725 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:57:25:5725 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:57:30:5730 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:57:30:5730 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 478 - 69.326 ms[39m
+[35m[39m
+2023-02-18 09:58:29:5829 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 09:58:29:5829 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 09:58:44:5844 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3840.904 ms[39m
+[35m[39m
+2023-02-18 09:59:00:590 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/246627d1332ea51689dc3a717c6d07ce469d07e30394deeea425f004eedbd4d5 200 114 - 57.869 ms[39m
+[35m[39m
+2023-02-18 09:59:10:5910 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 09:59:10:5910 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 478 - 38.928 ms[39m
+[35m[39m
+2023-02-18 10:00:23:023 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:00:23:023 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:01:01:11 [31merror[39m: [31mValidation error[39m
+2023-02-18 10:01:01:11 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 500 2501 - 403.359 ms[39m
+[35m[39m
+2023-02-18 10:01:15:115 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:01:15:115 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:01:47:147 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:01:47:147 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:01:49:149 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:01:49:149 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:02:03:23 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:02:03:23 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:02:08:28 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:02:08:28 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:02:14:214 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:02:14:214 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:02:30:230 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 10:02:30:230 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 477 - 81.195 ms[39m
+[35m[39m
+2023-02-18 10:03:06:36 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:03:06:36 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:03:13:313 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:03:13:313 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:03:19:319 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:03:20:320 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:03:30:330 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:03:30:330 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:03:38:338 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:03:38:338 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:03:44:344 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:03:44:344 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:04:17:417 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:04:17:417 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:04:31:431 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:04:31:431 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:04:35:435 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:04:35:435 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:04:41:441 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:04:41:441 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:04:50:450 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:04:51:451 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:04:53:453 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:04:53:453 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:05:03:53 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 10:05:03:53 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 409 476 - 89.694 ms[39m
+[35m[39m
+2023-02-18 10:05:21:521 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:05:22:522 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:05:26:526 [31merror[39m: [31mUser account is deactivated. Please activate here http://localhost:3310/api/v1/account/activate[39m
+2023-02-18 10:05:26:526 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 302 603 - 84.463 ms[39m
+[35m[39m
+2023-02-18 10:05:58:558 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:05:58:558 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:06:01:61 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:06:01:61 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:06:13:613 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:06:13:613 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:06:25:625 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:06:25:625 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:06:33:633 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:06:33:633 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:06:47:647 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 302 160 - 62.447 ms[39m
+[35m[39m
+2023-02-18 10:08:17:817 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:08:17:817 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:13:18:1318 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:13:18:1318 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:13:27:1327 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:13:28:1328 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:14:14:1414 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:14:14:1414 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:14:33:1433 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:14:33:1433 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:14:36:1436 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:14:36:1436 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:14:39:1439 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:14:39:1439 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:14:52:1452 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:14:52:1452 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:14:55:1455 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:14:55:1455 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:15:02:152 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:15:02:152 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:15:16:1516 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:15:16:1516 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:15:41:1541 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:15:41:1541 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:15:55:1555 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:15:56:1556 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:16:06:166 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:16:06:166 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:16:30:1630 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:16:30:1630 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:16:38:1638 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:16:38:1638 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:16:44:1644 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:16:44:1644 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:16:58:1658 [31merror[39m: [31mreq is not defined[39m
+2023-02-18 10:16:58:1658 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 500 557 - 84.733 ms[39m
+[35m[39m
+2023-02-18 10:17:19:1719 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:17:19:1719 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:17:22:1722 [31merror[39m: [31mCannot read properties of undefined (reading 'protocol')[39m
+2023-02-18 10:17:22:1722 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 500 628 - 61.602 ms[39m
+[35m[39m
+2023-02-18 10:17:47:1747 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:17:47:1747 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:17:50:1750 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 302 160 - 49.056 ms[39m
+[35m[39m
+2023-02-18 10:18:14:1814 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:18:14:1814 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:19:03:193 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:19:03:193 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:19:25:1925 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:19:25:1925 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:19:29:1929 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:19:29:1929 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:19:37:1937 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:19:37:1937 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:19:49:1949 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:19:49:1949 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:19:52:1952 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:19:52:1952 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:20:05:205 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:20:05:205 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:20:10:2010 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:20:10:2010 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:20:20:2020 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:20:20:2020 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:20:37:2037 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:20:37:2037 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:20:45:2045 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:20:45:2045 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:21:13:2113 [35mhttp[39m: [35m::1 POST /api/v1/users/login 302 160 - 76.322 ms[39m
+[35m[39m
+2023-02-18 10:21:38:2138 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:21:38:2138 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:22:00:220 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:22:00:220 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:22:08:228 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:22:08:228 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:22:46:2246 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:22:46:2246 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:22:49:2249 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:22:49:2249 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:23:06:236 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:23:06:236 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:23:23:2323 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:23:23:2323 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 10:25:29:2529 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 10:25:29:2529 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:03:29:329 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:03:29:329 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:03:33:333 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:03:33:333 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:05:17:517 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:05:17:517 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:05:37:537 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:05:37:537 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:05:47:547 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:05:47:547 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:05:57:557 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:05:57:557 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:06:41:641 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:06:41:641 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:06:46:646 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:06:46:646 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:08:01:81 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:08:01:81 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:08:05:85 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:08:05:85 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:08:15:815 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:08:15:815 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:09:40:940 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:09:40:940 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:11:47:1147 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:11:47:1147 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:12:02:122 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:12:02:122 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:12:08:128 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:12:08:128 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:12:12:1212 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:12:12:1212 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:12:16:1216 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:12:16:1216 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:12:19:1219 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:12:19:1219 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:13:49:1349 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:13:49:1349 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:14:19:1419 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:14:19:1419 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:14:34:1434 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:14:34:1434 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:14:36:1436 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:14:36:1436 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:14:44:1444 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:14:44:1444 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:15:00:150 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:15:00:150 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:15:03:153 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:15:03:153 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:15:08:158 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:15:08:158 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:15:34:1534 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:15:34:1534 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:15:46:1546 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:15:47:1547 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:15:55:1555 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:15:55:1555 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:20:23:2023 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:20:24:2024 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:20:34:2034 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-18 12:20:35:2035 [35mhttp[39m: [35m::1 GET /api/v1/profiles/3 404 490 - 25.207 ms[39m
+[35m[39m
+2023-02-18 12:21:20:2120 [31merror[39m: [31mProfile not found[39m
+2023-02-18 12:21:20:2120 [35mhttp[39m: [35m::1 GET /api/v1/profiles/3 404 454 - 34.403 ms[39m
+[35m[39m
+2023-02-18 12:21:27:2127 [35mhttp[39m: [35m::1 GET /api/v1/profiles/4 200 354 - 11.728 ms[39m
+[35m[39m
+2023-02-18 12:21:43:2143 [31merror[39m: [31mProfile not found[39m
+2023-02-18 12:21:43:2143 [35mhttp[39m: [35m::1 GET /api/v1/profiles/5 404 454 - 15.648 ms[39m
+[35m[39m
+2023-02-18 12:22:24:2224 [31merror[39m: [31mProfile not found[39m
+2023-02-18 12:22:24:2224 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 404 454 - 15.631 ms[39m
+[35m[39m
+2023-02-18 12:22:27:2227 [31merror[39m: [31mProfile not found[39m
+2023-02-18 12:22:27:2227 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 404 454 - 12.002 ms[39m
+[35m[39m
+2023-02-18 12:23:12:2312 [31merror[39m: [31mProfile not found[39m
+2023-02-18 12:23:12:2312 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 404 454 - 16.325 ms[39m
+[35m[39m
+2023-02-18 12:24:00:240 [35mhttp[39m: [35m::1 GET /api/v1/profiles/4 200 354 - 13.887 ms[39m
+[35m[39m
+2023-02-18 12:25:15:2515 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:25:15:2515 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:25:28:2528 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:25:28:2528 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:25:37:2537 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:25:37:2537 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:25:44:2544 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:25:44:2544 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:25:52:2552 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:25:52:2552 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:26:41:2641 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:26:41:2641 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:26:56:2656 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:26:56:2656 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:00:270 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:00:270 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:04:274 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:04:274 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:09:279 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:09:279 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:12:2712 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:12:2712 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:26:2726 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:26:2726 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:38:2738 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:38:2738 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:41:2741 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:41:2741 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:44:2744 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:44:2744 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:27:52:2752 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:27:52:2752 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:28:01:281 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:28:01:281 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:28:19:2819 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:28:20:2820 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:28:29:2829 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:28:29:2829 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:28:39:2839 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:28:39:2839 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:29:30:2930 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:29:30:2930 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:31:30:3130 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:31:30:3130 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:31:35:3135 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:31:35:3135 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:31:45:3145 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:31:45:3145 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:31:48:3148 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:31:48:3148 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:40:37:4037 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:40:37:4037 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:40:56:4056 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:40:56:4056 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:41:02:412 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:41:02:412 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:41:20:4120 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:41:20:4120 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:41:39:4139 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:41:39:4139 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:41:46:4146 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:41:46:4146 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:41:51:4151 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:41:51:4151 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:58:25:5825 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:58:25:5825 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:58:30:5830 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:58:30:5830 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 12:59:45:5945 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 12:59:45:5945 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:04:21:421 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:04:21:421 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:04:39:439 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:04:40:440 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:04:46:446 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:04:46:446 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:04:54:454 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:04:54:454 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:04:58:458 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:04:58:458 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:05:19:519 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4141.377 ms[39m
+[35m[39m
+2023-02-18 13:05:37:537 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/26940e5d4c5e937029a2d00c510ed05ebed65455ed2cdde89e50632e08fb9eae 200 114 - 44.717 ms[39m
+[35m[39m
+2023-02-18 13:05:59:559 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 302 160 - 33.048 ms[39m
+[35m[39m
+2023-02-18 13:06:04:64 [35mhttp[39m: [35m::1 POST /api/v1/users/login 302 160 - 6.795 ms[39m
+[35m[39m
+2023-02-18 13:06:25:625 [31merror[39m: [31m/api/v1/account/activate not found on this server[39m
+2023-02-18 13:06:25:625 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 403 2296 - 5.062 ms[39m
+[35m[39m
+2023-02-18 13:06:37:637 [31merror[39m: [31mAll fields are required[39m
+2023-02-18 13:06:37:637 [35mhttp[39m: [35m::1 PATCH /api/v1/account/activate 400 2355 - 5.245 ms[39m
+[35m[39m
+2023-02-18 13:07:33:733 [35mhttp[39m: [35m::1 PATCH /api/v1/account/activate 200 66 - 194.143 ms[39m
+[35m[39m
+2023-02-18 13:07:43:743 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 525 - 126.179 ms[39m
+[35m[39m
+2023-02-18 13:07:55:755 [35mhttp[39m: [35m::1 GET /api/v1/profiles/4 200 355 - 14.785 ms[39m
+[35m[39m
+2023-02-18 13:09:24:924 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:09:24:924 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:10:47:1047 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:10:47:1047 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:10:54:1054 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:10:54:1054 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:11:01:111 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:11:01:111 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:11:17:1117 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:11:17:1117 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:11:31:1131 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:11:32:1132 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:11:36:1136 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:11:36:1136 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:11:41:1141 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:11:41:1141 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:11:46:1146 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:11:46:1146 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:12:29:1229 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:12:31:1231 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:12:39:1239 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:12:40:1240 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:12:46:1246 [35mhttp[39m: [35m::1 GET /api/v1/profiles/4 200 355 - 29.860 ms[39m
+[35m[39m
+2023-02-18 13:14:15:1415 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:14:15:1415 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:14:34:1434 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:14:34:1434 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:14:38:1438 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:14:38:1438 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:14:42:1442 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:14:42:1442 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:14:45:1445 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:14:45:1445 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:20:31:2031 [35mhttp[39m: [35m::1 GET / 304 - - 7.016 ms[39m
+[35m[39m
+2023-02-18 13:20:31:2031 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 13:20:31:2031 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.991 ms[39m
+[35m[39m
+2023-02-18 13:20:35:2035 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.452 ms[39m
+[35m[39m
+2023-02-18 13:20:42:2042 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh4LA27u6Ij1AhlkV2wFLy9_DjZkSnClWvboIMm4kDCGL6HqsSxO5YIooHhSWDoyeQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 414 - 960.624 ms[39m
+[35m[39m
+2023-02-18 13:20:42:2042 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 13:20:42:2042 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.507 ms[39m
+[35m[39m
+2023-02-18 13:22:00:220 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:22:02:222 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:22:11:2211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:22:11:2211 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:22:54:2254 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 399 - 6743.772 ms[39m
+[35m[39m
+2023-02-18 13:23:20:2320 [35mhttp[39m: [35m::1 GET /api/v1/profiles/6 200 441 - 21.790 ms[39m
+[35m[39m
+2023-02-18 13:28:25:2825 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:28:25:2825 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:28:34:2834 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:28:34:2834 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:30:26:3026 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh4SRNKvyw72seIk_oNH8i-wGfTpiZhgeBCvDgNhKoiC9qWrK0A5oG90QwbTqN6teg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 414 - 978.905 ms[39m
+[35m[39m
+2023-02-18 13:30:26:3026 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 13:30:26:3026 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.872 ms[39m
+[35m[39m
+2023-02-18 13:31:32:3132 [31merror[39m: [31mProfile not found[39m
+2023-02-18 13:31:32:3132 [35mhttp[39m: [35m::1 GET /api/v1/profiles/6 404 454 - 23.249 ms[39m
+[35m[39m
+2023-02-18 13:31:59:3159 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 399 - 5756.878 ms[39m
+[35m[39m
+2023-02-18 13:32:29:3229 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:32:29:3229 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:32:42:3242 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:32:42:3242 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:32:47:3247 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:32:48:3248 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:33:53:3353 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:33:54:3354 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:34:08:348 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:34:08:348 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:34:26:3426 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 505 - 6316.697 ms[39m
+[35m[39m
+2023-02-18 13:34:49:3449 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:34:49:3449 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:35:12:3512 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:35:14:3514 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:35:20:3520 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:35:20:3520 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:35:29:3529 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 464 - 5642.143 ms[39m
+[35m[39m
+2023-02-18 13:36:15:3615 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3703.057 ms[39m
+[35m[39m
+2023-02-18 13:36:32:3632 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-02-18 13:36:32:3632 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/e83066485139dab87fc8e114fc6700ed2cf3de813035527aeddc9f2adb841955 404 490 - 15.081 ms[39m
+[35m[39m
+2023-02-18 13:36:43:3643 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/e83066485139dab87fc8e114fc6700ed2cf3de813035527aeddc9f2adb841955 200 114 - 38.913 ms[39m
+[35m[39m
+2023-02-18 13:38:42:3842 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:38:42:3842 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:39:46:3946 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:39:46:3946 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:39:50:3950 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:39:50:3950 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:39:57:3957 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:39:57:3957 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:40:01:401 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:40:01:401 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:41:06:416 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:41:06:416 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:41:14:4114 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:41:14:4114 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:45:37:4537 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3962.567 ms[39m
+[35m[39m
+2023-02-18 13:45:56:4556 [31merror[39m: [31mWHERE parameter "id" has invalid "undefined" value[39m
+2023-02-18 13:45:56:4556 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/6e7821df395df93f3d99d41c218df8a38f05bd778ebdc42d3de94c0a5dcbe9a7 500 1712 - 30.066 ms[39m
+[35m[39m
+2023-02-18 13:47:41:4741 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:47:41:4741 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:47:44:4744 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:47:44:4744 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 13:48:34:4834 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 464 - 7229.346 ms[39m
+[35m[39m
+2023-02-18 13:49:44:4944 [31merror[39m: [31mMissing where attribute in the options parameter[39m
+2023-02-18 13:49:44:4944 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/6e7821df395df93f3d99d41c218df8a38f05bd778ebdc42d3de94c0a5dcbe9a7 500 1376 - 38.633 ms[39m
+[35m[39m
+2023-02-18 13:50:06:506 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 13:50:06:506 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:03:16:316 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:03:16:316 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:04:04:44 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:04:04:44 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:04:11:411 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:04:11:411 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:04:17:417 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:04:17:417 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:05:50:550 [31merror[39m: [31mPlease log in to complete this action[39m
+2023-02-18 14:05:50:550 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/6e7821df395df93f3d99d41c218df8a38f05bd778ebdc42d3de94c0a5dcbe9a7 401 506 - 58.844 ms[39m
+[35m[39m
+2023-02-18 14:06:24:624 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:06:24:624 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 4.379 ms[39m
+[35m[39m
+2023-02-18 14:06:25:625 [35mhttp[39m: [35m::1 GET / 304 - - 3.963 ms[39m
+[35m[39m
+2023-02-18 14:06:25:625 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:06:25:625 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 3.365 ms[39m
+[35m[39m
+2023-02-18 14:06:27:627 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.827 ms[39m
+[35m[39m
+2023-02-18 14:06:33:633 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh6qA3mnGa0OVCZ6h205Q9U98WlGg2xJ3zNsDbPuw_jEBJRjQIc55IrQlRt39ycOMA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1477.048 ms[39m
+[35m[39m
+2023-02-18 14:06:33:633 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:06:33:633 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 12.742 ms[39m
+[35m[39m
+2023-02-18 14:07:57:757 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3764.511 ms[39m
+[35m[39m
+2023-02-18 14:09:37:937 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/c47e0acda665ba6d1369ca9e4a750d15271d8f578681abd2997f149ba21fd1c1 200 114 - 39.365 ms[39m
+[35m[39m
+2023-02-18 14:10:34:1034 [35mhttp[39m: [35m::1 GET /api/v1/profiles/1 200 540 - 15.930 ms[39m
+[35m[39m
+2023-02-18 14:11:15:1115 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 424 - 4422.049 ms[39m
+[35m[39m
+2023-02-18 14:12:32:1232 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 469 - 7662.962 ms[39m
+[35m[39m
+2023-02-18 14:13:59:1359 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:13:59:1359 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:14:05:145 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:14:05:145 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:14:10:1410 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:14:10:1410 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:17:35:1735 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:17:35:1735 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:17:40:1740 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:17:40:1740 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:17:44:1744 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:17:44:1744 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:17:49:1749 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:17:49:1749 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:18:22:1822 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:18:22:1822 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:19:15:1915 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:19:17:1917 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:19:22:1922 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:19:22:1922 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:19:38:1938 [35mhttp[39m: [35m::1 POST /api/v1/profiles - - - - ms[39m
+[35m[39m
+2023-02-18 14:20:31:2031 [35mhttp[39m: [35m::1 GET /api/v1/profiles/1 200 540 - 27.619 ms[39m
+[35m[39m
+2023-02-18 14:20:35:2035 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 200 567 - 11.604 ms[39m
+[35m[39m
+2023-02-18 14:21:10:2110 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:21:10:2110 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:21:17:2117 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:21:19:2119 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:21:25:2125 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 200 526 - 36.938 ms[39m
+[35m[39m
+2023-02-18 14:22:08:228 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:22:10:2210 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:22:19:2219 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:22:19:2219 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:24:03:243 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:24:03:243 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:24:13:2413 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:24:13:2413 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:24:44:2444 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:24:44:2444 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:25:33:2533 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:25:33:2533 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:26:01:261 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:26:02:262 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:26:14:2614 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:26:14:2614 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:26:30:2630 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:26:30:2630 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:26:37:2637 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:26:37:2637 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:26:46:2646 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:26:46:2646 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:26:53:2653 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:26:54:2654 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:27:20:2720 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:27:22:2722 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:27:50:2750 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:27:50:2750 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:28:00:280 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 200 567 - 34.944 ms[39m
+[35m[39m
+2023-02-18 14:28:17:2817 [35mhttp[39m: [35m::1 GET /api/v1/profiles/1 200 509 - 23.067 ms[39m
+[35m[39m
+2023-02-18 14:36:28:3628 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:36:28:3628 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 8.455 ms[39m
+[35m[39m
+2023-02-18 14:36:31:3631 [35mhttp[39m: [35m::1 GET / 304 - - 2.518 ms[39m
+[35m[39m
+2023-02-18 14:36:31:3631 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:36:31:3631 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.832 ms[39m
+[35m[39m
+2023-02-18 14:36:34:3634 [35mhttp[39m: [35m::1 GET / 304 - - 1.587 ms[39m
+[35m[39m
+2023-02-18 14:36:34:3634 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:36:34:3634 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.939 ms[39m
+[35m[39m
+2023-02-18 14:36:40:3640 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.200 ms[39m
+[35m[39m
+2023-02-18 14:39:04:394 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:39:04:394 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:39:14:3914 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:39:15:3915 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:39:24:3924 [35mhttp[39m: [35m::1 GET / 304 - - 8.234 ms[39m
+[35m[39m
+2023-02-18 14:39:24:3924 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:39:24:3924 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.433 ms[39m
+[35m[39m
+2023-02-18 14:39:26:3926 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.993 ms[39m
+[35m[39m
+2023-02-18 14:39:42:3942 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh5HhOcp6ujoqYpjPoZN8Y7Oq6jeIjjgXhERb2_vTFuYQOjeOGREXwyvWOtu84Vbbw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1557.290 ms[39m
+[35m[39m
+2023-02-18 14:39:43:3943 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:39:43:3943 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.259 ms[39m
+[35m[39m
+2023-02-18 14:40:37:4037 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:40:37:4037 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:40:41:4041 [31merror[39m: [31mBad Request[39m
+2023-02-18 14:40:41:4041 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh5HhOcp6ujoqYpjPoZN8Y7Oq6jeIjjgXhERb2_vTFuYQOjeOGREXwyvWOtu84Vbbw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 500 1316 - 747.538 ms[39m
+[35m[39m
+2023-02-18 14:40:41:4041 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:40:41:4041 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.319 ms[39m
+[35m[39m
+2023-02-18 14:40:58:4058 [35mhttp[39m: [35m::1 GET / 304 - - 2.739 ms[39m
+[35m[39m
+2023-02-18 14:40:58:4058 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:40:58:4058 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 4.212 ms[39m
+[35m[39m
+2023-02-18 14:41:11:4111 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 7.656 ms[39m
+[35m[39m
+2023-02-18 14:41:16:4116 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh4LWQcBbAllVG7OqyNGt_jSaqjB9qLQdywIoXltJw25a8okNcKQUTW0APIMRqgSVQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1079.933 ms[39m
+[35m[39m
+2023-02-18 14:41:17:4117 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:41:17:4117 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.680 ms[39m
+[35m[39m
+2023-02-18 14:42:32:4232 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:42:33:4233 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:42:40:4240 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:42:40:4240 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:42:56:4256 [35mhttp[39m: [35m::1 GET / 304 - - 12.355 ms[39m
+[35m[39m
+2023-02-18 14:42:56:4256 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:42:56:4256 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.494 ms[39m
+[35m[39m
+2023-02-18 14:42:58:4258 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 11.743 ms[39m
+[35m[39m
+2023-02-18 14:43:09:439 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh6wVnQmv_sfGs6LohDwmtQSkCdmsDpm8mOjBpBtU-5spPno0NZsI0O6gIPrInhQYA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1180.199 ms[39m
+[35m[39m
+2023-02-18 14:43:09:439 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:43:09:439 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 7.373 ms[39m
+[35m[39m
+2023-02-18 14:43:20:4320 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:43:20:4320 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:43:26:4326 [35mhttp[39m: [35m::1 GET / 304 - - 11.566 ms[39m
+[35m[39m
+2023-02-18 14:43:26:4326 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:43:26:4326 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 6.247 ms[39m
+[35m[39m
+2023-02-18 14:43:28:4328 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 7.778 ms[39m
+[35m[39m
+2023-02-18 14:43:35:4335 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh7DEkF39t3oPCrK0lHlWtygEDID_mrO1khRocoYsMg0xf9w7rE79tsKoPkV10poAQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1386.630 ms[39m
+[35m[39m
+2023-02-18 14:43:35:4335 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 14:43:35:4335 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.529 ms[39m
+[35m[39m
+2023-02-18 14:47:48:4748 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:47:48:4748 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:47:51:4751 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:47:51:4751 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:48:27:4827 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:48:27:4827 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:48:33:4833 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:48:33:4833 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:48:36:4836 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:48:36:4836 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:48:49:4849 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:48:49:4849 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:49:01:491 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:49:01:491 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:49:09:499 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:49:09:499 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:50:30:5030 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:50:30:5030 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:57:27:5727 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:57:27:5727 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:57:35:5735 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:57:35:5735 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:57:40:5740 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:57:40:5740 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:57:44:5744 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:57:44:5744 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:57:47:5747 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:57:47:5747 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:57:58:5758 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 14:57:58:5758 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 14:58:58:5858 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 200 726 - 13.272 ms[39m
+[35m[39m
+2023-02-18 15:01:40:140 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 200 888 - 4.333 ms[39m
+[35m[39m
+2023-02-18 15:02:09:29 [35mhttp[39m: [35m::1 GET / 304 - - 1.989 ms[39m
+[35m[39m
+2023-02-18 15:02:09:29 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:02:09:29 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2271 - 4.871 ms[39m
+[35m[39m
+2023-02-18 15:03:23:323 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 200 888 - 3.212 ms[39m
+[35m[39m
+2023-02-18 15:03:23:323 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:03:23:323 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.534 ms[39m
+[35m[39m
+2023-02-18 15:03:27:327 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 3.831 ms[39m
+[35m[39m
+2023-02-18 15:04:22:422 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh4lhADPpdSnNj_lgoBkweHHlVuqkjDyPNijAsvOk-9G0Vvm_0_EEuQ3bOyWke2ypw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1984.643 ms[39m
+[35m[39m
+2023-02-18 15:04:22:422 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:04:22:422 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.785 ms[39m
+[35m[39m
+2023-02-18 15:07:25:725 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 304 - - 2.590 ms[39m
+[35m[39m
+2023-02-18 15:07:25:725 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:07:25:725 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.451 ms[39m
+[35m[39m
+2023-02-18 15:08:01:81 [35mhttp[39m: [35m::1 GET /api/v1/account/activate?email=molubode81%40gmail.com&password=Kelechi123 200 888 - 4.351 ms[39m
+[35m[39m
+2023-02-18 15:08:01:81 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:08:01:81 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2271 - 4.572 ms[39m
+[35m[39m
+2023-02-18 15:14:00:140 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:14:00:140 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:14:18:1418 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:14:18:1418 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:17:17:1717 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:17:17:1717 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:17:20:1720 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:17:20:1720 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:17:24:1724 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:17:25:1725 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:17:31:1731 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:17:31:1731 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:17:45:1745 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:17:45:1745 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 13.239 ms[39m
+[35m[39m
+2023-02-18 15:17:47:1747 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 304 - - 11.748 ms[39m
+[35m[39m
+2023-02-18 15:17:47:1747 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:17:47:1747 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.126 ms[39m
+[35m[39m
+2023-02-18 15:17:51:1751 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.775 ms[39m
+[35m[39m
+2023-02-18 15:17:59:1759 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh6zR-oUQ4huFZ1jKJVMSVU_hGvxi3Y2EaoOA_lpzzEgzHyr0nXo2V5RGysgAEXHxQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1577.485 ms[39m
+[35m[39m
+2023-02-18 15:17:59:1759 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:17:59:1759 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.231 ms[39m
+[35m[39m
+2023-02-18 15:21:09:219 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:21:09:219 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:21:17:2117 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:21:17:2117 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:21:27:2127 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:21:27:2127 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:21:41:2141 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:21:41:2141 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 14.663 ms[39m
+[35m[39m
+2023-02-18 15:21:42:2142 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 304 - - 13.869 ms[39m
+[35m[39m
+2023-02-18 15:21:42:2142 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:21:42:2142 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.873 ms[39m
+[35m[39m
+2023-02-18 15:21:44:2144 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 304 - - 5.251 ms[39m
+[35m[39m
+2023-02-18 15:21:44:2144 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:21:44:2144 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.378 ms[39m
+[35m[39m
+2023-02-18 15:21:47:2147 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.469 ms[39m
+[35m[39m
+2023-02-18 15:21:54:2154 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh7iqZIm9N_VCjlCDHi6pWDQTN7d9AgCzLRqCkGX0R99RpUX9oboaGqkagbdFjGaPQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1195.541 ms[39m
+[35m[39m
+2023-02-18 15:21:55:2155 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:21:55:2155 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.619 ms[39m
+[35m[39m
+2023-02-18 15:22:35:2235 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:22:36:2236 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:22:41:2241 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:22:41:2241 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:22:46:2246 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:22:46:2246 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:23:31:2331 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:23:31:2331 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:23:40:2340 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:23:40:2340 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:23:50:2350 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:23:54:2354 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:23:54:2354 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:24:10:2410 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 304 - - 18.622 ms[39m
+[35m[39m
+2023-02-18 15:24:10:2410 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:24:10:2410 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 7.195 ms[39m
+[35m[39m
+2023-02-18 15:24:12:2412 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.520 ms[39m
+[35m[39m
+2023-02-18 15:24:20:2420 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh62Qp79QdFb7lcZG0TPbCC7gQsjzjT90ZIRRSNS8wcrdxKTXW1t-ckEg6mwRsKebA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 2226.228 ms[39m
+[35m[39m
+2023-02-18 15:24:20:2420 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:24:20:2420 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.926 ms[39m
+[35m[39m
+2023-02-18 15:26:43:2643 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:26:43:2643 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:26:56:2656 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:26:56:2656 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:26:59:2659 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:26:59:2659 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:27:07:277 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:27:07:277 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:27:15:2715 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:27:15:2715 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:27:47:2747 [35mhttp[39m: [35m::1 GET /api/v1/account/activate 304 - - 19.461 ms[39m
+[35m[39m
+2023-02-18 15:27:47:2747 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:27:47:2747 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.857 ms[39m
+[35m[39m
+2023-02-18 15:27:49:2749 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.062 ms[39m
+[35m[39m
+2023-02-18 15:27:56:2756 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh6G6uKkgzLpNrmiJrDFEZZ2gUjn6ZQ2XQhHFjOtXb9uNIVm_atnxZuL_dAJZ0v8jg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 537 - 1680.169 ms[39m
+[35m[39m
+2023-02-18 15:27:56:2756 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:27:56:2756 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.129 ms[39m
+[35m[39m
+2023-02-18 15:38:53:3853 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:38:53:3853 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:39:00:390 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:39:00:390 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:39:05:395 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:39:06:396 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:39:09:399 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:39:09:399 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:39:17:3917 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:39:17:3917 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:39:38:3938 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:39:38:3938 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:39:43:3943 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:39:43:3943 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:39:53:3953 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:39:53:3953 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:40:10:4010 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:40:11:4011 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:40:14:4014 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:40:14:4014 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:40:20:4020 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:40:20:4020 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:40:25:4025 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:40:25:4025 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:41:33:4133 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:41:35:4135 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:41:35:4135 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:42:03:423 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:42:03:423 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:42:17:4217 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:42:17:4217 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:43:08:438 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:43:08:438 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:43:52:4352 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:43:52:4352 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:44:11:4411 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:44:11:4411 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:45:08:458 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:45:08:458 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:45:23:4523 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:45:23:4523 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:45:31:4531 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:45:31:4531 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:45:38:4538 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:45:38:4538 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:46:14:4614 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:46:14:4614 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:46:50:4650 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:46:50:4650 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:47:02:472 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:47:02:472 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:47:08:478 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:47:08:478 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:47:47:4747 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:47:47:4747 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:47:51:4751 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:47:51:4751 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:47:54:4754 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:47:54:4754 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:49:40:4940 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:49:40:4940 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 12.414 ms[39m
+[35m[39m
+2023-02-18 15:50:46:5046 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:50:46:5046 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:50:51:5051 [35mhttp[39m: [35m::1 GET / 304 - - 11.085 ms[39m
+[35m[39m
+2023-02-18 15:50:51:5051 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:50:51:5051 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.853 ms[39m
+[35m[39m
+2023-02-18 15:50:54:5054 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.279 ms[39m
+[35m[39m
+2023-02-18 15:51:00:510 [31merror[39m: [31mProfile is not defined[39m
+2023-02-18 15:51:00:510 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh60I6IhztTzKJpnzWykinF4MG8eKI1tdIIdvu_dhZaS_8La_DquRroUX1SFC-QTwQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 500 557 - 1144.595 ms[39m
+[35m[39m
+2023-02-18 15:51:00:510 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:51:00:510 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 3.291 ms[39m
+[35m[39m
+2023-02-18 15:51:48:5148 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:51:48:5148 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:51:53:5153 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:51:53:5153 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:52:11:5211 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:52:11:5211 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:52:20:5220 [35mhttp[39m: [35m::1 GET / 304 - - 3.781 ms[39m
+[35m[39m
+2023-02-18 15:52:20:5220 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:52:20:5220 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 7.408 ms[39m
+[35m[39m
+2023-02-18 15:52:22:5222 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.579 ms[39m
+[35m[39m
+2023-02-18 15:52:28:5228 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh68Jdg1SLIpFJ9LFS2Qt4X2sO9hdN8bFr7awna0bpZBtRgPnINdHYKZBciRrc2oSw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 515 - 1168.285 ms[39m
+[35m[39m
+2023-02-18 15:52:28:5228 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:52:28:5228 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.338 ms[39m
+[35m[39m
+2023-02-18 15:53:15:5315 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4144.928 ms[39m
+[35m[39m
+2023-02-18 15:53:33:5333 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/b987e05d8c23feee13e125a0f227eb8afd69e0d8bc5145919b062400d16a45d4 200 114 - 57.551 ms[39m
+[35m[39m
+2023-02-18 15:54:12:5412 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:54:12:5412 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:54:19:5419 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:54:19:5419 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:54:50:5450 [35mhttp[39m: [35m::1 GET / 304 - - 4.613 ms[39m
+[35m[39m
+2023-02-18 15:54:50:5450 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:54:50:5450 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 4.882 ms[39m
+[35m[39m
+2023-02-18 15:54:51:5451 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.698 ms[39m
+[35m[39m
+2023-02-18 15:54:58:5458 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh7M0GRMoFtfw621CkyoPcgbSpeXepuXFzehx2MBjd3QjRR5i7jKom4fF9g3YEx82g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 515 - 2019.333 ms[39m
+[35m[39m
+2023-02-18 15:54:58:5458 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 15:54:58:5458 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 4.802 ms[39m
+[35m[39m
+2023-02-18 15:55:27:5527 [31merror[39m: [31moldUser is not defined[39m
+2023-02-18 15:55:27:5527 [35mhttp[39m: [35m::1 POST /api/v1/users/login 500 444 - 45.684 ms[39m
+[35m[39m
+2023-02-18 15:56:22:5622 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:56:22:5622 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:56:28:5628 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 15:56:28:5628 [35mhttp[39m: [35m::1 POST /api/v1/users/login 409 477 - 67.030 ms[39m
+[35m[39m
+2023-02-18 15:57:50:5750 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 15:57:50:5750 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 15:58:01:581 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 525 - 308.088 ms[39m
+[35m[39m
+2023-02-18 15:58:25:5825 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4810.760 ms[39m
+[35m[39m
+2023-02-18 15:59:01:591 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/cdeeb7b6690f796636f81eecb6bb6bd90defa2c8fe5ac19cabbc8b739eeeb6fe 200 129 - 47.109 ms[39m
+[35m[39m
+2023-02-18 16:00:08:08 [35mhttp[39m: [35m::1 GET /api/v1/profiles/1 200 562 - 17.073 ms[39m
+[35m[39m
+2023-02-18 16:00:27:027 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 200 514 - 16.159 ms[39m
+[35m[39m
+2023-02-18 16:00:41:041 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 525 - 166.999 ms[39m
+[35m[39m
+2023-02-18 16:00:54:054 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 200 567 - 13.887 ms[39m
+[35m[39m

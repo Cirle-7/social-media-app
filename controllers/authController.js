@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 require("express-async-errors");
 const logger = require("../utils/logger");
 const db = require("../models");
+const Profile = db.profile
 const AppError = require("../utils/appError");
 const tokens = require("./../utils/tokens");
 const crypto = require("crypto");
@@ -34,10 +35,6 @@ const createSendToken = async (user, statusCode, res) => {
 };
 
 const signup = async (req, res) => {
-  // console.log(req.headers)
-  // logger.info(req.body)
-
-  const payload = {};
 
   const { username, email, password, displayName } = req.body;
 
@@ -50,7 +47,12 @@ const signup = async (req, res) => {
     where: { email: email },
   });
 
-  if (oldUser) throw new AppError("User already exists. Please login", 409);
+  if (oldUser) {
+    if (user.deletionDate > Date.now()) {
+      await activateUser(user)
+    }
+    throw new AppError("User already exists. Please login", 409);
+  }
 
   // if new user create
   const user = await User.create(req.body);
@@ -70,17 +72,25 @@ const signup = async (req, res) => {
     });
   }
 };
+
 const login = async (req, res) => {
   // Get user input
   const { email, password } = req.body;
 
-  // Validate user input
+  // VALIDATE USER INPUT
   if (!(email && password)) throw new AppError("All fields are required", 400);
 
   // Validate if user exist in database
   const user = await User.findOne({
     where: { email: email },
   });
+
+  // DIRECT USER TO ACTIVATE ACCOUNT IF ALREADY DEACTIVATED
+  if (user) {
+    if (user.deletionDate > Date.now()) {
+      await activateUser(user)
+    }
+  }
 
   //NOTIFY USERS WITH SOCIAL AUTH WHEN LOGGING IN
   if (user && !user.password)
@@ -198,6 +208,19 @@ const resetPassword = async (req, res, next) => {
     );
   }
 };
+
+
+const activateUser = async (user) => {
+
+  await Profile.update(
+    { isdeactivated: false },
+    { where: { userId: user.id } }
+  )
+  // SET 'deletionDate' TO NULL
+  user.deletionDate = null;
+  await user.save()
+
+}
 
 module.exports = {
   signup,

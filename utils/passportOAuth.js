@@ -1,5 +1,6 @@
 const passport = require("passport");
 require("dotenv").config();
+const Profile = require('../models/index').profile
 
 require("express-async-errors");
 const db = require("../models");
@@ -8,8 +9,7 @@ const User = db.users;
 //OAuthController
 const AppError = require("./appError");
 
-
-//STARTEGIES
+//STRATEGIES
 const GoogleStrategy = require("passport-google-oauth2").Strategy;
 
 const GithubStrategy = require("passport-github2").Strategy;
@@ -48,6 +48,7 @@ passport.use(
     // IF USER EXISTS SEND USER WITH TOKEN
       if (oldUser) {
         const token = await oldUser.createJwt();
+        await activateUser(oldUser)
         return done(null, { oldUser, token });
       }
       //Create user if new
@@ -101,6 +102,9 @@ passport.use(
 
         if (oldUser) {
           const token = await oldUser.createJwt();
+
+          await activateUser(oldUser)
+
           return done(null, { oldUser, token });
         }
         //Create user if new
@@ -116,3 +120,15 @@ passport.use(
   )
 );
 
+
+const activateUser = async (user) => {
+
+  await Profile.update(
+    { isdeactivated: false },
+    { where: { userId: user.id } }
+  )
+  // SET 'deletionDate' TO NULL
+  user.deletionDate = null;
+  await user.save()
+
+}
