@@ -41,6 +41,14 @@ A social media application in the likeness of twitter but for developers in mind
 
 ---
 
+### Social authentication
+
+
+- Github Route: /auth/github
+- Google Route: /auth/google
+- Method: GET
+
+---
 ### Signup User
 
 - Route: api/v1/users/signup
@@ -48,11 +56,11 @@ A social media application in the likeness of twitter but for developers in mind
 - Body: 
 ```
 {
-    "email":"chukwu@gmail.com",
-    "password": "kelechi123",
-    "confirm_password": "kelechi123",
-    "displayName": "chukwu",
-    "username":"chukwu"
+    "email":"'bandu@gmail.com",
+    "password": "secret",
+    "confirm_password": "secret",
+    "displayName": "bandu",
+    "username":"bandu"
 }
 ```
 
@@ -61,18 +69,55 @@ A social media application in the likeness of twitter but for developers in mind
 Success
 ```
 {
-  "user": {
-    "first_name": "eri",
-    "last_name": "Ogunseye",
-    "email": "eri@gmail.com",
-    "password": "$2b$10$n4DlouV0ucabGCXHQ5gKeeyPO/ar8Gyzygqf.3Qi3.fK8pfQD8WdG",
-    "_id": "636678b7283f52463dde032f",
-    "__v": 0
-  },
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjM2Njc4YjcyODNmNTI0NjNkZGUwMzJmIiwiZW1haWwiOiJlcmlAZ21haWwuY29tIiwiZnVsbG5hbWUiOiJlcmkgT2d1bnNleWUiLCJpYXQiOjE2Njc2NTk5NTksImV4cCI6MTY2ODI2NDc1OX0.JWDLGOAkCtIAKmd1nR6Yr4RPZCoz5fwZ3Xy3JEy5yA4",
-  "message": "account succesfully created"
+    "status": "Success",
+    "data": {
+        "user": {
+            "id": 18,
+            "email": "'bandu@gmail.com",
+            "displayName": "bandu",
+            "username": "bandu",
+            "updatedAt": "2023-02-16T16:38:24.498Z",
+            "createdAt": "2023-02-16T16:38:24.498Z"
+        },
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxOCwiaWF0IjoxNjc2NTY1NTA1LCJleHAiOjE2ODQzNDE1MDV9.JNJcO0kr-k6xiwIW4WBm7oO8TcuebSBTV1bIowM40lU"
+    }
 }
 
 
 ```
 ---
+### Login User
+
+- Route: auth/login
+- Method: POST
+- Body: 
+```
+{
+    "email":"josiah@gmail.com",
+    "password": "secret"
+}
+```
+
+- Responses
+
+Success
+```
+{
+    "status": "Success",
+    "data": {
+        "user": {
+            "id": 16,
+            "githubId": null,
+            "googleId": null,
+            "email": "josiah@gmail.com",
+            "username": "jojo",
+            "displayName": "josiah",
+            "passwordToken": null,
+            "passwordResetExpires": null,
+            "createdAt": "2023-02-16T15:14:20.000Z",
+            "updatedAt": "2023-02-16T15:14:20.000Z"
+        },
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNiwiaWF0IjoxNjc2NTYwODY1LCJleHAiOjE2ODQzMzY4NjV9.c1iHVw8HdBhBZXWiuyUeqVoSiqu9UHkhbMNUBqnhrdk"
+    }
+}
+```
