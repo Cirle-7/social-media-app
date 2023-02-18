@@ -121,3 +121,48 @@ Success
     }
 }
 ```
+---
+### Deactivate Account
+
+- Route: account/delete
+- Method: PATCH
+
+- Responses
+
+Success
+```
+{
+    "status": "success",
+    "message": "A link has been sent to your mail. Please check your mail to continue.
+}}
+```
+---
+## ON DEACTIVATION
+### Get Profile
+- Route: profile/ssamuel
+- Method: GET
+
+- Responses
+
+Success
+
+```
+{
+    "status": "success",
+    "message": "Profile found",
+    "data": {
+        "profile": {
+            "username": "ssamuel",
+            "displayName": "Korku",
+            "Bio": "A normal user",
+            "website": null,
+            "github_link": null,
+            "twitter_link": null,
+            "avatarURL": "http://res.cloudinary.com/di4y0ladi/image/upload/v1676741278/lmoroqczyl1lpl24d8zp.jpg",
+            "headerURL": "https://cdn.pixabay.com/photo/2016/08/30/16/26/banner-1631296__340.jpg",
+            "followers": null
+        }
+    }
+}
+```
+NOTE: SOME FIELDS LIKE website, github_link, twitter_link AND location, WILL RETURN 'null' WHEN THE AN ACCOUNT IS DEACTIVATED

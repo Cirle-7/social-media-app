@@ -10286,3 +10286,83 @@
 [35m[39m
 2023-02-18 17:48:56:4856 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 200 391 - 12.305 ms[39m
 [35m[39m
+2023-02-18 18:06:42:642 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 18:06:42:642 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 18:07:21:721 [31merror[39m: [31mOp is not defined[39m
+2023-02-18 18:07:21:721 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 500 443 - 27.068 ms[39m
+[35m[39m
+2023-02-18 18:07:52:752 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 18:07:52:752 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 18:08:09:89 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 200 391 - 50.193 ms[39m
+[35m[39m
+2023-02-18 18:09:11:911 [35mhttp[39m: [35m::1 GET / 304 - - 3.919 ms[39m
+[35m[39m
+2023-02-18 18:09:11:911 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 18:09:11:911 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 3.736 ms[39m
+[35m[39m
+2023-02-18 18:09:15:915 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.493 ms[39m
+[35m[39m
+2023-02-18 18:09:21:921 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh4fDeNpjlvTE3gVoH5aQ5xw8HZ5ZrViGhmuFC2H4B2X6ALpbhkBnv-tvahytkJzLw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 515 - 1015.072 ms[39m
+[35m[39m
+2023-02-18 18:09:22:922 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 18:09:22:922 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.544 ms[39m
+[35m[39m
+2023-02-18 18:09:58:958 [35mhttp[39m: [35m::1 POST /api/v1/post/ 200 334 - 5899.040 ms[39m
+[35m[39m
+2023-02-18 18:10:51:1051 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Sunday%20Olubode 200 456 - 13.235 ms[39m
+[35m[39m
+2023-02-18 18:11:20:1120 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3746.626 ms[39m
+[35m[39m
+2023-02-18 18:11:42:1142 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/89a43788448fe634b52e1deba700dbfa3d83721c650be230f458fde24c149b83 200 127 - 40.834 ms[39m
+[35m[39m
+2023-02-18 18:12:40:1240 [35mhttp[39m: [35m::1 GET / 304 - - 1.303 ms[39m
+[35m[39m
+2023-02-18 18:12:40:1240 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 18:12:40:1240 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 1.609 ms[39m
+[35m[39m
+2023-02-18 18:12:56:1256 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Sunday%20Olubode 200 404 - 20.283 ms[39m
+[35m[39m
+2023-02-18 18:13:05:135 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 1.476 ms[39m
+[35m[39m
+2023-02-18 18:13:10:1310 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh5YzkopjaM_fPwAw1ZyD9yL1fuhtjlnyddNXsoOBi_DEik8qzY8-wN2bCCw2QSgSQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 414 - 917.750 ms[39m
+[35m[39m
+2023-02-18 18:13:10:1310 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-18 18:13:10:1310 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.662 ms[39m
+[35m[39m
+2023-02-18 18:13:16:1316 [31merror[39m: [31mProfile not found[39m
+2023-02-18 18:13:16:1316 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Sunday%20Olubode 404 454 - 7.984 ms[39m
+[35m[39m
+2023-02-18 18:25:17:2517 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 345 - 3559.644 ms[39m
+[35m[39m
+2023-02-18 18:25:37:2537 [31merror[39m: [31mProfile not found[39m
+2023-02-18 18:25:37:2537 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 404 454 - 9.454 ms[39m
+[35m[39m
+2023-02-18 18:26:02:262 [31merror[39m: [31mProfile not found[39m
+2023-02-18 18:26:02:262 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 404 453 - 10.824 ms[39m
+[35m[39m
+2023-02-18 18:26:21:2621 [31merror[39m: [31mProfile not found[39m
+2023-02-18 18:26:21:2621 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 404 454 - 13.685 ms[39m
+[35m[39m
+2023-02-18 18:26:58:2658 [31merror[39m: [31mProfile not found[39m
+2023-02-18 18:26:58:2658 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 404 454 - 11.862 ms[39m
+[35m[39m
+2023-02-18 18:27:59:2759 [35mhttp[39m: [35m::1 POST /api/v1/profiles 201 505 - 6570.142 ms[39m
+[35m[39m
+2023-02-18 18:28:17:2817 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3742.452 ms[39m
+[35m[39m
+2023-02-18 18:28:52:2852 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/22aa2b25124b62be50dd1ea9694855816878d1f69276e4f85ce670cd7aaa2712 200 127 - 26.441 ms[39m
+[35m[39m
+2023-02-18 18:29:09:299 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 200 387 - 14.416 ms[39m
+[35m[39m
+2023-02-18 18:35:27:3527 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-18 18:35:27:3527 [35mhttp[39m: [35m::1 POST /api/v1/users/login 400 466 - 9.533 ms[39m
+[35m[39m
+2023-02-18 18:35:40:3540 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 468 - 139.076 ms[39m
+[35m[39m
+2023-02-18 18:36:01:361 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 200 387 - 18.273 ms[39m
+[35m[39m
+2023-02-18 18:36:05:365 [31merror[39m: [31mNo user with that username[39m
+2023-02-18 18:36:05:365 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 404 471 - 2.513 ms[39m
+[35m[39m
+2023-02-18 18:36:51:3651 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 18:36:51:3651 [32minfo[39m: [32mtable sync successful[39m

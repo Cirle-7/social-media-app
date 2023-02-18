@@ -88,8 +88,7 @@ exports.deactivateProfile = async (req, res) => {
 
     // SET DELETION DATE TO THE NEXT 30 DAYS
     await User.update(
-        // { deletionDate: Date.now() + (30 * 24 * 60 * 60 * 1000) },
-        { deletionDate: Date.now() + ( 0.5 * 60 * 1000) },
+        { deletionDate: Date.now() + (30 * 24 * 60 * 60 * 1000) },
         {
             where: { id: profile.userId }
         })

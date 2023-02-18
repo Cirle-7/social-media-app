@@ -3,6 +3,7 @@ const appError = require('../utils/appError')
 const logger = require('../utils/logger')
 const cloudinary = require('../config/cloudinary')
 const fs = require('fs')
+const { Op } = require('sequelize');
 const db = require('../models')
 const Profile = db.profile;
 const User = db.users;
@@ -132,6 +133,14 @@ const getProfile = async (req,res) => {
     
     // IF PROFILE NOT FOUND
     if(!profile) throw new appError('Profile not found', 404)
+
+    // DELETE: ANY ACCOUNT DUE FOR DELETION
+    await User.destroy({
+        where: {
+            deletionDate: { [Op.lt] : Date.now() }
+        }
+    })
+
     // RETURN PROFILE
     res.status(200).json({
         status: 'success',
