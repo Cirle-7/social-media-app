@@ -20,11 +20,16 @@ const createPost = async (req, res) => {
     urls.push(url);
   }
 
+  const {body:info} = body
+
+const bodyInfo = info.split(""||" ")
+const tags = bodyInfo.filter(bod => bod.startsWith('#'))
+
   body.userId = user.id;
-  body.media_url = urls.join("||") ?? "";
+  body.media_url = urls ?? "";
+  body.tags = tags.join(' ') ?? "";
 
   const post = await Post.create(body);
-
   res.status(200).json({ status: true, post });
 };
 
@@ -46,7 +51,7 @@ const getAllPost = async (req, res) => {
     findObject.userId = userId;
   }
   if (tags) {
-    findObject.tags = { [Op.like]: `${tags}%` };
+    findObject.tags = { [Op.like]: `%${tags}%` };
   }
 
   if (search) {
