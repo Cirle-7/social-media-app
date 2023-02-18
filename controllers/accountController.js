@@ -10,7 +10,7 @@ const User = db.users
 require('dotenv').config()
 
 // DEACTIVATE USER'S PROFILE
-exports.deleteProfile = async (req, res, next) => {
+exports.requestDeactivation = async (req, res, next) => {
 
     const email = req.user.email
     if (!email) throw new AppError('Please log in to complete this action', 401)
@@ -26,7 +26,8 @@ exports.deleteProfile = async (req, res, next) => {
         deactivationTokenExpires
     } = await Tokens.createDeactivationToken();
 
-    const updatedProfile = await Profile.update(
+    // UPDATE PROFILE WITH TOKENS
+    await Profile.update(
         {
             deactivationToken: deactivationToken,
             deactivationTokenExpires: deactivationTokenExpires,
@@ -39,11 +40,20 @@ exports.deleteProfile = async (req, res, next) => {
     try {
         await new Email(user, deactivationUrl).sendDeactivation()
 
-        res.status(200).json({
-            status: 'success',
-            message: `A link has been sent to your mail. Please check your mail to continue.${deactivationUrl}`
+        if (process.env.NODE_ENV === 'development') {
+            res.status(200).json({
+                status: 'success',
+                message: `A link has been sent to your mail. Please check your mail to continue.${deactivationUrl}`
 
-        })
+            })
+        } else {
+            res.status(200).json({
+                status: 'success',
+                message: `A link has been sent to your mail. Please check your mail to continue.`
+
+            })
+        }
+
     } catch (err) {
         throw new AppError('Error sending deactivation link. Please try again', 500)
     }
@@ -77,16 +87,16 @@ exports.deactivateProfile = async (req, res) => {
     await profile.save();
 
     // SET DELETION DATE TO THE NEXT 30 DAYS
-    // await User.update({ deletionDate: Date.now() + ( 30 * 24 * 60 * 60 * 1000) })
     await User.update(
-        { deletionDate: Date.now() + (30 * 24 * 60 * 60 * 1000) },
+        // { deletionDate: Date.now() + (30 * 24 * 60 * 60 * 1000) },
+        { deletionDate: Date.now() + ( 0.5 * 60 * 1000) },
         {
             where: { id: profile.userId }
         })
 
     res.status(200).json({
         status: true,
-        message: `Your account will be deactivated for 30days of inactivity, after which it will be permanently deleted`
+        message: `Your account will be deactivated for 30days if inactive, after which it will be permanently deleted`
     })
 
 }

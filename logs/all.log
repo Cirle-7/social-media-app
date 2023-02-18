@@ -10241,3 +10241,48 @@
 [35m[39m
 2023-02-18 16:00:54:054 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 200 567 - 13.887 ms[39m
 [35m[39m
+2023-02-18 17:20:09:209 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 17:20:09:209 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 17:21:15:2115 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 17:21:17:2117 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 17:21:27:2127 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 17:21:27:2127 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 17:38:26:3826 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 17:38:26:3826 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 17:38:44:3844 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 451 - 201.822 ms[39m
+[35m[39m
+2023-02-18 17:39:17:3917 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 4029.455 ms[39m
+[35m[39m
+2023-02-18 17:39:52:3952 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/dc298c531e01aba447519d1fe32da2d3211163e46124b0fd9cdc47413966f51c 200 127 - 42.942 ms[39m
+[35m[39m
+2023-02-18 17:40:35:4035 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 451 - 150.165 ms[39m
+[35m[39m
+2023-02-18 17:41:46:4146 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 17:41:46:4146 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 17:42:23:4223 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 17:42:23:4223 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 17:42:29:4229 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-18 17:42:29:4229 [32minfo[39m: [32mtable sync successful[39m
+2023-02-18 17:42:31:4231 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 451 - 192.915 ms[39m
+[35m[39m
+2023-02-18 17:43:00:430 [31merror[39m: [31mNo user with that username[39m
+2023-02-18 17:43:00:430 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 404 471 - 15.866 ms[39m
+[35m[39m
+2023-02-18 17:43:12:4312 [31merror[39m: [31mNo user with that username[39m
+2023-02-18 17:43:12:4312 [35mhttp[39m: [35m::1 GET /api/v1/profiles/2 404 472 - 14.713 ms[39m
+[35m[39m
+2023-02-18 17:43:39:4339 [31merror[39m: [31mNo user with that username[39m
+2023-02-18 17:43:39:4339 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Rep1 404 472 - 8.902 ms[39m
+[35m[39m
+2023-02-18 17:46:27:4627 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 200 443 - 14.075 ms[39m
+[35m[39m
+2023-02-18 17:46:57:4657 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3989.669 ms[39m
+[35m[39m
+2023-02-18 17:47:19:4719 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/1149c692453b3e6eab7bea841eeafa1b4fabdbc9c1d33ed3d574b0d5a5111bb3 200 127 - 44.552 ms[39m
+[35m[39m
+2023-02-18 17:47:25:4725 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 200 391 - 7.540 ms[39m
+[35m[39m
+2023-02-18 17:48:43:4843 [35mhttp[39m: [35m::1 GET /api/v1/post/ 200 38 - 31.963 ms[39m
+[35m[39m
+2023-02-18 17:48:56:4856 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Samuel 200 391 - 12.305 ms[39m
+[35m[39m

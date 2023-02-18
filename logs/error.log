@@ -6907,3 +6907,270 @@
 2023-02-18 15:54:58:5458 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-02-18 15:55:27:5527 [31merror[39m: [31moldUser is not defined[39m
 2023-02-18 15:56:28:5628 [31merror[39m: [31mUser already exists. Please login[39m
+2023-02-18 16:58:07:587 [31merror[39m: [31muncaughtException: blockedAccount is not defined[39m
+[31mReferenceError: blockedAccount is not defined[39m
+[31m    at createAssociations (C:\Users\user\Documents\Projects\social-media-app\models\index.js:95:16)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:97:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-18 17:00:17:017 [31merror[39m: [31muncaughtException: blockedAccount is not defined[39m
+[31mReferenceError: blockedAccount is not defined[39m
+[31m    at createAssociations (C:\Users\user\Documents\Projects\social-media-app\models\index.js:95:16)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:97:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-18 17:14:53:1453 [31merror[39m: [31muncaughtException: Identifier 'User' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\models\index.js:56[39m
+[31mUser.hasMany(Posts, {[39m
+[31m^[39m
+
+[31mSyntaxError: Identifier 'User' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-18 17:14:56:1456 [31merror[39m: [31muncaughtException: user.hasMany called with something that's not a subclass of Sequelize.Model[39m
+[31mError: user.hasMany called with something that's not a subclass of Sequelize.Model[39m
+[31m    at Function.hasMany (C:\Users\user\Documents\Projects\social-media-app\node_modules\sequelize\lib\associations\mixin.js:13:13)[39m
+[31m    at createAssociations (C:\Users\user\Documents\Projects\social-media-app\models\index.js:96:8)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:98:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+2023-02-18 17:14:59:1459 [31merror[39m: [31muncaughtException: user.hasMany called with something that's not a subclass of Sequelize.Model[39m
+[31mError: user.hasMany called with something that's not a subclass of Sequelize.Model[39m
+[31m    at Function.hasMany (C:\Users\user\Documents\Projects\social-media-app\node_modules\sequelize\lib\associations\mixin.js:13:13)[39m
+[31m    at createAssociations (C:\Users\user\Documents\Projects\social-media-app\models\index.js:96:8)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:98:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+2023-02-18 17:15:00:150 [31merror[39m: [31muncaughtException: Cannot read properties of undefined (reading 'hasMany')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'hasMany')[39m
+[31m    at createAssociations (C:\Users\user\Documents\Projects\social-media-app\models\index.js:56:6)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:98:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-18 17:15:06:156 [31merror[39m: [31muncaughtException: Unexpected token '<<'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:22[39m
+[31m<<<<<<< HEAD[39m
+[31m^^[39m
+
+[31mSyntaxError: Unexpected token '<<'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js:7:82)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:9:19)[39m
+2023-02-18 17:18:24:1824 [31merror[39m: [31muncaughtException: Unexpected token '<<'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:22[39m
+[31m<<<<<<< HEAD[39m
+[31m^^[39m
+
+[31mSyntaxError: Unexpected token '<<'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js:7:82)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:9:19)[39m
+2023-02-18 17:18:32:1832 [31merror[39m: [31muncaughtException: Unexpected token '<<'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:92[39m
+[31m<<<<<<< HEAD[39m
+[31m^^[39m
+
+[31mSyntaxError: Unexpected token '<<'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js:7:82)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:9:19)[39m
+2023-02-18 17:18:39:1839 [31merror[39m: [31muncaughtException: Unexpected token '<<'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:99[39m
+[31m<<<<<<< HEAD[39m
+[31m^^[39m
+
+[31mSyntaxError: Unexpected token '<<'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js:7:82)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:9:19)[39m
+2023-02-18 17:18:46:1846 [31merror[39m: [31muncaughtException: Cannot find module 'cors'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module 'cors'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:15:14)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-18 17:20:57:2057 [31merror[39m: [31muncaughtException: Unexpected token '.'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\models\index.js:110[39m
+[31m  .then(() => logger.info("table sync successful"))[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '.'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-18 17:20:59:2059 [31merror[39m: [31muncaughtException: Cannot read properties of undefined (reading 'then')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'then')[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:110:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-02-18 17:21:04:214 [31merror[39m: [31muncaughtException: db.sequelize.sync(...).sync is not a function[39m
+[31mTypeError: db.sequelize.sync(...).sync is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:109:4)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-02-18 17:21:06:216 [31merror[39m: [31muncaughtException: alter is not defined[39m
+[31mReferenceError: alter is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:109:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-02-18 17:21:10:2110 [31merror[39m: [31muncaughtException: db.sequelize.sync(...).sync is not a function[39m
+[31mTypeError: db.sequelize.sync(...).sync is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:109:4)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-02-18 17:21:24:2124 [31merror[39m: [31muncaughtException: db.sequelize.then is not a function[39m
+[31mTypeError: db.sequelize.then is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:110:4)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-02-18 17:43:00:430 [31merror[39m: [31mNo user with that username[39m
+2023-02-18 17:43:12:4312 [31merror[39m: [31mNo user with that username[39m
+2023-02-18 17:43:39:4339 [31merror[39m: [31mNo user with that username[39m

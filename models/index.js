@@ -51,6 +51,7 @@ let Posts = db.post
 let comments = db.comments
 let commentsComments = db.commentsComments
 let followers = db.followers
+let blockedAccount = db.blockedAccounts
 // create a userid in the post table
 User.hasMany(Posts, {
   onDelete: 'CASCADE',
@@ -105,6 +106,7 @@ sequelize
 // sync the table
 db.sequelize
   .sync({ force: false })
+  // .sync({ alter: true})
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 
