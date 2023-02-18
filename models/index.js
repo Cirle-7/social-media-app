@@ -8,20 +8,16 @@ const {
 } = require("../config/db.config");
 const { Sequelize } = require("sequelize");
 
-
 // import the models here
 const userModel = require("./userModel");
 const postModel = require("./postModel");
 const profileModel = require("./profileModel");
-const commentModel = require('./commentModel')
-const commentCommentModel = require('./comment-commentModel')
-const followersModel = require('./followersModel')
+const commentModel = require("./commentModel");
+const commentCommentModel = require("./comment-commentModel");
+const followersModel = require("./followersModel");
+const blockedAccountsModel = require("./blockedAccountsModel");
+
 const logger = require("./../utils/logger");
-
-
-
-
-
 
 // connect to Database
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
@@ -34,8 +30,6 @@ const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   // }
 });
 
-
-
 // add the models to db Object so it can be called when you import db
 const db = {};
 
@@ -47,8 +41,7 @@ db.post = postModel(sequelize, Sequelize.DataTypes);
 db.comments = commentModel(sequelize, Sequelize.DataTypes);
 db.commentsComments = commentCommentModel(sequelize, Sequelize.DataTypes);
 db.followers = followersModel(sequelize, Sequelize.DataTypes);
-
-
+db.blockedAccounts = blockedAccountsModel(sequelize, Sequelize.DataTypes);
 
 // creating  associations with tables joining tables together
 (function createAssociations(){
@@ -81,30 +74,27 @@ User.hasOne(Profile, {
 })      // link a user to a profile
 Profile.belongsTo(User)
 
+  // create a postId in the comment table
 
-// create a postId in the comment table 
+  comments.belongsTo(Posts);
+  Posts.hasMany(comments);
 
-comments.belongsTo(Posts)
-Posts.hasMany(comments)
+  // create a comment id in the comment_comment table
+  comments.hasMany(commentsComments);
+  commentsComments.belongsTo(comments);
 
+  // create a userId in the commentComments table
+  User.hasMany(commentsComments); // link commentsComments to their user
+  commentsComments.belongsTo(User);
 
-// create a comment id in the comment_comment table
-comments.hasMany(commentsComments)
-commentsComments.belongsTo(comments)
+  // // create a userId in the followers table
+  User.hasMany(followers);
+  followers.belongsTo(User);
 
- // create a userId in the commentComments table
-User.hasMany(commentsComments);     // link commentsComments to their user
-commentsComments.belongsTo(User)
-
-// // create a userId in the followers table
-User.hasMany(followers);
-followers.belongsTo(User)
-
-
+  // create association between blockedUsers and users
+  User.hasMany(blockedAccount); //, { foreignKey: 'blockedBy'})
+  blockedAccount.belongsTo(User); //, { as: 'blockedUserId', foreignKey: 'blockedUser'})
 })();
-
-
-
 
 // checking  if the connection is successfull
 sequelize
@@ -114,10 +104,8 @@ sequelize
 
 // sync the table
 db.sequelize
-  .sync({ force: false })   
-  // .sync({ alter: true })   
+  .sync({ force: false })
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 
 module.exports = db;
-    

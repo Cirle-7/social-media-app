@@ -4,7 +4,7 @@ const multer = require('multer')
 
 
 //IMPORT POST LOGIC CONTROLLER
-const { createPost, editPost, deletePost, getAllPost ,getPostById, draftPost,likePost } = require('../controllers/postController')
+const { createPost, editPost, deletePost, getAllPost ,getPostById, draftPost } = require('../controllers/postController')
 
 //SET 
 const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {

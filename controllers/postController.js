@@ -2,7 +2,7 @@ require("express-async-errors");
 const db = require("../models");
 const AppError = require("../utils/appError");
 const Post = db.post;
-const User = db.users
+const User = db.users;
 const { Op } = require("sequelize");
 
 //IMPORT CLOUDINARY
@@ -19,13 +19,23 @@ const createPost = async (req, res) => {
     const url = await uploadToCloudinary(path);
     urls.push(url);
   }
+<<<<<<< HEAD
 
   body.userId = user.id;
   body.media_url = urls.join("||") ?? "";
+=======
+>>>>>>> main
 
+  const {body:info} = body
+
+const bodyInfo = info.split(""||" ")
+const tags = bodyInfo.filter(bod => bod.startsWith('#'))
+
+  body.userId = user.id;
+  body.media_url = urls ?? "";
+  body.tags = tags.join(' ') ?? "";
 
   const post = await Post.create(body);
-
   res.status(200).json({ status: true, post });
 };
 
@@ -42,12 +52,12 @@ const getAllPost = async (req, res) => {
 
   const findObject = {};
 
-  findObject.status = "Published"
+  findObject.status = "Published";
   if (userId) {
     findObject.userId = userId;
   }
   if (tags) {
-    findObject.tags = { [Op.like]: `${tags}%` };
+    findObject.tags = { [Op.like]: `%${tags}%` };
   }
 
   if (search) {
@@ -62,6 +72,7 @@ const getAllPost = async (req, res) => {
     include: [{ all: true, attributes: { exclude: ["password"] } },],
   });
 
+<<<<<<< HEAD
   await User.destroy({
     where: {
       deletionDate: { [Op.lt]: Date.now() }
@@ -74,6 +85,20 @@ const getAllPost = async (req, res) => {
     return { post, profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}` }
 
   })
+=======
+  const newPosts = posts.map((post) => {
+    const {
+      user: { username },
+    } = post;
+
+    return {
+      post,
+      profileUrl: `${req.protocol}://${req.get(
+        "host"
+      )}/api/v1/profiles/${username}`,
+    };
+  });
+>>>>>>> main
 
   res.status(200).json({ status: true, newPosts, nHit: newPosts.length });
 };
@@ -85,16 +110,36 @@ const getPostById = async (req, res) => {
   const post = await Post.findOne({
     where: { id },
     include: User,
+<<<<<<< HEAD
     include: [{ all: true, attributes: { exclude: ["password"] } },],
+=======
+    include: [{ all: true, attributes: { exclude: ["password"] } }],
+>>>>>>> main
   });
   post.views += 1;
   await post.save();
 
   if (!post) throw new AppError("post not found", 404);
 
+<<<<<<< HEAD
   const { user: { username } } = post
 
   res.status(200).json({ status: true, post, profileUrl: `${req.protocol}://${req.get("host")}/api/v1/profiles/${username}` });
+=======
+  const {
+    user: { username },
+  } = post;
+
+  res
+    .status(200)
+    .json({
+      status: true,
+      post,
+      profileUrl: `${req.protocol}://${req.get(
+        "host"
+      )}/api/v1/profiles/${username}`,
+    });
+>>>>>>> main
 };
 
 // EDIT POST CONTROLLER
