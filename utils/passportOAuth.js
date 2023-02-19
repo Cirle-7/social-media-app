@@ -9,6 +9,8 @@ const User = db.users;
 //OAuthController
 const AppError = require("./appError");
 
+const HOSTNAME = (process.env.NODE_ENV === 'production') ? 'https://circle7.tech' : `http://localhost:${process.env.PORT}`
+
 //STRATEGIES
 const GoogleStrategy = require("passport-google-oauth2").Strategy;
 
@@ -20,7 +22,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:3310/api/v1/users/auth/google/callback",
+      callbackURL: `${HOSTNAME}/api/v1/users/auth/google/callback`,
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
@@ -71,7 +73,7 @@ passport.use(
     {
       clientID: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      callbackURL: "http://localhost:3310/api/v1/users/auth/github/callback",
+      callbackURL: `${HOSTNAME}/api/v1/users/auth/github/callback`,
 
       scope: ['user:email'],
       passReqToCallback: true,

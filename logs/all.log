@@ -10366,3 +10366,37 @@
 [35m[39m
 2023-02-18 18:36:51:3651 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-02-18 18:36:51:3651 [32minfo[39m: [32mtable sync successful[39m
+2023-02-19 23:46:04:464 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-19 23:46:05:465 [32minfo[39m: [32mtable sync successful[39m
+2023-02-19 23:46:29:4629 [35mhttp[39m: [35m::1 GET / 304 - - 9.316 ms[39m
+[35m[39m
+2023-02-19 23:46:30:4630 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-19 23:46:30:4630 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.453 ms[39m
+[35m[39m
+2023-02-19 23:46:32:4632 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 2.789 ms[39m
+[35m[39m
+2023-02-19 23:46:41:4641 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh591gIeAqSLfWNG3fIxrU0q3jClr9ZJkCg8X1U64hV0_vsQPMZh5ISKg-SuEmcbNg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 515 - 1087.689 ms[39m
+[35m[39m
+2023-02-19 23:46:41:4641 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-19 23:46:41:4641 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.719 ms[39m
+[35m[39m
+2023-02-19 23:46:48:4648 [35mhttp[39m: [35m::1 GET / 304 - - 1.079 ms[39m
+[35m[39m
+2023-02-19 23:46:48:4648 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-19 23:46:48:4648 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 8.137 ms[39m
+[35m[39m
+2023-02-19 23:46:50:4650 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/github 302 0 - 2.298 ms[39m
+[35m[39m
+2023-02-19 23:47:05:475 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/github/callback?code=d084405fd53d5b7987ca 201 392 - 8788.824 ms[39m
+[35m[39m
+2023-02-19 23:47:05:475 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-19 23:47:05:475 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.275 ms[39m
+[35m[39m
+2023-02-19 23:57:48:5748 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-19 23:57:48:5748 [32minfo[39m: [32mtable sync successful[39m
+2023-02-19 23:57:58:5758 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-19 23:57:58:5758 [32minfo[39m: [32mtable sync successful[39m
+2023-02-20 00:00:58:058 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-20 00:00:58:058 [32minfo[39m: [32mtable sync successful[39m
+2023-02-20 00:01:08:18 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-20 00:01:08:18 [32minfo[39m: [32mtable sync successful[39m

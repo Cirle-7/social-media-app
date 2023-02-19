@@ -93,6 +93,8 @@ exports.deactivateProfile = async (req, res) => {
             where: { id: profile.userId }
         })
 
+    //TODO: SEND CONFIRMATION MAIL
+
     res.status(200).json({
         status: true,
         message: `Your account will be deactivated for 30days if inactive, after which it will be permanently deleted`
