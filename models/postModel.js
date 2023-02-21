@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
       media_url: {
         type: DataTypes.JSON,
       },
-      likes: {
+      likesNo: {
         type: DataTypes.INTEGER,
         defaultValue: 0,
       },

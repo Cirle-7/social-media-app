@@ -313,6 +313,45 @@ Success
 
 ```
 ---
+### like a post  (logged in users only )
+
+- Route: /api/v1/post/like/:postId
+- Method: post
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+  "message": "Post Liked"
+} 
+
+
+```
+---
+
+### disLike a post  (logged in users only )
+
+- Route: /api/v1/post/like/:postId
+- Method: delete
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+  "message": "Post disLiked"
+} 
+
+
+```
+---
+
+
+
+
 
 ## Contributors
 - Ademeso Josiah

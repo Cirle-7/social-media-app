@@ -7,7 +7,7 @@ module.exports= (sequelize, DataTypes)=>{
         media_url:{
             type:DataTypes.STRING,
         },
-        likes:{
+        likesNo:{
             type:DataTypes.INTEGER,
             defaultValue:0
         },

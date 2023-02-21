@@ -1,7 +1,7 @@
 const Joi = require("joi");
 
 const postValidator = Joi.object({
-  body: Joi.string().required(),
+  body:Joi.string(),
 
   media_url: Joi.string(),
 

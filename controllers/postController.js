@@ -3,6 +3,7 @@ const db = require("../models");
 const AppError = require("../utils/appError");
 const Post = db.post;
 const User = db.users;
+const Like = db.likes;
 const { Op } = require("sequelize");
 
 //IMPORT CLOUDINARY
@@ -14,22 +15,26 @@ const createPost = async (req, res) => {
   const { body, user, files } = req;
   const urls = [];
 
-  for (let file of files) {
-    const { path } = file;
-    const url = await uploadToCloudinary(path);
-    urls.push(url);
+  if (files) {
+    for (let file of files) {
+      const { path } = file;
+      const url = await uploadToCloudinary(path);
+      urls.push(url);
+    }
   }
+  const { body: info } = body;
 
-  const {body:info} = body
+  let tags;
+  if (info) {
+    let bodyInfo = info.trim();
+    bodyInfo = bodyInfo.split(" " ?? "  ");
 
-let bodyInfo = info.trim()
-bodyInfo = bodyInfo.split(" " ?? "  ")
-
-const tags = bodyInfo.filter(bod => bod.startsWith('#'))
+    tags = bodyInfo.filter((bod) => bod.startsWith("#"));
+  }
 
   body.userId = user.id;
   body.media_url = urls ?? "";
-  body.tags = tags.join(' ') ?? "";
+  body.tags = tags?.join(" ") ?? "";
 
   const post = await Post.create(body);
   res.status(200).json({ status: true, post });
@@ -59,21 +64,35 @@ const getAllPost = async (req, res) => {
   if (search) {
     findObject.body = { [Op.like]: `%${search}%` };
   }
-  const order = orderBy ? orderBy : "updatedAt" 
+  const order = orderBy ? orderBy : "updatedAt";
 
   const posts = await Post.findAll({
     where: { ...findObject },
     ...queryObject,
     order: [[order, "DESC"]],
-    include:User,
-    include: [ { all: true, attributes: { exclude: ["password"] } }, ],
+    // include:User,
+    // include: [ { all: true, attributes: { exclude: ["password"] } }, ],
+    // include:{model:Like},
+    include: [
+      {
+        model: User,
+        required: true,
+        attributes: { exclude: ["password"] },
+      },
+      {
+        model: Like,
+      },
+      // Qux // Shorthand syntax for { model: Qux } also works here
+    ],
   });
 
   const allPosts = posts.map((post) => {
     const {
       user: { username },
+      likes,
     } = post;
 
+    post.likesNo = likes.length;
     return {
       post,
       profileUrl: `${req.protocol}://${req.get(
@@ -103,15 +122,13 @@ const getPostById = async (req, res) => {
     user: { username },
   } = post;
 
-  res
-    .status(200)
-    .json({
-      status: true,
-      post,
-      profileUrl: `${req.protocol}://${req.get(
-        "host"
-      )}/api/v1/profiles/${username}`,
-    });
+  res.status(200).json({
+    status: true,
+    post,
+    profileUrl: `${req.protocol}://${req.get(
+      "host"
+    )}/api/v1/profiles/${username}`,
+  });
 };
 
 // EDIT POST CONTROLLER
@@ -133,23 +150,26 @@ const editPost = async (req, res) => {
 
   const urls = [];
 
-  for (let file of files) {
-    const { path } = file;
-    const url = await uploadToCloudinary(path);
-    urls.push(url);
+  if (files) {
+    for (let file of files) {
+      const { path } = file;
+      const url = await uploadToCloudinary(path);
+      urls.push(url);
+    }
   }
 
-    const {body:info} = body
+  const { body: info } = body;
 
-let bodyInfo = info.trim()
-bodyInfo = bodyInfo.split(" " ?? "  ")
+  let tags;
+  if (info) {
+    let bodyInfo = info.trim();
+    bodyInfo = bodyInfo.split(" " ?? "  ");
 
-const tags = bodyInfo.filter(bod => bod.startsWith('#'))
-
+    tags = bodyInfo.filter((bod) => bod.startsWith("#"));
+  }
   body.userId = user.id;
-  body.media_url = urls.join("||") ?? "";
-  body.tags = tags.join(' ') ?? "";
-
+  body.media_url = urls ?? "";
+  body.tags = tags?.join(" ") ?? "";
 
   const updatedPost = await post.update(body);
 
@@ -188,6 +208,43 @@ const draftPost = async (req, res) => {
   return res.status(200).json({ message: "Post Drafted" });
 };
 
+const likeAPost = async (req, res) => {
+  // CHECK IF ITS BEEN LIKED BEFORE
+  const check = await Like.findOne({
+    where: {
+      userId: req.user.id,
+      postId: req.params.id,
+    },
+  });
+
+  if (check) throw new AppError("already liked", 400);
+
+  await Like.create({
+    userId: req.user.id,
+    postId: req.params.id,
+  });
+
+  return res.status(200).json({ message: "Post Liked" });
+};
+
+const disLikeAPost = async (req, res) => {
+  // CHECK IF ITS BEEN LIKED BEFORE
+  const check = await Like.findOne({
+    where: {
+      userId: req.user.id,
+      postId: req.params.id,
+    },
+  });
+
+  if (!check) throw new AppError("already disliked", 400);
+
+  await Like.destroy({
+    userId: req.user.id,
+    postId: req.params.id,
+  });
+
+  return res.status(200).json({ message: "Post disLiked" });
+};
 //GET ALL DRAFTS
 
 module.exports = {
@@ -197,4 +254,6 @@ module.exports = {
   getAllPost,
   getPostById,
   draftPost,
+  likeAPost,
+  disLikeAPost,
 };
