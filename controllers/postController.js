@@ -22,7 +22,9 @@ const createPost = async (req, res) => {
 
   const {body:info} = body
 
-const bodyInfo = info.split(""||" ")
+let bodyInfo = info.trim()
+bodyInfo = bodyInfo.split(" " ?? "  ")
+
 const tags = bodyInfo.filter(bod => bod.startsWith('#'))
 
   body.userId = user.id;
@@ -36,7 +38,7 @@ const tags = bodyInfo.filter(bod => bod.startsWith('#'))
 // GET ALL  POST CONTROLLER
 const getAllPost = async (req, res) => {
   // DESTRUCTURE QUERY REQUEST
-  const { limit, userId, tags, search } = req.query;
+  const { limit, userId, tags, search, status, orderBy } = req.query;
 
   //
   const queryObject = {};
@@ -46,7 +48,7 @@ const getAllPost = async (req, res) => {
 
   const findObject = {};
 
-  findObject.status = "Published";
+  findObject.status = status ? status : "Published";
   if (userId) {
     findObject.userId = userId;
   }
@@ -57,16 +59,17 @@ const getAllPost = async (req, res) => {
   if (search) {
     findObject.body = { [Op.like]: `%${search}%` };
   }
+  const order = orderBy ? orderBy : "updatedAt" 
 
   const posts = await Post.findAll({
     where: { ...findObject },
     ...queryObject,
-    order: [["updatedAt", "DESC"]],
+    order: [[order, "DESC"]],
     include:User,
     include: [ { all: true, attributes: { exclude: ["password"] } }, ],
   });
 
-  const newPosts = posts.map((post) => {
+  const allPosts = posts.map((post) => {
     const {
       user: { username },
     } = post;
@@ -79,7 +82,7 @@ const getAllPost = async (req, res) => {
     };
   });
 
-  res.status(200).json({ status: true, newPosts, nHit: newPosts.length });
+  res.status(200).json({ status: true, allPosts, nHit: allPosts.length });
 };
 
 // GET POST BY ID
@@ -136,8 +139,17 @@ const editPost = async (req, res) => {
     urls.push(url);
   }
 
+    const {body:info} = body
+
+let bodyInfo = info.trim()
+bodyInfo = bodyInfo.split(" " ?? "  ")
+
+const tags = bodyInfo.filter(bod => bod.startsWith('#'))
+
   body.userId = user.id;
   body.media_url = urls.join("||") ?? "";
+  body.tags = tags.join(' ') ?? "";
+
 
   const updatedPost = await post.update(body);
 
