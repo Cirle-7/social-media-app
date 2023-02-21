@@ -18,6 +18,7 @@ const followersModel = require("./followersModel");
 const blockedAccountsModel = require("./blockedAccountsModel");
 const likesModel = require("./likesModel");
 
+
 const logger = require("./../utils/logger");
 
 // connect to Database
@@ -44,6 +45,7 @@ db.commentsComments = commentCommentModel(sequelize, Sequelize.DataTypes);
 db.followers = followersModel(sequelize, Sequelize.DataTypes);
 db.blockedAccounts = blockedAccountsModel(sequelize, Sequelize.DataTypes);
 db.likes = likesModel(sequelize, Sequelize.DataTypes);
+
 // creating  associations with tables joining tables together
 (function createAssociations() {
   let User = db.users;
@@ -54,6 +56,7 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   let followers = db.followers;
   let blockedAccount = db.blockedAccounts;
   let likes = db.likes
+
   // create a userid in the post table
   User.hasMany(Posts); // link posts to their user
   Posts.belongsTo(User);
@@ -87,7 +90,6 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   User.hasMany(blockedAccount); //, { foreignKey: 'blockedBy'})
   blockedAccount.belongsTo(User); //, { as: 'blockedUserId', foreignKey: 'blockedUser'})
 
-
   // CREATE ASSOCIATION BETWWEN LIKES AND USER
   User.hasMany(likes)
   likes.belongsTo(User)
@@ -108,7 +110,8 @@ sequelize
 
 // sync the table
 db.sequelize
-  .sync({ force: true })
+  .sync({ force: false })
+
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 
