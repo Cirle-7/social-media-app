@@ -10,6 +10,7 @@ const postRoute = require("./routes/postRoute");
 const profileRoute = require("./routes/profileRoute");
 const followRoute = require("./routes/followRoute");
 const blockRoute = require("./routes/blockRoute");
+const privateRoute = require("./routes/privateRoute");
 const passport = require("passport");
 const cors = require("cors");
 require("./utils/passportOAuth");
@@ -46,6 +47,7 @@ app.use("/api/v1/profiles", profileRoute);
 app.use("/api/v1/", followRoute);
 app.use("/api/v1/user/", blockRoute);
 app.use("/api/v1/post", authentication, postRoute);
+app.use("/api/v1/account", privateRoute);
 
 //HOME ROUTE
 app.get("/", (req, res) => {
