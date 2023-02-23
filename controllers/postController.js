@@ -4,6 +4,7 @@ const AppError = require("../utils/appError");
 const Post = db.post;
 const User = db.users;
 const Like = db.likes;
+const Profile = db.profile;
 const { Op } = require("sequelize");
 
 //IMPORT CLOUDINARY
@@ -70,14 +71,12 @@ const getAllPost = async (req, res) => {
     where: { ...findObject },
     ...queryObject,
     order: [[order, "DESC"]],
-    // include:User,
-    // include: [ { all: true, attributes: { exclude: ["password"] } }, ],
-    // include:{model:Like},
     include: [
       {
         model: User,
         required: true,
         attributes: { exclude: ["password"] },
+        include: Profile,
       },
       {
         model: Like,
@@ -87,17 +86,11 @@ const getAllPost = async (req, res) => {
   });
 
   const allPosts = posts.map((post) => {
-    const {
-      user: { username },
-      likes,
-    } = post;
+    const { likes } = post;
 
     post.likesNo = likes.length;
     return {
       post,
-      profileUrl: `${req.protocol}://${req.get(
-        "host"
-      )}/api/v1/profiles/${username}`,
     };
   });
 
@@ -110,24 +103,29 @@ const getPostById = async (req, res) => {
 
   const post = await Post.findOne({
     where: { id },
-    include: User,
-    include: [{ all: true, attributes: { exclude: ["password"] } }],
+    include: [
+      {
+        model: User,
+        required: true,
+        attributes: { exclude: ["password"] },
+        include: Profile,
+      },
+      {
+        model: Like,
+      },
+      // Qux // Shorthand syntax for { model: Qux } also works here
+    ],
   });
-  post.views += 1;
-  await post.save();
-
   if (!post) throw new AppError("post not found", 404);
 
-  const {
-    user: { username },
-  } = post;
+  const { likes } = post;
+  post.views += 1;
+  post.likesNo = likes.length;
+  await post.save();
 
   res.status(200).json({
     status: true,
     post,
-    profileUrl: `${req.protocol}://${req.get(
-      "host"
-    )}/api/v1/profiles/${username}`,
   });
 };
 
