@@ -269,38 +269,55 @@ Success
 {
   "status": true,
   "post": {
-    "id": 4,
-    "body": "sugar no dey salt no dey , he just sweet",
+    "id": 1,
+    "body": "i dont know what to do #runtown #jojo",
     "media_url": [
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676765/pictures/g0k69xmz48dxwydsy4pa.png",
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676766/pictures/ja2cr1owl2kmanqzv1dv.png",
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676769/pictures/f9608wbzkic8o2oqthek.png",
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676772/pictures/kbatzvnnlxxpimvg8g6f.png"
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1677115316/pictures/lipx54ekktwaqozttnkp.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1677115317/pictures/wv0avows2pykwuimugtv.png"
     ],
-    "likes": 0,
+    "likesNo": 2,
     "status": "Published",
     "commentsNo": 0,
     "shares": 0,
-    "views": 1,
-    "tags": null,
-    "createdAt": "2023-02-17T23:32:54.000Z",
-    "updatedAt": "2023-02-20T17:57:31.338Z",
+    "views": 2,
+    "tags": "#runtown #jojo",
+    "createdAt": "2023-02-23T01:21:57.000Z",
+    "updatedAt": "2023-02-23T17:34:12.647Z",
     "userId": 1,
     "user": {
       "id": 1,
       "githubId": null,
       "googleId": null,
-      "email": "chukwu@gmail.com",
-      "username": "chukwu",
+      "email": "precious@gmail.com",
+      "username": "prere",
       "displayName": "chukwu",
       "passwordToken": null,
       "passwordResetExpires": null,
-      "createdAt": "2023-02-17T23:13:28.000Z",
-      "updatedAt": "2023-02-17T23:13:28.000Z"
+      "createdAt": "2023-02-23T01:20:59.000Z",
+      "updatedAt": "2023-02-23T01:20:59.000Z",
+      "profile": null
     },
-    "comments": []
-  },
-  "profileUrl": "http://localhost:3310/api/v1/profiles/chukwu"
+    "likes": [
+      {
+        "id": 1,
+        "createdAt": "2023-02-23T01:22:20.000Z",
+        "updatedAt": "2023-02-23T01:22:20.000Z",
+        "userId": 1,
+        "postId": 1,
+        "commentId": null,
+        "commentCommentId": null
+      },
+      {
+        "id": 2,
+        "createdAt": "2023-02-23T01:24:47.000Z",
+        "updatedAt": "2023-02-23T01:24:47.000Z",
+        "userId": 2,
+        "postId": 1,
+        "commentId": null,
+        "commentCommentId": null
+      }
+    ]
+  }
 }
 ```
 ---
