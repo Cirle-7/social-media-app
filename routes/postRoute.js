@@ -1,6 +1,7 @@
 const express = require('express')
 const Router = express.Router()
 const multer = require('multer')
+const { getLocation } = require("../middleware/getLocationMW");
 
 
 //IMPORT POST LOGIC CONTROLLER
@@ -19,7 +20,7 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
     }
   }})
 
-Router.route('/').post(postValidationMiddleware,  upload.array("media_url", 4), createPost).get(getAllPost)
+Router.route('/').post(postValidationMiddleware,getLocation,upload.array("media_url", 4), createPost).get(getAllPost)
 Router.route('/:id').patch( updatePostValidatorMiddleware, upload.array("media_url", 4), editPost).delete(deletePost).get(getPostById)
 Router.route('/draft/:id').put(draftPost)
 Router.route('/like/:id').post(likeAPost).delete(disLikeAPost)

@@ -5,6 +5,7 @@ const Post = db.post;
 const User = db.users;
 const Like = db.likes;
 const { Op } = require("sequelize");
+const contentModifer = require("./../utils/contentModifier");
 
 //IMPORT CLOUDINARY
 const uploadToCloudinary = require("../utils/cloudinaryFunctions");
@@ -12,7 +13,7 @@ const uploadToCloudinary = require("../utils/cloudinaryFunctions");
 // CREATE POST CONTROLLER
 const createPost = async (req, res) => {
   // DESTRUCTURE BODY,USER AND FILES REQUEST
-  const { body, user, files } = req;
+  const { body, user, files, location } = req;
   const urls = [];
 
   if (files) {
@@ -32,6 +33,17 @@ const createPost = async (req, res) => {
     tags = bodyInfo.filter((bod) => bod.startsWith("#"));
   }
 
+  //Dectect Topic From Body
+  let topicArray = [];
+  contentModifer.dectectTopic(info, topicArray);
+
+  //Filter POST CONTENT
+  body.body = contentModifer.filterContent(info);
+  body.location = location;
+  body.topic =
+    topicArray.length > 2
+      ? topicArray[Math.floor(Math.random() * topicArray.length)]
+      : topicArray[0];
   body.userId = user.id;
   body.media_url = urls ?? "";
   body.tags = tags?.join(" ") ?? "";
