@@ -7682,3 +7682,181 @@
 2023-02-07 16:10:42:1042 [32minfo[39m: [32mtable sync successful[39m
 2023-02-07 17:07:57:757 [31merror[39m: [31m"password" with value "Kelechi123#" fails to match the required pattern: /^[a-zA-Z0-9]{3,30}$/[39m
 2023-02-07 17:09:35:935 [31merror[39m: [31mUnexpected token } in JSON at position 74[39m
+2023-02-21 12:56:24:5624 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 12:56:36:5636 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 13:16:28:1628 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 13:16:32:1632 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 13:18:28:1828 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 347 - 7842.795 ms[39m
+[35m[39m
+2023-02-21 13:18:57:1857 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 428 - 1919.524 ms[39m
+[35m[39m
+2023-02-21 13:19:20:1920 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-21 13:19:20:1920 [35mhttp[39m: [35m::1 POST /api/v1/post 403 2278 - 7.165 ms[39m
+[35m[39m
+2023-02-21 13:19:51:1951 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 428 - 2330.356 ms[39m
+[35m[39m
+2023-02-21 13:20:10:2010 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 428 - 2484.664 ms[39m
+[35m[39m
+2023-02-21 13:20:41:2041 [31merror[39m: [31mjwt malformed[39m
+2023-02-21 13:20:41:2041 [35mhttp[39m: [35m::1 POST /api/v1/post 500 1993 - 6.987 ms[39m
+[35m[39m
+2023-02-21 13:21:18:2118 [35mhttp[39m: [35m::1 POST /api/v1/users/login 200 428 - 2146.788 ms[39m
+[35m[39m
+2023-02-21 13:23:03:233 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 200 428 - 2553.899 ms[39m
+[35m[39m
+2023-02-21 13:23:37:2337 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 200 428 - 2153.949 ms[39m
+[35m[39m
+2023-02-21 13:23:50:2350 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 200 428 - 2301.167 ms[39m
+[35m[39m
+2023-02-21 13:24:07:247 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 265 - 2711.563 ms[39m
+[35m[39m
+2023-02-21 13:36:54:3654 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:36:54:3654 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:00:370 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:00:370 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:07:377 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:07:377 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:27:3727 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:27:3727 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:40:59:4059 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:40:59:4059 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:14:4114 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:14:4114 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:19:4119 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:19:4119 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:47:4147 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 13:41:51:4151 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 13:41:56:4156 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 267 - 839.130 ms[39m
+[35m[39m
+2023-02-21 13:42:23:4223 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 276 - 2679.641 ms[39m
+[35m[39m
+2023-02-21 13:44:11:4411 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 13:49:42:4942 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 13:49:46:4946 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 13:49:56:4956 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 295 - 969.529 ms[39m
+[35m[39m
+2023-02-21 13:51:15:5115 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 307 - 2907.010 ms[39m
+[35m[39m
+2023-02-21 13:52:08:528 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 13:52:13:5213 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:00:11:011 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:00:14:014 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:00:30:030 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:00:33:033 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:01:14:114 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:01:18:118 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:05:18:518 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:05:22:522 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:06:31:631 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:06:34:634 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:06:57:657 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:07:00:70 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:07:34:734 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:07:41:741 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:07:44:744 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:07:51:751 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:07:57:757 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:08:01:81 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:08:26:826 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:08:32:832 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:08:35:835 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:08:50:850 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:08:53:853 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:08:58:858 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:09:01:91 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:09:07:97 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:09:12:912 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:09:15:915 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:09:30:930 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:09:33:933 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:09:47:947 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:09:50:950 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:10:08:108 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:10:14:1014 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:10:17:1017 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:10:54:1054 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:10:57:1057 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:11:04:114 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:11:07:117 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:11:24:1124 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:11:27:1127 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:11:32:1132 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:11:35:1135 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:12:15:1215 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:12:18:1218 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:12:34:1234 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:12:43:1243 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:12:48:1248 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:12:51:1251 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:13:10:1310 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:13:14:1314 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:13:27:1327 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:13:30:1330 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:13:54:1354 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:14:00:140 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:14:07:147 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:14:10:1410 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:14:40:1440 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-02-21 14:14:40:1440 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:14:57:1457 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:14:57:1457 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 500 1859 - 10047.803 ms[39m
+[35m[39m
+2023-02-21 14:15:27:1527 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-02-21 14:15:28:1528 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:17:02:172 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-02-21 14:17:02:172 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:22:37:2237 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:22:40:2240 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:22:50:2250 [31merror[39m: [31mfilterContent.clean is not a function[39m
+2023-02-21 14:22:50:2250 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 500 1454 - 320.657 ms[39m
+[35m[39m
+2023-02-21 14:23:12:2312 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:23:16:2316 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:23:25:2325 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 328 - 1425.896 ms[39m
+[35m[39m
+2023-02-21 14:27:51:2751 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:27:54:2754 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:30:18:3018 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 329 - 2063.731 ms[39m
+[35m[39m
+2023-02-21 14:30:40:3040 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:30:44:3044 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:30:51:3051 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 326 - 767.387 ms[39m
+[35m[39m
+2023-02-21 14:31:09:319 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:31:12:3112 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:32:15:3215 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 326 - 2276.860 ms[39m
+[35m[39m
+2023-02-21 14:35:41:3541 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:35:44:3544 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:36:29:3629 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:36:32:3632 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:36:58:3658 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:37:02:372 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:37:31:3731 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:37:34:3734 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:37:41:3741 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:37:48:3748 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:37:57:3757 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:38:00:380 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:38:26:3826 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:38:37:3837 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:38:53:3853 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:38:56:3856 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:40:38:4038 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:40:41:4041 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:41:40:4140 [31merror[39m: [31m404[39m
+2023-02-21 14:41:40:4140 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 500 1943 - 1578.334 ms[39m
+[35m[39m
+2023-02-21 14:42:00:420 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-21 14:42:00:420 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 400 467 - 1561.346 ms[39m
+[35m[39m
+2023-02-21 14:42:24:4224 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/signup 200 347 - 5537.197 ms[39m
+[35m[39m
+2023-02-21 14:42:30:4230 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/users/login 200 428 - 294.022 ms[39m
+[35m[39m
+2023-02-21 14:42:37:4237 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 329 - 1541.786 ms[39m
+[35m[39m
+2023-02-21 14:43:54:4354 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-02-21 14:43:57:4357 [32minfo[39m: [32mtable sync successful[39m
+2023-02-21 14:44:04:444 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /api/v1/post 200 328 - 1800.806 ms[39m
+[35m[39m
