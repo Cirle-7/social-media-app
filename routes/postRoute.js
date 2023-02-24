@@ -1,6 +1,7 @@
 const express = require('express')
 const Router = express.Router()
 const multer = require('multer')
+const { getLocation } = require("../middleware/getLocationMW");
 
 
 //IMPORT POST LOGIC CONTROLLER
@@ -18,6 +19,7 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
       return cb(new Error('Only .png, .jpg and .jpeg format allowed!'));
     }
   }})
+
 
 Router.route('/').post(postValidationMiddleware, upload.array("media_url"),publishAPost).get(getAllPost)
 Router.route('/draft').post(postValidationMiddleware, upload.array("media_url"),draftAPost)

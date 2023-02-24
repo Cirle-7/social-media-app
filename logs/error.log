@@ -930,3 +930,651 @@
 2023-02-07 15:42:46:4246 [31merror[39m: [31mToken Expired Or Invalid Token, Request for a new token[39m
 2023-02-07 17:07:57:757 [31merror[39m: [31m"password" with value "Kelechi123#" fails to match the required pattern: /^[a-zA-Z0-9]{3,30}$/[39m
 2023-02-07 17:09:35:935 [31merror[39m: [31mUnexpected token } in JSON at position 74[39m
+2023-02-21 12:51:16:5116 [31merror[39m: [31muncaughtException: Cannot find module 'cors'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module 'cors'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:14:14)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+2023-02-21 13:19:20:1920 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-02-21 13:20:41:2041 [31merror[39m: [31mjwt malformed[39m
+2023-02-21 13:36:54:3654 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:36:54:3654 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:00:370 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:00:370 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:07:377 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:07:377 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:27:3727 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:37:27:3727 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:40:59:4059 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:40:59:4059 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:14:4114 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:14:4114 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:19:4119 [31merror[39m: [31munable to connect getaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:41:19:4119 [31merror[39m: [31mgetaddrinfo ENOTFOUND arkadia.mysql.database.azure.com[39m
+2023-02-21 13:43:48:4348 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:39[39m
+[31m  body.topic = ()[39m
+[31m                ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:44:15:4415 [31merror[39m: [31muncaughtException: Unexpected token ';'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m                       ^[39m
+
+[31mSyntaxError: Unexpected token ';'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:44:51:4451 [31merror[39m: [31muncaughtException: Unexpected token ']'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:39[39m
+[31m  body.topic = (topicArray.length > 2) ? topicArray[][39m
+[31m                                                    ^[39m
+
+[31mSyntaxError: Unexpected token ']'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:44:56:4456 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:45:03:453 [31merror[39m: [31muncaughtException: Unexpected token ']'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:39[39m
+[31m  body.topic = (topicArray.length > 2) ? topicArray[] [39m
+[31m                                                    ^[39m
+
+[31mSyntaxError: Unexpected token ']'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:45:06:456 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:45:09:459 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:45:13:4513 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:45:14:4514 [31merror[39m: [31muncaughtException: Unexpected token ']'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:39[39m
+[31m  body.topic = (topicArray.length > 2) ? topicArray[] [39m
+[31m                                                    ^[39m
+
+[31mSyntaxError: Unexpected token ']'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:48:58:4858 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:49:01:491 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:39[39m
+[31m  body.topic = (topicArray.length > 2) ? topicArray[Math.floor(Math.random() * )] [39m
+[31m                                                                               ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:49:05:495 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:49:08:498 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 13:49:10:4910 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:40[39m
+[31m  body.userId = user.id;[39m
+[31m  ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 14:07:03:73 [31merror[39m: [31muncaughtException: let is disallowed as a lexically bound name[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:5[39m
+[31mlet appTopics = new Map();[39m
+[31m^^^[39m
+
+[31mSyntaxError: let is disallowed as a lexically bound name[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+2023-02-21 14:07:07:77 [31merror[39m: [31muncaughtException: let is disallowed as a lexically bound name[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:5[39m
+[31mlet appTopics = new Map();[39m
+[31m^^^[39m
+
+[31mSyntaxError: let is disallowed as a lexically bound name[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+2023-02-21 14:07:16:716 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:5[39m
+[31mlet appTopics = new Map();[39m
+[31m    ^^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+2023-02-21 14:07:21:721 [31merror[39m: [31muncaughtException: The argument 'id' must be a non-empty string. Received ''[39m
+[31mTypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''[39m
+[31m    at new NodeError (node:internal/errors:393:5)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1056:11)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-02-21 14:07:23:723 [31merror[39m: [31muncaughtException: Cannot find module 'bad'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+2023-02-21 14:07:27:727 [31merror[39m: [31muncaughtException: Cannot find module 'bad-w'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad-w'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\app.js[39m
+[31m- C:\Users\fwesh\Desktop\Code\social-media-app\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+2023-02-21 14:08:06:86 [31merror[39m: [31muncaughtException: Identifier 'module' has already been declared[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:39[39m
+[31mmodule.exports = { dectectTopic };[39m
+[31m^[39m
+
+[31mSyntaxError: Identifier 'module' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+2023-02-21 14:08:19:819 [31merror[39m: [31muncaughtException: content is not defined[39m
+[31mReferenceError: content is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:37:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-02-21 14:09:22:922 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\utils\contentModifier.js:40[39m
+[31m}[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:8:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+2023-02-21 14:13:31:1331 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\controllers\postController.js:41[39m
+[31m  body.info = filterContent(contentModifer.)[39m
+[31m                                           ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:7:106)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+2023-02-21 14:14:40:1440 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-02-21 14:14:40:1440 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:14:57:1457 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:15:27:1527 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-02-21 14:15:28:1528 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:17:02:172 [31merror[39m: [31munable to connect connect ETIMEDOUT[39m
+2023-02-21 14:17:02:172 [31merror[39m: [31mconnect ETIMEDOUT[39m
+2023-02-21 14:22:50:2250 [31merror[39m: [31mfilterContent.clean is not a function[39m
+2023-02-21 14:34:55:3455 [31merror[39m: [31muncaughtException: location is not defined[39m
+[31mReferenceError: location is not defined[39m
+[31m    at module.exports (C:\Users\fwesh\Desktop\Code\social-media-app\models\postModel.js:40:7)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:41:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\controllers\authController.js:5:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-02-21 14:34:57:3457 [31merror[39m: [31muncaughtException: Unrecognized datatype for attribute "post.location"[39m
+[31mError: Unrecognized datatype for attribute "post.location"[39m
+[31m    at C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\sequelize\lib\model.js:726:15[39m
+[31m    at C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\lodash\lodash.js:13469:38[39m
+[31m    at C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\lodash\lodash.js:4967:15[39m
+[31m    at baseForOwn (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\lodash\lodash.js:3032:24)[39m
+[31m    at Function.mapValues (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\lodash\lodash.js:13468:7)[39m
+[31m    at post.init (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\sequelize\lib\model.js:723:28)[39m
+[31m    at Sequelize.define (C:\Users\fwesh\Desktop\Code\social-media-app\node_modules\sequelize\lib\sequelize.js:224:11)[39m
+[31m    at module.exports (C:\Users\fwesh\Desktop\Code\social-media-app\models\postModel.js:2:26)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:41:11)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-02-21 14:35:05:355 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\models\postModel.js:42[39m
+[31m      }[39m
+[31m      ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\models\index.js:13:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+2023-02-21 14:36:51:3651 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\fwesh\Desktop\Code\social-media-app\routes\postRoute.js:23[39m
+[31mRouter.route('/').post(postValidationMiddleware,getLocation  upload.array("media_url", 4), createPost).get(getAllPost)[39m
+[31m                                                ^^^^^^^^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:360:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\app.js:9:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+[31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:1:13)[39m
+2023-02-21 14:41:40:4140 [31merror[39m: [31m404[39m
+2023-02-21 14:42:00:420 [31merror[39m: [31mEmail Or Password Incorrect[39m

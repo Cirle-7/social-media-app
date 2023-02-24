@@ -18,7 +18,6 @@ const followersModel = require("./followersModel");
 const blockedAccountsModel = require("./blockedAccountsModel");
 const likesModel = require("./likesModel");
 
-
 const logger = require("./../utils/logger");
 
 // connect to Database
@@ -55,7 +54,7 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   let commentsComments = db.commentsComments;
   let followers = db.followers;
   let blockedAccount = db.blockedAccounts;
-  let likes = db.likes
+  let likes = db.likes;
 
   // create a userid in the post table
   User.hasMany(Posts); // link posts to their user
@@ -91,17 +90,18 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   blockedAccount.belongsTo(User); //, { as: 'blockedUserId', foreignKey: 'blockedUser'})
 
   // CREATE ASSOCIATION BETWWEN LIKES AND USER
-  User.hasMany(likes)
-  likes.belongsTo(User)
+  User.hasMany(likes);
+  likes.belongsTo(User);
 
-  Posts.hasMany(likes)
-  likes.belongsTo(Posts)
+  Posts.hasMany(likes);
+  likes.belongsTo(Posts);
 
   comments.hasMany(likes)
   likes.belongsTo(comments)
 
   commentsComments.hasMany(likes)
   likes.belongsTo(commentsComments)
+
 })();
 
 // checking  if the connection is successfull
