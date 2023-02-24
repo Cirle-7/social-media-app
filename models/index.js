@@ -109,8 +109,8 @@ sequelize
 
 // sync the table
 db.sequelize
-  //.sync({ force: true })
-  .sync({ alter: true })
+  .sync({ force: false })
+  //.sync({ alter: true })
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 
