@@ -132,7 +132,7 @@ Success
 
 ## Post Routes
 ---
-### Create  a post (logged in users only )
+### publish  a post (logged in users only )
 
 - Route: /api/v1/post/
 - Method: POST
@@ -160,7 +160,6 @@ Success
     "likes": 0,
     "status": "Published",
     "commentsNo": 0,
-    "shares": 0,
     "views": 0,
     "id": 10,
     "body": "sugar no dey salt no dey , he just sweet #hello #welcome",
@@ -178,7 +177,51 @@ Success
 }
 ```
 ---
+### Draft a post (logged in users only )
 
+- Route: /api/v1/post/draft
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+- Body: Form data
+
+    | KEY  |  VALUE |
+    |---|---|
+    |body | sugar no dey salt no dey , he just sweet #hello #welcome |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (4).png |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (3).png |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (1).png |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (7).png |
+
+
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "post": {
+    "likes": 0,
+    "status": "Draft",
+    "commentsNo": 0,
+    "views": 0,
+    "id": 10,
+    "body": "sugar no dey salt no dey , he just sweet #hello #welcome",
+    "userId": 1,
+    "media_url": [
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910351/pictures/gonsipofzx98ncqvyikf.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910354/pictures/byri1sh4pojttxutd1ts.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910359/pictures/kfiyqmeypabuespxu8a9.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910365/pictures/k39h7ec19wy6iuumlpon.png"
+    ],
+    "tags": "#hello #welcome",
+    "updatedAt": "2023-02-20T16:26:07.155Z",
+    "createdAt": "2023-02-20T16:26:07.155Z"
+  }
+}
+```
+---
 ### Edit post  (logged in users only )
 
 - Route: /api/v1/post/:postId
@@ -199,18 +242,32 @@ Success
 {
   "status": true,
   "updatedPost": {
-    "id": 10,
-    "body": "tiktok looks like money ritual to grow frollowers #followers",
-    "media_url": "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676913303/pictures/vlvrsci9eemhj1oq5skg.png",
-    "likes": 0,
+    "id": 1,
+    "body": "changee #change",
+    "media_url": [],
+    "likesNo": 0,
     "status": "Published",
-    "commentsNo": 0,
-    "shares": 0,
-    "views": 0,
-    "tags": "#followers",
-    "createdAt": "2023-02-20T16:26:07.000Z",
-    "updatedAt": "2023-02-20T17:15:06.198Z",
-    "userId": 1
+    "commentsNo": 5,
+    "views": 1,
+    "tags": "#change",
+    "createdAt": "2023-02-24T16:43:05.000Z",
+    "updatedAt": "2023-02-24T17:46:45.074Z",
+    "userId": 1,
+    "user": {
+      "id": 1,
+      "githubId": null,
+      "googleId": null,
+      "email": "jojo@gmail.com",
+      "username": "jojo",
+      "displayName": "chukwu",
+      "passwordToken": null,
+      "passwordResetExpires": null,
+      "createdAt": "2023-02-24T16:36:57.000Z",
+      "updatedAt": "2023-02-24T16:36:57.000Z",
+      "profile": null
+    },
+    "likes": [],
+    "comments": []
   }
 }
 ```
@@ -245,7 +302,7 @@ Success
     - orderBy (default: updatedAt)
     - tags
     - search (search body)
-    - limit
+    - limit (default: 10)
 - Responses
 
 Success
@@ -321,23 +378,6 @@ Success
 }
 ```
 ---
-### Draft a  post  (logged in users only )
-
-- Route: /api/v1/post/draft/:postId
-- Method: put
-- Header
-    - Cookies: jwt {token}
-- Responses
-
-Success
-```
-{
-  "message": "Post Drafted"
-} 
-
-
-```
----
 ### like a post  (logged in users only )
 
 - Route: /api/v1/post/like/:postId
@@ -374,7 +414,184 @@ Success
 ```
 ---
 
+### get My Drafts posts  (logged in users only )
 
+- Route: /api/v1/post/myDrafts
+- Method: get
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+ status: true,
+ blog:[]
+}
+
+
+```
+---
+## Comment Routes
+---
+### comment
+| field  |  data_type | constraints  |
+|---|---|---|
+|  body    | string  | required | 
+|  media-url | array of image Path  |  |
+
+---
+### Comment on a Post (logged in users only )
+
+- Route: /api/v1/comment/new/:postId
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+- Body: Form data
+
+    | KEY  |  VALUE |
+    |---|---|
+    |body | yes oo :) |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (4).png |
+
+
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "comment": {
+    "likesNo": 0,
+    "commentsNo": 0,
+    "views": 0,
+    "id": 3,
+    "body": "yes oo :)",
+    "userId": 1,
+    "media_url": [],
+    "tags": "",
+    "postId": "1",
+    "updatedAt": "2023-02-24T16:53:32.792Z",
+    "createdAt": "2023-02-24T16:53:32.792Z"
+  }
+}
+```
+---
+### get All Comments Of A Post (logged in users only )
+
+- Route: /api/v1/comment/new/:postId
+- Method: GET
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "allComments": []
+}
+```
+---
+
+### delete Comment (logged in users only )
+
+- Route: /api/v1/comment/:commentId
+- Method: DELETE
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "message": "Comment deleted  successful"
+}
+```
+---
+
+### Get Comment By Id (logged in users only )
+
+- Route: /api/v1/comment/:commentId
+- Method: GET
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "comment": {
+    "id": 4,
+    "body": "yes oooo",
+    "media_url": "[]",
+    "likesNo": 0,
+    "commentsNo": 0,
+    "views": 1,
+    "tags": "",
+    "createdAt": "2023-02-24T16:56:01.000Z",
+    "updatedAt": "2023-02-24T21:00:43.645Z",
+    "userId": 1,
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "githubId": null,
+      "googleId": null,
+      "email": "jojo@gmail.com",
+      "username": "jojo",
+      "displayName": "chukwu",
+      "passwordToken": null,
+      "passwordResetExpires": null,
+      "createdAt": "2023-02-24T16:36:57.000Z",
+      "updatedAt": "2023-02-24T16:36:57.000Z",
+      "profile": null
+    },
+    "likes": []
+  }
+}
+```
+---
+
+### like a comment  (logged in users only )
+
+- Route: /api/v1/comment/like/:commentId
+- Method: post
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+  "message": "Comment Liked"
+} 
+
+
+```
+---
+
+### disLike a comment  (logged in users only )
+
+- Route: /api/v1/comment/like/:commentId
+- Method: delete
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+  "message": "Comment disLiked"
+} 
+
+
+```
+---
 
 
 

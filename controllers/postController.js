@@ -5,13 +5,13 @@ const Post = db.post;
 const User = db.users;
 const Like = db.likes;
 const Profile = db.profile;
+const Comment = db.comments
 const { Op } = require("sequelize");
 
 //IMPORT CLOUDINARY
 const uploadToCloudinary = require("../utils/cloudinaryFunctions");
-
-// CREATE POST CONTROLLER
-const createPost = async (req, res) => {
+// DRAFT A POST CONTROLLER
+const draftAPost = async (req, res) => {
   // DESTRUCTURE BODY,USER AND FILES REQUEST
   const { body, user, files } = req;
   const urls = [];
@@ -41,6 +41,40 @@ const createPost = async (req, res) => {
   res.status(200).json({ status: true, post });
 };
 
+
+// PUBLISH A POST CONTROLLER
+const publishAPost = async (req, res) => {
+  // DESTRUCTURE BODY,USER AND FILES REQUEST
+  const { body, user, files } = req;
+  const urls = [];
+
+  if (files) {
+    for (let file of files) {
+      const { path } = file;
+      const url = await uploadToCloudinary(path);
+      urls.push(url);
+    }
+  }
+  const { body: info } = body;
+
+  let tags;
+  if (info) {
+    let bodyInfo = info.trim();
+    bodyInfo = bodyInfo.split(" " ?? "  ");
+
+    tags = bodyInfo.filter((bod) => bod.startsWith("#"));
+  }
+
+  body.userId = user.id;
+  body.media_url = urls ?? "";
+  body.tags = tags?.join(" ") ?? "";
+  body.status = "Published"
+
+  const post = await Post.create(body);
+  res.status(200).json({ status: true, post });
+};
+
+
 // GET ALL  POST CONTROLLER
 const getAllPost = async (req, res) => {
   // DESTRUCTURE QUERY REQUEST
@@ -48,9 +82,9 @@ const getAllPost = async (req, res) => {
 
   //
   const queryObject = {};
-  if (limit) {
-    queryObject.limit = Number(limit) || 1;
-  }
+
+  queryObject.limit =  limit ? Number(limit): 10;
+
 
   const findObject = {};
 
@@ -81,14 +115,18 @@ const getAllPost = async (req, res) => {
       {
         model: Like,
       },
+      {
+        model: Comment,
+      },
       // Qux // Shorthand syntax for { model: Qux } also works here
     ],
   });
 
   const allPosts = posts.map((post) => {
-    const { likes } = post;
+    const { likes, comments } = post;
 
     post.likesNo = likes.length;
+    post.commentsNo = comments.length
     return {
       post,
     };
@@ -113,6 +151,9 @@ const getPostById = async (req, res) => {
       {
         model: Like,
       },
+      {
+        model: Comment,
+      },
       // Qux // Shorthand syntax for { model: Qux } also works here
     ],
   });
@@ -121,6 +162,7 @@ const getPostById = async (req, res) => {
   const { likes } = post;
   post.views += 1;
   post.likesNo = likes.length;
+  post.commentsNo = comments.length
   await post.save();
 
   res.status(200).json({
@@ -136,6 +178,21 @@ const editPost = async (req, res) => {
       id: req.params.id,
       userId: req.user.id,
     },
+    include: [
+      {
+        model: User,
+        required: true,
+        attributes: { exclude: ["password"] },
+        include: Profile,
+      },
+      {
+        model: Like,
+      },
+      {
+        model: Comment,
+      },
+      // Qux // Shorthand syntax for { model: Qux } also works here
+    ],
   });
 
   // POST NOT FOUND
@@ -157,6 +214,7 @@ const editPost = async (req, res) => {
   }
 
   const { body: info } = body;
+  const {likes,comments} = post
 
   let tags;
   if (info) {
@@ -168,6 +226,8 @@ const editPost = async (req, res) => {
   body.userId = user.id;
   body.media_url = urls ?? "";
   body.tags = tags?.join(" ") ?? "";
+  body.likesNo = likes.length
+  body.commentsNo = comments.length
 
   const updatedPost = await post.update(body);
 
@@ -191,21 +251,8 @@ const deletePost = async (req, res) => {
   return res.status(200).json({ message: "Post deleted  successful" });
 };
 
-//DRAFT A POST
-const draftPost = async (req, res) => {
-  const post = await Post.findOne({
-    where: {
-      id: req.params.id,
-      userId: req.user.id,
-    },
-  });
-  if (!post) throw new AppError("post not found", 404);
-  //UPDATE POST STATUS TO DRAFT
-  post.status = "Draft";
-  await post.save();
-  return res.status(200).json({ message: "Post Drafted" });
-};
 
+// LIKE A POST
 const likeAPost = async (req, res) => {
   // CHECK IF ITS BEEN LIKED BEFORE
   const check = await Like.findOne({
@@ -225,6 +272,8 @@ const likeAPost = async (req, res) => {
   return res.status(200).json({ message: "Post Liked" });
 };
 
+
+// DISLIKE A POST
 const disLikeAPost = async (req, res) => {
   // CHECK IF ITS BEEN LIKED BEFORE
   const check = await Like.findOne({
@@ -237,21 +286,37 @@ const disLikeAPost = async (req, res) => {
   if (!check) throw new AppError("already disliked", 400);
 
   await Like.destroy({
-    userId: req.user.id,
-    postId: req.params.id,
+    where: {
+      userId: req.user.id,
+      postId: req.params.id,
+    },
   });
 
   return res.status(200).json({ message: "Post disLiked" });
 };
-//GET ALL DRAFTS
+
+
+//GET MY DRAFT POSTs
+const getMyDraftPosts = async (req, res) => {
+
+  const posts = await Post.findAll({
+    where: { 
+      userId:req.user.id,
+      status:"Draft"
+     },
+  });
+
+  res.status(200).json({ status: true, posts, nHit: posts.length });
+};
 
 module.exports = {
-  createPost,
+  draftAPost,
   editPost,
   deletePost,
   getAllPost,
   getPostById,
-  draftPost,
+  publishAPost,
   likeAPost,
   disLikeAPost,
+  getMyDraftPosts
 };

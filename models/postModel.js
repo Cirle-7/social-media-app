@@ -16,13 +16,9 @@ module.exports = (sequelize, DataTypes) => {
       status:{
         type:DataTypes.ENUM,
         values:["Draft", "Published"],
-        defaultValue: "Published"
+        defaultValue: "Draft"
       },
       commentsNo: {
-        type: DataTypes.INTEGER,
-        defaultValue: 0,
-      },
-      shares: {
         type: DataTypes.INTEGER,
         defaultValue: 0,
       },

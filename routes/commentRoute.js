@@ -4,7 +4,7 @@ const multer = require('multer')
 
 
 //IMPORT POST LOGIC CONTROLLER
-const { draftAPost, editPost, deletePost, getAllPost ,getPostById, publishAPost, likeAPost ,disLikeAPost, getMyDraftPosts} = require('../controllers/postController')
+const {commentOnAPost,deleteComment,disLikeAComment,getAllCommentsOfAPost,getCommentById,likeAComment} = require('../controllers/commentController')
 
 //IMPORT VALIDATION MIDDLEWARE
 const {postValidationMiddleware, updatePostValidatorMiddleware} = require('../validation/postValidation')
@@ -19,11 +19,9 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
     }
   }})
 
-Router.route('/').post(postValidationMiddleware, upload.array("media_url"),publishAPost).get(getAllPost)
-Router.route('/draft').post(postValidationMiddleware, upload.array("media_url"),draftAPost)
-Router.route('/myDrafts').get(getMyDraftPosts)
-Router.route('/:id').patch( updatePostValidatorMiddleware, upload.array("media_url", 4), editPost).delete(deletePost).get(getPostById)
-Router.route('/like/:id').post(likeAPost).delete(disLikeAPost)
+Router.route('/new/:postId').post(postValidationMiddleware,  upload.array("media_url", 4), commentOnAPost).get(getAllCommentsOfAPost)
+Router.route('/:commentId').delete(deleteComment).get(getCommentById)
+Router.route('/like/:id').post(likeAComment).delete(disLikeAComment)
 
 
 
