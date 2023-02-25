@@ -14,33 +14,25 @@ module.exports = (sequelize, DataTypes) => {
       website: {
         type: DataTypes.STRING,
         get() {
-          if (this.isdeactivated === true) {
-            return null}
-          else{ return this.getDataValue('website');}
+          return this.isdeactivated ?  null : this.getDataValue('website')
         }
       },
-      locaton: {
+      location: {
         type: DataTypes.STRING,
         get() {
-          if (this.isdeactivated === true) {
-            return null}
-          else{ return this.getDataValue('locaton');}
+          return this.isdeactivated ?  null : this.getDataValue('location')
         }
       },
       github_link: {
         type: DataTypes.STRING,
         get() {
-          if (this.isdeactivated === true) {
-            return null}
-          else{ return this.getDataValue('github_link');}
+          return this.isdeactivated ?  null : this.getDataValue('github_link')
         }
       },
       twitter_link: {
         type: DataTypes.STRING,
         get() {
-          if (this.isdeactivated === true) {
-            return null}
-          else{ return this.getDataValue('twitter_link');}
+          return this.isdeactivated ?  null : this.getDataValue('twitter_link')
         }
       },
       headerURL: {

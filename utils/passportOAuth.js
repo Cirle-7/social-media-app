@@ -1,4 +1,5 @@
 const passport = require("passport");
+const { Logform } = require("winston");
 require("dotenv").config();
 const Profile = require('../models/index').profile
 
@@ -29,43 +30,58 @@ passport.use(
 
       const googleDetails = {
         googleId: profile.id,
-
         displayName: profile.displayName,
         email: profile.email,
         username: profile.displayName,
       };
 
-      // Check if user exist or Create user
-
       if (!googleDetails) {
         const error = new AppError("User credentials are required!", 401);
         done(error);
       }
+
+      // CHECK IF USER EXISTS OR CREATE USER
       try {
-        //check if user already exists
         const oldUser = await User.findOne({
           where: { googleId: googleDetails.googleId },
         });
 
-    // IF USER EXISTS SEND USER WITH TOKEN
-      if (oldUser) {
-        const token = await oldUser.createJwt();
-        await activateUser(oldUser)
-        return done(null, { oldUser, token });
-      }
-      //Create user if new
-      const user = await User.create({ ...googleDetails });
-      const token = await user.createJwt();
+        // IF OLDUSER IS DEACTIVATED
+        if (oldUser && oldUser.deletionDate) {
 
-        //send the user and token
+          // IF OLDUSER IS DEACTIVATED BUT NOT ACCESSING SOCIALS FROM THE ACTIVATION ROUTE
+          if (!req.cookies.activate) {
+
+            const error = new AppError('Your account is presently deactivated!')
+            error.activationUrl = `${req.protocol}://${req.get('host')}/api/v1/account/activate`
+
+            return done(error)
+          }
+
+          await activateUser(oldUser)
+          const token = await oldUser.createJwt();
+          return done(null, { oldUser, token });
+        }
+
+        // IF USER EXISTS SEND USER WITH TOKEN
+        if (oldUser) {
+          const token = await oldUser.createJwt();
+          return done(null, { oldUser, token });
+        }
+
+        // CREATE USER IF NEW
+        const user = await User.create({ ...googleDetails });
+        const token = await user.createJwt();
+
+        // SEND THE USER AND THE TOKEN
         return done(null, { user, token });
       } catch (error) {
         done(error);
       }
-
     }
   )
 );
+
 
 // GITHUB STARTEGY
 passport.use(
@@ -79,7 +95,7 @@ passport.use(
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
-      
+
       const githubDetails = {
         githubId: profile.id,
         displayName: profile.displayName,
@@ -88,9 +104,7 @@ passport.use(
         username: profile.username,
       };
 
-      // Check if user exist or Create user
-
-      // Check if user exist or Create user
+      // CHECK IF USER EXISTS OR CREATE USER
       if (!githubDetails) {
         const error = new AppError("User credentials are required!", 401);
         done(error);
@@ -102,11 +116,24 @@ passport.use(
           where: { githubId: githubDetails.githubId },
         });
 
-        if (oldUser) {
-          const token = await oldUser.createJwt();
+        // IF OLDUSER IS DEACTIVATED
+        if (oldUser && oldUser.deletionDate) {
+          // IF OLDUSER IS DEACTIVATED BUT NOT ACCESSING SOCIALS FROM THE ACTIVATION ROUTE
+          if (!req.cookies.activate) {
+
+            const error = new AppError('Your account is presently deactivated!')
+            error.activationUrl = `${req.protocol}://${req.get('host')}/api/v1/account/activate`
+
+            return done(error)
+          }
 
           await activateUser(oldUser)
+          const token = await oldUser.createJwt();
+          return done(null, { oldUser, token });
+        }
 
+        if (oldUser) {
+          const token = await oldUser.createJwt();
           return done(null, { oldUser, token });
         }
         //Create user if new
@@ -124,7 +151,7 @@ passport.use(
 
 
 const activateUser = async (user) => {
-
+  // ACTIVATE PROFILE
   await Profile.update(
     { isdeactivated: false },
     { where: { userId: user.id } }
@@ -132,5 +159,4 @@ const activateUser = async (user) => {
   // SET 'deletionDate' TO NULL
   user.deletionDate = null;
   await user.save()
-
 }

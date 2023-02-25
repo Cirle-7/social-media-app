@@ -1,7 +1,4 @@
-const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt");
 require("express-async-errors");
-const logger = require("../utils/logger");
 const db = require("../models");
 const Profile = db.profile
 const AppError = require("../utils/appError");
@@ -14,7 +11,7 @@ const User = db.users;
 
 //CREATE FUNCTION THAT HANDLES TOKEN RESPONSE & COOKIE RESPONSE
 const createSendToken = async (user, statusCode, res) => {
-  // create jwt token with model instance
+  // CREATE JWT WITH MODEL INSTANCE
   const token = await user.createJwt();
   const cookieOptions = {
     expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
@@ -23,9 +20,8 @@ const createSendToken = async (user, statusCode, res) => {
   };
   if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
 
-  // Send token to client
+  // SEND TOKEN TO CLIENT
   res.cookie("jwt", token, cookieOptions);
-
 
   user.password = undefined
 
@@ -42,23 +38,18 @@ const signup = async (req, res) => {
 
   const { username, email, password, displayName } = req.body;
 
-  // // validate input
+  // VALIDATE INPUT
   if (!(username && email && password && displayName))
     throw new AppError("All fields are required", 400);
 
-  //check if user already exist
+  // CHECK IF USER ALREADY EXISTS
   const oldUser = await User.findOne({
     where: { email: email },
   });
 
-  if (oldUser) {
-    if (user.deletionDate > Date.now()) {
-      await activateUser(user)
-    }
-    throw new AppError("User already exists. Please login", 409);
-  }
+  if (oldUser) throw new AppError("User already exists. Please login", 409);
 
-  // if new user create
+  // CREATE USER IF NEW
   const user = await User.create(req.body);
 
   try {
@@ -78,22 +69,24 @@ const signup = async (req, res) => {
 };
 
 const login = async (req, res) => {
-  // Get user input
+  // GET USER INPUT
   const { email, password } = req.body;
 
   // VALIDATE USER INPUT
   if (!(email && password)) throw new AppError("All fields are required", 400);
 
-  // Validate if user exist in database
+  // VALIDATE IF USER EXISTS IN DATABASE
   const user = await User.findOne({
     where: { email: email },
   });
 
-  // DIRECT USER TO ACTIVATE ACCOUNT IF ALREADY DEACTIVATED
-  if (user) {
-    if (user.deletionDate > Date.now()) {
-      await activateUser(user)
-    }
+  // CHECK IF USER ACCOUNT IS ALREADY DEACTIVATED
+  if (user && user.deletionDate) {
+    res.status(403).json({
+      status: 'failed',
+      message: `Your account is presently deactivated!`,
+      activationUrl: `${req.protocol}://${req.get('host')}/api/v1/account/activate`
+    })
   }
 
   //NOTIFY USERS WITH SOCIAL AUTH WHEN LOGGING IN
@@ -103,31 +96,12 @@ const login = async (req, res) => {
       401
     );
 
-  // Check if user exists and email exist without leaking extra info
+  // CHECK IF USER EXISTS WITHOUT LEAKING EXTRA INFOS
   if (!user || !(await user.comparePassword(password)))
     throw new AppError("Email Or Password Incorrect", 400);
 
   //CREATE TOKEN
   createSendToken(user, 200, res);
-};
-
-// SOCIAL SIGNUP OR LOGIN
-const checkOrCreateOAuthUser = async (socialUser) => {
-  // Validate user input
-  if (!socialUser) throw new AppError("User credentials are required!", 400);
-
-  //check if user already exists
-  const oldUser = await User.findOne({
-    where: { socialId: socialUser.socialId },
-  });
-
-  //Create user if new
-  if (!oldUser) {
-    const user = await User.create({ ...socialUser });
-    if (!user) throw new AppError("Falied to create social user", 500);
-  }
-
-  return;
 };
 
 const profile = (req, res) => {
@@ -230,7 +204,6 @@ module.exports = {
   signup,
   login,
   profile,
-  checkOrCreateOAuthUser,
   createSendToken,
   forgotPassword,
   resetPassword,

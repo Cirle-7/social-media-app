@@ -4,12 +4,15 @@ const Tokens = require("../utils/tokens");
 const db = require('../models')
 const AppError = require('../utils/appError');
 const Email = require('../utils/email');
-const { Op, where } = require('sequelize');
+const { Op } = require('sequelize');
 const Profile = db.profile
 const User = db.users
+const { createSendToken } = require('./authController')
 require('dotenv').config()
 
-// DEACTIVATE USER'S PROFILE
+//TODO: RETURN A MESSAGE THT USER IS DEACTIVATED ALONG PROFILE
+
+// REQUEST DELETE USER PROFILE
 exports.requestDeactivation = async (req, res, next) => {
 
     const email = req.user.email
@@ -36,33 +39,36 @@ exports.requestDeactivation = async (req, res, next) => {
     );
 
     const deactivationUrl = `${req.protocol}://${req.get("host")}/api/v1/account/deactivate/${token}`
+    
+    console.log('Url', deactivationUrl);
 
-    try {
-        await new Email(user, deactivationUrl).sendDeactivation()
+    // DEFINE RESPONSE MESSAGE
+    let message = 'A link has been sent to your mail. Please check your mail to continue.'
+    message = process.env.NODE_ENV === 'production' ? message : `${message}${deactivationUrl}`
 
-        if (process.env.NODE_ENV === 'development') {
+    // try {
+    await new Email(user, deactivationUrl).sendDeactivation()
+        .then(() => {
             res.status(200).json({
                 status: 'success',
-                message: `A link has been sent to your mail. Please check your mail to continue.${deactivationUrl}`
-
+                message: message
             })
-        } else {
-            res.status(200).json({
-                status: 'success',
-                message: `A link has been sent to your mail. Please check your mail to continue.`
-
+        }).catch((err) => {
+            // throw new AppError(err, 500)
+            res.status(500).json({
+                error: err
             })
-        }
+        })
 
-    } catch (err) {
-        throw new AppError('Error sending deactivation link. Please try again', 500)
-    }
+
+    // } catch (err) {
+    //     throw new AppError('Error sending deactivation link. Please try again', 500)
+    // }
 }
 
 
-
 // DEACTIVATE A USER'S PROFILE ON PROFILE DELETE REQUEST
-exports.deactivateProfile = async (req, res) => {
+exports.deactivate = async (req, res) => {
 
     const { token } = req.params
 
@@ -87,17 +93,81 @@ exports.deactivateProfile = async (req, res) => {
     await profile.save();
 
     // SET DELETION DATE TO THE NEXT 30 DAYS
-    await User.update(
-        { deletionDate: Date.now() + (30 * 24 * 60 * 60 * 1000) },
-        {
-            where: { id: profile.userId }
-        })
-
-    //TODO: SEND CONFIRMATION MAIL
-
-    res.status(200).json({
-        status: true,
-        message: `Your account will be deactivated for 30days if inactive, after which it will be permanently deleted`
+    const user = await User.findOne({
+        where: { id: profile.userId }
     })
 
+    user.deletionDate = Date.now() + (30 * 24 * 60 * 60 * 1000);
+    await user.save()
+
+    const activationUrl = `${req.protocol}://${req.get('host')}/api/v1/account/activate`
+
+    //SEND CONFIRMATION MAIL
+    try {
+        await new Email(user, activationUrl).sendDeactivationConfirmation()
+
+        res.status(200).json({
+            status: 'success',
+            message: `Your account has been deactivated, and will be permanently deleted after 30days of inactivity. Thanks`
+
+        })
+    } catch (err) {
+        throw new AppError(
+            `Your account has been successfully deactivated, but there was an error sending you a confirmation.\ 
+                Your account will be permanetly deleted in 30 days`,
+            500)
+    }
+}
+
+
+exports.activate = async (req, res) => {
+
+    const { email, password } = req.body
+
+    if (!email && !password) throw new AppError('All fields are required!', 400)
+
+    const user = await User.findOne({
+        where: { email: email }
+    })
+
+    //NOTIFY USERS WITH SOCIAL AUTH WHEN LOGGING IN
+    if (user && !user.password)
+        throw new AppError(
+            "Please activate your account through socials", 400
+        );
+
+    // CHECK IF USER EXISTS WITHOUT LEAKING EXTRA INFOS
+    if (!user || !(await user.comparePassword(password)))
+        throw new AppError("Email Or Password Incorrect", 400);
+
+    // CHECK IF USER ACCOUNT IS NOT DEACTIVATED
+    if (!user.deletionDate) throw new AppError("Your account is not deactivated!", 400)
+
+    // ACTIVATE PROFILE
+    const profile = await Profile.update(
+        { isdeactivated: false },
+        { where: { userId: user.id } }
+    )
+
+    // SET USER DELETION DATE TO NULL
+    user.deletionDate = null
+    await user.save()
+
+    const profileUrl = `${req.protocol}://${req.get('host')}/api/v1/profiles/${user.username}`
+
+    try {
+        await new Email(user, profileUrl).sendConfirmReactivation()
+
+        res.status(200).json({
+            status: 'success',
+            message: 'Your account has been succesfully reactivated!'
+        })
+    } catch (err) {
+        throw new AppError(
+            `Your account has been reactivated, but there was an error sending you a confirmation.`,
+            500)
+    }
+
+    //CREATE TOKEN
+    createSendToken(user, 200, res);
 }
