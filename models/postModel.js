@@ -17,16 +17,12 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.INTEGER,
         defaultValue: 0,
       },
-      status: {
-        type: DataTypes.ENUM,
-        values: ["Draft", "Published"],
-        defaultValue: "Published",
+      status:{
+        type:DataTypes.ENUM,
+        values:["Draft", "Published"],
+        defaultValue: "Draft"
       },
       commentsNo: {
-        type: DataTypes.INTEGER,
-        defaultValue: 0,
-      },
-      shares: {
         type: DataTypes.INTEGER,
         defaultValue: 0,
       },

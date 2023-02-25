@@ -70,8 +70,8 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
 
   // create a postId in the comment table
 
-  comments.belongsTo(Posts);
   Posts.hasMany(comments);
+  comments.belongsTo(Posts);
 
   // create a comment id in the comment_comment table
   comments.hasMany(commentsComments);
@@ -96,9 +96,12 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   Posts.hasMany(likes);
   likes.belongsTo(Posts);
 
-  comments.hasMany(likes);
+  comments.hasMany(likes)
+  likes.belongsTo(comments)
 
-  commentsComments.hasMany(likes);
+  commentsComments.hasMany(likes)
+  likes.belongsTo(commentsComments)
+
 })();
 
 // checking  if the connection is successfull
@@ -109,7 +112,8 @@ sequelize
 
 // sync the table
 db.sequelize
-  .sync({ force: true })
+  .sync({ force: false })
+  //.sync({ alter: true })
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 

@@ -5,7 +5,7 @@ const { getLocation } = require("../middleware/getLocationMW");
 
 
 //IMPORT POST LOGIC CONTROLLER
-const { createPost, editPost, deletePost, getAllPost ,getPostById, draftPost, likeAPost ,disLikeAPost} = require('../controllers/postController')
+const { draftAPost, editPost, deletePost, getAllPost ,getPostById, publishAPost, likeAPost ,disLikeAPost, getMyDraftPosts} = require('../controllers/postController')
 
 //IMPORT VALIDATION MIDDLEWARE
 const {postValidationMiddleware, updatePostValidatorMiddleware} = require('../validation/postValidation')
@@ -20,9 +20,11 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
     }
   }})
 
-Router.route('/').post(postValidationMiddleware,getLocation,upload.array("media_url", 4), createPost).get(getAllPost)
+
+Router.route('/').post(postValidationMiddleware, upload.array("media_url"),publishAPost).get(getAllPost)
+Router.route('/draft').post(postValidationMiddleware, upload.array("media_url"),draftAPost)
+Router.route('/myDrafts').get(getMyDraftPosts)
 Router.route('/:id').patch( updatePostValidatorMiddleware, upload.array("media_url", 4), editPost).delete(deletePost).get(getPostById)
-Router.route('/draft/:id').put(draftPost)
 Router.route('/like/:id').post(likeAPost).delete(disLikeAPost)
 
 

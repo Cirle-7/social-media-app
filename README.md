@@ -132,7 +132,7 @@ Success
 
 ## Post Routes
 ---
-### Create  a post (logged in users only )
+### publish  a post (logged in users only )
 
 - Route: /api/v1/post/
 - Method: POST
@@ -160,7 +160,6 @@ Success
     "likes": 0,
     "status": "Published",
     "commentsNo": 0,
-    "shares": 0,
     "views": 0,
     "id": 10,
     "body": "sugar no dey salt no dey , he just sweet #hello #welcome",
@@ -178,7 +177,51 @@ Success
 }
 ```
 ---
+### Draft a post (logged in users only )
 
+- Route: /api/v1/post/draft
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+- Body: Form data
+
+    | KEY  |  VALUE |
+    |---|---|
+    |body | sugar no dey salt no dey , he just sweet #hello #welcome |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (4).png |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (3).png |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (1).png |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (7).png |
+
+
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "post": {
+    "likes": 0,
+    "status": "Draft",
+    "commentsNo": 0,
+    "views": 0,
+    "id": 10,
+    "body": "sugar no dey salt no dey , he just sweet #hello #welcome",
+    "userId": 1,
+    "media_url": [
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910351/pictures/gonsipofzx98ncqvyikf.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910354/pictures/byri1sh4pojttxutd1ts.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910359/pictures/kfiyqmeypabuespxu8a9.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676910365/pictures/k39h7ec19wy6iuumlpon.png"
+    ],
+    "tags": "#hello #welcome",
+    "updatedAt": "2023-02-20T16:26:07.155Z",
+    "createdAt": "2023-02-20T16:26:07.155Z"
+  }
+}
+```
+---
 ### Edit post  (logged in users only )
 
 - Route: /api/v1/post/:postId
@@ -199,18 +242,32 @@ Success
 {
   "status": true,
   "updatedPost": {
-    "id": 10,
-    "body": "tiktok looks like money ritual to grow frollowers #followers",
-    "media_url": "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676913303/pictures/vlvrsci9eemhj1oq5skg.png",
-    "likes": 0,
+    "id": 1,
+    "body": "changee #change",
+    "media_url": [],
+    "likesNo": 0,
     "status": "Published",
-    "commentsNo": 0,
-    "shares": 0,
-    "views": 0,
-    "tags": "#followers",
-    "createdAt": "2023-02-20T16:26:07.000Z",
-    "updatedAt": "2023-02-20T17:15:06.198Z",
-    "userId": 1
+    "commentsNo": 5,
+    "views": 1,
+    "tags": "#change",
+    "createdAt": "2023-02-24T16:43:05.000Z",
+    "updatedAt": "2023-02-24T17:46:45.074Z",
+    "userId": 1,
+    "user": {
+      "id": 1,
+      "githubId": null,
+      "googleId": null,
+      "email": "jojo@gmail.com",
+      "username": "jojo",
+      "displayName": "chukwu",
+      "passwordToken": null,
+      "passwordResetExpires": null,
+      "createdAt": "2023-02-24T16:36:57.000Z",
+      "updatedAt": "2023-02-24T16:36:57.000Z",
+      "profile": null
+    },
+    "likes": [],
+    "comments": []
   }
 }
 ```
@@ -245,7 +302,7 @@ Success
     - orderBy (default: updatedAt)
     - tags
     - search (search body)
-    - limit
+    - limit (default: 10)
 - Responses
 
 Success
@@ -269,56 +326,56 @@ Success
 {
   "status": true,
   "post": {
-    "id": 4,
-    "body": "sugar no dey salt no dey , he just sweet",
+    "id": 1,
+    "body": "i dont know what to do #runtown #jojo",
     "media_url": [
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676765/pictures/g0k69xmz48dxwydsy4pa.png",
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676766/pictures/ja2cr1owl2kmanqzv1dv.png",
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676769/pictures/f9608wbzkic8o2oqthek.png",
-      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1676676772/pictures/kbatzvnnlxxpimvg8g6f.png"
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1677115316/pictures/lipx54ekktwaqozttnkp.png",
+      "https://res.cloudinary.com/dhq33r9pa/image/upload/v1677115317/pictures/wv0avows2pykwuimugtv.png"
     ],
-    "likes": 0,
+    "likesNo": 2,
     "status": "Published",
     "commentsNo": 0,
     "shares": 0,
-    "views": 1,
-    "tags": null,
-    "createdAt": "2023-02-17T23:32:54.000Z",
-    "updatedAt": "2023-02-20T17:57:31.338Z",
+    "views": 2,
+    "tags": "#runtown #jojo",
+    "createdAt": "2023-02-23T01:21:57.000Z",
+    "updatedAt": "2023-02-23T17:34:12.647Z",
     "userId": 1,
     "user": {
       "id": 1,
       "githubId": null,
       "googleId": null,
-      "email": "chukwu@gmail.com",
-      "username": "chukwu",
+      "email": "precious@gmail.com",
+      "username": "prere",
       "displayName": "chukwu",
       "passwordToken": null,
       "passwordResetExpires": null,
-      "createdAt": "2023-02-17T23:13:28.000Z",
-      "updatedAt": "2023-02-17T23:13:28.000Z"
+      "createdAt": "2023-02-23T01:20:59.000Z",
+      "updatedAt": "2023-02-23T01:20:59.000Z",
+      "profile": null
     },
-    "comments": []
-  },
-  "profileUrl": "http://localhost:3310/api/v1/profiles/chukwu"
+    "likes": [
+      {
+        "id": 1,
+        "createdAt": "2023-02-23T01:22:20.000Z",
+        "updatedAt": "2023-02-23T01:22:20.000Z",
+        "userId": 1,
+        "postId": 1,
+        "commentId": null,
+        "commentCommentId": null
+      },
+      {
+        "id": 2,
+        "createdAt": "2023-02-23T01:24:47.000Z",
+        "updatedAt": "2023-02-23T01:24:47.000Z",
+        "userId": 2,
+        "postId": 1,
+        "commentId": null,
+        "commentCommentId": null
+      }
+    ]
+  }
 }
-```
----
-### Draft a  post  (logged in users only )
-
-- Route: /api/v1/post/draft/:postId
-- Method: put
-- Header
-    - Cookies: jwt {token}
-- Responses
-
-Success
-```
-{
-  "message": "Post Drafted"
-} 
-
-
 ```
 ---
 ### like a post  (logged in users only )
@@ -357,9 +414,449 @@ Success
 ```
 ---
 
+### get My Drafts posts  (logged in users only )
 
+- Route: /api/v1/post/myDrafts
+- Method: get
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+ status: true,
+ blog:[]
+}
+
+
+```
+---
+## Comment Routes
+---
+### comment
+| field  |  data_type | constraints  |
+|---|---|---|
+|  body    | string  | required | 
+|  media-url | array of image Path  |  |
+
+---
+### Comment on a Post (logged in users only )
+
+- Route: /api/v1/comment/new/:postId
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+- Body: Form data
+
+    | KEY  |  VALUE |
+    |---|---|
+    |body | yes oo :) |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (4).png |
+
+
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "comment": {
+    "likesNo": 0,
+    "commentsNo": 0,
+    "views": 0,
+    "id": 3,
+    "body": "yes oo :)",
+    "userId": 1,
+    "media_url": [],
+    "tags": "",
+    "postId": "1",
+    "updatedAt": "2023-02-24T16:53:32.792Z",
+    "createdAt": "2023-02-24T16:53:32.792Z"
+  }
+}
+```
+---
+### get All Comments Of A Post (logged in users only )
+
+- Route: /api/v1/comment/new/:postId
+- Method: GET
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "allComments": []
+}
+```
+---
+
+### delete Comment (logged in users only )
+
+- Route: /api/v1/comment/:commentId
+- Method: DELETE
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "message": "Comment deleted  successful"
+}
+```
+---
+
+### Get Comment By Id (logged in users only )
+
+- Route: /api/v1/comment/:commentId
+- Method: GET
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "comment": {
+    "id": 4,
+    "body": "yes oooo",
+    "media_url": "[]",
+    "likesNo": 0,
+    "commentsNo": 0,
+    "views": 1,
+    "tags": "",
+    "createdAt": "2023-02-24T16:56:01.000Z",
+    "updatedAt": "2023-02-24T21:00:43.645Z",
+    "userId": 1,
+    "postId": 1,
+    "user": {
+      "id": 1,
+      "githubId": null,
+      "googleId": null,
+      "email": "jojo@gmail.com",
+      "username": "jojo",
+      "displayName": "chukwu",
+      "passwordToken": null,
+      "passwordResetExpires": null,
+      "createdAt": "2023-02-24T16:36:57.000Z",
+      "updatedAt": "2023-02-24T16:36:57.000Z",
+      "profile": null
+    },
+    "likes": []
+  }
+}
+```
+---
+
+### like a comment  (logged in users only )
+
+- Route: /api/v1/comment/like/:commentId
+- Method: post
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+  "message": "Comment Liked"
+} 
+
+
+```
+---
+
+### disLike a comment  (logged in users only )
+
+- Route: /api/v1/comment/like/:commentId
+- Method: delete
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{ 
+  "message": "Comment disLiked"
+} 
+
+```
+---
+## Profile Routes
+---
+
+## Profiles
+| field  |  data_type | constraints  |
+|---|---|---|
+|  bio     | string  |  | 
+|  website | string  |  |
+|  location  |  string |   |
+|  github_link |   string |    |
+|  twitter_link |   string |    |
+|  avatarURL |   string |    |
+|  headerURL |   string |    |
+|  followers |   string |    |
+
+---
+
+### Create  profile (logged in and owner of account )
+
+- Route: /api/v1/profiles/
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+- Body: Form data
+
+    | KEY  |  VALUE |
+    |---|---|
+    |  bio     | too little space for an about  |  
+    |  website | string  |  
+    |  location  |  Accra, Ghana |   
+    |  github_link |   https://github.com/me |   
+    |  twitter_link |   https://twitter.com/me | 
+    |  avatar(file) |   avatar-img.jpg |    
+    |  header(file) |   header-img.png |    
+
+
+- Responses
+
+Success
+```
+{
+  "message": "profile create successful",
+  "status": true,
+  "data": {
+    "profile": {
+      "id": 1,
+      "Bio": "this is my bio",
+      "website": "https://mywebsite.com",
+      "github_link": "https://github.com/link",
+      "twitter_link": "https://twitter.com/me",
+      "avatarURL": "http://res.cloudinary.com/di4y0ladi/image/upload/v1676993236/tcfh3zmsp6rjha0xe9fm.jpg",
+      "headerURL": "http://res.cloudinary.com/di4y0ladi/image/upload/v1676993238/on11c5ctymn6noyslddi.png",
+      "userId": 2,
+      "updatedAt": "2023-02-21T15:25:48.262Z",
+      "createdAt": "2023-02-21T15:25:48.262Z"
+    }
+  }
+}
+```
+---
+
+### Edit  profile (logged in and owner of account )
+
+- Route: /api/v1/profiles/id
+- Method: PATCH
+- Header
+    - Cookies: jwt {token}
+- Body: Form data
+
+    | KEY  |  VALUE |
+    |---|---|
+    |  bio     | this is my bio  |  
+    |  website | www.mywebsite.me  |  
+    |  location  |  Accra, Ghana |   
+    |  github_link |   www.github.com/me |   
+    |  twitter_link |   www.twitter.com/me |  
+    |  header(file) |   header-img.png |    
+
+
+- Responses
+
+Success
+```
+{
+  "message": "profile updated",
+  "status": true,
+  "data": {
+    "update": {
+      "id": 1,
+      "Bio": "this is my bio",
+      "website": "https://mywebsite.com",
+      "location": null,
+      "github_link": "https://github.com/link",
+      "twitter_link": "https://twitter.com/me",
+      "headerURL": "http://res.cloudinary.com/di4y0ladi/image/upload/v1676994044/t2vbx9whrkkkkxmwt0hh.png",
+      "avatarURL": "http://res.cloudinary.com/di4y0ladi/image/upload/v1676993236/tcfh3zmsp6rjha0xe9fm.jpg",
+      "followers": null,
+      "createdAt": "2023-02-21T15:25:48.000Z",
+      "updatedAt": "2023-02-21T15:39:14.441Z",
+      "userId": 2
+    }
+  }
+}
+```
+---
+
+### Get profile of user
+
+- Route: /api/v1/profiles/username
+- Method: GET
+
+- Responses
+
+Success
+```
+{
+  "status": "success",
+  "message": "Profile found",
+  "data": {
+    "profile": {
+      "username": "jonaa",
+      "displayName": "jonaa",
+      "Bio": "this is my bio",
+      "website": "https://mywebsite.com",
+      "location": null,
+      "github_link": "https://github.com/link",
+      "twitter_link": "https://twitter.com/me",
+      "avatarURL": "http://res.cloudinary.com/di4y0ladi/image/upload/v1676993236/tcfh3zmsp6rjha0xe9fm.jpg",
+      "headerURL": "http://res.cloudinary.com/di4y0ladi/image/upload/v1676994044/t2vbx9whrkkkkxmwt0hh.png",
+      "followers": null
+    }
+  }
+}
+```
+---
+
+## Followers
+| field  |  data_type | constraints  |
+|---|---|---|
+|  followerId     | number  |  | 
+|  userId | number  |  |
+
+---
+## Follow Routes
+---
+### Follow another user 
+
+- Route: /api/v1/follow/username
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": "success",
+  "message": "User followed"
+}
+```
+---
+
+### Unfollow user 
+
+- Route: /api/v1/unfollow/username
+- Method: DELETE
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": "success",
+  "message": "Unfollowed user"
+}
+```
+---
+
+## Block accounts
+| field  |  data_type | constraints  |
+|---|---|---|
+|  blockedUser     | number  |  | 
+|  userId | number  |  |
+
+---
+## Block Routes
+---
+### Block user 
+
+- Route: /api/v1/user/block/username
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": "success",
+  "message": "User blocked"
+}
+```
+---
+
+### Unblock user 
+
+- Route: /api/v1/user/unblock/username
+- Method: DELETE
+- Header
+    - Cookies: jwt {token}
+- Responses
+
+Success
+```
+{
+  "status": "success",
+  "message": "User unblocked"
+}
+```
+---
+
+
+## Privating account Routes
+---
+### Make account private
+
+- Route: /api/v1/account/private
+- Method: PATCH
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "message": "Account Private Successful"
+}
+```
+---
+
+### Make account public 
+
+- Route: /api/v1/account/public
+- Method: PATCH
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "message": "Account Public Successful"
+}
+```
+---
+```
+---
 
 
 
 ## Contributors
 - Ademeso Josiah
+- Justice Etorko-Gbeku
