@@ -7,10 +7,7 @@ const Email = require('../utils/email');
 const { Op } = require('sequelize');
 const Profile = db.profile
 const User = db.users
-const { createSendToken } = require('./authController')
 require('dotenv').config()
-
-//TODO: RETURN A MESSAGE THT USER IS DEACTIVATED ALONG PROFILE
 
 // REQUEST DELETE USER PROFILE
 exports.requestDeactivation = async (req, res, next) => {
@@ -39,7 +36,7 @@ exports.requestDeactivation = async (req, res, next) => {
     );
 
     const deactivationUrl = `${req.protocol}://${req.get("host")}/api/v1/account/deactivate/${token}`
-    
+
     console.log('Url', deactivationUrl);
 
     // DEFINE RESPONSE MESSAGE
@@ -153,9 +150,9 @@ exports.activate = async (req, res) => {
     user.deletionDate = null
     await user.save()
 
-    const profileUrl = `${req.protocol}://${req.get('host')}/api/v1/profiles/${user.username}`
-
     try {
+
+        const profileUrl = `${req.protocol}://${req.get('host')}/api/v1/profiles/${user.username}`
         await new Email(user, profileUrl).sendConfirmReactivation()
 
         res.status(200).json({
@@ -167,7 +164,4 @@ exports.activate = async (req, res) => {
             `Your account has been reactivated, but there was an error sending you a confirmation.`,
             500)
     }
-
-    //CREATE TOKEN
-    createSendToken(user, 200, res);
 }

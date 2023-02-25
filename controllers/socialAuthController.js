@@ -17,6 +17,7 @@ const socialAuth = async (req, res) => {
     res.cookie("jwt", token, cookieOptions);
 
     const currentUser = user || oldUser
+    
 
     res.status(201).json({
         status: "Success",

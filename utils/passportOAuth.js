@@ -2,6 +2,7 @@ const passport = require("passport");
 const { Logform } = require("winston");
 require("dotenv").config();
 const Profile = require('../models/index').profile
+const Email = require('../utils/email')
 
 require("express-async-errors");
 const db = require("../models");
@@ -48,19 +49,7 @@ passport.use(
 
         // IF OLDUSER IS DEACTIVATED
         if (oldUser && oldUser.deletionDate) {
-
-          // IF OLDUSER IS DEACTIVATED BUT NOT ACCESSING SOCIALS FROM THE ACTIVATION ROUTE
-          if (!req.cookies.activate) {
-
-            const error = new AppError('Your account is presently deactivated!')
-            error.activationUrl = `${req.protocol}://${req.get('host')}/api/v1/account/activate`
-
-            return done(error)
-          }
-
-          await activateUser(oldUser)
-          const token = await oldUser.createJwt();
-          return done(null, { oldUser, token });
+          checkCookiesAndReactivateUser(req, oldUser, done)
         }
 
         // IF USER EXISTS SEND USER WITH TOKEN
@@ -73,8 +62,9 @@ passport.use(
         const user = await User.create({ ...googleDetails });
         const token = await user.createJwt();
 
-        // SEND THE USER AND THE TOKEN
-        return done(null, { user, token });
+        // SEND WELCOME MAIL
+        sendWelcomeMail(req, user, token, done)
+
       } catch (error) {
         done(error);
       }
@@ -118,18 +108,7 @@ passport.use(
 
         // IF OLDUSER IS DEACTIVATED
         if (oldUser && oldUser.deletionDate) {
-          // IF OLDUSER IS DEACTIVATED BUT NOT ACCESSING SOCIALS FROM THE ACTIVATION ROUTE
-          if (!req.cookies.activate) {
-
-            const error = new AppError('Your account is presently deactivated!')
-            error.activationUrl = `${req.protocol}://${req.get('host')}/api/v1/account/activate`
-
-            return done(error)
-          }
-
-          await activateUser(oldUser)
-          const token = await oldUser.createJwt();
-          return done(null, { oldUser, token });
+          checkCookiesAndReactivateUser(req, oldUser, done)
         }
 
         if (oldUser) {
@@ -140,8 +119,9 @@ passport.use(
         const user = await User.create({ ...githubDetails });
         const token = await user.createJwt();
 
-        //send the user and token
-        done(null, { user, token });
+        // SEND WELCOME MAIL
+        sendWelcomeMail(req, user, token, done)
+
       } catch (error) {
         done(error);
       }
@@ -159,4 +139,47 @@ const activateUser = async (user) => {
   // SET 'deletionDate' TO NULL
   user.deletionDate = null;
   await user.save()
+}
+
+const checkCookiesAndReactivateUser = async (req, oldUser, done) => {
+  // IF OLDUSER IS DEACTIVATED BUT NOT ACCESSING SOCIALS FROM THE ACTIVATION ROUTE
+  if (!req.cookies.activate) {
+
+    const error = new AppError('Your account is presently deactivated!')
+    error.activationUrl = `${req.protocol}://${req.get('host')}/api/v1/account/activate`
+
+    return done(error)
+  }
+
+  // REACTIVATE USER
+  await activateUser(oldUser)
+  const token = await oldUser.createJwt();
+
+  try {
+    const profileUrl = `${req.protocol}://${req.get('host')}/api/v1/profiles/${oldUser.username}`
+
+    await new Email(oldUser, profileUrl).sendConfirmReactivation()
+    return done(null, { oldUser, token });
+
+  } catch (err) {
+    const error = new AppError(
+      `Your account has been reactivated, but there was an error sending you a confirmation.`,
+      500)
+    return done(error, { oldUser, token })
+  }
+}
+
+const sendWelcomeMail = async (req, user, token, done) => {
+  try {
+    const url = `${req.protocol}://${req.get("host")}/api/v1/profiles/${user.username}`;
+    await new Email(user, url).sendWelcome();
+
+    // SEND THE USER AND THE TOKEN
+    return done(null, { user, token });
+
+  } catch (error) {
+
+    const emailError = new AppError('Account Created Successfully, but we encountered an error sending a mail, Please login to continue!', 500)
+    return done(emailError, { user, token })
+  }
 }

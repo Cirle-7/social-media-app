@@ -54,7 +54,7 @@ const signup = async (req, res) => {
 
   try {
     //SEND WELCOME MAIL
-    const url = `${req.protocol}://${req.get("host")}/api/v1/profiles`;
+    const url = `${req.protocol}://${req.get("host")}/api/v1/profiles/${user.username}`;
     await new Email(user, url).sendWelcome();
 
     //CREATE TOKEN
@@ -187,18 +187,6 @@ const resetPassword = async (req, res, next) => {
   }
 };
 
-
-const activateUser = async (user) => {
-
-  await Profile.update(
-    { isdeactivated: false },
-    { where: { userId: user.id } }
-  )
-  // SET 'deletionDate' TO NULL
-  user.deletionDate = null;
-  await user.save()
-
-}
 
 module.exports = {
   signup,

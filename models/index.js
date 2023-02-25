@@ -46,36 +46,32 @@ db.blockedAccounts = blockedAccountsModel(sequelize, Sequelize.DataTypes);
 db.likes = likesModel(sequelize, Sequelize.DataTypes);
 
 // creating  associations with tables joining tables together
-(function createAssociations(){
-let User = db.users
-let Profile = db.profile
-let Posts = db.post
-let comments = db.comments
-let commentsComments = db.commentsComments
-let followers = db.followers
-let blockedAccount = db.blockedAccounts
-// create a userid in the post table
-User.hasMany(Posts, {
-  onDelete: 'CASCADE',
-  onUpdate: 'CASCADE'
-});     // link posts to their user
-Posts.belongsTo(User,{
-  onDelete: 'CASCADE',
-  onUpdate: 'CASCADE'
-});
+(function createAssociations() {
+  let User = db.users
+  let Profile = db.profile
+  let Posts = db.post
+  let comments = db.comments
+  let commentsComments = db.commentsComments
+  let followers = db.followers
+  let blockedAccount = db.blockedAccounts
+  let likes = db.likes
+  // create a userid in the post table
+  User.hasMany(Posts, {
+    onDelete: 'CASCADE',
+  });     // link posts to their user
+  Posts.belongsTo(User);
 
-// create a userId in the comment table
-User.hasMany(comments, {
-  onDelete: 'CASCADE',
-  onUpdate: 'CASCADE'
-});     // link comments to their user
-comments.belongsTo(User)
+  // create a userId in the comment table
+  User.hasMany(comments, {
+    onDelete: 'CASCADE',
+  });     // link comments to their user
+  comments.belongsTo(User)
 
-//create a userid in the  profile table 
-User.hasOne(Profile, {
-  onDelete: 'CASCADE'
-})      // link a user to a profile
-Profile.belongsTo(User)
+  //create a userid in the  profile table 
+  User.hasOne(Profile, {
+    onDelete: 'CASCADE'
+  })      // link a user to a profile
+  Profile.belongsTo(User)
 
   // create a postId in the comment table
 
