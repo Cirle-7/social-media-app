@@ -266,12 +266,12 @@ const deletePost = async (req, res) => {
 
 // LIKE A POST
 const likeAPost = async (req, res) => {
-      // CHECK IF POST ID EXISTS
+        // CHECK IF POST ID EXISTS
       const post = await Post.findOne({
         where: { id:req.params.id },
       });
       if(!post) throw new AppError("post doesn't exist", 400)
-     
+
   // CHECK IF ITS BEEN LIKED BEFORE
   const check = await Like.findOne({
     where: {
@@ -293,12 +293,13 @@ const likeAPost = async (req, res) => {
 
 // DISLIKE A POST
 const disLikeAPost = async (req, res) => {
-      // CHECK IF POST ID EXISTS
+
+        // CHECK IF POST ID EXISTS
       const post = await Post.findOne({
         where: { id:req.params.id },
       });
       if(!post) throw new AppError("post doesn't exist", 400)
-     
+
   // CHECK IF ITS BEEN LIKED BEFORE
   const check = await Like.findOne({
     where: {
