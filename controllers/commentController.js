@@ -27,9 +27,8 @@ const commentOnAPost = async (req, res) => {
   let tags;
   if (info) {
     let bodyInfo = info.trim();
-    bodyInfo = bodyInfo.split(" " ?? "  ");
-
-    tags = bodyInfo.filter((bod) => bod.startsWith("#"));
+    bodyInfo = bodyInfo.split(" ").filter((body)=> body != '');
+    tags = bodyInfo.filter((bod) => bod.startsWith("#") && bod.length > 1);
   }
 
   body.userId = user.id;
@@ -59,9 +58,8 @@ const commentOnAComment = async (req, res) => {
   let tags;
   if (info) {
     let bodyInfo = info.trim();
-    bodyInfo = bodyInfo.split(" " ?? "  ");
-
-    tags = bodyInfo.filter((bod) => bod.startsWith("#"));
+    bodyInfo = bodyInfo.split(" ").filter((body)=> body != '');
+    tags = bodyInfo.filter((bod) => bod.startsWith("#") && bod.length > 1);
   }
 
   body.userId = user.id;
