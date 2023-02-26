@@ -9,7 +9,7 @@ const Profile = db.profile;
 //IMPORT CLOUDINARY
 const uploadToCloudinary = require("../utils/cloudinaryFunctions");
 
-// CREATE POST CONTROLLER
+// CREATE COMMENT ON A POST CONTROLLER
 const commentOnAPost = async (req, res) => {
   // DESTRUCTURE BODY,USER AND FILES REQUEST
   const { body, user, files, params:{postId} } = req;
@@ -41,7 +41,39 @@ const commentOnAPost = async (req, res) => {
   res.status(200).json({ status: true, comment });
 };
 
-// GET ALL  POST CONTROLLER
+//CREATE A COMMENT ON A COMMENT
+const commentOnAComment = async (req, res) => {
+  // DESTRUCTURE BODY,USER AND FILES REQUEST
+  const { body, user, files, params:{commentId} } = req;
+  const urls = [];
+
+  if (files) {
+    for (let file of files) {
+      const { path } = file;
+      const url = await uploadToCloudinary(path);
+      urls.push(url);
+    }
+  }
+  const { body: info } = body;
+
+  let tags;
+  if (info) {
+    let bodyInfo = info.trim();
+    bodyInfo = bodyInfo.split(" " ?? "  ");
+
+    tags = bodyInfo.filter((bod) => bod.startsWith("#"));
+  }
+
+  body.userId = user.id;
+  body.media_url = urls ?? "";
+  body.tags = tags?.join(" ") ?? "";
+  body.commentId = commentId
+
+  const comment = await Comment.create(body);
+  res.status(200).json({ status: true, comment });
+};
+
+// GET ALL COMMENT OF A POST CONTROLLER
 const getAllCommentsOfAPost = async (req, res) => {
   // DESTRUCTURE  REQUEST PARAMS AND QUERY
   const { params:{postId},query:{orderBy} } = req; 
@@ -61,14 +93,48 @@ const getAllCommentsOfAPost = async (req, res) => {
       {
         model: Like,
       },
+      {
+        model: Comment,
+        include: [
+          {
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include: Profile,
+          },
+          {
+            model: Like,
+          },
+          {
+            model: Comment,
+            include: [
+              {
+                model: User,
+                required: true,
+                attributes: { exclude: ["password"] },
+                include: Profile,
+              },
+              {
+                model: Like,
+              },
+              {
+                model: Comment,
+              },
+              // Qux // Shorthand syntax for { model: Qux } also works here
+            ],
+          },
+          // Qux // Shorthand syntax for { model: Qux } also works here
+        ],
+      },
       // Qux // Shorthand syntax for { model: Qux } also works here
     ],
   });
 
   const allComments = comments.map((comment) => {
-    const { likes } = comment;
+    const { likes,comments } = comment;
 
     comment.likesNo = likes.length;
+    comment.commentsNo = comments.length
     return {
       comment ,
     };
@@ -77,7 +143,63 @@ const getAllCommentsOfAPost = async (req, res) => {
   res.status(200).json({ status: true, allComments, nHit: allComments.length });
 };
 
-// GET POST BY ID
+
+// GET ALL COMMENT OF A COMMENT CONTROLLER
+const getAllCommentsOfAComment = async (req, res) => {
+  // DESTRUCTURE  REQUEST PARAMS AND QUERY
+  const { params:{commentId},query:{orderBy} } = req; 
+
+  const order = orderBy ? orderBy : "createdAt";
+
+  const comments = await Comment.findAll({
+    where: { commentId:commentId },
+    order: [[order, "DESC"]],
+    include: [
+      {
+        model: User,
+        required: true,
+        attributes: { exclude: ["password"] },
+        include: Profile,
+      },
+      {
+        model: Like,
+      },
+      {
+        model: Comment,
+        include: [
+          {
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include: Profile,
+          },
+          {
+            model: Like,
+          },
+          {
+            model: Comment,
+          },
+          // Qux // Shorthand syntax for { model: Qux } also works here
+        ],
+      },
+      // Qux // Shorthand syntax for { model: Qux } also works here
+    ],
+  });
+
+  const allComments = comments.map((comment) => {
+    const { likes,comments } = comment;
+
+    comment.likesNo = likes.length;
+    comment.commentsNo = comments.length
+    return {
+      comment ,
+    };
+  });
+
+  res.status(200).json({ status: true, allComments, nHit: allComments.length });
+};
+
+// GET COMMENT BY ID
 const getCommentById = async (req, res) => {
   const { commentId } = req.params;
 
@@ -93,14 +215,33 @@ const getCommentById = async (req, res) => {
       {
         model: Like,
       },
+      {
+        model: Comment,
+        include: [
+          {
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include: Profile,
+          },
+          {
+            model: Like,
+          },
+          {
+            model: Comment,
+          },
+          // Qux // Shorthand syntax for { model: Qux } also works here
+        ],
+      },
       // Qux // Shorthand syntax for { model: Qux } also works here
     ],
   });
   if (!comment) throw new AppError("Comment  not found", 404);
 
-  const { likes } = comment;
+  const { likes,comments } = comment;
   comment.views += 1;
   comment.likesNo = likes.length;
+  comment.commentsNo = comments.length
   await comment.save();
 
   res.status(200).json({
@@ -169,6 +310,8 @@ const disLikeAComment = async (req, res) => {
 
 module.exports = {
   commentOnAPost,
+  commentOnAComment,
+  getAllCommentsOfAComment,
   getAllCommentsOfAPost,
   deleteComment,
   likeAComment,

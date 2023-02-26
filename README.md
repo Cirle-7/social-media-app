@@ -723,6 +723,60 @@ Success
 
 ```
 ---
+### get All Comments Of A Comment (logged in users only )
+
+- Route: /api/v1/comment/newCom/:commentId
+- Method: GET
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "allComments": []
+}
+```
+---
+### Comment on a Comment (logged in users only )
+
+- Route: /api/v1/comment/newCom/:commentId
+- Method: POST
+- Header
+    - Cookies: jwt {token}
+- Body: Form data
+
+    | KEY  |  VALUE |
+    |---|---|
+    |body | yes oo :) |
+    | media_url | /C:/Users/josiah/Pictures/Screenshots/Screenshot (4).png |
+
+
+
+- Responses
+
+Success
+```
+{
+  "status": true,
+  "comment": {
+    "likesNo": 0,
+    "commentsNo": 0,
+    "views": 0,
+    "id": 3,
+    "body": "yes oo :)",
+    "userId": 1,
+    "media_url": [],
+    "tags": "",
+    "postId": "1",
+    "updatedAt": "2023-02-24T16:53:32.792Z",
+    "createdAt": "2023-02-24T16:53:32.792Z"
+  }
+}
+```
+---
 ## Profile Routes
 ---
 

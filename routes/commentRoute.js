@@ -4,7 +4,7 @@ const multer = require('multer')
 
 
 //IMPORT POST LOGIC CONTROLLER
-const {commentOnAPost,deleteComment,disLikeAComment,getAllCommentsOfAPost,getCommentById,likeAComment} = require('../controllers/commentController')
+const {commentOnAPost,deleteComment,disLikeAComment,getAllCommentsOfAPost,getCommentById,likeAComment,commentOnAComment,getAllCommentsOfAComment} = require('../controllers/commentController')
 
 //IMPORT VALIDATION MIDDLEWARE
 const {postValidationMiddleware, updatePostValidatorMiddleware} = require('../validation/postValidation')
@@ -22,6 +22,10 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
 Router.route('/new/:postId').post(postValidationMiddleware,  upload.array("media_url", 4), commentOnAPost).get(getAllCommentsOfAPost)
 Router.route('/:commentId').delete(deleteComment).get(getCommentById)
 Router.route('/like/:id').post(likeAComment).delete(disLikeAComment)
+
+//COMMENT ON COMMENTS
+Router.route('/newCom/:commentId').post(postValidationMiddleware,  upload.array("media_url", 4), commentOnAComment).get(getAllCommentsOfAComment)
+
 
 
 
