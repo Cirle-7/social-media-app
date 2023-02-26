@@ -25,9 +25,9 @@ const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   dialect: DB_DIALECT,
   dialectOptions: {
     ssl: {
-      SSL,
-    },
-  },
+      SSL
+    }
+  }
 });
 
 // add the models to db Object so it can be called when you import db
@@ -54,16 +54,22 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   let likes = db.likes;
 
   // create a userid in the post table
-  User.hasMany(Posts); // link posts to their user
+  User.hasMany(Posts, {
+    onDelete: 'CASCADE',
+  });     // link posts to their user
   Posts.belongsTo(User);
 
   // create a userId in the comment table
-  User.hasMany(comments); // link comments to their user
-  comments.belongsTo(User);
+  User.hasMany(comments, {
+    onDelete: 'CASCADE',
+  });     // link comments to their user
+  comments.belongsTo(User)
 
-  //create a userid in the  profile table
-  User.hasOne(Profile); // link a user to a profile
-  Profile.belongsTo(User);
+  //create a userid in the  profile table 
+  User.hasOne(Profile, {
+    onDelete: 'CASCADE'
+  })      // link a user to a profile
+  Profile.belongsTo(User)
 
   // create a postId in the comment table
 

@@ -3,6 +3,7 @@ const appError = require('../utils/appError')
 const logger = require('../utils/logger')
 const cloudinary = require('../config/cloudinary')
 const fs = require('fs')
+const { Op } = require('sequelize');
 const db = require('../models')
 const Profile = db.profile;
 const User = db.users;
@@ -132,10 +133,22 @@ const getProfile = async (req,res) => {
     
     // IF PROFILE NOT FOUND
     if(!profile) throw new appError('Profile not found', 404)
+
+    //TODO: PUT ON CRON JOB
+    // DELETE: ANY ACCOUNT DUE FOR DELETION
+    await User.destroy({
+        where: {
+            deletionDate: { [Op.lt] : Date.now() }
+        }
+    })
+
+    // SET RESPONSE MESSAGE BASED ON ACCOUNT STATUS
+    const message = profile.isdeactivated ? 'This account is deactivated' : 'Profile found'
+
     // RETURN PROFILE
     res.status(200).json({
         status: 'success',
-        message: 'Profile found',
+        message: message,
         data: {
             profile: {
                 username: user.username,
@@ -147,16 +160,15 @@ const getProfile = async (req,res) => {
                 twitter_link: profile.twitter_link,
                 avatarURL: profile.avatarURL,
                 headerURL: profile.headerURL,
-                followers: profile.followers
+                followers: profile.followers,
+                isdeactivated: profile.isdeactivated
             }
         }
     })
 }
 
-
-
 module.exports = {
     updateProfile,
     createProfile,
-    getProfile
+    getProfile,
 }

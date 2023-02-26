@@ -11,3 +11,13 @@ exports.createPasswordResetToken = async () => {
     const passwordResetExpires = Date.now() + 10 * 60 * 1000;
   return { resetToken, passwordToken, passwordResetExpires };
 };
+
+exports.createDeactivationToken = async () => {
+  const token = crypto.randomBytes(32).toString("hex");
+  const deactivationToken = crypto
+    .createHash("sha256")
+    .update(token)
+    .digest("hex");
+    const deactivationTokenExpires = Date.now() + 10 * 60 * 1000;
+  return { token, deactivationToken, deactivationTokenExpires };
+};

@@ -39,7 +39,7 @@ const authorize = async (req, res, next) => {
   });
 
   if (!currentUser)
-    throw new AppError(404, "Account Not Found, Please Login again!");
+    throw new AppError("Account Not Found, Please Login again!", 404);
 
   //Add user to req object
   req.user = currentUser;

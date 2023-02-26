@@ -1578,3 +1578,900 @@
 [31m    at Object.<anonymous> (C:\Users\fwesh\Desktop\Code\social-media-app\server.js:1:13)[39m
 2023-02-21 14:41:40:4140 [31merror[39m: [31m404[39m
 2023-02-21 14:42:00:420 [31merror[39m: [31mEmail Or Password Incorrect[39m
+2023-02-25 08:01:04:14 [31merror[39m: [31muncaughtException: likes is not defined[39m
+[31mReferenceError: likes is not defined[39m
+[31m    at createAssociations (C:\Users\user\Documents\Projects\social-media-app\models\index.js:102:16)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:114:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:2:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-25 08:02:44:244 [31merror[39m: [31muncaughtException: de is not defined[39m
+[31mReferenceError: de is not defined[39m
+[31m    at createAssociations (C:\Users\user\Documents\Projects\social-media-app\models\index.js:57:13)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:115:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:2:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-25 08:02:47:247 [31merror[39m: [31muncaughtException: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-25 08:03:59:359 [31merror[39m: [31muncaughtException: Cannot access 'db' before initialization[39m
+[31mReferenceError: Cannot access 'db' before initialization[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:12:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:2:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-02-25 08:04:22:422 [31merror[39m: [31muncaughtException: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-25 08:06:02:62 [31merror[39m: [31muncaughtException: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-25 08:07:19:719 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\models\index.js:64[39m
+[31m  });[39m
+[31m  ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:2:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-25 08:07:23:723 [31merror[39m: [31muncaughtException: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-25 08:07:35:735 [31merror[39m: [31muncaughtException: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-25 08:07:38:738 [31merror[39m: [31muncaughtException: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module 'bad-words'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\postRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\contentModifier.js:2:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\postController.js:10:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-25 08:11:01:111 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:11:05:115 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:22:14:2214 [31merror[39m: [31muncaughtException: Cannot find module '../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31mError: Cannot find module '../utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\app.js[39m
+[31m- C:\Users\user\Documents\Projects\social-media-app\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-02-25 08:26:26:2626 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:86[39m
+[31m        }[39m
+[31m        ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:26:29:2629 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:86[39m
+[31m        }[39m
+[31m        ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:26:34:2634 [31merror[39m: [31muncaughtException: Identifier 'error' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:84[39m
+[31m          const error = new AppError[39m
+[31m                ^^^^^[39m
+
+[31mSyntaxError: Identifier 'error' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:26:36:2636 [31merror[39m: [31muncaughtException: Identifier 'error' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:84[39m
+[31m          const error = new AppError('')[39m
+[31m                ^^^^^[39m
+
+[31mSyntaxError: Identifier 'error' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:26:43:2643 [31merror[39m: [31muncaughtException: Identifier 'error' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:84[39m
+[31m          const error = new AppError('Account created ')[39m
+[31m                ^^^^^[39m
+
+[31mSyntaxError: Identifier 'error' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:26:46:2646 [31merror[39m: [31muncaughtException: Identifier 'error' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:84[39m
+[31m          const error = new AppError('Account created, but ')[39m
+[31m                ^^^^^[39m
+
+[31mSyntaxError: Identifier 'error' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:33:00:330 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:79[39m
+[31m          const url = `${req.protocol}://${req.get("host")}/api/v1/profiles/${}`;[39m
+[31m                                                                              ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:33:53:3353 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:33:55:3355 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:34:00:340 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:34:52:3452 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:34:53:3453 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:34:57:3457 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:36:41:3641 [31merror[39m: [31m/api/v1/account/deactivate/8cfccaaef726ee2c0ef63ad51688d4e2ba65b60c301546ede376af1a26b01e90 not found on this server[39m
+2023-02-25 08:36:41:3641 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:37:28:3728 [31merror[39m: [31mYour account has been successfully deactivated, but there was an error sending you a confirmation. [39m
+[31m                Your account will be permanetly deleted in 30 days[39m
+2023-02-25 08:44:01:441 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:44:04:444 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 08:44:39:4439 [31merror[39m: [31mNo user with that username[39m
+2023-02-25 08:54:09:549 [31merror[39m: [31muncaughtException: Unexpected token 'return'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:67[39m
+[31m          return done(null, { oldUser, token });[39m
+[31m          ^^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'return'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:08:578 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst ch[39m
+[31m      ^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:11:5711 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst check[39m
+[31m      ^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:21:5721 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst checkCookiesAndA[39m
+[31m      ^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:24:5724 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst checkCookiesAndActivate[39m
+[31m      ^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:31:5731 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst checkCookiesAndReactivate[39m
+[31m      ^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:33:5733 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst checkCookiesAndReactivateUser[39m
+[31m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:35:5735 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst checkCookiesAndReactivateUser [39m
+[31m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:40:5740 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst checkCookiesAndReactivateUser async ()[39m
+[31m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:42:5742 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182[39m
+[31mconst checkCookiesAndReactivateUser async (user)[39m
+[31m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 08:57:47:5747 [31merror[39m: [31muncaughtException: async is not defined[39m
+[31mReferenceError: async is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:182:39)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-25 09:01:10:110 [31merror[39m: [31muncaughtException: Unexpected token 'new'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:186[39m
+[31m    co new AppError([39m
+[31m       ^^^[39m
+
+[31mSyntaxError: Unexpected token 'new'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:01:12:112 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:186[39m
+[31m    const err new AppError([39m
+[31m          ^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:15:41:1541 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:15:44:1544 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:15:46:1546 [31merror[39m: [31m/api/v1/users/auth/google/callback?code=4%2F0AWtgzh7kxyz_iWjCH9zsPhTxJ_cB0h44ed18A0EbyMqrmjR5K9sTtqf3VOQ9doyaK-7FLA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none not found on this server[39m
+2023-02-25 09:17:06:176 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:17:22:1722 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:17:23:1723 [31merror[39m: [31m/api/v1/users/auth/google/callback?code=4%2F0AWtgzh7X5AIjWBCOhofd4QAB3Cp2OQyRgGhgAd0MVDm4qNeXYVieKhqauEiLehFY4EYg9Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none not found on this server[39m
+2023-02-25 09:18:41:1841 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:18:44:1844 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:23:08:238 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:23:12:2312 [31merror[39m: [31mYour account is presently deactivated![39m
+2023-02-25 09:23:12:2312 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:23:53:2353 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:188[39m
+[31m      `Your account has been reactivated, but there was an error sending you a confirmation.`,[39m
+[31m       ^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:24:30:2430 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:24:33:2433 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:24:34:2434 [31merror[39m: [31m/api/v1/users/auth/google/callback?code=4%2F0AWtgzh5bHIaa_pdtmhXDK0CGfsUUrdhUKvV-qCctTZp6yKu8XMoWZ5DiKLuSVy0GGirq-Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none not found on this server[39m
+2023-02-25 09:26:23:2623 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:172[39m
+[31mconst send[39m
+[31m      ^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:26:26:2626 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:172[39m
+[31mconst sendWe[39m
+[31m      ^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:26:28:2628 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:172[39m
+[31mconst sendWelcome[39m
+[31m      ^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:26:32:2632 [31merror[39m: [31muncaughtException: Unexpected end of input[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:172[39m
+[31mconst sendWelcomeMail = [39m
+[31m                        [39m
+
+[31mSyntaxError: Unexpected end of input[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:26:38:2638 [31merror[39m: [31muncaughtException: await is only valid in async functions and the top level bodies of modules[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\passportOAuth.js:175[39m
+[31m    await new Email(user, url).sendWelcome();[39m
+[31m    ^^^^^[39m
+
+[31mSyntaxError: await is only valid in async functions and the top level bodies of modules[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:4:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-02-25 09:32:52:3252 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:32:59:3259 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:34:07:347 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:34:48:3448 [31merror[39m: [31mBad Request[39m
+2023-02-25 09:34:48:3448 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:35:02:352 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:35:30:3530 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-02-25 09:54:25:5425 [31merror[39m: [31mYour account is not deactivated![39m
+2023-02-25 09:56:20:5620 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\email.js:16[39m
+[31m      USE Mailgun[39m
+[31m          ^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:8:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-02-25 09:56:25:5625 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\utils\email.js:16[39m
+[31m      USE Mailgun[39m
+[31m          ^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:8:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
