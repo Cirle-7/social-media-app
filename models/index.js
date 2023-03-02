@@ -23,11 +23,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
-  dialectOptions: {
-    ssl: {
-      SSL
-    }
-  }
+  // dialectOptions: {
+  //   ssl: {
+  //     SSL
+  //   }
+  // }
 });
 
 // add the models to db Object so it can be called when you import db
@@ -113,7 +113,7 @@ sequelize
 // sync the table
 db.sequelize
   .sync({ force: false })
-  //.sync({ alter: true })
+  // .sync({ alter: true })
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 
