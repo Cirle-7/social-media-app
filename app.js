@@ -26,7 +26,8 @@ app.use(
     origin: [
     'http://localhost:3000',
     'http://localhost:3001',
-    'localhost'
+    'localhost',
+    'https://test-social.vercel.app',
   ]
   })
 );
