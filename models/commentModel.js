@@ -5,15 +5,22 @@ module.exports= (sequelize, DataTypes)=>{
             allowNull:false
         },
         media_url:{
-            type:DataTypes.STRING,
+            type:DataTypes.JSON,
         },
-        likes:{
+        likesNo:{
             type:DataTypes.INTEGER,
             defaultValue:0
         },
-        comments:{
-            type: DataTypes.INTEGER,
-            defaultValue:0
+        commentsNo: {
+          type: DataTypes.INTEGER,
+          defaultValue: 0,
+        },
+        views: {
+          type: DataTypes.INTEGER,
+          defaultValue: 0,
+        },
+        tags: {
+          type: DataTypes.STRING,
         },
     },
         {

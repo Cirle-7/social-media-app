@@ -1,8 +1,6 @@
-const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt");
 require("express-async-errors");
-const logger = require("../utils/logger");
 const db = require("../models");
+const Profile = db.profile
 const AppError = require("../utils/appError");
 const tokens = require("./../utils/tokens");
 const crypto = require("crypto");
@@ -13,7 +11,7 @@ const User = db.users;
 
 //CREATE FUNCTION THAT HANDLES TOKEN RESPONSE & COOKIE RESPONSE
 const createSendToken = async (user, statusCode, res) => {
-  // create jwt token with model instance
+  // CREATE JWT WITH MODEL INSTANCE
   const token = await user.createJwt();
   const cookieOptions = {
     expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
@@ -22,9 +20,8 @@ const createSendToken = async (user, statusCode, res) => {
   };
   if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
 
-  // Send token to client
+  // SEND TOKEN TO CLIENT
   res.cookie("jwt", token, cookieOptions);
-
 
   user.password = undefined
 
@@ -38,30 +35,41 @@ const createSendToken = async (user, statusCode, res) => {
 };
 
 const signup = async (req, res) => {
-  // console.log(req.headers)
-  // logger.info(req.body)
-
-  const payload = {};
 
   const { username, email, password, displayName } = req.body;
 
-  // // validate input
+  // VALIDATE INPUT
   if (!(username && email && password && displayName))
     throw new AppError("All fields are required", 400);
 
-  //check if user already exist
+  // CHECK IF USER ALREADY EXISTS
   const oldUser = await User.findOne({
     where: { email: email },
   });
 
   if (oldUser) throw new AppError("User already exists. Please login", 409);
 
-  // if new user create
+  // CREATE USER IF NEW
   const user = await User.create(req.body);
 
+  const defaultHeaderURL = 'https://cdn.pixabay.com/photo/2016/08/30/16/26/banner-1631296__340.jpg'
+  const defaultAvatarURL = 'https://st3.depositphotos.com/1767687/16607/v/450/depositphotos_166074422-stock-illustration-default-avatar-profile-icon-grey.jpg'
+
+
+
+  await Profile.create({
+    Bio:`hi, it's ${username} nice to meet you all`, 
+    website:"", 
+    github_link:"", 
+    twitter_link:"", 
+    location:req.location,
+    avatarURL: defaultAvatarURL,
+    headerURL: defaultHeaderURL,
+    userId: user.id    
+})
   try {
     //SEND WELCOME MAIL
-    const url = `${req.protocol}://${req.get("host")}/api/v1/profiles`;
+    const url = `${req.protocol}://${req.get("host")}/api/v1/profiles/${user.username}`;
     await new Email(user, url).sendWelcome();
 
     //CREATE TOKEN
@@ -74,17 +82,27 @@ const signup = async (req, res) => {
     });
   }
 };
+
 const login = async (req, res) => {
-  // Get user input
+  // GET USER INPUT
   const { email, password } = req.body;
 
-  // Validate user input
+  // VALIDATE USER INPUT
   if (!(email && password)) throw new AppError("All fields are required", 400);
 
-  // Validate if user exist in database
+  // VALIDATE IF USER EXISTS IN DATABASE
   const user = await User.findOne({
     where: { email: email },
   });
+
+  // CHECK IF USER ACCOUNT IS ALREADY DEACTIVATED
+  if (user && user.deletionDate) {
+    res.status(403).json({
+      status: 'failed',
+      message: `Your account is presently deactivated!`,
+      activationUrl: `${req.protocol}://${req.get('host')}/api/v1/account/activate`
+    })
+  }
 
   //NOTIFY USERS WITH SOCIAL AUTH WHEN LOGGING IN
   if (user && !user.password)
@@ -93,7 +111,7 @@ const login = async (req, res) => {
       401
     );
 
-  // Check if user exists and email exist without leaking extra info
+  // CHECK IF USER EXISTS WITHOUT LEAKING EXTRA INFOS
   if (!user || !(await user.comparePassword(password)))
     throw new AppError("Email Or Password Incorrect", 400);
 
@@ -101,24 +119,30 @@ const login = async (req, res) => {
   createSendToken(user, 200, res);
 };
 
-// SOCIAL SIGNUP OR LOGIN
-const checkOrCreateOAuthUser = async (socialUser) => {
-  // Validate user input
-  if (!socialUser) throw new AppError("User credentials are required!", 400);
 
-  //check if user already exists
-  const oldUser = await User.findOne({
-    where: { socialId: socialUser.socialId },
+const updateDisplayName = async(req,res)=>{
+  const {  body,params:{userId} } = req;
+
+  const user = await User.findOne(
+    { where: { id : userId } }
+  );
+
+  if(!user)throw new AppError('user doesnt exist')
+
+  const updatedUser = await user.update(body)
+
+  updatedUser.password = undefined
+
+  res.status(200).json({
+    status: "Success",
+    data: {
+      updatedUser
+    },
   });
 
-  //Create user if new
-  if (!oldUser) {
-    const user = await User.create({ ...socialUser });
-    if (!user) throw new AppError("Falied to create social user", 500);
-  }
 
-  return;
-};
+
+}
 
 const profile = (req, res) => {
   res.render("profile");
@@ -203,12 +227,13 @@ const resetPassword = async (req, res, next) => {
   }
 };
 
+
 module.exports = {
   signup,
   login,
   profile,
-  checkOrCreateOAuthUser,
   createSendToken,
   forgotPassword,
   resetPassword,
+  updateDisplayName,
 };

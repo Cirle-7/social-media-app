@@ -3,7 +3,6 @@ const nodemailer = require("nodemailer");
 const ejs = require("ejs");
 const htmlToText = require("html-to-text");
 const mailGun = require("nodemailer-mailgun-transport");
-
 //EMAIL CLASS TO CREATE MULTIPLE EMAILS
 module.exports = class Email {
   constructor(user, url) {
@@ -14,7 +13,7 @@ module.exports = class Email {
   }
   newTransport() {
     if (process.env.NODE_ENV === "production") {
-      //USE Mailgun
+      // USE Mailgun
       const mailgunAuth = {
         auth: {
           api_key: process.env.MAILGUN_API,
@@ -32,7 +31,6 @@ module.exports = class Email {
       },
     });
   }
-
   // SEND THE ACTUAL EMAIL
   async send(template, subject) {
     //1. RENDER HTML BASED BODY
@@ -48,7 +46,6 @@ module.exports = class Email {
         html = data;
       }
     );
-
     //2. DEFINE MAIL OPTIONS
     const mailOptions = {
       from: this.from,
@@ -61,11 +58,9 @@ module.exports = class Email {
       //   wordwrap: false,
       // }),
     };
-
     //3. Create a transport and send email
     await this.newTransport().sendMail(mailOptions);
   }
-
   //EXTEND THE MAIL FUNCTION TO SEND MAIL FOR WELCOMING NEW USERS.
   async sendWelcome() {
     await this.send("welcomeMail", "Welcome to the circle!");
@@ -80,5 +75,19 @@ module.exports = class Email {
   //EXTEND THE MAIL FUNCTION TO SEND MAIL FOR WELCOMING NEW USERS.
   async sendVerifiedPR() {
     await this.send('verifiedPR', 'Your password has successfully changed.')
+  }
+
+  // SEND PROFILE DEACTIVATION MAIL
+  async sendDeactivation() {
+    await this.send('requestDeactivation', 'Deactivate your account')
+  }
+
+  // SEND CONFIRM DEACTIVATION MAIL
+  async sendDeactivationConfirmation() {
+    await this.send('confirmDeactivation', 'Account Deactivation')
+  }
+  // SEND CONFIRM DEACTIVATION MAIL
+  async sendConfirmReactivation() {
+    await this.send('confirmReactivation', 'Account Reactivated')
   }
 };

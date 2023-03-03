@@ -30,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
       username: {
         type: DataTypes.STRING,
         unique: true,
-        allowNull: true,
+        allowNull: false,
       },
       displayName: {
         type: DataTypes.STRING,
@@ -48,6 +48,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.BOOLEAN,
         defaultValue: false,
       }
+      deletionDate: {
+        type: DataTypes.DATE,
+        allowNull: true
+      },
     },
     {
       tableName: "users",
@@ -80,7 +84,7 @@ module.exports = (sequelize, DataTypes) => {
       expiresIn: process.env.JWT_EXPIRES,
     });
   };
-
+  
   //COMPARE PASSWWORD INSTANCE
   User.prototype.comparePassword = async function (password) {
     return await bcrypt.compare(password, this.password);

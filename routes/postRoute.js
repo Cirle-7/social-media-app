@@ -1,10 +1,14 @@
 const express = require('express')
 const Router = express.Router()
 const multer = require('multer')
+const { getLocation } = require("../middleware/getLocationMW");
 
 
 //IMPORT POST LOGIC CONTROLLER
-const { createPost, editPost, deletePost, getAllPost ,getPostById, draftPost,likePost } = require('../controllers/postController')
+const { draftAPost, editPost, deletePost, getAllPost ,getPostById, publishAPost, likeAPost ,disLikeAPost, getMyDraftPosts} = require('../controllers/postController')
+
+//IMPORT VALIDATION MIDDLEWARE
+const {postValidationMiddleware, updatePostValidatorMiddleware} = require('../validation/postValidation')
 
 //SET 
 const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
@@ -16,9 +20,12 @@ const upload = multer({dest:"uploads/", fileFilter :  (req, file, cb) => {
     }
   }})
 
-Router.route('/').post(  upload.array("media_url", 4), createPost).get(getAllPost)
-Router.route('/:id').patch(  upload.array("media_url", 4), editPost).delete(deletePost).get(getPostById)
-Router.route('/draft/:id').put(draftPost)
+
+Router.route('/').post(postValidationMiddleware, upload.array("media_url"),publishAPost).get(getAllPost)
+Router.route('/draft').post(postValidationMiddleware, upload.array("media_url"),draftAPost)
+Router.route('/myDrafts').get(getMyDraftPosts)
+Router.route('/:id').patch( updatePostValidatorMiddleware, upload.array("media_url", 4), editPost).delete(deletePost).get(getPostById)
+Router.route('/like/:id').post(likeAPost).delete(disLikeAPost)
 
 
 
