@@ -120,7 +120,7 @@ const login = async (req, res) => {
 };
 
 
-const updatedisplayname = async(req,res)=>{
+const updateDisplayName = async(req,res)=>{
   const {  body,params:{userId} } = req;
 
   const user = await User.findOne(
@@ -235,5 +235,5 @@ module.exports = {
   createSendToken,
   forgotPassword,
   resetPassword,
-  updatedisplayname,
+  updateDisplayName,
 };

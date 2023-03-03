@@ -11,7 +11,7 @@ const { getLocation } = require('../middleware/getLocationMW')
 //AUTHENTIACTION ROUTES
 router.post("/signup", userValidationMiddleware, getLocation, authController.signup);
 
-router.patch("/:userId", authController.updatedisplayname)
+router.patch("/:userId", authController.updateDisplayName)
 
 router.post("/login", authController.login);
 
