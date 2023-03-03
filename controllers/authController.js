@@ -121,22 +121,22 @@ const login = async (req, res) => {
 
 
 const updatedisplayname = async(req,res)=>{
-  const {  body:{displayName},params:{userId} } = req;
+  const {  body,params:{userId} } = req;
 
-  const user = await User.update(
-    {
-      displayName:displayName
-    },
+  const user = await User.findOne(
     { where: { id : userId } }
   );
 
+  if(!user)throw new AppError('user doesnt exist')
 
-  user.password = undefined
+  const updatedUser = await user.update(body)
 
-  res.status(statusCode).json({
+  updatedUser.password = undefined
+
+  res.status(200).json({
     status: "Success",
     data: {
-      user,
+      updatedUser
     },
   });
 
