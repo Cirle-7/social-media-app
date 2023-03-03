@@ -61,6 +61,22 @@ passport.use(
         // CREATE USER IF NEW
         const user = await User.create({ ...googleDetails });
         const token = await user.createJwt();
+        
+        const defaultHeaderURL = 'https://cdn.pixabay.com/photo/2016/08/30/16/26/banner-1631296__340.jpg'
+        const defaultAvatarURL = 'https://st3.depositphotos.com/1767687/16607/v/450/depositphotos_166074422-stock-illustration-default-avatar-profile-icon-grey.jpg'
+      
+      
+      
+        await Profile.create({
+          Bio:`hi, it's ${user.username} nice to meet you all`, 
+          website:"", 
+          github_link:"", 
+          twitter_link:"", 
+          location:"",
+          avatarURL: defaultAvatarURL,
+          headerURL: defaultHeaderURL,
+          userId: user.id    
+      })
 
         // SEND WELCOME MAIL
         sendWelcomeMail(req, user, token, done)
@@ -88,7 +104,7 @@ passport.use(
 
       const githubDetails = {
         githubId: profile.id,
-        displayName: profile.displayName,
+        displayName: profile.username,
         email: profile.emails[0].value,
 
         username: profile.username,
@@ -118,7 +134,22 @@ passport.use(
         //Create user if new
         const user = await User.create({ ...githubDetails });
         const token = await user.createJwt();
-
+        
+        const defaultHeaderURL = 'https://cdn.pixabay.com/photo/2016/08/30/16/26/banner-1631296__340.jpg'
+        const defaultAvatarURL = 'https://st3.depositphotos.com/1767687/16607/v/450/depositphotos_166074422-stock-illustration-default-avatar-profile-icon-grey.jpg'
+      
+      
+      
+        await Profile.create({
+          Bio:`hi, it's ${user.username} nice to meet you all`, 
+          website:"", 
+          github_link:"", 
+          twitter_link:"", 
+          location:"",
+          avatarURL: defaultAvatarURL,
+          headerURL: defaultHeaderURL,
+          userId: user.id    
+      })
         // SEND WELCOME MAIL
         sendWelcomeMail(req, user, token, done)
 

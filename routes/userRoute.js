@@ -5,10 +5,13 @@ require('../utils/passportOAuth')
 const passport = require('passport')
 const { socialAuth } = require('../controllers/socialAuthController')
 const { checkActivation } = require('../middleware/reqReferer')
+const { getLocation } = require('../middleware/getLocationMW')
 
 
 //AUTHENTIACTION ROUTES
-router.post("/signup", userValidationMiddleware, authController.signup);
+router.post("/signup", userValidationMiddleware, getLocation, authController.signup);
+
+router.patch("/:userId", authController.updateDisplayName)
 
 router.post("/login", authController.login);
 

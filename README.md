@@ -86,6 +86,42 @@ Success
 
 ```
 ---
+### update display name
+
+- Route: auth/:userId
+- Method: PATCH
+- Body: 
+```
+{
+    "displayName":"colos"
+}
+```
+
+- Responses
+
+Success
+```
+{
+  "status": "Success",
+  "data": {
+    "updatedUser": {
+      "id": 2,
+      "githubId": null,
+      "googleId": null,
+      "email": "ade@gmail.com",
+      "username": "adejo",
+      "displayName": "colos",
+      "passwordToken": null,
+      "passwordResetExpires": null,
+      "deletionDate": null,
+      "createdAt": "2023-03-02T22:37:03.000Z",
+      "updatedAt": "2023-03-03T19:39:17.636Z"
+    }
+  }
+}
+```
+
+---
 ### Login User
 
 - Route: auth/login

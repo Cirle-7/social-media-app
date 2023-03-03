@@ -52,6 +52,21 @@ const signup = async (req, res) => {
   // CREATE USER IF NEW
   const user = await User.create(req.body);
 
+  const defaultHeaderURL = 'https://cdn.pixabay.com/photo/2016/08/30/16/26/banner-1631296__340.jpg'
+  const defaultAvatarURL = 'https://st3.depositphotos.com/1767687/16607/v/450/depositphotos_166074422-stock-illustration-default-avatar-profile-icon-grey.jpg'
+
+
+
+  await Profile.create({
+    Bio:`hi, it's ${username} nice to meet you all`, 
+    website:"", 
+    github_link:"", 
+    twitter_link:"", 
+    location:req.location,
+    avatarURL: defaultAvatarURL,
+    headerURL: defaultHeaderURL,
+    userId: user.id    
+})
   try {
     //SEND WELCOME MAIL
     const url = `${req.protocol}://${req.get("host")}/api/v1/profiles/${user.username}`;
@@ -103,6 +118,31 @@ const login = async (req, res) => {
   //CREATE TOKEN
   createSendToken(user, 200, res);
 };
+
+
+const updateDisplayName = async(req,res)=>{
+  const {  body,params:{userId} } = req;
+
+  const user = await User.findOne(
+    { where: { id : userId } }
+  );
+
+  if(!user)throw new AppError('user doesnt exist')
+
+  const updatedUser = await user.update(body)
+
+  updatedUser.password = undefined
+
+  res.status(200).json({
+    status: "Success",
+    data: {
+      updatedUser
+    },
+  });
+
+
+
+}
 
 const profile = (req, res) => {
   res.render("profile");
@@ -195,4 +235,5 @@ module.exports = {
   createSendToken,
   forgotPassword,
   resetPassword,
+  updateDisplayName,
 };
