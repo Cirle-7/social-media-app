@@ -12875,3 +12875,50 @@
 2023-03-04 19:32:30:3230 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/0cc689a5af51d9091b1e2425c16e51a8eb24f68cdcb411590145416ba614008e 200 134 - 3240.557 ms[39m
 [35m[39m
 2023-03-04 19:34:00:340 [32minfo[39m: [32mDELETED DEACTIVATED ACCOUNTS![39m
+2023-03-04 22:53:45:5345 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 22:53:45:5345 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 22:53:48:5348 [35mhttp[39m: [35m::1 GET / 304 - - 7.317 ms[39m
+[35m[39m
+2023-03-04 22:53:49:5349 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-04 22:53:49:5349 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 4.651 ms[39m
+[35m[39m
+2023-03-04 22:53:50:5350 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.437 ms[39m
+[35m[39m
+2023-03-04 22:53:56:5356 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AWtgzh5Ab2k-Z5xZvn87vcUwK6gUgYsNf3h-bv9-fr_n4YfvxeBok9urZ8CTgFHOkiid6g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 201 533 - 1217.350 ms[39m
+[35m[39m
+2023-03-04 22:53:56:5356 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-04 22:53:56:5356 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.190 ms[39m
+[35m[39m
+2023-03-04 22:54:17:5417 [35mhttp[39m: [35m::1 GET / 304 - - 1.102 ms[39m
+[35m[39m
+2023-03-04 22:54:18:5418 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-04 22:54:18:5418 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.144 ms[39m
+[35m[39m
+2023-03-04 22:54:20:5420 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/github 302 0 - 1.035 ms[39m
+[35m[39m
+2023-03-04 22:58:23:5823 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-04 22:58:23:5823 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 4.398 ms[39m
+[35m[39m
+2023-03-04 22:58:25:5825 [35mhttp[39m: [35m::1 GET / 304 - - 1.249 ms[39m
+[35m[39m
+2023-03-04 22:58:25:5825 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-04 22:58:25:5825 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.012 ms[39m
+[35m[39m
+2023-03-04 22:58:27:5827 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/github 302 0 - 1.121 ms[39m
+[35m[39m
+2023-03-04 22:58:36:5836 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/github/callback?code=1419ad82f40f1653aba3 201 419 - 7107.536 ms[39m
+[35m[39m
+2023-03-04 22:58:36:5836 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-04 22:58:36:5836 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 4.462 ms[39m
+[35m[39m
+2023-03-04 23:02:52:252 [35mhttp[39m: [35m::1 GET / 304 - - 0.965 ms[39m
+[35m[39m
+2023-03-04 23:02:53:253 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-04 23:02:53:253 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.066 ms[39m
+[35m[39m
+2023-03-04 23:53:33:5333 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 23:53:33:5333 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 23:54:16:5416 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 23:54:17:5417 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 23:56:25:5625 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 23:56:25:5625 [32minfo[39m: [32mtable sync successful[39m
