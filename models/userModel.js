@@ -44,6 +44,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.DATE,
         allowNull: true,
       },
+      isPrivate: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+      }
       deletionDate: {
         type: DataTypes.DATE,
         allowNull: true

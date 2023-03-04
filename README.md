@@ -816,6 +816,7 @@ Success
 ## Profile Routes
 ---
 
+
 ## Profiles
 | field  |  data_type | constraints  |
 |---|---|---|
@@ -1073,8 +1074,7 @@ Success
   "message": "Account Public Successful"
 }
 ```
----
-```
+
 ---
 
 
@@ -1083,3 +1083,4 @@ Success
 - Ademeso Josiah
 - Justice Etorko-Gbeku
 - Sunday Samuel Olubode
+
