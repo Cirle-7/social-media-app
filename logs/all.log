@@ -12841,3 +12841,37 @@
 2023-02-25 10:03:26:326 [32minfo[39m: [32mtable sync successful[39m
 2023-02-25 10:03:30:330 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-02-25 10:03:30:330 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 19:25:29:2529 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-03-04 19:25:29:2529 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-03-04 19:26:00:260 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-03-04 19:26:36:2636 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 19:26:40:2640 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 19:26:54:2654 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 19:26:54:2654 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 19:27:12:2712 [35mhttp[39m: [35m::1 POST /api/v1/users/signup 200 366 - 5221.122 ms[39m
+[35m[39m
+2023-03-04 19:27:30:2730 [35mhttp[39m: [35m::1 GET /api/v1/profiles/Don 200 479 - 34.255 ms[39m
+[35m[39m
+2023-03-04 19:28:16:2816 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-03-04 19:28:16:2816 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 404 490 - 19.352 ms[39m
+[35m[39m
+2023-03-04 19:28:52:2852 [31merror[39m: [31minvalid token[39m
+2023-03-04 19:28:52:2852 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 500 2094 - 4.124 ms[39m
+[35m[39m
+2023-03-04 19:29:23:2923 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3732.095 ms[39m
+[35m[39m
+2023-03-04 19:29:51:2951 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/a3598515d0cc1956df8936d7d8dd8e8bdb30d655b010a851d5049cffd7c4d732 200 134 - 3374.306 ms[39m
+[35m[39m
+2023-03-04 19:31:00:310 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 19:31:00:310 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 19:31:03:313 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 19:31:03:313 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 19:31:14:3114 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-03-04 19:31:14:3114 [32minfo[39m: [32mtable sync successful[39m
+2023-03-04 19:31:51:3151 [35mhttp[39m: [35m::1 PATCH /api/v1/account/activate 200 79 - 3979.912 ms[39m
+[35m[39m
+2023-03-04 19:32:08:328 [35mhttp[39m: [35m::1 PATCH /api/v1/account/delete 200 215 - 3187.052 ms[39m
+[35m[39m
+2023-03-04 19:32:30:3230 [35mhttp[39m: [35m::1 PATCH /api/v1/account/deactivate/0cc689a5af51d9091b1e2425c16e51a8eb24f68cdcb411590145416ba614008e 200 134 - 3240.557 ms[39m
+[35m[39m
+2023-03-04 19:34:00:340 [32minfo[39m: [32mDELETED DEACTIVATED ACCOUNTS![39m

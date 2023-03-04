@@ -47,7 +47,7 @@ module.exports = (sequelize, DataTypes) => {
       isPrivate: {
         type: DataTypes.BOOLEAN,
         defaultValue: false,
-      }
+      },
       deletionDate: {
         type: DataTypes.DATE,
         allowNull: true
