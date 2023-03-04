@@ -10,11 +10,12 @@ const User = db.users;
 
 //OAuthController
 const AppError = require("./appError");
+const { url } = require("../config/cloudinary");
 
 const HOSTNAME = (process.env.NODE_ENV === 'production') ? 'https://circle7.codes' : `http://localhost:${process.env.PORT}`
 
 //STRATEGIES
-const GoogleStrategy = require("passport-google-oauth2").Strategy;
+const GoogleStrategy = require("passport-google-oauth2").Strategy
 
 const GithubStrategy = require("passport-github2").Strategy;
 

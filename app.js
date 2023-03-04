@@ -29,6 +29,7 @@ app.use(
     'http://localhost:3001',
     'localhost',
     'https://test-social.vercel.app',
+    'https://www.circle7.codes'
   ]
   })
 );
