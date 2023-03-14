@@ -88,7 +88,7 @@ Success
 ---
 ### update display name
 
-- Route: auth/:userId
+- Route: api/v1/users/:userId
 - Method: PATCH
 - Body: 
 ```
@@ -124,7 +124,7 @@ Success
 ---
 ### Login User
 
-- Route: auth/login
+- Route: api/v1/users/login
 - Method: POST
 - Body: 
 ```
@@ -160,7 +160,7 @@ Success
 ---
 ### Request Account Deactivation
 
-- Route: account/delete
+- Route: api/v1/account/delete
 - Method: PATCH
 
 - Responses
@@ -170,12 +170,12 @@ Success
 {
     "status": "success",
     "message": "A link has been sent to your mail. Please check your mail to continue.
-}}
+}
 ```
 ---
 ### Deactivate Account
 
-- Route: account/deactivate
+- Route: api/v1/account/deactivate
 - Method: PATCH
 
 - Responses
@@ -189,7 +189,7 @@ Success
 ```
 ---
 ### Get Profile - When deactivated
-- Route: profile/ssamuel
+- Route: /api/v1/profiles/profile/ssamuel
 - Method: GET
 
 - Responses
