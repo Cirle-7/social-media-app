@@ -153,15 +153,7 @@ const getProfile = async (req,res) => {
             profile: {
                 username: user.username,
                 displayName: user.displayName,
-                Bio: profile.Bio, 
-                website: profile.website,
-                location: profile.location,
-                github_link: profile.github_link,
-                twitter_link: profile.twitter_link,
-                avatarURL: profile.avatarURL,
-                headerURL: profile.headerURL,
-                followers: profile.followers,
-                isdeactivated: profile.isdeactivated
+                ...profile
             }
         }
     })
