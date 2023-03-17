@@ -877,7 +877,7 @@ Success
 
 ### Edit  profile (logged in and owner of account )
 
-- Route: /api/v1/profiles/id
+- Route: /api/v1/profiles/:userId
 - Method: PATCH
 - Header
     - Cookies: jwt {token}
@@ -922,7 +922,7 @@ Success
 
 ### Get profile of user
 
-- Route: /api/v1/profiles/username
+- Route: /api/v1/profiles/:username
 - Method: GET
 
 - Responses
