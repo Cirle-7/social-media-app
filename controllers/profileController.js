@@ -161,7 +161,9 @@ const getProfile = async (req,res) => {
                 avatarURL: profile.avatarURL,
                 headerURL: profile.headerURL,
                 followers: profile.followers,
-                isdeactivated: profile.isdeactivated
+                isdeactivated: profile.isdeactivated,
+                id: profile.id,
+                userId:profile.userId
             }
         }
     })
