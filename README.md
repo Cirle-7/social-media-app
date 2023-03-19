@@ -953,7 +953,7 @@ Success
 ## Followers
 | field  |  data_type | constraints  |
 |---|---|---|
-|  followerId     | number  |  | 
+|  followeeId     | number  |  | 
 |  userId | number  |  |
 
 ---
