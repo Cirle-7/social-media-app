@@ -169,7 +169,7 @@ const getPostById = async (req, res) => {
   });
   if (!post) throw new AppError("post not found", 404);
 
-  const { likes } = post;
+  const { likes, comments } = post;
   post.views += 1;
   post.likesNo = likes.length;
   post.commentsNo = comments.length
