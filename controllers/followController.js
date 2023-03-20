@@ -96,6 +96,25 @@ const getFollowers = async(req,res)=>{
     res.status(200).json({ status: true, myFollowers, nHit: myFollowers.length })
 }
 
+const getFollowings = async(req,res)=>{
+    const user = req.user
+
+    //GET LIST OF FOLLOWS ID
+    const myFollows = await followers.findAll({
+        where:{
+            userId : user.id
+        },
+        include:{
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include:Profile   
+        }
+    })
+
+    res.status(200).json({ status: true, myFollows, nHit: myFollows.length })
+}
+
 
 
 
