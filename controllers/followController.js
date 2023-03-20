@@ -77,6 +77,28 @@ const unfollow = async (req,res) => {
     
 }
 
+const getFollowers = async(req,res)=>{
+    const user = req.user
+
+    //GET LIST OF FOLLOWERS ID
+    const myFollowers = await followers.findAll({
+        where:{
+            followeeId : user.id
+        },
+        include:{
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include:Profile   
+        }
+    })
+
+    res.status(200).json({ status: true, myFollowers, nHit: myFollowers.length })
+}
+
+
+
+
 
 module.exports = {
     follow,
