@@ -23,11 +23,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
-  dialectOptions: {
-    ssl: {
-      SSL
-    }
-  }
+  // dialectOptions: {
+  //   ssl: {
+  //     SSL
+  //   }
+  // }
 });
 
 // add the models to db Object so it can be called when you import db
@@ -55,32 +55,30 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
 
   // create a userid in the post table
   User.hasMany(Posts, {
-    onDelete: 'CASCADE',
-  });     // link posts to their user
+    onDelete: "CASCADE",
+  }); // link posts to their user
   Posts.belongsTo(User);
 
   // create a userId in the comment table
   User.hasMany(comments, {
-    onDelete: 'CASCADE',
-  });     // link comments to their user
-  comments.belongsTo(User)
+    onDelete: "CASCADE",
+  }); // link comments to their user
+  comments.belongsTo(User);
 
-  //create a userid in the  profile table 
+  //create a userid in the  profile table
   User.hasOne(Profile, {
-    onDelete: 'CASCADE'
-  })      // link a user to a profile
-  Profile.belongsTo(User)
+    onDelete: "CASCADE",
+  }); // link a user to a profile
+  Profile.belongsTo(User);
 
   // create a postId in the comment table
 
   Posts.hasMany(comments);
   comments.belongsTo(Posts);
 
-
   // CREATE ASSOCIATION BETWEEN NESTED COMMENTS
-  comments.hasMany(comments);     // create a comment id in the comment table
+  comments.hasMany(comments); // create a comment id in the comment table
   comments.belongsTo(comments);
-
 
   // // create a userId in the followers table
   User.hasMany(followers);
@@ -91,17 +89,15 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   blockedAccount.belongsTo(User); //, { as: 'blockedUserId', foreignKey: 'blockedUser'})
 
   // CREATE ASSOCIATION BETWWEN LIKES AND USER
-  User.hasMany(likes);    // CREATE A USERID IN THE LIKES TABLE
+  User.hasMany(likes); // CREATE A USERID IN THE LIKES TABLE
   likes.belongsTo(User);
 
   // CREATE A POSTID IN THE LIKES TABLE
   Posts.hasMany(likes);
   likes.belongsTo(Posts);
 
-  comments.hasMany(likes)   // CREATE A COMMENTSID IN THE LIKES TABLE
-  likes.belongsTo(comments)
-
-
+  comments.hasMany(likes); // CREATE A COMMENTSID IN THE LIKES TABLE
+  likes.belongsTo(comments);
 })();
 
 // checking  if the connection is successfull
@@ -113,7 +109,7 @@ sequelize
 // sync the table
 db.sequelize
   .sync({ force: false })
-//   .sync({ alter: true })
+    // .sync({ alter: true })
   .then(() => logger.info("table sync successful"))
   .catch((err) => logger.error(err));
 
