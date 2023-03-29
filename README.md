@@ -995,6 +995,44 @@ Success
 ```
 ---
 
+### Getfollowers route
+
+- Route: /api/v1/followers
+- Method: GET
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+    "status": true,
+    "myFollowers": [],
+    "nHit": 0
+}
+```
+---
+
+### Getfolloweing route
+
+- Route: /api/v1/following
+- Method: GET
+- Header
+    - Cookies: jwt {token}
+
+- Responses
+
+Success
+```
+{
+    "status": true,
+    "myFollowers": [],
+    "nHit": 0
+}
+```
+---
+
 ## Block accounts
 | field  |  data_type | constraints  |
 |---|---|---|
