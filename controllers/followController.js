@@ -2,7 +2,6 @@ require('express-async-errors')
 const appError = require('../utils/appError')
 const logger = require('../utils/logger')
 const db = require('../models');
-const { where } = require('sequelize');
 const followers = db.followers;
 const Profile = db.profile
 const User = db.users
@@ -70,14 +69,16 @@ const unfollow = async (req,res) => {
             userId: userId,
         }
     })
+
+    if(!existingFollow) throw new appError('already unfollowed',404)
+
+    
     // IF ALREADY FOLLOWS
-    if(existingFollow){
         const unfollow = await existingFollow.destroy()
-    }
 
     //UPDATE FOLLOWERS  INCREMENTING USERS 
 
-    await Profile.decrement({followers:-1}, {where:{userId: userId}})
+    await Profile.decrement({followers:1}, {where:{userId: userId}})
 
     
     return res.status(200).json({ 
