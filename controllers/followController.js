@@ -72,7 +72,7 @@ const unfollow = async (req,res) => {
 
     if(!existingFollow) throw new appError('already unfollowed',404)
 
-    
+
     // IF ALREADY FOLLOWS
         const unfollow = await existingFollow.destroy()
 
@@ -132,5 +132,7 @@ const getFollowings = async(req,res)=>{
 
 module.exports = {
     follow,
-    unfollow
+    unfollow,
+    getFollowers,
+    getFollowings
 }
