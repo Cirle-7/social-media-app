@@ -126,6 +126,56 @@ const getFollowings = async(req,res)=>{
     res.status(200).json({ status: true, myFollows, nHit: myFollows.length })
 }
 
+const getUserFollowers = async(req,res)=>{
+    const username =  req.params.user
+
+        //GET USER
+    const user = await User.findOne({
+        where: { username: username }
+    })
+
+    //GET LIST OF FOLLOWS ID
+    const follows = await followers.findAll({
+        where:{
+            followeeId : user.id
+        },
+        include:{
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include:Profile   
+        }
+    })
+
+    res.status(200).json({ status: true, follows, nHit: follows.length })
+
+}
+
+const getUserFollows = async(req,res)=>{
+const username =  req.params.user
+
+//GET USER
+const user = await User.findOne({
+    where: { username: username }
+})
+
+//GET LIST OF FOLLOWS ID
+const follows = await followers.findAll({
+    where:{
+        userId : user.id
+    },
+    include:{
+        model: User,
+        required: true,
+        attributes: { exclude: ["password"] },
+        include:Profile   
+    }
+})
+
+res.status(200).json({ status: true, follows, nHit: follows.length })
+
+}
+
 
 
 
@@ -134,5 +184,7 @@ module.exports = {
     follow,
     unfollow,
     getFollowers,
-    getFollowings
+    getFollowings,
+    getUserFollowers,
+    getUserFollows
 }
