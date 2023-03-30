@@ -139,6 +139,7 @@ const getUserFollowers = async(req,res)=>{
         where:{
             followeeId : user.id
         },
+        attributes:{ exclude: ["followeeId", "id", "createdAt","updatedAt"]},
         include:{
             model: User,
             required: true,
@@ -164,6 +165,7 @@ const follows = await followers.findAll({
     where:{
         userId : user.id
     },
+    attributes:{ exclude: ["followeeId", "id", "createdAt","updatedAt"]},
     include:{
         model: User,
         required: true,

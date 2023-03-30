@@ -83,6 +83,9 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   // // create a userId in the followers table
   User.hasMany(followers);
   followers.belongsTo(User);
+  User.hasMany(followers, {as:"followeeId"})
+
+  // User.hasMany(followers)
 
   // create association between blockedUsers and users
   User.hasMany(blockedAccount); //, { foreignKey: 'blockedBy'})
