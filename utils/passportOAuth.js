@@ -29,7 +29,7 @@ passport.use(
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
-
+      console.log('Google: ', HOSTNAME);
       const googleDetails = {
         googleId: profile.id,
         displayName: profile.displayName,
@@ -102,7 +102,7 @@ passport.use(
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
-
+      console.log('Github: ', HOSTNAME);
       const githubDetails = {
         githubId: profile.id,
         displayName: profile.username,

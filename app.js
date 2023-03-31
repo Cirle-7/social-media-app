@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const session = require('express-session')
 const cookieParser = require("cookie-parser");
 const appError = require("./utils/appError");
 const globalErrorHandler = require("./controllers/errorController");
@@ -20,17 +21,30 @@ require("./utils/passportOAuth");
 //import authentication
 const authentication = require("./middleware/authentication");
 
+// USE SESSION
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      secure: true,
+      Date: new Date(Date.now() + 0.5 * 60 * 1000)
+    }
+  })
+)
+
 //IMPLEMENT CORS
 app.use(
   cors({
     credentials: true,
     origin: [
-    'http://localhost:3000',
-    'http://localhost:3001',
-    'localhost',
-    'https://test-social.vercel.app',
-    'https://www.circle7.codes'
-  ]
+      'http://localhost:3000',
+      'http://localhost:3001',
+      'localhost',
+      'https://test-social.vercel.app',
+      'https://www.circle7.codes'
+    ]
   })
 );
 

@@ -37,8 +37,6 @@ exports.requestDeactivation = async (req, res, next) => {
 
     const deactivationUrl = `${req.protocol}://${req.get("host")}/api/v1/account/deactivate/${token}`
 
-    console.log('Url', deactivationUrl);
-
     // DEFINE RESPONSE MESSAGE
     let message = 'A link has been sent to your mail. Please check your mail to continue.'
     message = process.env.NODE_ENV === 'production' ? message : `${message}${deactivationUrl}`

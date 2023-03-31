@@ -2817,3 +2817,21 @@
 [31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
 [31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
 [31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-03-08 00:10:33:1033 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-08 00:10:42:1042 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-08 00:11:09:119 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-08 00:14:18:1418 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:19:20:1920 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-03-31 19:19:20:1920 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-03-31 19:19:25:1925 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-03-31 19:19:25:1925 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-03-31 19:19:30:1930 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-03-31 19:19:30:1930 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-03-31 19:20:33:2033 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:21:07:217 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:33:58:3358 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:34:09:349 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:35:56:3556 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:37:17:3717 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:39:54:3954 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-03-31 19:40:30:4030 [31merror[39m: [31m/favicon.ico not found on this server[39m

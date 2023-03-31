@@ -5,8 +5,6 @@ const User = require('./models/index').users
 const { Op } = require('sequelize')
 const logger = require("./utils/logger");
 
-//import db
-const db = require('./models')
 
 dotenv.config({ path: "./env" });
 
