@@ -3,6 +3,7 @@ const appError = require('../utils/appError')
 const logger = require('../utils/logger')
 const db = require('../models');
 const followers = db.followers;
+const Profile = db.profile
 const User = db.users
 
 const follow = async (req,res) => {
@@ -38,6 +39,9 @@ const follow = async (req,res) => {
             userId: userId,
         })
 
+        //UPDATE FOLLOWERS  INCREMENTING USERS 
+        await Profile.increment({followers:1}, {where:{userId: userId}})
+
         return res.status(200).json({ 
             status: 'success',
             message: 'User followed'
@@ -65,10 +69,17 @@ const unfollow = async (req,res) => {
             userId: userId,
         }
     })
+
+    if(!existingFollow) throw new appError('already unfollowed',404)
+
+
     // IF ALREADY FOLLOWS
-    if(existingFollow){
         const unfollow = await existingFollow.destroy()
-    }
+
+    //UPDATE FOLLOWERS  INCREMENTING USERS 
+
+    await Profile.decrement({followers:1}, {where:{userId: userId}})
+
     
     return res.status(200).json({ 
         status: 'success',
@@ -77,8 +88,51 @@ const unfollow = async (req,res) => {
     
 }
 
+const getFollowers = async(req,res)=>{
+    const user = req.user
+
+    //GET LIST OF FOLLOWERS ID
+    const myFollowers = await followers.findAll({
+        where:{
+            followeeId : user.id
+        },
+        include:{
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include:Profile   
+        }
+    })
+
+    res.status(200).json({ status: true, myFollowers, nHit: myFollowers.length })
+}
+
+const getFollowings = async(req,res)=>{
+    const user = req.user
+
+    //GET LIST OF FOLLOWS ID
+    const myFollows = await followers.findAll({
+        where:{
+            userId : user.id
+        },
+        include:{
+            model: User,
+            required: true,
+            attributes: { exclude: ["password"] },
+            include:Profile   
+        }
+    })
+
+    res.status(200).json({ status: true, myFollows, nHit: myFollows.length })
+}
+
+
+
+
 
 module.exports = {
     follow,
-    unfollow
+    unfollow,
+    getFollowers,
+    getFollowings
 }

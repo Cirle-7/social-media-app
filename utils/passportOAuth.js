@@ -12,7 +12,7 @@ const User = db.users;
 const AppError = require("./appError");
 const { url } = require("../config/cloudinary");
 
-const HOSTNAME = (process.env.NODE_ENV === 'production') ? 'https://circle7.codes' : `http://localhost:${process.env.PORT}`
+const HOSTNAME = (process.env.NODE_ENV === 'production') ? 'https://www.circle7.codes' : `http://localhost:${process.env.PORT}`
 
 //STRATEGIES
 const GoogleStrategy = require("passport-google-oauth2").Strategy
