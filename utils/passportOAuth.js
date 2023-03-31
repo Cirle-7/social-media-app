@@ -29,7 +29,7 @@ passport.use(
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
-
+      console.log('Google: ', HOSTNAME);
       const googleDetails = {
         googleId: profile.id,
         displayName: profile.displayName,
@@ -96,13 +96,13 @@ passport.use(
     {
       clientID: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      callbackURL: `${HOSTNAME}/api/v1/users/auth/github/callback`,
+      callbackURL: `https://www.circle7.codes/api/v1/users/auth/github/callback`,
 
       scope: ['user:email'],
       passReqToCallback: true,
     },
     async (req, accessToken, refreshToken, profile, done) => {
-
+      console.log('Github: ', HOSTNAME);
       const githubDetails = {
         githubId: profile.id,
         displayName: profile.username,
