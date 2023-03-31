@@ -4,7 +4,7 @@ const {
   DB_NAME,
   DB_PASSWORD,
   DB_USER,
-  SSL,
+  // SSL,
 } = require("../config/db.config");
 const { Sequelize } = require("sequelize");
 
@@ -23,11 +23,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
-  dialectOptions: {
-    ssl: {
-      SSL
-    }
-  }
+  // dialectOptions: {
+  //   ssl: {
+  //     SSL
+  //   }
+  // }
 });
 
 // add the models to db Object so it can be called when you import db
