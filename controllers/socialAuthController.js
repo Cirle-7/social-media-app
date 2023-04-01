@@ -3,9 +3,11 @@ require("dotenv").config();
 
 
 const socialAuth = async (req, res) => {
+
+    // OBTAIN USER DETAILS FROM SESSION
     const {
-        user: { user, token, oldUser }
-    } = req;
+        user : { user, token, oldUser }
+    } = req.session.passport;
 
     const cookieOptions = {
         expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
@@ -17,7 +19,6 @@ const socialAuth = async (req, res) => {
     res.cookie("jwt", token, cookieOptions);
 
     const currentUser = user || oldUser
-    
 
     res.status(201).json({
         status: "Success",

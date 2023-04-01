@@ -26,11 +26,7 @@ app.use(
   session({
     secret: process.env.SESSION_SECRET,
     resave: false,
-    saveUninitialized: false,
-    cookie: {
-      secure: true,
-      Date: new Date(Date.now() + 0.5 * 60 * 1000)
-    }
+    saveUninitialized: false
   })
 )
 
