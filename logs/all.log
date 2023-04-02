@@ -14018,3 +14018,46 @@
 2023-04-01 23:13:09:139 [32minfo[39m: [32mtable sync successful[39m
 2023-04-01 23:13:28:1328 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
 2023-04-01 23:13:28:1328 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 14:41:42:4142 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 14:41:42:4142 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 14:42:02:422 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 14:42:02:422 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 14:42:21:4221 [35mhttp[39m: [35m::1 GET / 200 155 - 11.283 ms[39m
+[35m[39m
+2023-04-02 14:42:21:4221 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 14:42:21:4221 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 6.215 ms[39m
+[35m[39m
+2023-04-02 14:43:41:4341 [35mhttp[39m: [35m::1 GET / 304 - - 1.868 ms[39m
+[35m[39m
+2023-04-02 14:43:41:4341 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 14:43:41:4341 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.642 ms[39m
+[35m[39m
+2023-04-02 14:57:42:5742 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 14:57:42:5742 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 15:42:38:4238 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 8.268 ms[39m
+[35m[39m
+2023-04-02 15:43:08:438 [35mhttp[39m: [35m::1 GET / 304 - - 6.199 ms[39m
+[35m[39m
+2023-04-02 15:43:08:438 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 15:43:08:438 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 6.101 ms[39m
+[35m[39m
+2023-04-02 17:15:44:1544 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:15:44:1544 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:15:50:1550 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:15:50:1550 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:15:53:1553 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:15:53:1553 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:16:17:1617 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:16:17:1617 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:16:35:1635 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:16:35:1635 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:16:41:1641 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:16:41:1641 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:17:15:1715 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:17:16:1716 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:17:46:1746 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:17:46:1746 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:18:20:1820 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:18:20:1820 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:18:33:1833 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:18:33:1833 [32minfo[39m: [32mtable sync successful[39m
