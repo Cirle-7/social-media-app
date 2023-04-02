@@ -2,7 +2,6 @@ require('express-async-errors')
 require("dotenv").config();
 
 
-const socialAuth = async (req, res) => {
 
     // OBTAIN USER DETAILS FROM SESSION
     console.log('SESSION: ', req.session)
