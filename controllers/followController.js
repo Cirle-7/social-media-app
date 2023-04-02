@@ -96,6 +96,7 @@ const getFollowers = async(req,res)=>{
         where:{
             followeeId : user.id
         },
+        attributes:{ exclude: ["followeeId", "id", "createdAt","updatedAt"]},
         include:{
             model: User,
             required: true,
@@ -115,6 +116,33 @@ const getFollowings = async(req,res)=>{
         where:{
             userId : user.id
         },
+        attributes:{ exclude: ["userId", "id", "createdAt","updatedAt"]},
+        include:{
+            model: User,
+            as: 'followee',
+            required: true,
+            attributes: { exclude: ["password"] },
+            include:Profile   
+        }
+    })
+
+    res.status(200).json({ status: true, myFollows, nHit: myFollows.length })
+}
+
+const getUserFollowers = async(req,res)=>{
+    const username =  req.params.user
+
+        //GET USER
+    const user = await User.findOne({
+        where: { username: username }
+    })
+
+    //GET LIST OF FOLLOWS ID
+    const fOllowers = await followers.findAll({
+        where:{
+            followeeId : user.id
+        },
+        attributes:{ exclude: ["followeeId", "id", "createdAt","updatedAt"]},
         include:{
             model: User,
             required: true,
@@ -123,7 +151,35 @@ const getFollowings = async(req,res)=>{
         }
     })
 
-    res.status(200).json({ status: true, myFollows, nHit: myFollows.length })
+    res.status(200).json({ status: true, fOllowers, nHit: fOllowers.length })
+
+}
+
+const getUserFollows = async(req,res)=>{
+const username =  req.params.user
+
+//GET USER
+const user = await User.findOne({
+    where: { username: username }
+})
+
+//GET LIST OF FOLLOWS ID
+const follows = await followers.findAll({
+    where:{
+        userId : user.id
+    },
+    attributes:{ exclude: ["userId", "id", "createdAt","updatedAt"]},
+    include:{
+        model: User,
+        as: 'followee',
+        required: true,
+        attributes: { exclude: ["password"] },
+        include:Profile   
+    }
+})
+
+res.status(200).json({ status: true, follows, nHit: follows.length })
+
 }
 
 
@@ -134,5 +190,7 @@ module.exports = {
     follow,
     unfollow,
     getFollowers,
-    getFollowings
+    getFollowings,
+    getUserFollowers,
+    getUserFollows
 }

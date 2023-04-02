@@ -5,6 +5,10 @@ module.exports = (sequelize, DataTypes) => {
         
         followeeId: {
           type: DataTypes.INTEGER,
+          references: {
+            model: 'users',
+            key: 'id'
+          }
         }
       },
       {
