@@ -135,7 +135,7 @@ const getUserFollowers = async(req,res)=>{
     })
 
     //GET LIST OF FOLLOWS ID
-    const follows = await followers.findAll({
+    const followers = await followers.findAll({
         where:{
             followeeId : user.id
         },
@@ -148,7 +148,7 @@ const getUserFollowers = async(req,res)=>{
         }
     })
 
-    res.status(200).json({ status: true, follows, nHit: follows.length })
+    res.status(200).json({ status: true, followers, nHit: followers.length })
 
 }
 
