@@ -96,6 +96,7 @@ const getFollowers = async(req,res)=>{
         where:{
             followeeId : user.id
         },
+        attributes:{ exclude: ["followeeId", "id", "createdAt","updatedAt"]},
         include:{
             model: User,
             required: true,
@@ -115,8 +116,10 @@ const getFollowings = async(req,res)=>{
         where:{
             userId : user.id
         },
+        attributes:{ exclude: ["userId", "id", "createdAt","updatedAt"]},
         include:{
             model: User,
+            as: 'followee',
             required: true,
             attributes: { exclude: ["password"] },
             include:Profile   
@@ -135,7 +138,7 @@ const getUserFollowers = async(req,res)=>{
     })
 
     //GET LIST OF FOLLOWS ID
-    const followers = await followers.findAll({
+    const fOllowers = await followers.findAll({
         where:{
             followeeId : user.id
         },
@@ -148,7 +151,7 @@ const getUserFollowers = async(req,res)=>{
         }
     })
 
-    res.status(200).json({ status: true, followers, nHit: followers.length })
+    res.status(200).json({ status: true, fOllowers, nHit: fOllowers.length })
 
 }
 
@@ -165,9 +168,10 @@ const follows = await followers.findAll({
     where:{
         userId : user.id
     },
-    attributes:{ exclude: ["followeeId", "id", "createdAt","updatedAt"]},
+    attributes:{ exclude: ["userId", "id", "createdAt","updatedAt"]},
     include:{
         model: User,
+        as: 'followee',
         required: true,
         attributes: { exclude: ["password"] },
         include:Profile   

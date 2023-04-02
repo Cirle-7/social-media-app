@@ -23,11 +23,11 @@ const logger = require("./../utils/logger");
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: DB_DIALECT,
-  // dialectOptions: {
-  //   ssl: {
-  //     SSL
-  //   }
-  // }
+  dialectOptions: {
+    ssl: {
+      SSL
+    }
+  }
 });
 
 // add the models to db Object so it can be called when you import db
@@ -83,6 +83,7 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
   // // create a userId in the followers table
   User.hasMany(followers);
   followers.belongsTo(User);
+  followers.belongsTo(User, { as: 'followee', foreignKey: 'followeeId' });
 
   // User.hasMany(followers)
 
