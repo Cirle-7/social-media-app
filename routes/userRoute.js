@@ -8,7 +8,7 @@ const { socialAuth } = require('../controllers/socialAuthController')
 const { checkActivation } = require('../middleware/reqReferer')
 const { getLocation } = require('../middleware/getLocationMW')
 
-const redirectURL = (process.env.NODE_ENV === 'development') ? 'http://localhost:3000' : 'https://test-social.vercel.app/feed'
+const redirectURL = 'http://localhost:3000'
 
 //AUTHENTIACTION ROUTES
 router.post("/signup", userValidationMiddleware, getLocation, authController.signup);
