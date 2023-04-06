@@ -8,7 +8,6 @@ const { socialAuth } = require('../controllers/socialAuthController')
 const { checkActivation } = require('../middleware/reqReferer')
 const { getLocation } = require('../middleware/getLocationMW')
 
-const redirectURL = 'http://localhost:3000'
 
 //AUTHENTIACTION ROUTES
 router.post("/signup", userValidationMiddleware, getLocation, authController.signup);
@@ -29,12 +28,10 @@ router.get('/auth/github', checkActivation, passport.authenticate('github'))
 
 
 //OAUTH CALLBACKS
-router.get('/auth/google/callback', passport.authenticate('google', { successRedirect: redirectURL }))
+router.get('/auth/google/callback', passport.authenticate('google'), socialAuth)
 
-router.get('/auth/github/callback', passport.authenticate('github', { successRedirect: redirectURL }))
+router.get('/auth/github/callback', passport.authenticate('github'), socialAuth)
 
-// REDIRECT URL
-router.get('/auth/login/success', socialAuth)
 
 // LOGOUT - CLEAR COOKIE
 router.get('/logout', (req, res, next) => {

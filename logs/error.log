@@ -4252,3 +4252,77 @@
 [31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
 [31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:9:19)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-04-02 17:25:08:258 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 17:26:02:262 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 17:26:25:2625 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:11:52:1152 [31merror[39m: [31m//api/v1/users/auth/login/success not found on this server[39m
+2023-04-02 18:11:52:1152 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:05:125 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:35:1235 [31merror[39m: [31m//api/v1/users/auth/login/success not found on this server[39m
+2023-04-02 18:12:35:1235 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:39:1239 [31merror[39m: [31m//api/v1/users/auth/login/success not found on this server[39m
+2023-04-02 18:12:39:1239 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:50:1250 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:17:27:1727 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:18:48:1848 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:18:50:1850 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:26:38:2638 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:26:38:2638 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:26:51:2651 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:26:51:2651 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:27:00:270 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:27:00:270 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:27:22:2722 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:27:22:2722 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:28:18:2818 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:28:18:2818 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:28:46:2846 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:28:46:2846 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:29:47:2947 [31merror[39m: [31mCannot drop table 'comments' referenced by a foreign key constraint 'commentcomments_ibfk_9' on table 'commentcomments'.[39m
+2023-04-02 18:30:06:306 [31merror[39m: [31muncaughtException: db.sequelize.sync(...).sync is not a function[39m
+[31mTypeError: db.sequelize.sync(...).sync is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:112:6)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:2:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-04-02 18:30:10:3010 [31merror[39m: [31muncaughtException: db.sequelize.sync(...).sync is not a function[39m
+[31mTypeError: db.sequelize.sync(...).sync is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:112:4)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:2:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-04-02 18:30:58:3058 [31merror[39m: [31muncaughtException: db.sequelize.sync(...).sync is not a function[39m
+[31mTypeError: db.sequelize.sync(...).sync is not a function[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\models\index.js:112:4)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\controllers\authController.js:2:12)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-04-02 18:31:07:317 [31merror[39m: [31mCannot drop table 'comments' referenced by a foreign key constraint 'commentcomments_ibfk_9' on table 'commentcomments'.[39m
+2023-04-02 18:32:25:3225 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:32:56:3256 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:33:06:336 [31merror[39m: [31mValidation error[39m
+2023-04-02 18:33:06:336 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:45:57:4557 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:49:48:4948 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:58:09:589 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-03 09:21:10:2110 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-03 09:48:55:4855 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-06 21:10:55:1055 [31merror[39m: [31m/favicon.ico not found on this server[39m

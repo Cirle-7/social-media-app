@@ -14061,3 +14061,171 @@
 2023-04-02 17:18:20:1820 [32minfo[39m: [32mtable sync successful[39m
 2023-04-02 17:18:33:1833 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-04-02 17:18:33:1833 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:25:01:251 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:25:01:251 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:25:08:258 [35mhttp[39m: [35m::1 GET / 304 - - 7.824 ms[39m
+[35m[39m
+2023-04-02 17:25:08:258 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 17:25:08:258 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 5.297 ms[39m
+[35m[39m
+2023-04-02 17:25:10:2510 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 3.125 ms[39m
+[35m[39m
+2023-04-02 17:25:56:2556 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 17:25:56:2556 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 17:26:02:262 [35mhttp[39m: [35m::1 GET / 304 - - 8.456 ms[39m
+[35m[39m
+2023-04-02 17:26:02:262 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 17:26:02:262 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 5.538 ms[39m
+[35m[39m
+2023-04-02 17:26:04:264 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.333 ms[39m
+[35m[39m
+2023-04-02 17:26:10:2610 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk4xvxsKhvQvkBoLZ1x8IsIGJNtAcRKhLzQUXezJ8yChyWUMaXVj36nXG4U87yN8vA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 302 86 - 1164.494 ms[39m
+[35m[39m
+2023-04-02 17:26:24:2624 [35mhttp[39m: [35m::1 GET / 304 - - 1.578 ms[39m
+[35m[39m
+2023-04-02 17:26:25:2625 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 17:26:25:2625 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.734 ms[39m
+[35m[39m
+2023-04-02 18:11:52:1152 [31merror[39m: [31m//api/v1/users/auth/login/success not found on this server[39m
+2023-04-02 18:11:52:1152 [35mhttp[39m: [35m::1 GET //api/v1/users/auth/login/success 403 2315 - 4.964 ms[39m
+[35m[39m
+2023-04-02 18:11:52:1152 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:11:52:1152 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.379 ms[39m
+[35m[39m
+2023-04-02 18:12:05:125 [35mhttp[39m: [35m::1 GET / 200 155 - 2.210 ms[39m
+[35m[39m
+2023-04-02 18:12:05:125 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:05:125 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 5.082 ms[39m
+[35m[39m
+2023-04-02 18:12:08:128 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 1.677 ms[39m
+[35m[39m
+2023-04-02 18:12:23:1223 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk6ICkcLKoqnLk6YqBhdvotonbYlBacEjY9CjlmvjjalhCHY5ZCxkDimQ4OZm8d6Zg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent 302 86 - 985.770 ms[39m
+[35m[39m
+2023-04-02 18:12:35:1235 [31merror[39m: [31m//api/v1/users/auth/login/success not found on this server[39m
+2023-04-02 18:12:35:1235 [35mhttp[39m: [35m::1 GET //api/v1/users/auth/login/success 403 2315 - 3.447 ms[39m
+[35m[39m
+2023-04-02 18:12:35:1235 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:35:1235 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 3.082 ms[39m
+[35m[39m
+2023-04-02 18:12:39:1239 [31merror[39m: [31m//api/v1/users/auth/login/success not found on this server[39m
+2023-04-02 18:12:39:1239 [35mhttp[39m: [35m::1 GET //api/v1/users/auth/login/success 403 2315 - 2.299 ms[39m
+[35m[39m
+2023-04-02 18:12:39:1239 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:39:1239 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.782 ms[39m
+[35m[39m
+2023-04-02 18:12:50:1250 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/login/success 201 533 - 2.421 ms[39m
+[35m[39m
+2023-04-02 18:12:50:1250 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:12:50:1250 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.893 ms[39m
+[35m[39m
+2023-04-02 18:16:19:1619 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:16:19:1619 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:16:52:1652 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:16:52:1652 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:17:18:1718 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:17:18:1718 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:17:27:1727 [35mhttp[39m: [35m::1 GET / 200 155 - 12.066 ms[39m
+[35m[39m
+2023-04-02 18:17:27:1727 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:17:27:1727 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 7.206 ms[39m
+[35m[39m
+2023-04-02 18:17:30:1730 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.752 ms[39m
+[35m[39m
+2023-04-02 18:18:48:1848 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:18:48:1848 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.250 ms[39m
+[35m[39m
+2023-04-02 18:18:50:1850 [35mhttp[39m: [35m::1 GET / 304 - - 2.406 ms[39m
+[35m[39m
+2023-04-02 18:18:50:1850 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:18:50:1850 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.465 ms[39m
+[35m[39m
+2023-04-02 18:26:00:260 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:26:01:261 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:26:22:2622 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:26:22:2622 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:26:38:2638 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:26:38:2638 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:26:48:2648 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:26:48:2648 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:26:51:2651 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:26:51:2651 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:27:00:270 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:27:00:270 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:27:22:2722 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:27:22:2722 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:28:18:2818 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:28:18:2818 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:28:46:2846 [31merror[39m: [31munable to connect self signed certificate in certificate chain[39m
+2023-04-02 18:28:46:2846 [31merror[39m: [31mself signed certificate in certificate chain[39m
+2023-04-02 18:29:46:2946 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:29:47:2947 [31merror[39m: [31mCannot drop table 'comments' referenced by a foreign key constraint 'commentcomments_ibfk_9' on table 'commentcomments'.[39m
+2023-04-02 18:30:19:3019 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:30:47:3047 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:31:06:316 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:31:07:317 [31merror[39m: [31mCannot drop table 'comments' referenced by a foreign key constraint 'commentcomments_ibfk_9' on table 'commentcomments'.[39m
+2023-04-02 18:32:02:322 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:32:07:327 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:32:25:3225 [35mhttp[39m: [35m::1 GET / 304 - - 11.181 ms[39m
+[35m[39m
+2023-04-02 18:32:25:3225 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:32:25:3225 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 6.734 ms[39m
+[35m[39m
+2023-04-02 18:32:27:3227 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 2.925 ms[39m
+[35m[39m
+2023-04-02 18:32:55:3255 [35mhttp[39m: [35m::1 GET / 304 - - 6.702 ms[39m
+[35m[39m
+2023-04-02 18:32:56:3256 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:32:56:3256 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.404 ms[39m
+[35m[39m
+2023-04-02 18:32:57:3257 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-02 18:32:58:3258 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.957 ms[39m
+[35m[39m
+2023-04-02 18:33:00:330 [32minfo[39m: [32mtable sync successful[39m
+2023-04-02 18:33:06:336 [31merror[39m: [31mValidation error[39m
+2023-04-02 18:33:06:336 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk4cqkgy8qkkwpefyF7QIuTgvtoio8TbfiP79y1BssJ-Iqswbf0uw8EjftsK28ZUtA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 500 2633 - 1813.222 ms[39m
+[35m[39m
+2023-04-02 18:33:06:336 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:33:06:336 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.616 ms[39m
+[35m[39m
+2023-04-02 18:45:56:4556 [35mhttp[39m: [35m::1 GET / 304 - - 1.214 ms[39m
+[35m[39m
+2023-04-02 18:45:57:4557 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:45:57:4557 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.899 ms[39m
+[35m[39m
+2023-04-02 18:45:59:4559 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 1.392 ms[39m
+[35m[39m
+2023-04-02 18:46:15:4615 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk6FCLsXbSp-VnE4w6ARu6lHzQibbMqMnazN6_D3RwkrURFGdfmLfP7HQK3WCLurKA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 302 86 - 9719.753 ms[39m
+[35m[39m
+2023-04-02 18:49:48:4948 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/login/success 201 434 - 3.782 ms[39m
+[35m[39m
+2023-04-02 18:49:48:4948 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:49:48:4948 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 2.037 ms[39m
+[35m[39m
+2023-04-02 18:58:09:589 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/login/success 201 434 - 1.571 ms[39m
+[35m[39m
+2023-04-02 18:58:09:589 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-02 18:58:09:589 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 2.817 ms[39m
+[35m[39m
+2023-04-03 09:21:04:214 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-03 09:21:10:2110 [32minfo[39m: [32mtable sync successful[39m
+2023-04-03 09:21:10:2110 [35mhttp[39m: [35m::1 GET / 304 - - 7.506 ms[39m
+[35m[39m
+2023-04-03 09:21:10:2110 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-03 09:21:10:2110 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 5.080 ms[39m
+[35m[39m
+2023-04-03 09:48:55:4855 [35mhttp[39m: [35m::1 GET / 304 - - 1.950 ms[39m
+[35m[39m
+2023-04-03 09:48:55:4855 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-03 09:48:55:4855 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 4.601 ms[39m
+[35m[39m
+2023-04-06 21:10:42:1042 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-06 21:10:46:1046 [32minfo[39m: [32mtable sync successful[39m
+2023-04-06 21:10:54:1054 [35mhttp[39m: [35m::1 GET / 304 - - 9.093 ms[39m
+[35m[39m
+2023-04-06 21:10:55:1055 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-06 21:10:55:1055 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 8.854 ms[39m
+[35m[39m
+2023-04-06 21:10:56:1056 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 4.914 ms[39m
+[35m[39m
+2023-04-06 21:11:18:1118 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk4P2dUKRg4ENpPdrhr0iKkK9SquLBT3_HKUM7XOASbIsMT3U3N79nwegF-Qkwn-DQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 302 86 - 3613.340 ms[39m
+[35m[39m
