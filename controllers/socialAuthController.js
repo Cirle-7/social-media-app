@@ -1,12 +1,14 @@
 require('express-async-errors')
 require("dotenv").config();
 
+const redirectURL = 'http://localhost:3000'
 
+
+const socialAuth = (req, res, next) => {
 
     // OBTAIN USER DETAILS FROM SESSION
-    console.log('SESSION: ', req.session)
     const {
-        user : { user, token, oldUser }
+        user: { user, token, oldUser }
     } = req.session.passport;
 
     const cookieOptions = {
@@ -18,17 +20,8 @@ require("dotenv").config();
     // Send token to client
     res.cookie("jwt", token, cookieOptions);
 
-    const currentUser = user || oldUser
+    res.redirect(redirectURL)
 
-    res.status(201).json({
-        status: "Success",
-        data: {
-            currentUser,
-            token,
-        },
-    });
 }
-
-
 
 module.exports = { socialAuth }
