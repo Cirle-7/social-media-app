@@ -101,6 +101,8 @@ db.likes = likesModel(sequelize, Sequelize.DataTypes);
 
   comments.hasMany(likes); // CREATE A COMMENTSID IN THE LIKES TABLE
   likes.belongsTo(comments);
+
+  
 })();
 
 // checking  if the connection is successfull

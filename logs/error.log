@@ -2817,3 +2817,5 @@
 [31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
 [31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
 [31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:8:19)[39m
+2023-04-03 00:43:47:4347 [31merror[39m: [31munable to connect self-signed certificate in certificate chain[39m
+2023-04-03 00:43:47:4347 [31merror[39m: [31mself-signed certificate in certificate chain[39m

@@ -12922,3 +12922,5 @@
 2023-03-04 23:54:17:5417 [32minfo[39m: [32mtable sync successful[39m
 2023-03-04 23:56:25:5625 [32minfo[39m: [32mdatabase connected successfuly[39m
 2023-03-04 23:56:25:5625 [32minfo[39m: [32mtable sync successful[39m
+2023-04-03 00:43:47:4347 [31merror[39m: [31munable to connect self-signed certificate in certificate chain[39m
+2023-04-03 00:43:47:4347 [31merror[39m: [31mself-signed certificate in certificate chain[39m
